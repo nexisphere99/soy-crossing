@@ -5,7 +5,7 @@ This story contains explicit sexual content, consciousness transfer, body swappi
 
 If that isn't for you, close the tab now. No judgment.
 
-<<opt "backstory_layoff" "I'm 18 or older. Begin.">>
+<<opt "jump_menu" "I'm 18 or older. Begin.">>
 <<opt "backstory_decline" "Not tonight.">>
 
 
@@ -16,13 +16,17 @@ If that isn't for you, close the tab now. No judgment.
 
 
 :: jump_menu [backstory]
-<div class="card"><h1 class="passage-title">Jump ahead</h1><p class="sub">Skip past what you've already read. Restart from the top anytime to see the rest.</p></div>
+<div class="card"><h1 class="passage-title">Where to begin</h1><p class="sub">Manuel's story starts weeks before the door on Ninth Street. Read it, or go straight to the training floor.</p></div>
 
-<<opt "t0_day01_wake" "Day 1 &mdash; Shape of You Inc." "Laid off from a dev job, visa clock running, twenty-eight days left. A friend pointed at a door on Ninth Street, and I walked through it.">>
+<<opt "backstory_layoff" "Read the backstory" "The layoff, the visa clock, the friend who points at a door. How Manuel ends up here.">>
 
-/* Later: <<opt "t1_..." "Tier 1 — ...">> etc. */
+<<opt "t0_day01_wake" "Skip the backstory &mdash; go to Tier 0" "Day 1 at Shape of You Inc. Twenty-eight days on the clock. You can read the backstory later from Restart.">>
 
-<div class="menu-back"><<return "&larr; Keep reading">></div>
+/* Later, jump points into Tier 1+ slot in here as more <<opt>> cards. */
+
+<<if previous() isnot "Start" and previous() isnot "jump_menu" and tags(previous()).includes("backstory")>>
+	<div class="menu-back"><<return "&larr; Back to where I was">></div>
+<</if>>
 
 
 :: backstory_layoff [backstory]
@@ -65,8 +69,6 @@ I said it out loud to the empty apartment.
 Chipi looked at me from the counter where she was already plotting to knock something else over. She did not seem concerned.
 
 <<opt "backstory_night" "That night.">>
-
-<div class="menu-back"><<link "Skip the backstory &rarr;" "jump_menu">><</link>></div>
 
 
 :: backstory_night [backstory]
