@@ -23,7 +23,7 @@ I need food. I need beer. I need Chipi on my chest. But first I need to walk pas
 <<run SOY.Quests.completeSide('sq_004_bodega', 'visit')>>
 <<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
 
-The bells on the door. She looks up from her newspaper, different section now; she's made progress through the day.
+The bells on the door. She looks up from her newspaper, different section now, she's made progress through the day.
 
 <<say "Lulu">>Ay, mijo, you look like you've seen a ghost.<</say>>
 <<say "Me">>Long day.<</say>>
@@ -141,7 +141,7 @@ I think about Elena's lecture. The three transfer methods, pod, headset, sleep c
 
 I think about Rafael's questions. The way he asked about dating. //Single. Four years.// He wrote something down and I wanted to see what he wrote because I've been narrating my own loneliness for so long that someone else's version of it felt like it might be more accurate. Or at least more concise.
 
-I think about tomorrow. Module 1 continues. The first transfer is Day 2. Tomorrow, someone is going to put my brain into a woman's body and I'm going to walk around in it and feel things I've never felt and then come back and be expected to debrief about it with a Brazilian ex-military psychologist who can read me like a receipt.
+I think about tomorrow. Module 1 continues. The first tomorrow, someone is going to put my brain into a woman's body and I'm going to walk around in it and feel things I've never felt and then come back and be expected to debrief about it with a Brazilian ex-military psychologist who can read me like a receipt.
 
 The beer is empty. Chipi is asleep. My phone screen says 11:17 PM.
 

@@ -10,7 +10,7 @@ The lobby is small. White walls, white floor, recessed lighting that makes every
 <<say "Yuki">>Name.<</say>>
 <<say "Me">>Manuel González.<</say>>
 
-<<face "yuki" "Yuki Tanaka">>She doesn't look up from her screen. She's already typing. Short, compact, black hair in a high ponytail with a streak of silver that looks intentional. Enamel pins on her jacket lapel; today's selection includes a tiny cat and what might be a DNA helix. Augmented lenses with a faint blue tint. She types like she's angry at the keyboard and the keyboard deserves it.
+<<face "yuki" "Yuki Tanaka">>She doesn't look up from her screen. She's already typing. Short, compact, black hair in a high ponytail with a streak of silver that looks intentional. Enamel pins on her jacket lapel, today's selection includes a tiny cat and what might be a DNA helix. Augmented lenses with a faint blue tint. She types like she's angry at the keyboard and the keyboard deserves it.
 
 <<say "Yuki">>ID.<</say>>
 
@@ -30,7 +30,7 @@ I fill out the forms. Medical history, emergency contact (Paco, because who else
 
 I sign everything. My hand is steady. The rest of me isn't.
 
-Yuki takes the tablet back, processes it, and hands me a badge. White plastic, my photo pulled from the scan (I look startled; fair), my name in small letters, and a green stripe across the top.
+Yuki takes the tablet back, processes it, and hands me a badge. White plastic, my photo pulled from the scan (I look startled, fair), my name in small letters, and a green stripe across the top.
 
 <<say "Yuki">>Green means candidate. You'll see red stripes later, that's assessment phase. If you make it that far.<</say>>
 
@@ -48,7 +48,7 @@ But Yuki is already back to her screen, fingers hammering keys. I've been proces
 <<run SOY.Quests.complete('t0_day01', 'intake')>>
 <<scene "locations/room4-lecture" "Room 4, six chairs in a loose semicircle facing a glowing screen">>
 
-Room 4 is smaller than I expected. Clinical but not cold; the lighting has been calibrated to something just warm enough that you don't feel like a specimen. Six chairs arranged in a loose semicircle facing a wall-mounted screen that's currently blank. No desk. No podium. Just the chairs and the screen and the humming of ventilation and the quiet panic of five strangers who are all pretending to be fine.
+Room 4 is smaller than I expected. Clinical but not cold, the lighting has been calibrated to something just warm enough that you don't feel like a specimen. Six chairs arranged in a loose semicircle facing a wall-mounted screen that's currently blank. No desk. No podium. Just the chairs and the screen and the humming of ventilation and the quiet panic of five strangers who are all pretending to be fine.
 
 I pick a chair. Third from the left. Not at the edge, not at the center. The chair of a man who wants to observe before committing to a position.
 
@@ -62,7 +62,7 @@ The guy to my right is big. Not fat, just large. Broad shoulders, thick neck, th
 
 The woman two seats over is Black, mid-twenties, lean and composed in a way that makes everyone else in the room look like they're trying too hard. Natural hair pulled up high, sharp eyes, a posture that says //I'm here on purpose and I dare you to question it.// She's the only person in the room who isn't fidgeting. Her badge says GEORGIA HAYES.
 
-Beyond Georgia, a white guy with a goatee and an energy-drink in his hand, BRETT SOMETHING, and two others whose names I don't catch because they're sitting in the back and talking to each other in low voices and will be gone by Day 4, though I don't know that yet.
+Beyond Georgia, a white guy with a goatee and an energy-drink in his hand, BRETT SOMETHING, and two others whose names I don't catch because they're sitting in the back and talking to each other in low voices.
 
 Tommy catches me looking. He nods. The nod of a man who has no idea what he's doing here and is comforted by the presence of someone else who also has no idea.
 
@@ -136,7 +136,7 @@ Tommy's knee is bouncing. I can see it from the corner of my eye.
 
 She touches the third image. Something like a coffin, sleek and dark, with monitoring equipment along the sides.
 
-<<say "Elena">>Type III. The sleep capsule. Unconscious transfer. You fall asleep in your body and wake up in another. Used for long-duration swaps and for transferees who have medical contraindications to conscious transfer. It carries a higher disorientation risk on waking. You have no transitional awareness, no compression experience; you simply open your eyes somewhere else. Some candidates find this easier. Some find it profoundly disturbing. We don't use it in Tier 0.<</say>>
+<<say "Elena">>Type III. The sleep capsule. Unconscious transfer. You fall asleep in your body and wake up in another. Used for long-duration swaps and for transferees who have medical contraindications to conscious transfer. It carries a higher disorientation risk on waking. You have no transitional awareness, no compression experience, you simply open your eyes somewhere else. Some candidates find this easier. Some find it profoundly disturbing. We don't use it in Tier 0.<</say>>
 
 She kills the screen. Turns back to us.
 
@@ -156,7 +156,7 @@ Elena looks at him. Her expression doesn't change but something in the room gets
 
 <<say "Elena">>Define "fails."<</say>>
 <<say "Brett">>I don't know, like, the signal gets interrupted. Do I just... stop existing?<</say>>
-<<say "Elena">>Transfer failure rates at this facility are point-zero-three percent. In the event of a disruption, the standard failsafe returns your consciousness to your original body within eleven seconds. You will experience disorientation, nausea, and potentially a migraine that lasts up to forty-eight hours. You will not "stop existing." The process has redundancies built on redundancies. Your consciousness is copied, not moved. Your body retains a dormant image of your neural map during the entire transfer duration. If the active signal fails, the dormant copy wakes.<</say>>
+<<say "Elena">>Transfer failure rates at this facility are point-zero-three percent. In the event of a disruption, the standard failsafe returns your consciousness to your original body within eleven seconds. You will experience disorientation, nausea, and potentially a migraine that lasts up to forty-eight hours. You will not "stop existing." The process has redundancies built on redundancies. Normal temporary transfers, your consciousness is copied, not moved. Your body retains a dormant image of your neural map during the entire transfer duration. If the active signal fails, the dormant copy wakes.<</say>>
 <<say "Brett">>So my body just... lies there? While I'm in the other one?<</say>>
 <<say "Elena">>Your body enters a maintenance state. Autonomous functions continue, heartbeat, respiration, digestion. But your consciousness is not present. Your body is, for that duration, an empty vessel. Same as the clones.<</say>>
 
@@ -164,13 +164,13 @@ She says this flatly. Like it's information and not the most existentially horri
 
 Georgia raises her hand. Actually raises it. Calm, composed.
 
-<<say "Georgia">>You said most high-paying assignments involve male-to-female transfer. What's the ratio?<</say>>
+<<say "Georgia">>Someone said most high-paying assignments involve transferor-to-female transfer. What's the ratio?<</say>>
 
 Elena nods.
 
-<<say "Elena">>Approximately seventy percent of Tier 1 and above assignments are male consciousness into female bodies. The reasons are economic and social rather than scientific. Female bodies are in higher demand for surrogate assignments, medical appointments, social obligations, physical experiences that the host wishes to delegate. The market pays accordingly.<</say>>
+<<say "Elena">>Approximately seventy - eighty percent of Tier 1 and above assignments are transferor consciousness into female bodies. The reasons are economic and social rather than scientific. Female bodies are in higher demand for surrogate assignments, medical appointments, social obligations, physical experiences that the host wishes to delegate. The market pays accordingly.<</say>>
 
-I write that down. Seventy percent. The number sits on my phone screen like a fact about someone else's life that has accidentally wandered into mine.
+I write that down. Seventy - eighty percent. The number sits on my phone screen like a fact about someone else's life that has accidentally wandered into mine.
 
 <<say "Tommy">>Will we be transferring into female bodies?<</say>>
 
@@ -198,7 +198,7 @@ She looks directly at me. I don't know why. I keep typing.
 
 <<say "Elena">>Hormonal environment adjustment. This is the one that surprises people.<</say>>
 
-Her voice gets quieter. Not softer; quieter. Like she's delivering information she wants to make sure lands.
+Her voice gets quieter. Not softer, quieter. Like she's delivering information she wants to make sure lands.
 
 <<say "Elena">>Female bodies run on different hormonal profiles. Estrogen, progesterone, varying levels of testosterone. When your consciousness enters a female body, you inherit the hormonal environment of that body. This affects emotional responsiveness, pain sensitivity, temperature perception, and arousal thresholds. You will feel things differently. Not more. Not less. Differently and you will need to learn the difference between what the body is feeling and what you are choosing to feel.<</say>>
 
@@ -318,7 +318,7 @@ She says it between bites.
 She bites her apple.
 
 <<say "Georgia">>Why are you here? The real reason. Not the visa. The visa is why you need the money. Why this specific job?<</say>>
-<<say "Me">>Because Paco told me about it and I ran out of other options.<</say>>
+<<say "Me">>Because friend of mine told me about it and I ran out of other options.<</say>>
 <<say "Georgia">>Right answer.<</say>>
 
 She chews.
@@ -371,7 +371,7 @@ Of course I am.
 :: t0_day01_rafael_session [facility]
 <<face "rafael" "Rafael Mende">>Rafael's office is warmer than the rest of the facility. There are actual plants, a fern, a succulent, something with wide green leaves that might be a rubber tree. A bookshelf with titles I can half-read, clinical psychology texts, military memoirs, a collection of Brazilian poetry. The chair he offers me is leather, worn, comfortable in a way that's designed to make you drop your guard.
 
-I sit. He sits across from me. Not behind a desk; two chairs facing each other, a small table between them with a glass of water and a tablet he barely looks at.
+I sit. He sits across from me. Not behind a desk, two chairs facing each other, a small table between them with a glass of water and a tablet he barely looks at.
 
 <<say "Rafael">>So. Manuel.<</say>>
 <<say "Me">>Yeah.<</say>>
@@ -381,7 +381,7 @@ He settles into his chair like a man who plans to be there a while.
 
 <<say "Rafael">>Tell me why you're here.<</say>>
 <<say "Me">>I need a visa.<</say>>
-<<say "Rafael">>That's the circumstance. I'm asking about the choice. You could have spent today applying for more software jobs. Instead you're in a building where people transfer consciousness between bodies. Why this?<</say>>
+<<say "Rafael">>That's the circumstance. I'm asking about the choice. You could have spent today applying for any other jobs. Instead you're in a building where people transfer consciousness between bodies. Why this?<</say>>
 <<say "Me">>Because forty-one software companies said no and I'm running out of days.<</say>>
 
 He nods. Writes nothing down.
@@ -423,7 +423,7 @@ I look at the rubber tree plant. Its leaves are shiny and thick and it looks abs
 
 He nods. Doesn't rush. Lets the silence sit between us like a third person in the room.
 
-<<say "Rafael">>Any history of gender-related curiosity? And I ask that without judgment; it's safety data, not moral data.<</say>>
+<<say "Rafael">>Any history of gender-related curiosity? And I ask that without judgment, it's safety data, not moral data.<</say>>
 <<say "Me">>I don't think so. No.<</say>>
 <<say "Rafael">>You said "I don't think so." Not "no."<</say>>
 <<say "Me">>I said no.<</say>>
