@@ -314,9 +314,9 @@ I don't think about last night. I think about last night constantly. Burn the to
 
 Elena's contract lecture. The architecture of trust between strangers sharing a body.
 
-Transfer into Renataand the difference is immediate. This body has weight. Authority. D-cup breasts that shift with a gravity I feel in my spine. Wide hips. When I sit down, Renata's legs cross automatically and the thigh-on-thigh pressure is warm and heavy and my breath stutters.
+Transfer into Renata and the difference is immediate. This body has weight. Authority. D-cup breasts that shift with a gravity I feel in my spine. Wide hips. When I sit down, Renata's legs cross automatically and the thigh-on-thigh pressure is warm and heavy and my breath stutters.
 
-This body moves like a woman who has never apologized for existing. The posture is confident. The gait is sureand I, inside it, feel the contrast between what the body knows and what I don't.
+This body moves like a woman who has never apologized for existing. The posture is confident. The gait is sure and I, inside it, feel the contrast between what the body knows and what I don't.
 
 **Scenario 5: The Medical Appointment.** The gynecological exam. Speculum. Cold metal, stretch, intrusion. I gasp involuntarily, a sound from Renata's throat. Cervical swab. Pressure in a place I didn't know could feel pressure. Bimanual palpation, two fingers inside, a hand pressing the abdomen. Being checked from the inside. Catalogued like a territory.
 
@@ -324,7 +324,7 @@ When it's over I sit on the exam table and my hands are shaking and my eyes are 
 
 Rafael: "What did you learn?"
 
-"That vulnerability has a weightand women carry it all the timeand I never knew how heavy it was."
+"That vulnerability has a weight and women carry it all the time and I never knew how heavy it was."
 
 #### EVENING   Diana's Call + Lyla Drinks
 
@@ -372,7 +372,7 @@ In bed, slightly drunk, I touch myself slowly. Not the frantic thing from last n
 
 I think about the moment the doctor's fingers were inside and the sensation was fullness, intrusion, vulnerability. My hand moves and my body responds but I'm processing something beyond arousal. I'm processing what it means to be penetrated. What it means to open.
 
-The orgasm is slow and deep and when it passes I lie there with my hand on my own chest and think: I am becoming someone I don't recognizeand I don't know if that's the job or if that's me.
+The orgasm is slow and deep and when it passes I lie there with my hand on my own chest and think: I am becoming someone I don't recognize and I don't know if that's the job or if that's me.
 
 ---
 
@@ -383,7 +383,7 @@ No SoY. Just a man and a cat and a city.
 
 I sleep until 10. Clean the apartment. Actually clean it. Laundry, dishes, vacuuming (Chipi disappears under the bed and doesn't come out until the noise stops).
 
-Lulu's for groceries. "Mijo, you're here on a Saturday? You need vegetablesand a girlfriend. In that order."
+Lulu's for groceries. "Mijo, you're here on a Saturday? You need vegetables and a girlfriend. In that order."
 
 "I'll take the vegetables."
 
@@ -487,7 +487,7 @@ No arousal tonight. No processing. Just tiredness and a cat and the specific pea
 
 The key moment: he says, "She's beautiful, you know. The woman whose body you're wearing."
 
-I say: "That's not your observation to makeand it's not your body to admire."
+I say: "That's not your observation to make and it's not your body to admire."
 
 Elena, in the debrief: "That was personal conviction, not procedural compliance. That's what makes a good transferee."
 
@@ -603,7 +603,7 @@ Lyla texts: "Good luck tomorrow! Whatever tomorrow is!"
 
 James texts: "Rooting for you, brother."
 
-Paco texts: "You're going to crush itand then we drink."
+Paco texts: "You're going to crush it and then we drink."
 
 Señora Vidal knocks on my door and hands me flan. "For luck," she says, and closes her door before I can respond.
 

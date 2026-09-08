@@ -410,7 +410,7 @@ Pause. Breath. When she breathes on the voice notes I can hear the kitchen in Gu
 
 When. Not if. She says "when" because in her universe there is no "if" about her son coming home. The possibility that I might not be able to come home doesn't exist in her reality and I can't bring myself to put it there.
 
-"I love you, mijo. Call me backand when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother. Your brother has a girlfriend now, did he tell you? Military girl. She looks stern but she laughs at his jokes so she must be either very smart or very patient."
+"I love you, mijo. Call me back and when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother. Your brother has a girlfriend now, did he tell you? Military girl. She looks stern but she laughs at his jokes so she must be either very smart or very patient."
 
 "Bueno. Call me. Besos."
 

@@ -86,7 +86,7 @@ Georgia: "Male voice outside the door while I was half-dressed. As a man."
 
 "Different test for you?"
 
-"Different. The voice was female. Someone calling the male clone's name. Asking if he was coming to dinnerand the body, the male body, the response was... confidence. Not warmth, not welcome. Just, she can wait. He's busy. The default was 'my time is more important than her concern.' I almost didn't open the door because the body didn't want to bother."
+"Different. The voice was female. Someone calling the male clone's name. Asking if he was coming to dinner and the body, the male body, the response was... confidence. Not warmth, not welcome. Just, she can wait. He's busy. The default was 'my time is more important than her concern.' I almost didn't open the door because the body didn't want to bother."
 
 She looks at her apple. Takes another bite.
 
@@ -380,7 +380,7 @@ He picks up on the second ring. Background noise, keyboard clacking, music, what
 
 The blender stops. "Different how?"
 
-"More, everything. Taller. More curves. C-cupand the body reacts. Blushes. Temperature response. Nipples."
+"More, everything. Taller. More curves. C-cup and the body reacts. Blushes. Temperature response. Nipples."
 
 "Nipples." Paco says it like he's tasting the word. "You said nipples."
 

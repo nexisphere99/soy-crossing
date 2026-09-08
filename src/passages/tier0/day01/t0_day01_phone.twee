@@ -121,7 +121,7 @@ Pause. Breath. When she breathes on the voice notes I can hear the kitchen in Gu
 
 //When.// Not //if.// She says "when" because in her universe there is no "if" about her son coming home. The possibility that I might not be able to come home doesn't exist in her reality and I can't bring myself to put it there.
 
-<<say "Mamá">>I love you, mijo. Call me backand when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother. Your brother has a girlfriend now, did he tell you? Military girl. She looks stern but she laughs at his jokes so she must be either very smart or very patient.<</say>>
+<<say "Mamá">>I love you, mijo. Call me back and when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother. Your brother has a girlfriend now, did he tell you? Military girl. She looks stern but she laughs at his jokes so she must be either very smart or very patient.<</say>>
 
 <<say "Mamá">>Bueno. Call me. Besos.<</say>>
 
@@ -274,7 +274,7 @@ Long pause. Paco goes quiet and when Paco goes quiet you pay attention because t
 <<say "Me">>That's the job.<</say>>
 <<say "Paco">>Walking around with...<</say>>
 <<say "Me">>Paco.<</say>>
-<<say "Paco">>Tits, Manuel. I'm talking about titsand the other stuff. The whole situation.<</say>>
+<<say "Paco">>Tits, Manuel. I'm talking about tits and the other stuff. The whole situation.<</say>>
 <<say "Me">>Yes. The whole situation.<</say>>
 
 Another pause. Shorter. Then,
@@ -315,7 +315,7 @@ I think about it. Really think about it. The answer is complicated and I don't w
 <<say "Me">>I'll tell you more when there's more to tell.<</say>>
 <<say "Paco">>Fair enough. Get some sleep, hermano. Big week.<</say>>
 <<say "Me">>Night, Paco.<</say>>
-<<say "Paco">>Nightand Manuel?<</say>>
+<<say "Paco">>Night and Manuel?<</say>>
 <<say "Me">>Yeah?<</say>>
 <<say "Paco">>Don't let them scan anything weird. I don't trust companies with my brain data.<</say>>
 <<say "Me">>You don't trust companies with your email.<</say>>

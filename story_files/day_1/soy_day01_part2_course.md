@@ -193,7 +193,7 @@ She scrolls. Body mass differential charts.
 
 She looks directly at me. I don't know why. I keep typing.
 
-"Hormonal environment adjustment. This is the one that surprises people." Her voice gets quieter. Not softer; quieter. Like she's delivering information she wants to make sure lands. "Female bodies run on different hormonal profiles. Estrogen, progesterone, varying levels of testosterone. When your consciousness enters a female body, you inherit the hormonal environment of that body. This affects emotional responsiveness, pain sensitivity, temperature perception, and arousal thresholds. You will feel things differently. Not more. Not less. Differentlyand you will need to learn the difference between what the body is feeling and what you are choosing to feel."
+"Hormonal environment adjustment. This is the one that surprises people." Her voice gets quieter. Not softer; quieter. Like she's delivering information she wants to make sure lands. "Female bodies run on different hormonal profiles. Estrogen, progesterone, varying levels of testosterone. When your consciousness enters a female body, you inherit the hormonal environment of that body. This affects emotional responsiveness, pain sensitivity, temperature perception, and arousal thresholds. You will feel things differently. Not more. Not less. Differently and you will need to learn the difference between what the body is feeling and what you are choosing to feel."
 
 The room is very still.
 
@@ -329,7 +329,7 @@ He looks at me steadily. No pity. Something adjacent to pity that's more useful:
 
 "Do they know about your situation?"
 
-"My mother knows I lost the job. She doesn't know the rest. The visa clock. She'd..." I stop. "She'd panicand then she'd prayand neither of those helps."
+"My mother knows I lost the job. She doesn't know the rest. The visa clock. She'd..." I stop. "She'd panic and then she'd pray and neither of those helps."
 
 "And your brother?"
 
@@ -415,11 +415,11 @@ I look at the compass on his wrist. It points in every direction. That seems rig
 
 He holds my gaze. The warmth in his face doesn't disappear. It deepens, like a fire settling into its coals.
 
-"That's the best question anyone has asked me in this room in six monthsand the honest answer is: yes, and also you will be more than you were. Whether that's a good thing depends on what you do with it."
+"That's the best question anyone has asked me in this room in six months and the honest answer is: yes, and also you will be more than you were. Whether that's a good thing depends on what you do with it."
 
 He stands. Extends his hand. I shake it. His grip is firm and his palm is warm and the compass tattoo faces me as our hands clasp.
 
-"Get some rest tonight, Manuel. Read chapters one through three of the handbookand eat something. You look thin."
+"Get some rest tonight, Manuel. Read chapters one through three of the handbook and eat something. You look thin."
 
 "Everyone keeps telling me to eat."
 

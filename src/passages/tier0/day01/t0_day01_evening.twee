@@ -6,7 +6,7 @@
 
 The sky is the color of a bruise when I come out of 814 Ninth Street. Purple and yellow at the edges, going dark. October evenings arrive sudden and non-negotiable.
 
-My head is full. Overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifyingand Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
+My head is full. Overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifying and Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
 
 I need food. I need beer. I need Chipi on my chest. But first I need to walk past something normal.
 
@@ -30,10 +30,10 @@ The bells on the door. She looks up from her newspaper, different section now; s
 <<say "Lulu">>Was the science good?<</say>>
 <<say "Me">>The science was... a lot.<</say>>
 
-She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked. Rice. Beans. Two Modelosand the empanadas, different ones from this morning, chicken and green chile.
+She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked. Rice. Beans. Two Modelos and the empanadas, different ones from this morning, chicken and green chile.
 
 <<say "Me">>How much?<</say>>
-<<say "Lulu">>Twelve dollarsand you eat all of it, you hear me? You're too skinny. Your mother would be ashamed.<</say>>
+<<say "Lulu">>Twelve dollars and you eat all of it, you hear me? You're too skinny. Your mother would be ashamed.<</say>>
 <<say "Me">>My mother is four thousand miles away.<</say>>
 <<say "Lulu">>God is closer.<</say>>
 
