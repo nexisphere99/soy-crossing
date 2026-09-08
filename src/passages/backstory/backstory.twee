@@ -16,6 +16,7 @@ If that isn't for you, close the tab now. No judgment.
 
 
 :: backstory_layoff [backstory]
+<<face "manuel" "Manuel González">>
 <<scene "backstory/layoff-parking-lot" "A man alone with a cardboard box in a sunlit corporate parking lot">>
 The thing about getting fired is that your body knows before your brain catches up.
 
