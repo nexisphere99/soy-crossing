@@ -1,0 +1,281 @@
+/* 04-passage.css   the reading column: prose, headings, choices, scenes */
+
+#passages .passage {
+	max-width: var(--measure);
+	margin: 0 auto;
+	padding: var(--s8) var(--s6) var(--s8);
+	color: var(--ink);
+	font-size: var(--fs-base);
+	line-height: var(--lh-body);
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	animation: pg-in .38s ease-out;
+}
+
+/* Justified prose on anything wider than a phone. Blocks that shouldn't be
+   justified are reset below. */
+@media (min-width: 641px) {
+	#passages .passage { text-align: justify; text-justify: inter-word; }
+}
+
+@keyframes pg-in {
+	from { opacity: 0; transform: translateY(6px); }
+	to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+	#passages .passage { animation: none; }
+}
+
+/* prose paragraphs are separated by <br><br>; give them air */
+#passages .passage { text-wrap: pretty; }
+
+#passages .passage h1,
+.passage-title {
+	display: block;
+	font-family: var(--serif);
+	font-weight: 400;
+	font-size: var(--fs-3xl);
+	line-height: var(--lh-tight);
+	letter-spacing: -0.015em;
+	color: var(--ink);
+	margin: 0 0 var(--s5);
+}
+#passages .passage h2 {
+	font-family: var(--serif);
+	font-weight: 400;
+	font-size: var(--fs-xl);
+	color: var(--ink);
+	margin: var(--s6) 0 var(--s3);
+}
+
+#passages .passage em { color: #f0ded0; }
+#passages .passage strong { color: var(--ink); font-weight: 600; }
+
+/* not justified: headings, choices, bubbles, inline documents */
+#passages .passage h1,
+#passages .passage h2,
+#passages .passage .passage-title,
+#passages .passage .opt a.link-internal,
+#passages .passage .opt-hint,
+#passages .passage .quote,
+#passages .passage .note,
+#passages .passage .line-who,
+#passages .passage .msg-who { text-align: left; }
+
+/* centred: interstitial cards */
+#passages .passage .card,
+#passages .passage .card * { text-align: center; }
+
+/* ---------- Choice links ----------
+   Every choice is an <<opt>> card: the card is the .opt <div>, the clickable
+   row is a plain <a> inside it (no border/background of its own). A bare
+   [[link]] (direct child of .passage   none used currently) gets the same
+   card look applied to the <a> itself. */
+
+.opt {
+	display: block;
+	margin-top: var(--s2);
+	background: var(--bg-2);
+	border: 1px solid var(--line);
+	border-left: 2px solid var(--line-2);
+	border-radius: var(--r2);
+	transition: border-color .16s, background .16s, transform .1s;
+}
+.opt:hover {
+	background: var(--bg-3);
+	border-color: var(--line-2);
+	border-left-color: var(--amber);
+}
+.opt:active { transform: translateY(1px); }
+
+#passages .passage .opt a.link-internal {
+	position: relative;
+	display: block;
+	padding: 0.7rem 0.95rem 0.7rem 1.6rem;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+	color: var(--ink);
+	font-family: var(--sans);
+	font-size: 0.95rem;
+	font-weight: 500;
+	line-height: var(--lh-snug);
+	transition: padding-left .16s;
+}
+#passages .passage .opt a.link-internal::before {
+	content: "›";
+	position: absolute;
+	left: 0.85rem;
+	color: var(--ink-3);
+	transition: color .16s, transform .16s;
+}
+.opt:hover a.link-internal { padding-left: 1.75rem; }
+.opt:hover a.link-internal::before { color: var(--amber-bright); transform: translateX(2px); }
+
+.opt-hint {
+	display: block;
+	padding: 0 0.95rem 0.65rem 1.6rem;
+	color: var(--ink-3);
+	font-size: var(--fs-sm);
+	line-height: var(--lh-snug);
+}
+
+/* bare [[link]] fallback */
+#passages .passage > a.link-internal {
+	position: relative;
+	display: block;
+	margin-top: var(--s2);
+	padding: 0.7rem 0.95rem 0.7rem 1.6rem;
+	background: var(--bg-2);
+	border: 1px solid var(--line);
+	border-left: 2px solid var(--line-2);
+	border-radius: var(--r2);
+	color: var(--ink);
+	font: 500 0.95rem/var(--lh-snug) var(--sans);
+	text-align: left;
+	transition: border-color .16s, background .16s, padding-left .16s;
+}
+#passages .passage > a.link-internal::before {
+	content: "›";
+	position: absolute;
+	left: 0.85rem;
+	color: var(--ink-3);
+}
+#passages .passage > a.link-internal:hover {
+	background: var(--bg-3);
+	border-color: var(--line-2);
+	border-left-color: var(--amber);
+	padding-left: 1.75rem;
+}
+
+#passages .passage a.link-broken {
+	display: inline;
+	padding: 0;
+	border: 0;
+	color: var(--danger);
+	border-bottom: 1px dotted var(--danger);
+}
+
+/* ---------- Scene illustrations ---------- */
+.scene {
+	margin: 0 0 var(--s6);
+	border: 1px solid var(--line);
+	border-radius: var(--r3);
+	overflow: hidden;
+	background: var(--bg-2);
+	box-shadow: var(--shadow-1);
+}
+.scene.is-missing { display: none; }
+.scene img {
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+figure.portrait {
+	float: right;
+	width: 150px;
+	max-width: 40%;
+	margin: 0.2rem 0 var(--s3) var(--s4);
+	shape-outside: margin-box;
+}
+figure.portrait img {
+	width: 100%;
+	aspect-ratio: 3 / 4;
+	object-fit: cover;
+	border: 1px solid var(--line-2);
+	border-radius: var(--r3);
+	display: block;
+}
+figure.portrait figcaption {
+	margin-top: var(--s1);
+	font-size: var(--fs-xs);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+	text-align: center;
+}
+figure.portrait.is-missing { display: none; }
+
+/* ---------- Splash / interstitial cards ---------- */
+.card {
+	text-align: center;
+	padding: var(--s6) 0 var(--s5);
+	border-bottom: 1px solid var(--line);
+	margin-bottom: var(--s6);
+}
+.card .passage-title { font-size: var(--fs-4xl); margin-bottom: var(--s3); }
+.card-ver {
+	margin-top: var(--s3);
+	font-family: var(--mono);
+	font-size: 0.7rem;
+	letter-spacing: 0.1em;
+	color: var(--ink-4);
+}
+.card .sub {
+	color: var(--ink-2);
+	font-style: italic;
+	font-size: var(--fs-lg);
+	max-width: 34ch;
+	margin: 0 auto;
+}
+
+/* ---------- Inline documents ---------- */
+.quote {
+	margin: var(--s4) 0;
+	padding: var(--s3) var(--s4);
+	border-left: 2px solid var(--line-3);
+	background: var(--bg-2);
+	border-radius: 0 var(--r2) var(--r2) 0;
+	color: var(--ink-2);
+	font-style: italic;
+	line-height: 1.6;
+}
+
+/* a handwritten note taped to a door */
+.note {
+	margin: var(--s5) 0;
+	padding: var(--s4) var(--s5);
+	background: #221d18;
+	border: 1px solid var(--line-2);
+	border-radius: 2px;
+	box-shadow: var(--shadow-1);
+	color: #cfd6e0;
+	font-family: var(--serif);
+	font-size: 1.1rem;
+	line-height: 1.55;
+	transform: rotate(-0.5deg);
+}
+.note span {
+	display: block;
+	margin-top: var(--s3);
+	text-align: right;
+	color: var(--ink-3);
+	font-size: 0.95rem;
+}
+
+/* live-call banner */
+.callbar {
+	display: inline-block;
+	margin: 0 0 var(--s4);
+	padding: 4px 12px;
+	border: 1px solid var(--ok);
+	border-radius: 999px;
+	background: rgba(92,191,146,0.1);
+	color: var(--ok);
+	font-size: var(--fs-xs);
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+/* end-of-day recap card */
+.day-recap {
+	margin: var(--s6) 0;
+	padding: var(--s5);
+	background: var(--bg-2);
+	border: 1px solid var(--line);
+	border-radius: var(--r3);
+}
+.day-recap .qb { display: flex; flex-direction: column; gap: var(--s5); }

@@ -1,0 +1,79 @@
+/* 02-tokens.css   design tokens
+   Warm darkness. The hour between a bar at midnight and a clinic at dawn. */
+
+:root {
+	/* Surfaces   warm near-black, layered */
+	--bg-0: #0a0908;
+	--bg-1: #131110;
+	--bg-2: #1c1917;
+	--bg-3: #262220;
+	--bg-4: #322c29;
+
+	/* Hairlines */
+	--line:   #2f2a27;
+	--line-2: #453e39;
+	--line-3: #5b524b;
+
+	/* Ink   warm off-white, never pure #fff */
+	--ink:   #ece7e1;
+	--ink-2: #b0a89f;
+	--ink-3: #7b736b;
+	--ink-4: #554e48;
+
+	/* Mezcal amber */
+	--amber:        #e0872f;
+	--amber-bright: #f6ac52;
+	--amber-deep:   #7a4a1e;
+	--amber-wash:   rgba(224, 135, 47, 0.12);
+
+	/* Semantic */
+	--danger: #e9634a;
+	--warn:   #e0953f;
+	--ok:     #5cbf92;
+	--info:   #6ba4d8;
+	--intimate: #c08ae0;
+
+	/* Body-state */
+	--male:   #6ba4d8;
+	--female: #e79ec4;
+
+	/* Type */
+	--serif: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+	--sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, system-ui, sans-serif;
+	--mono:  ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace;
+
+	--fs-xs:   0.75rem;
+	--fs-sm:   0.8125rem;
+	--fs-base: 1.0625rem;
+	--fs-lg:   1.1875rem;
+	--fs-xl:   1.5rem;
+	--fs-2xl:  2rem;
+	--fs-3xl:  2.75rem;
+	--fs-4xl:  3.5rem;
+
+	--lh-tight: 1.15;
+	--lh-snug:  1.4;
+	--lh-body:  1.72;
+
+	--measure: 48rem;
+
+	/* Space */
+	--s1: 0.25rem;
+	--s2: 0.5rem;
+	--s3: 0.75rem;
+	--s4: 1rem;
+	--s5: 1.5rem;
+	--s6: 2rem;
+	--s7: 3rem;
+	--s8: 4.5rem;
+
+	--r1: 4px;
+	--r2: 8px;
+	--r3: 12px;
+	--r4: 18px;
+
+	--shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+	--shadow-2: 0 8px 30px rgba(0,0,0,0.45);
+	--shadow-3: 0 20px 60px rgba(0,0,0,0.6);
+	--glow: 0 0 0 1px var(--amber-wash), 0 6px 24px -8px rgba(224,135,47,0.35);
+}

@@ -1,0 +1,150 @@
+/* 05-hud.css   sidebar: backstory caption + Tier 0 HUD + objectives */
+
+.cap, .hud { display: flex; flex-direction: column; gap: var(--s4); }
+
+.cap-title, .hud-title {
+	font-family: var(--serif);
+	font-size: var(--fs-lg);
+	line-height: 1;
+	color: var(--ink);
+}
+.cap-title span, .hud-title span {
+	display: block;
+	margin-top: 3px;
+	font-family: var(--sans);
+	font-size: var(--fs-xs);
+	font-weight: 600;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: var(--amber);
+}
+.cap-title .ver, .hud-title .ver {
+	margin-top: 4px;
+	font-family: var(--mono);
+	font-size: 0.62rem;
+	font-weight: 400;
+	letter-spacing: 0.08em;
+	text-transform: none;
+	color: var(--ink-4);
+}
+
+/* ---- Visa clock ---- */
+.visa {
+	border: 1px solid var(--line-2);
+	border-top: 2px solid var(--ink-4);
+	border-radius: var(--r2);
+	padding: var(--s3);
+	background: var(--bg-2);
+}
+.visa .n {
+	display: block;
+	font-family: var(--serif);
+	font-size: var(--fs-2xl);
+	line-height: 1;
+	color: var(--ink);
+}
+.visa .l {
+	display: block;
+	margin-top: 3px;
+	font-size: 0.68rem;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+}
+.visa.warn   { border-top-color: var(--warn); }
+.visa.warn .n   { color: var(--warn); }
+.visa.danger { border-top-color: var(--danger); box-shadow: inset 0 0 0 1px rgba(233,99,74,0.15); }
+.visa.danger .n { color: var(--danger); }
+
+/* ---- HUD rows ---- */
+.hud-row { font-size: var(--fs-sm); color: var(--ink-2); }
+.hud-when { color: var(--ink); text-transform: capitalize; letter-spacing: 0.02em; }
+.hud-money { font-family: var(--serif); font-size: var(--fs-lg); color: var(--amber-bright); }
+.hud-loc::before { content: "◈ "; color: var(--ink-3); }
+
+.body-chip {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--s2);
+	padding: 3px 9px;
+	border-radius: 999px;
+	font-size: var(--fs-xs);
+	font-weight: 600;
+	letter-spacing: 0.03em;
+}
+.body-chip.m { background: rgba(107,164,216,0.14); color: var(--male);   border: 1px solid rgba(107,164,216,0.32); }
+.body-chip.f { background: rgba(231,158,196,0.14); color: var(--female); border: 1px solid rgba(231,158,196,0.32); }
+
+/* ---- Objectives block in sidebar ---- */
+.hud-obj {
+	margin-top: var(--s1);
+	padding-top: var(--s3);
+	border-top: 1px solid var(--line);
+}
+.hud-obj button {
+	background: transparent;
+	border: 1px solid var(--line-2);
+	color: var(--amber-bright);
+	font-family: var(--sans);
+	font-size: 0.68rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	padding: var(--s2) var(--s3);
+	border-radius: var(--r1);
+	cursor: pointer;
+	width: 100%;
+	transition: border-color .15s, background .15s;
+}
+.hud-obj button:hover { border-color: var(--amber-deep); background: var(--bg-2); }
+.hud-next {
+	margin-top: var(--s2);
+	font-size: var(--fs-xs);
+	color: var(--ink);
+	line-height: var(--lh-snug);
+}
+.hud-next::before { content: "▸ "; color: var(--amber-bright); }
+.hud-next .w { display: block; color: var(--ink-3); padding-left: 0.9em; }
+.hud-next.done { color: var(--ok); }
+.hud-next.done::before { content: "✓ "; color: var(--ok); }
+
+/* ---- Objectives dialog body ---- */
+#ui-dialog-body .qb { display: flex; flex-direction: column; gap: var(--s6); min-width: min(86vw, 21rem); }
+.qb-block { }
+.qb-h {
+	display: flex;
+	align-items: baseline;
+	gap: var(--s2);
+	font-family: var(--serif);
+	font-size: var(--fs-xl);
+	color: var(--ink);
+	margin-bottom: var(--s3);
+}
+.qb-tag {
+	font-family: var(--sans);
+	font-size: 0.62rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--ink-3);
+	border: 1px solid var(--line-2);
+	border-radius: var(--r1);
+	padding: 2px 6px;
+}
+.qb-tag.ok { color: var(--ok); border-color: var(--ok); }
+.qb-o {
+	display: flex;
+	gap: var(--s3);
+	align-items: baseline;
+	padding: var(--s2) 0;
+	font-size: 0.92rem;
+	color: var(--ink-2);
+	border-top: 1px solid var(--line);
+}
+.qb-o:first-of-type { border-top: 0; }
+.qb-mk { flex: none; color: var(--ink-4); width: 1em; text-align: center; }
+.qb-o.next { color: var(--ink); }
+.qb-o.next .qb-mk { color: var(--amber-bright); }
+.qb-o.done { color: var(--ink-3); }
+.qb-o.done s { text-decoration: line-through; text-decoration-color: var(--ink-4); }
+.qb-w { color: var(--ink-3); font-style: italic; }

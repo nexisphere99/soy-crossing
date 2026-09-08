@@ -1,0 +1,62 @@
+:: Widgets [widget]
+
+/* <<scene "locations/soy-lobby" "alt text">>   16:9 scene art.
+   Collapses silently when the file isn't there yet. */
+<<widget "scene">><<if $settings.showImages>><<set _src = "game_files/img/" + _args[0] + ".png">><<set _alt = _args.length > 1 ? _args[1] : "">><<= '<div class="scene"><img src="' + _src + '" alt="' + _alt + '" onerror="this.closest(\'.scene\').classList.add(\'is-missing\')"></div>'>><</if>><</widget>>
+
+/* <<face "elena" "Elena Cordero">>   floated 3:4 portrait with a caption. */
+<<widget "face">><<if $settings.showImages>><<set _src = "game_files/img/portraits/" + _args[0] + ".png">><<set _cap = _args.length > 1 ? _args[1] : _args[0]>><<= '<figure class="portrait"><img src="' + _src + '" alt="' + _cap + '" onerror="this.closest(\'figure\').classList.add(\'is-missing\')"><figcaption>' + _cap + '</figcaption></figure>'>><</if>><</widget>>
+
+/* <<opt "passage" "Label" "optional hint">>   choice with a subtitle. */
+<<widget "opt">><<nobr>>
+<div class="opt"><<link _args[1] _args[0]>><</link>><<if _args.length gt 2>><span class="opt-hint"><<= _args[2]>></span><</if>></div>
+<</nobr>><</widget>>
+
+/* <<questRender>>   objectives panel (modal + inline recap). */
+<<widget "questRender">><<nobr>>
+<div class="qb">
+
+<<set _mq = SOY.Quests.activeMain()>>
+<<if _mq>>
+	<div class="qb-block">
+		<div class="qb-h"><span><<= _mq.title>></span><span class="qb-tag">Main</span></div>
+		<<set _pending = true>>
+		<<for _o range _mq.objectives>>
+			<<if _o.done>>
+				<div class="qb-o done"><span class="qb-mk">&#10003;</span><s><<= _o.text>></s></div>
+			<<elseif _pending>>
+				<div class="qb-o next"><span class="qb-mk">&#9656;</span><span><<= _o.text>><<if _o.where>> <span class="qb-w">- <<= _o.where>></span><</if>></span></div>
+				<<set _pending = false>>
+			<<else>>
+				<div class="qb-o"><span class="qb-mk">&#9675;</span><span><<= _o.text>></span></div>
+			<</if>>
+		<</for>>
+	</div>
+<<else>>
+	<<set _cm = SOY.Quests.completedMain()>>
+	<<if _cm>>
+		<div class="qb-block">
+			<div class="qb-h"><span><<= _cm.title>></span><span class="qb-tag ok">Complete</span></div>
+			<<for _o range _cm.objectives>>
+				<div class="qb-o done"><span class="qb-mk">&#10003;</span><s><<= _o.text>></s></div>
+			<</for>>
+		</div>
+	<</if>>
+<</if>>
+
+<<set _sa = $quests.side.filter(function (q) { return q.status === "active"; })>>
+<<set _sd = $quests.side.filter(function (q) { return q.status === "complete"; })>>
+<<if _sa.length + _sd.length gt 0>>
+	<div class="qb-block">
+		<div class="qb-h"><span>Today</span><span class="qb-tag">Daily</span></div>
+		<<for _q range _sa>>
+			<div class="qb-o"><span class="qb-mk">&#9675;</span><span><<= _q.title>><<if _q.description>> <span class="qb-w">- <<= _q.description>></span><</if>></span></div>
+		<</for>>
+		<<for _q range _sd>>
+			<div class="qb-o done"><span class="qb-mk">&#10003;</span><s><<= _q.title>></s></div>
+		<</for>>
+	</div>
+<</if>>
+
+</div>
+<</nobr>><</widget>>

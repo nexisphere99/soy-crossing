@@ -1,0 +1,329 @@
+:: t0_day01_evening_phone [phone]
+<<set _jamesDone = visited("t0_day01_james_accept") or visited("t0_day01_james_delay")>>
+<<set _mamaDone = visited("t0_day01_mama_play") or visited("t0_day01_mama_skip")>>
+<<set _lylaDone = visited("t0_day01_lyla_text_end")>>
+
+<<if visited("t0_day01_evening_phone") lte 1>>
+Three messages while I was eating.
+<<else>>
+The phone again.
+<</if>>
+
+<<if not _jamesDone>>
+<<phone "James">>
+<<txt "James">>Dinner this week? I found a new Thai place. My treat.<</txt>>
+<</phone>>
+<<opt "t0_day01_james_text" "Answer James" "9:02 PM. His treat. Always his treat.">>
+<</if>>
+
+<<if not _mamaDone>>
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 4:12<</txt>>
+<</phone>>
+<<opt "t0_day01_mama_voicenote" "Mamá's voice note" "2:14 PM. Every Monday, without fail.">>
+<</if>>
+
+<<if not _lylaDone>>
+<<phone "Lyla">>
+<<txt "Lyla">>So? The mysterious job? Is it a cult?<</txt>>
+<</phone>>
+<<opt "t0_day01_lyla_evening_texts" "Text Lyla back" "9:34 PM. She will not let this go.">>
+<</if>>
+
+<<if not visited("t0_day01_paco_call")>>
+<<phone "Paco">>
+<<txt "Paco">>¿¿¿y??? did you go?? CALL ME hermano I'm dying over here<</txt>>
+<</phone>>
+<<opt "t0_day01_paco_call" "Call Paco" "9:15 PM. He's been waiting all day.">>
+<</if>>
+
+<<opt "t0_day01_evening_home" "Put the phone down">>
+
+
+:: t0_day01_james_text [phone]
+<<phone "James">>
+<<txt "James">>Dinner this week? I found a new Thai place. My treat.<</txt>>
+<</phone>>
+
+His treat. Always his treat. James survived the Brevity Labs cuts and I didn't and he handles the guilt of that by feeding me like a rescue animal every two weeks. I should hate it. I don't. His pad thai recommendations are flawless and guilt-funded pad thai still tastes like pad thai.
+
+<<opt "t0_day01_james_accept" "Accept, &ldquo;Thursday?&rdquo;">>
+<<opt "t0_day01_james_delay" "Rain check, &ldquo;This week is crazy, next week?&rdquo;">>
+
+
+:: t0_day01_james_accept [phone]
+<<set $flags.james_dinner_thursday = true>>
+<<set $npcs.james.flags.guilt_dinners += 1>>
+<<run SOY.NPCs.adjustRelationship('james', 1)>>
+<<run SOY.Quests.completeSide('sq_003_james', 'respond')>>
+
+<<phone "James">>
+<<txt "Me">>Thursday?<</txt>>
+<<txt "James">>Done.<</txt>>
+<<txt "James">>Hope the new job is good, man. You deserve good things.<</txt>>
+<</phone>>
+
+I stare at that text for a while. //You deserve good things.// James says stuff like that. Just drops it into a conversation like it's obvious, like he doesn't understand that some people hear that sentence and their throat closes up because they're not sure it's true and they're definitely not sure someone should be saying it to them on a Monday night when they're standing in their kitchen with rice on their shirt.
+
+James survived the Brevity cuts. I didn't. He handles that fact by feeding me at restaurants I can't afford and telling me I deserve things I'm not sure I do. It's love, I think. The specific love of a man who can't stop apologizing for a thing he didn't do, expressed through pad thai.
+
+<<opt "t0_day01_evening_phone" "Back to the phone">>
+
+
+:: t0_day01_james_delay [phone]
+<<set $flags.james_dinner_delayed = true>>
+<<run SOY.NPCs.adjustRelationship('james', -1)>>
+<<run SOY.Quests.completeSide('sq_003_james', 'respond')>>
+
+<<phone "James">>
+<<txt "Me">>This week is crazy with the new job. Next week?<</txt>>
+<<txt "James">>Of course! Whenever works for you.<</txt>>
+<<txt "James">>No rush at all.<</txt>>
+<<txt "James">>Just let me know.<</txt>>
+<</phone>>
+
+Three messages. Each one more accommodating than the last. James's guilt operates on an exponential curve. The more space I give him, the more he fills it with kindness, and the kindness makes me feel guilty for not accepting the kindness, and the whole thing is an ouroboros of two grown men being too nice to each other.
+
+<<opt "t0_day01_evening_phone" "Back to the phone">>
+
+
+:: t0_day01_mama_voicenote [phone]
+I look at the notification. Her face in the tiny circle. Smiling. She's always smiling in photos.
+
+<<opt "t0_day01_mama_play" "Play the voice note">>
+<<opt "t0_day01_mama_skip" "Save it for later">>
+
+
+:: t0_day01_mama_play [phone]
+<<set $flags.mama_voicenote_listened = true>>
+<<set $player.guilt = Math.max(0, $player.guilt - 1)>>
+<<run SOY.Quests.completeSide('sq_005_mama', 'respond')>>
+
+I hold the phone to my ear. Low volume. The kitchen feels smaller when her voice is in it.
+
+<<say "Mamá">>Mijo, soy yo.<</say>>
+
+As if anyone else leaves four-minute voice notes on a Monday.
+
+<<say "Mamá">>I went to church this morning. Father Ordóñez gave a beautiful sermon about patience but I wasn't paying attention because Doña Carmen was wearing that hat again, the purple one, you remember? She looks like an eggplant. Don't tell anyone I said that.<</say>>
+
+I smile. My eyes sting.
+
+<<say "Mamá">>I lit a candle for you. A big one, the kind that costs twenty pesos, not the little ones. Your father says I spend too much on candles but your father also says the truck needs new brake pads so I told him to mind his brake pads and I'll mind my candles.<</say>>
+
+She laughs at her own joke. She always laughs at her own jokes.
+
+<<say "Mamá">>Tía Rosa was there. She says hello. She looks terrible, mijo. She's gained weight since the thing with her gallbladder but don't tell her I said that either. I said it in love. Everything I say is in love. Your father is fine, he's fixing the neighbor's truck again, the Hernández boy, the one with the earring. I told him to charge more but Ricardo González has never charged what he's worth and I've been telling him that for thirty years.<</say>>
+
+Pause. Breath. When she breathes on the voice notes I can hear the kitchen in Guadalajara behind her. The hum of the fridge, the ticking of the clock she's had since I was a baby, the faint sound of the street outside.
+
+<<say "Mamá">>I made pozole yesterday. I thought of you. I'll send you the recipe but you won't make it because you never make what I send you. That's okay. When you come home I'll make it for you.<</say>>
+
+//When.// Not //if.// She says "when" because in her universe there is no "if" about her son coming home. The possibility that I might not be able to come home doesn't exist in her reality and I can't bring myself to put it there.
+
+<<say "Mamá">>I love you, mijo. Call me back. And when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother. Your brother has a girlfriend now, did he tell you? Military girl. She looks stern but she laughs at his jokes so she must be either very smart or very patient.<</say>>
+
+<<say "Mamá">>Bueno. Call me. Besos.<</say>>
+
+The voice note ends. The kitchen is quiet. I listen to it twice. Her voice fills the kitchen like a presence. Warm and relentless and absolutely sure of things I'm not sure of at all.
+
+Chipi is on the counter, watching me with the calm attention of a creature who has never heard a mother's voice on a phone and felt the distance between herself and home collapse into a thing so small it fits in your chest and so heavy it makes breathing hard.
+
+I don't call back. Not tonight. I can't say "research, biometric" to my mother. She'd see through it in three words and then I'd have to explain and the explaining would unravel me. Tomorrow. I'll call her tomorrow. Or Wednesday. Wednesday is her usual day. I'll call Wednesday and say "research, biometric" and she'll ask about a girlfriend and I'll say "pronto, mamá" and we'll both pretend.
+
+<<opt "t0_day01_evening_phone" "Back to the phone">>
+
+
+:: t0_day01_mama_skip [phone]
+<<set $flags.mama_voicenote_listened = false>>
+<<set $player.guilt += 1>>
+<<run SOY.Quests.completeSide('sq_005_mama', 'respond')>>
+
+I look at the notification. Her face in the tiny circle. Smiling. She's always smiling in photos.
+
+Not tonight. I can't hold her voice in my head right now along with everything else. There's no room. The apartment is full of Elena's lecture and Rafael's questions and the number twenty-seven and the Transfer Worker's Handbook PDF sitting in my inbox like a bomb with a reading list.
+
+I mark it as "listened." I haven't listened. The lie is small enough to not count. That's what I tell myself.
+
+<<opt "t0_day01_evening_phone" "Back to the phone">>
+
+
+:: t0_day01_lyla_evening_texts [phone]
+Lyla again. 9:34 PM.
+
+<<phone "Lyla">>
+<<txt "Lyla">>So? The mysterious job? Is it a cult?<</txt>>
+<</phone>>
+
+Three options.
+
+<<opt "t0_day01_lyla_text_a" "&ldquo;It's not a cult&rdquo;">>
+<<opt "t0_day01_lyla_text_b" "&ldquo;Classified&rdquo;">>
+<<opt "t0_day01_lyla_text_c" "Send her a photo of Chipi instead">>
+
+
+:: t0_day01_lyla_text_a [phone]
+<<set $npcs.lyla.flags.suspicion += 1>>
+<<set $npcs.lyla.flags.theory_count += 1>>
+
+<<phone "Lyla">>
+<<txt "Me">>It's not a cult.<</txt>>
+<<txt "Lyla">>That's exactly what someone in a cult would say.<</txt>>
+<<txt "Lyla">>What do you actually do?<</txt>>
+<<txt "Me">>Research. Biometric.<</txt>>
+<<txt "Lyla">>Manuel. That means nothing.<</txt>>
+<<txt "Me">>It means they study how bodies work. I'm a consultant.<</txt>>
+<<txt "Lyla">>That's the vaguest sentence you've ever said to me and I was present for your last performance review.<</txt>>
+<<txt "Lyla">>Fine. Keep your secrets. But if they make you wear robes, I need photos.<</txt>>
+<<txt "Me">>😂<</txt>>
+<<txt "Lyla">>I'm serious about the robes. My Instagram needs content.<</txt>>
+<</phone>>
+
+<<opt "t0_day01_lyla_text_end" "Set the phone down">>
+
+
+:: t0_day01_lyla_text_b [phone]
+<<set $npcs.lyla.flags.suspicion += 2>>
+<<set $npcs.lyla.flags.theory_count += 1>>
+
+<<phone "Lyla">>
+<<txt "Me">>Classified.<</txt>>
+<<txt "Lyla">>CLASSIFIED? Manuel González, you are a backend developer from Guadalajara, not Jason Bourne.<</txt>>
+<<txt "Lyla">>What could POSSIBLY be classified about your new job?<</txt>>
+<<txt "Me">>NDAs are real, Lyla.<</txt>>
+<<txt "Lyla">>NDAs. Sure. My startup has an NDA too and all we do is make scheduling software for dentists. Are you making scheduling software for dentists?<</txt>>
+<<txt "Me">>I'm not making scheduling software for dentists.<</txt>>
+<<txt "Lyla">>Then WHAT<</txt>>
+<<txt "Me">>I'll tell you when I can.<</txt>>
+<<txt "Lyla">>You're killing me. You know that? Literally killing me. I'm going to die of curiosity and you're going to have to explain to my mother that you let her daughter perish because you wouldn't tell her about your dumb job.<</txt>>
+<<txt "Me">>Your mother loves me.<</txt>>
+<<txt "Lyla">>My mother loves everyone. That's not the flex you think it is.<</txt>>
+<</phone>>
+
+<<opt "t0_day01_lyla_text_end" "Set the phone down">>
+
+
+:: t0_day01_lyla_text_c [phone]
+<<set $npcs.lyla.flags.suspicion += 1>>
+<<set $flags.lyla_friday_visit = true>>
+
+I take a photo of Chipi. She's on the couch, lying on her back with all four paws in the air, looking like a small furry crime scene. I send it.
+
+<<phone "Lyla">>
+<<txt "Lyla">>oh my GOD<</txt>>
+<<txt "Lyla">>look at her belly<</txt>>
+<<txt "Lyla">>I would die for that cat<</txt>>
+<<txt "Lyla">>...wait. Don't think I didn't notice you dodging my question.<</txt>>
+<<txt "Me">>What question?<</txt>>
+<<txt "Lyla">>THE JOB QUESTION, MANUEL.<</txt>>
+<<txt "Me">>It went well. I'll tell you more when there's more to tell.<</txt>>
+<<txt "Lyla">>Fine. But I'm giving you until Friday and then I'm showing up at your apartment with wine and I'm not leaving until you talk.<</txt>>
+<<txt "Me">>Friday works.<</txt>>
+<<txt "Lyla">>Friday works BECAUSE I'M NOT GIVING YOU A CHOICE. Goodnight, hot stuff. Tell Chipi I love her more than you.<</txt>>
+<</phone>>
+
+<<opt "t0_day01_lyla_text_end" "Set the phone down">>
+
+
+:: t0_day01_lyla_text_end [phone]
+<<run SOY.NPCs.adjustRelationship('lyla', 1)>>
+<<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
+
+I put the phone down. Lyla is going to figure it out eventually. She's too smart and too stubborn and too invested in my life to let a vague answer stand for more than a week. The question isn't whether she finds out. The question is what she does when she does.
+
+The answer to that question terrifies me more than anything Elena said today.
+
+<<opt "t0_day01_evening_phone" "Back to the phone">>
+
+
+:: t0_day01_paco_call [phone]
+<div class="callbar">&#9742; Paco Herrera &middot; connected</div>
+
+Paco picks up on the first ring.
+
+<<say "Paco">>¡HERMANO! ¿Fuiste? Tell me everything. Did they scan your brain? Is it a cult? Is the building weird?<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>Are there, like, pods? Tell me there are pods.<</say>>
+<<say "Me">>Paco. Breathe.<</say>>
+
+He breathes. Audibly. I can hear him adjusting, probably sitting up from whatever couch he was melted into. There's music in the background, reggaeton, because Paco's apartment is a permanent reggaeton zone.
+
+<<say "Paco">>Okay. I'm breathing. Talk to me.<</say>>
+
+I sit on the couch. Chipi immediately materializes on my lap, because she has a sixth sense for phone calls and believes every conversation requires her presence. I rub her head. She purrs.
+
+<<say "Me">>I went. The building is normal. Regular building. There's a receptionist named Yuki who looks like she could process the apocalypse without losing her place in a spreadsheet.<</say>>
+<<say "Paco">>Hot?<</say>>
+<<say "Me">>Not the point.<</say>>
+<<say "Paco">>Never the point, always the question.<</say>>
+<<say "Me">>There's an instructor, Elena. Former neurosurgeon. She's...<</say>>
+
+I search for the word.
+
+<<say "Me">>Intense. She explained the science. All of it. How they map your consciousness. The transfer methods. The different body types.<</say>>
+<<say "Paco">>And the bodies are, what, women?<</say>>
+<<say "Me">>Mostly. The high-paying work is male-to-female transfer.<</say>>
+
+Long pause. Paco goes quiet and when Paco goes quiet you pay attention because the man generates noise the way the sun generates light, constantly, involuntarily, and you notice the absence immediately.
+
+<<say "Paco">>Hermano.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Paco">>So you're really doing this. Body swapping.<</say>>
+<<say "Me">>I'm really doing this.<</say>>
+<<say "Paco">>And you're going to be in a woman's body.<</say>>
+<<say "Me">>That's the job.<</say>>
+<<say "Paco">>Walking around with...<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>Tits, Manuel. I'm talking about tits. And the other stuff. The whole situation.<</say>>
+<<say "Me">>Yes. The whole situation.<</say>>
+
+Another pause. Shorter. Then,
+
+<<say "Paco">>This is either the wildest thing you've ever done or the smartest.<</say>>
+<<say "Me">>Can it be both?<</say>>
+<<say "Paco">>In my experience, the wildest things usually are.<</say>>
+
+He laughs, that big Paco laugh that comes from somewhere near his navel.
+
+<<say "Paco">>Okay. How do you feel?<</say>>
+
+I look at the ceiling. Chipi's purr vibrates through my thighs into the couch cushions.
+
+<<say "Me">>Like I ate too much information and not enough food. Lulu's empanadas are holding me together.<</say>>
+<<say "Paco">>Lulu's empanadas could hold the world together.<</say>>
+
+He pauses.
+
+<<say "Paco">>And the visa thing? The sponsorship?<</say>>
+<<say "Me">>If I pass the training. If they hire me. Then they file the petition. Then I stay.<</say>>
+<<say "Paco">>How long's the training?<</say>>
+<<say "Me">>Six working days. Then an assessment.<</say>>
+<<say "Paco">>And if you fail?<</say>>
+<<say "Me">>Then I have about three weeks to find someone else. Or go home.<</say>>
+<<say "Paco">>You're not going home, Manuel.<</say>>
+<<say "Me">>No.<</say>>
+<<say "Paco">>You're not going home because I didn't give you that address so you could go home. You're going to do this weird sci-fi body thing and you're going to pass their test and you're going to get your visa and then you're going to buy me dinner for once in your life.<</say>>
+<<say "Me">>Dinner at Danny's. My treat.<</say>>
+<<say "Paco">>See? Already manifesting.<</say>>
+
+He turns the music down.
+
+<<say "Paco">>Seriously though. Are you okay?<</say>>
+
+I think about it. Really think about it. The answer is complicated and I don't want complicated right now.
+
+<<say "Me">>I'll tell you more when there's more to tell.<</say>>
+<<say "Paco">>Fair enough. Get some sleep, hermano. Big week.<</say>>
+<<say "Me">>Night, Paco.<</say>>
+<<say "Paco">>Night. And Manuel?<</say>>
+<<say "Me">>Yeah?<</say>>
+<<say "Paco">>Don't let them scan anything weird. I don't trust companies with my brain data.<</say>>
+<<say "Me">>You don't trust companies with your email.<</say>>
+<<say "Paco">>EXACTLY. Buenas noches.<</say>>
+
+He hangs up. The silence rushes back in. I sit on the couch with Chipi and the Modelo and the quiet apartment and the twenty-seven days left on a clock I can't see but can always feel, ticking in the space between my ribs.
+
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+<<opt "t0_day01_evening_home" "Back to the couch">>
+<<opt "t0_day01_evening_couch" "One more beer on the couch">>

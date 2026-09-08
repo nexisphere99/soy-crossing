@@ -1,0 +1,157 @@
+/* 06-dialogue.css   spoken lines, text threads, avatars */
+
+/* ---------- Avatar ---------- */
+.avatar {
+	position: relative;
+	flex: none;
+	display: grid;
+	place-items: center;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	overflow: hidden;
+	background: hsl(var(--hue, 30) 38% 26%);
+	box-shadow: inset 0 0 0 1px hsl(var(--hue, 30) 40% 42%);
+	color: hsl(var(--hue, 30) 70% 86%);
+	font-family: var(--serif);
+	font-size: 1.05rem;
+	line-height: 1;
+	user-select: none;
+}
+.avatar img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.avatar b { font-weight: 400; }
+.avatar.has-img b { display: none; }
+
+/* ---------- In-person lines ---------- */
+.line {
+	display: flex;
+	gap: var(--s3);
+	margin: var(--s4) 0;
+	align-items: flex-start;
+}
+.line + .line { margin-top: var(--s3); }
+.line.is-cont { margin-top: 4px; }
+.line-body { min-width: 0; max-width: 84%; }
+.avatar-space { flex: none; width: 38px; }
+
+.line-who {
+	display: block;
+	margin-bottom: 3px;
+	font-size: 0.66rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: hsl(var(--hue, 30) 55% 68%);
+}
+
+.bubble {
+	background: var(--bg-2);
+	border: 1px solid var(--line);
+	border-radius: var(--r1) var(--r4) var(--r4) var(--r4);
+	padding: 0.6rem 0.95rem;
+	color: var(--ink);
+	font-size: 1rem;
+	line-height: 1.6;
+	text-align: left;   /* never justify dialogue */
+	hyphens: none;
+}
+
+/* Manuel speaking   right side, amber cast, avatar on the right */
+.line-me { justify-content: flex-end; }
+.line-me .line-body { max-width: 78%; }
+.line-me .bubble {
+	background: linear-gradient(180deg, rgba(224,135,47,0.15), rgba(224,135,47,0.08));
+	border-color: var(--amber-deep);
+	border-radius: var(--r4) var(--r1) var(--r4) var(--r4);
+	color: #f8e9d8;
+}
+.line-me.is-cont .bubble { border-radius: var(--r4); }
+.line-npc.is-cont .bubble { border-radius: var(--r4); }
+
+/* Elena's lines run cooler and tighter   she talks like a slide deck */
+.line[data-who="elena"] .bubble {
+	background: var(--bg-2);
+	border-color: rgba(107,164,216,0.28);
+	border-left: 2px solid rgba(107,164,216,0.55);
+}
+/* Rafael's are warm and open */
+.line[data-who="rafael"] .bubble {
+	border-color: rgba(92,191,146,0.24);
+	border-left: 2px solid rgba(92,191,146,0.5);
+}
+
+/* ---------- Text threads ---------- */
+.thread {
+	margin: var(--s5) 0;
+	background: var(--bg-0);
+	border: 1px solid var(--line-2);
+	border-radius: var(--r4);
+	overflow: hidden;
+	box-shadow: var(--shadow-2);
+}
+.thread-head {
+	display: flex;
+	align-items: center;
+	gap: var(--s3);
+	padding: var(--s3) var(--s4);
+	background: var(--bg-2);
+	border-bottom: 1px solid var(--line);
+	font-size: var(--fs-sm);
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	color: var(--ink);
+}
+.thread-head .avatar { width: 28px; height: 28px; font-size: 0.85rem; }
+.thread-body {
+	display: flex;
+	flex-direction: column;
+	gap: var(--s2);
+	padding: var(--s4);
+}
+
+.msg { display: flex; flex-direction: column; max-width: 82%; }
+.msg .line-body { max-width: 100%; }
+.msg-who {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 0.62rem;
+	font-weight: 700;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	color: hsl(var(--hue, 30) 55% 66%);
+}
+.msg .bubble {
+	border-radius: var(--r4) var(--r4) var(--r4) var(--r1);
+	padding: 0.5rem 0.85rem;
+	font-size: 0.95rem;
+	line-height: 1.5;
+	background: var(--bg-3);
+	border-color: var(--line-2);
+}
+.msg-in { align-self: flex-start; }
+.msg-out { align-self: flex-end; }
+.msg.is-cont { margin-top: calc(2px - var(--s2)); }
+.msg-in.is-cont .bubble  { border-radius: var(--r4); }
+.msg-out.is-cont .bubble { border-radius: var(--r4); }
+.msg-out .bubble {
+	background: linear-gradient(180deg, #b06a24, #94551c);
+	border-color: #c07c31;
+	border-radius: var(--r4) var(--r4) var(--r1) var(--r4);
+	color: #fff4e6;
+}
+
+/* messages outside a thread still read fine */
+.thread-body > .msg + .msg.msg-in,
+.thread-body > .msg + .msg.msg-out { margin-top: 0; }
+
+/* ---------- Small stage directions ---------- */
+.aside {
+	color: var(--ink-3);
+	font-style: italic;
+	font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+	.line-body, .msg { max-width: 100%; }
+	.avatar { width: 32px; height: 32px; font-size: 0.9rem; }
+}

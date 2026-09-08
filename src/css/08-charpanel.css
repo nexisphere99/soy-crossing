@@ -1,0 +1,54 @@
+/* 08-charpanel.css — right-hand character panel (charpanel.js)
+   A framed full-body portrait card floated in the bottom-right corner. Only on
+   wide windows; the reading column keeps its centring because #story reserves
+   the panel's footprint on the right. */
+
+#char-panel {
+	position: fixed;
+	right: var(--s3);
+	bottom: var(--s3);
+	width: 292px;
+	display: none;                 /* enabled by the width query below */
+	padding-bottom: var(--s3);
+	text-align: center;
+	overflow: hidden;
+	pointer-events: none;
+	user-select: none;
+	z-index: 3;
+	background: var(--bg-2);
+	border: 1px solid var(--line-3);
+	border-radius: var(--r3);
+	box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+#char-panel img {
+	display: block;
+	width: 100%;
+	max-height: 86vh;
+	object-fit: contain;
+	object-position: bottom center;
+	filter: saturate(0.95) brightness(0.94);
+	/* soften only the bottom edge so the figure melts into the card */
+	-webkit-mask-image: linear-gradient(to top, transparent, #000 6%);
+	        mask-image: linear-gradient(to top, transparent, #000 6%);
+}
+#char-panel .char-name {
+	display: block;
+	margin-top: var(--s2);
+	font-size: var(--fs-xs);
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	color: var(--ink-2);
+}
+#char-panel.no-img,
+#char-panel[hidden] { display: none !important; }
+
+/* reserve the panel's footprint on the right of #story so the passage stays
+   centred between the ui-bar and the panel (overrides SugarCube's 1.5em) */
+@media (min-width: 1380px) {
+	#char-panel { display: block; }
+	#story { margin-right: 324px; }
+}
+@media (min-width: 1620px) {
+	#char-panel { width: 332px; }
+	#story { margin-right: 364px; }
+}

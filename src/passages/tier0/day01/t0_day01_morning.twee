@@ -1,0 +1,181 @@
+:: t0_day01_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 27>>
+<<set $calendar.weekday = 1>>
+<<set $calendar.phase = "course">>
+<<run SOY.Locations.travel('apartment')>>
+<<if not $quests.main.t0_day01>><<run SOY.Quests.registerDay1()>><</if>>
+<<scene "locations/apartment-morning" "My apartment at dawn, grey October light through the blinds">>
+
+Chipi's paw lands on my left eyelid at 6:14 AM. One minute before the alarm. She's done this every morning for three years and she has never once been late.
+
+I shove her off gently and she drops to the pillow with the offended grace of a small god. The alarm goes off. I kill it. Lie there for ten seconds staring at the ceiling where the plaster has that crack shaped like the Baja Peninsula, the one I've been meaning to report to the super since February. February was three lifetimes ago.
+
+Twenty-seven days.
+
+The number sits in my chest like a stone I swallowed in my sleep.
+
+I swing my legs off the bed. Feet on cold hardwood. The apartment is dim, blinds still down, October light pushing grey fingers through the slats. Smells like nothing because I forgot to set the coffee timer again, which means manual pour-over, which means I'm already five minutes behind a schedule I don't actually have but that my anxiety has built for me anyway.
+
+Kitchen. Chipi beats me there. She sits on the counter next to the coffee grinder and stares at me with the specific contempt of an animal whose breakfast is thirty seconds late.
+
+<<say "Me">>Tranquila.<</say>>
+
+She is not tranquila.
+
+I feed her first. Wet food, the salmon kind that costs $1.89 a can and smells like a fish market in July but makes her purr so hard she vibrates the floor tiles. Then coffee. Grind, filter, kettle, pour. The routine of it is the closest thing I have to meditation. Water spiraling over grounds. Steam rising. The smell filling the kitchen like something alive.
+
+I drink it standing at the counter in boxer shorts and a t-shirt I've slept in for two nights. Eat toast over the sink. Butter, no jam, because the jam ran out on Saturday and going to the store for jam felt like too much commitment for a man whose checking account has $2,100 and whose rent is $1,400 and whose entire existence in this country has a best-before date stamped on it in bureaucratic ink.
+
+The toast is dry. The coffee is good. Chipi finishes her salmon and jumps onto my lap, except I'm standing, so she jumps onto the counter and headbutts my elbow instead. I scratch behind her ears. She closes her eyes. We stand there for a minute in the grey morning light and this is fine. This exact moment is fine.
+
+Then I look at my phone. 6:38 AM. Three emails from job boards I'm still subscribed to. A LinkedIn notification from a recruiter who definitely hasn't read my profile. And a calendar reminder I set last night,
+
+<div class="thread"><div class="thread-head"><span>Calendar</span></div><div class="thread-body"><div class="msg msg-in"><div class="line-body"><div class="bubble"><strong>8:30 AM</strong> / Shape of You Inc. / 814 Ninth Street.<br>Don't be late.</div></div></div></div></div>
+
+My stomach drops.
+
+<<opt "t0_day01_mirror" "Shower and get dressed">>
+<<opt "t0_day01_phone_morning" "Check phone messages first" "Two texts came in overnight.">>
+
+
+:: t0_day01_phone_morning [phone]
+Two texts came in overnight.
+
+Paco, at 11:47 PM,
+
+<<phone "Paco">>
+<<txt "Paco">>mañana es el día hermano. no te cagues 💪<</txt>>
+<</phone>>
+
+Translation unnecessary. The sentiment is clear even if the phrasing is Paco at his most Paco.
+
+Lyla, at 7:02 AM (she's already awake, the maniac),
+
+<<phone "Lyla">>
+<<txt "Lyla">>Morning hot stuff. My new job is making me want to walk into traffic. How's the mysterious new gig?<</txt>>
+<<txt "Me">>Starting today. Will report back.<</txt>>
+<<txt "Lyla">>If it's a cult, tell them I'm interested too.<</txt>>
+<</phone>>
+
+Three dots, then that. I almost laugh. Almost. My thumbs hover over the keyboard. I want to type something real. Something like, //I'm about to walk into a building where they're going to explain how to put my brain into a woman's body, and I'm going to listen, because rent exists and deportation exists and the intersection of those two things is apparently a door on Ninth Street.//
+
+But I don't type that. I type a thumbs up emoji and put the phone down.
+
+<<opt "t0_day01_mirror" "Shower and get dressed">>
+
+
+:: t0_day01_mirror [home]
+<<face "manuel" "Manuel González">>The shower is hot. I stand under it longer than I should because the water bill is included in rent and this is the only luxury I haven't had to cut. Steam fills the bathroom. Chipi sits on the toilet lid and watches me through the glass door like a surveillance operative who's seen some things and isn't impressed.
+
+I get out. Towel around waist. Wipe the mirror with my palm and there I am.
+
+Same face. Twenty-five years of it. Brown skin, dark hair that needs a cut. Really needs a cut; it's curling over my ears and the back touches my collar and I look like a telenovela extra who's been through something. Dark eyes with circles under them that no amount of sleep seems to fix. Jaw that my mother says is my father's jaw, strong, she says, but I just see the shadow on it from not shaving since Thursday.
+
+I'm not bad-looking. I know that the way you know facts about yourself, distantly, without much use for the information. Lyla calls me "hot stuff" but Lyla also calls her laptop "hot stuff" when it crashes, so the bar is on the ground.
+
+I get dressed. Dark jeans, clean. The navy blue henley because it's the nicest thing I own that doesn't require ironing. Boots. I look like a developer who might also fix your sink. Which is approximately what I am, minus the development job and the functioning sink.
+
+I look at myself one more time. In a few hours someone is going to explain how to put this brain, this specific consciousness, these memories, this voice, into a body that doesn't look anything like the one in this mirror. A woman's body. And I'm going to sit there and take notes on my phone and nod like it's a Tuesday standup at Brevity Labs, because I need a visa and this is the only door that hasn't closed in my face.
+
+<<say "Me">>Okay.<</say>>
+
+I say it to my reflection. My reflection says nothing helpful back.
+
+<<opt "t0_day01_hub_morning" "Out into the morning">>
+
+
+:: t0_day01_hub_morning [home]
+<<run SOY.Locations.travel('apartment')>>
+The clock over the stove says 7:19. The 34 bus comes at 8:30, and 814 Ninth Street is a twenty-minute ride from the stop. Room for one detour on the way. Not two.
+
+<<if not visited("t0_day01_lulu_morning")>>
+<<opt "t0_day01_lulu_morning" "Stop at Lulu's for something to eat" "Four blocks east. She'll feed me whether I ask or not.">>
+<</if>>
+<<opt "t0_day01_bus" "Head to the bus" "Twenty-seven days. No time to waste.">>
+
+
+:: t0_day01_lulu_morning [home]
+<<scene "locations/lulus-bodega" "Lulu's bodega on the corner of Ninth and Montclair">>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+<<set $flags.lulu_morning_visit = true>>
+<<set $npcs.lulu.flags.empanada_count += 1>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+<<run SOY.Quests.completeSide('sq_004_bodega', 'visit')>>
+
+Lulu's bodega is four blocks from my apartment, on the corner where Ninth and Montclair meet. The bell above the door has been broken since 2019 but she hung a string of Christmas bells on the handle instead, so every customer sounds like a tiny sleigh arriving.
+
+She's behind the counter in her blue apron, rosary beads swinging from the register, a newspaper spread in front of her that she's been reading with a magnifying glass because she refuses to get new prescription lenses.
+
+<<say "Lulu">>¡Mijo! You're up early for a man with no job.<</say>>
+<<say "Me">>I have a job. Starting today.<</say>>
+
+She puts down the magnifying glass. Touches her crucifix.
+
+<<say "Lulu">>¿De verdad? What kind of job?<</say>>
+<<say "Me">>Research.<</say>>
+<<say "Lulu">>Research.<</say>>
+
+She says the word like she's tasting something unfamiliar.
+
+<<say "Lulu">>Like a scientist?<</say>>
+<<say "Me">>Something like that.<</say>>
+<<say "Lulu">>Mijo, you're a computer boy. Since when do you do science?<</say>>
+<<say "Me">>Since last week.<</say>>
+
+She looks at me for a long moment. Lulu is fifty-five years old and has run this bodega for twenty-two of those years and she has a radar for bullshit that would put the TSA to shame. Her eyes narrow. Then she reaches under the counter and pulls out a wax-paper bag.
+
+<<say "Lulu">>Empanadas. Still warm. You look like you need feeding before you go do your science.<</say>>
+<<say "Me">>Lulu, I can't.<</say>>
+<<say "Lulu">>On the house. First day.<</say>>
+
+She pushes the bag across the counter. Beef and cheese. The smell alone is worth the walk.
+
+<<say "Lulu">>And get a haircut, mijo. You look like a poet. Nobody trusts a poet.<</say>>
+
+I take the empanadas. She touches my hand on the bag, quick, warm, and says,
+
+<<say "Lulu">>God watches, Manuel. You'll be fine.<</say>>
+
+I eat one empanada on the walk to the bus stop. It's perfect. Greasy and salty and the cheese pulls in long strings and burns the roof of my mouth and I don't care.
+
+<<opt "t0_day01_hub_morning" "Back out to the street">>
+
+
+:: t0_day01_bus
+<<scene "locations/bus-ninth-street" "The 34 bus, mid-morning, Ninth Street sliding past smudged windows">>
+<<run SOY.Locations.travel('street')>>
+
+The 34 bus arrives three minutes late, which in this city is practically early. I climb on, tap my card, find a seat near the middle. The bus smells like diesel and someone's breakfast sandwich and the specific metallic funk of a vehicle that's been circulating since 5 AM.
+
+My leg bounces. I press my knee down with my palm. It bounces again.
+
+Outside, the city slides past. Dry cleaners, nail salons, a Dominican barbershop where three old men are already sitting outside in folding chairs despite the fact that it's forty-eight degrees. A woman jogs past the bus at the light, ponytail swinging, earbuds in, breath clouding in the October cold. She's wearing running tights and a sports bra under an unzipped jacket and I notice, the way I always notice, and then I think about the fact that in a few hours someone is going to explain how a body like that works from the inside and my leg starts bouncing again.
+
+The guy next to me is reading a book. I can see the cover from the corner of my eye. Something about habits. Seven habits. Twelve habits. However many habits it takes to not be falling apart on a municipal bus at 8:15 in the morning. He turns a page. He looks calm. I hate him a little.
+
+My phone buzzes.
+
+Mamá. A voice note. I don't play it on the bus, not with strangers around, but I know what it says because she sends one every Monday morning. It'll be a prayer, followed by gossip about Tía Rosa, followed by "¿y cuándo me presentas a una novia?" When are you going to introduce me to a girlfriend. The same question since I was twenty-two. The answer hasn't changed. The shame about the answer hasn't either.
+
+The bus turns onto Ninth Street. My stop is four blocks away. I can see the numbers on the buildings counting up. 802. 806. 810.
+
+814.
+
+The building is nondescript. Five stories. Brick and glass. There's no sign. No logo on the door. Just a number, 814. And a small camera above the entrance that tracks me as the bus rolls past.
+
+I pull the cord. The bus stops. I stand up.
+
+Twenty-seven days. $2,100 in checking. A family in Guadalajara praying for good news. And a door that might lead somewhere or nowhere, but I can't afford nowhere, so here I am.
+
+I step off the bus. The October air bites through my henley. My breath makes a small cloud.
+
+<<say "Me">>Vámonos.<</say>>
+
+I say it, to nobody. Let's go.
+
+<<if not visited("t0_day01_bus_stranger") and SOY.Random.check(30)>>
+<<opt "t0_day01_bus_stranger" "A woman at the stop is already talking to you">>
+<<else>>
+<<opt "t0_day01_facility_arrival" "Cross to 814">>
+<</if>>

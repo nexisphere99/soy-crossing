@@ -1,0 +1,41 @@
+:: StoryCaption
+<<nobr>>
+<<if $phase is "backstory">>
+
+	<div class="cap">
+		<div class="cap-title">Shape of You<span>Crossing</span><span class="ver">v<<= setup.version>></span></div>
+		<<= setup.visaHTML($visaDays)>>
+		<div class="hud-row hud-loc">The González apartment</div>
+		<div class="hud-row">Chipi, unconcerned</div>
+	</div>
+
+<<else>>
+
+	<<set _loc = SOY.Locations.registry[$currentLocation]>>
+	<div class="hud">
+		<div class="hud-title">Shape of You<span>Crossing</span><span class="ver">v<<= setup.version>></span></div>
+		<div class="hud-row hud-when"><<= SOY.Time.dayName()>> &middot; <<= SOY.Time.currentSlot()>></div>
+		<<= setup.visaHTML($visaDays)>>
+		<div class="hud-row hud-money">$<<= State.variables.money.balance.toLocaleString()>></div>
+		<div class="hud-row hud-loc"><<= _loc ? _loc.name : $currentLocation>></div>
+		<div class="hud-row">
+			<<if SOY.Body.isTransferred()>>
+				<span class="body-chip f">&#9792; <<= State.variables.body.currentProfile.name>></span>
+			<<else>>
+				<span class="body-chip m">&#9794; Manuel</span>
+			<</if>>
+		</div>
+
+		<div class="hud-obj">
+			<<button "Objectives">><<objectivesDialog>><</button>>
+			<<set _next = SOY.Quests.nextObjective()>>
+			<<if _next>>
+				<div class="hud-next"><<= _next.text>><<if _next.where>><span class="w"><<= _next.where>></span><</if>></div>
+			<<elseif SOY.Quests.completedMain()>>
+				<div class="hud-next done"><<= SOY.Quests.completedMain().title>> - done</div>
+			<</if>>
+		</div>
+	</div>
+
+<</if>>
+<</nobr>>

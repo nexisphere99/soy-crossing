@@ -1,0 +1,22 @@
+/* 07-responsive.css */
+
+@media (max-width: 1024px) {
+	#passages .passage { padding: var(--s7) var(--s4) var(--s7); }
+}
+
+@media (max-width: 640px) {
+	#passages .passage {
+		padding: var(--s5) var(--s4) var(--s7);
+		font-size: 1rem;
+		line-height: 1.65;
+	}
+	.card .passage-title { font-size: var(--fs-2xl); }
+	.card .sub { font-size: var(--fs-base); }
+	#passages .passage h1, .passage-title { font-size: var(--fs-2xl); }
+	figure.portrait { width: 108px; }
+	.thread-body { padding: var(--s3); }
+}
+
+@media (min-width: 1600px) {
+	#passages .passage { padding-top: var(--s8); }
+}

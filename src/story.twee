@@ -1,0 +1,19 @@
+:: StoryTitle
+Shape of You: Crossing
+
+:: StoryData
+{
+	"ifid": "D674C813-3E8D-4E89-B7C0-A93E6B1A35F0",
+	"format": "SugarCube",
+	"format-version": "2.37.3",
+	"start": "Start"
+}
+
+:: StoryInit
+<<run SOY.ensureState()>>
+
+:: PassageReady
+<<run SOY.ensureState()>>
+<<if setup.visaClock && setup.visaClock[passage()] !== undefined>>
+	<<set $visaDays = setup.visaClock[passage()]>>
+<</if>>

@@ -1,0 +1,153 @@
+:: t0_day01_bus_stranger
+The woman at the bus stop is maybe sixty. Dominican, judging by the accent when she answers her phone. She's wearing a house dress under a puffer jacket and carrying a plastic bag from the pharmacy and she takes one look at me and says,
+
+<<say "Stranger">>You waiting for the 34?<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Stranger">>It's late.<</say>>
+<<say "Me">>It's always late.<</say>>
+<<say "Stranger">>Not always. Sometimes it's early and you miss it and that's worse.<</say>>
+
+She adjusts the pharmacy bag.
+
+<<say "Stranger">>Where you headed?<</say>>
+<<say "Me">>Ninth Street.<</say>>
+<<say "Stranger">>Ninth Street.<</say>>
+
+She says it like she's evaluating the street itself.
+
+<<say "Stranger">>My daughter works near Ninth Street. Hair salon. You need a haircut.<</say>>
+<<say "Me">>So I've been told.<</say>>
+<<say "Stranger">>Your mother tells you.<</say>>
+<<say "Me">>How did you...<</say>>
+<<say "Stranger">>Mothers always tell their sons. My son is forty-two and bald and I still tell him.<</say>>
+
+She laughs. It's a big laugh, warm, the kind that comes from a lifetime of finding things funny that aren't.
+
+The bus arrives. She gets on first. I follow. She sits near the front because her knees hurt and she tells me this without being asked. I sit in the middle. Through the window I can see her reflection adjusting her bag, settling in, living inside her day with the casual competence of someone who's done ten thousand days and doesn't find any of them remarkable.
+
+I wonder if she's ever thought about what it would be like to be in a different body. I wonder if she'd trade hers. I wonder if she'd trade the bad knees for something else, something younger, and then miss the knees because they're hers.
+
+The bus rattles on. She gets off at Seventh. I ride to Ninth.
+
+<<opt "t0_day01_facility_arrival" "Cross to 814">>
+
+
+:: t0_day01_senora_vidal [home]
+<<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
+<<set $npcs.senora_vidal.notes_received += 1>>
+<<set $npcs.senora_vidal.plates_received += 1>>
+<<set $flags.ate_vidal_dinner = true>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+The note is taped to my door.
+
+White paper, folded once, written in blue pen in handwriting that's either elegant or furious, depending on your interpretation,
+
+<div class="note">Manuel, Your music last night was too loud. I could hear it through the floor. Also the cat cries when you leave. You should get her a companion. Or come home earlier.<span>/S. Vidal</span></div>
+
+I didn't play music last night. I haven't played music in two weeks. What she heard was probably the podcast I fell asleep to at 11 PM about distributed computing architectures, which I will grant is a form of cruelty but not the kind she's thinking of.
+
+Señora Vidal is my downstairs neighbor. Dominican. Sixties. She communicates exclusively through notes and plates of food, which makes her either the best neighbor in the building or the most passive-aggressive, and I've spent three years trying to figure out which. The answer, I'm pretty sure, is both.
+
+I pull the note off the door. Behind it, on the doormat, is a plate covered in aluminum foil. I peel back the corner. Arroz con pollo. Still warm.
+
+<<if $flags.lulu_morning_visit>>
+Between Lulu and Señora Vidal, the women in my life are determined to feed me into submission.
+<<else>>
+At least someone in this building thinks I'm worth feeding.
+<</if>>
+
+I take the plate inside. Chipi smells the chicken immediately and abandons her salmon with the speed of a creature whose loyalty is entirely caloric.
+
+<<say "Me">>This isn't for you.<</say>>
+
+She doesn't care. She headbutts my ankle.
+
+I eat Señora Vidal's arroz con pollo at the table, in the chair that nobody else sits in, and it's good. Really good. The rice is perfect, not too soft, not too dry, seasoned with something I can't identify that makes it taste like someone's kitchen in Santo Domingo in 1987. I eat all of it. I put the empty plate by the door. Tomorrow I'll return it with a thank-you note and she'll leave another note complaining about the thank-you note being too short.
+
+This is our relationship. It works.
+
+<<opt "t0_day01_evening_home" "Head inside">>
+
+
+:: t0_day01_dannys_scene [home]
+<<scene "locations/dannys-ramen" "Danny's counter at night, steam off the bowls, pink neon in the window">>
+<<run SOY.Economy.spend(14, 'food')>>
+<<run SOY.NPCs.adjustRelationship('danny', 1)>>
+<<set $npcs.danny.flags.chashu_bonus += 1>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+Danny's at 8 PM on a Monday is empty except for me, a couple sharing a bowl of tsukemen in the corner, and Danny himself behind the counter doing something violent to a pile of green onions with a knife that's bigger than seems necessary.
+
+<<say "Danny">>Yo.<</say>>
+
+Danny doesn't look up. He doesn't need to. He knows who walks through his door by the sound of their feet, or by some ramen-shop sixth sense that borders on supernatural.
+
+<<say "Danny">>Spicy miso?<</say>>
+<<say "Me">>Spicy miso.<</say>>
+<<say "Danny">>Extra chashu?<</say>>
+<<say "Me">>I can't afford extra chashu.<</say>>
+
+He looks up. Danny Cho is thirty years old and built like a middleweight boxer and has the face of someone who's heard every sad story in the neighborhood and responds to all of them the same way, with soup. His hair is black, pushed back under a bandana, and he's got a burn scar on his left forearm that he never explains and you learn not to ask about.
+
+<<say "Danny">>Extra chashu.<</say>>
+
+Not a question this time. He turns to the stove.
+
+The K-pop today is something high-energy with a beat that vibrates the counter. I sit in my usual spot, third stool from the left, the one with the wobble that I've memorized the rhythm of, and pull out my phone.
+
+The Transfer Worker's Handbook PDF. 340 pages. Chapter 1, "Foundations of Neuroelectric Identity Mapping." I open it. Read the first paragraph. Read it again because none of it stuck. Read it a third time and this time some of it stays.
+
+Danny slides the bowl across the counter. The broth is red-gold, oily, aromatic. The noodles are buried under a layer of bean sprouts and corn and two extra slices of chashu that he charged me nothing for because Danny has his own economy and sadness is legal tender.
+
+<<say "Danny">>You look weird. Weirder than usual.<</say>>
+<<say "Me">>New job.<</say>>
+<<say "Danny">>Doing what?<</say>>
+<<say "Me">>Research.<</say>>
+<<say "Danny">>Research.<</say>>
+
+He picks up his knife. Returns to the green onions.
+
+<<say "Danny">>Last time you said "research" you were applying to forty companies and eating here three nights a week and losing weight.<</say>>
+<<say "Me">>This is different research.<</say>>
+<<say "Danny">>Different how?<</say>>
+<<say "Me">>I'll tell you when I figure it out.<</say>>
+
+He chops. I eat. The broth hits my stomach like a warm hand pressing flat against something tight, and the tightness loosens by a fraction. The noodles are perfect. Danny's noodles are always perfect because Danny approaches ramen the way Elena approaches consciousness transfer, with precision, without compromise, and with the unstated understanding that what he's doing matters even if nobody else in the room fully grasps why.
+
+I eat everything. Drink the broth from the bowl. Danny watches approvingly. In Danny's ramen shop, an empty bowl is a compliment and a half-finished one is an insult.
+
+<<say "Danny">>You're eating again. Good. Last month you were getting skinny. Skinny people make me nervous.<</say>>
+<<say "Me">>I wasn't skinny.<</say>>
+<<say "Danny">>You were getting there.<</say>>
+
+He wipes the counter.
+
+<<say "Danny">>Come back tomorrow. I'm trying a new tonkotsu recipe. You can be the guinea pig.<</say>>
+<<say "Me">>I might be late. The job.<</say>>
+<<say "Danny">>I'm open till midnight. The broth doesn't care what time you show up.<</say>>
+
+I leave money on the counter. He pushes half of it back. We do this dance every time. I leave the money he pushed back as a tip instead, which is the only way I've found to pay Danny what his food is worth without offending him.
+
+The walk home is cold. My stomach is full of soup and my head is full of everything else. A woman crosses the street ahead of me, long coat, quick stride, bag held close to her body, earbuds in. She walks the way women walk at night, fast, aware, taking up as little space as possible while covering as much ground as she can.
+
+I've never noticed that before. The walking. The way the bag stays close.
+
+Twenty-seven days. If I learn to notice everything about how a body moves through the world, if I can sit in a woman's body and feel what she feels and then come back and be normal about it, if I can do that, I get to stay.
+
+I walk home. Cold air. Full stomach. K-pop lingering in my ears like a blessing I didn't ask for.
+
+<<opt "t0_day01_arrive_home" "Head home">>
+
+
+:: t0_day02_wake [day-start]
+<<run SOY.Quests.complete('t0_day01', 'go_home')>>
+<div class="card"><h1 class="passage-title">End of the Day 1 build</h1><p class="sub">Chipi's paw finds your eyelid at 6:14 the next morning. Day 2 - the first transfer - isn't written yet.</p></div>
+
+Here's where Day 1 landed,
+
+<div class="day-recap"><<questRender>></div>
+
+Module 1, Day 2 picks up from this wake, the pod room, Clone 7-F, the first cross-gender transfer. When that content lands, this passage becomes the real Day 2 morning.
+
+<<opt "Start" "Restart from the layoff">>
