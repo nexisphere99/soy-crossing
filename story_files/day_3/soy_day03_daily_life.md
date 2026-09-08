@@ -152,7 +152,7 @@ She slides a different colored badge across the counter. Red stripe yesterday. T
 
 "Thanks."
 
-"Don't thank me, thank the schedule. And González?"
+"Don't thank me, thank the scheduleand González?"
 
 I pause.
 

@@ -26,7 +26,7 @@ I drink it standing at the counter in boxer shorts and a t-shirt I've slept in f
 
 The toast is dry. The coffee is good. Chipi finishes her salmon and jumps onto my lap, except I'm standing, so she jumps onto the counter and headbutts my elbow instead. I scratch behind her ears. She closes her eyes. We stand there for a minute in the grey morning light and this is fine. This exact moment is fine.
 
-Then I look at my phone. 6:38 AM. Three emails from job boards I'm still subscribed to. A LinkedIn notification from a recruiter who definitely hasn't read my profile. And a calendar reminder I set last night:
+Then I look at my phone. 6:38 AM. Three emails from job boards I'm still subscribed to. A LinkedIn notification from a recruiter who definitely hasn't read my profileand a calendar reminder I set last night:
 
 **8:30 AM / Shape of You Inc. / 814 Ninth Street. Don't be late.**
 
@@ -69,7 +69,7 @@ I'm not bad-looking. I know that the way you know facts about yourself, distantl
 
 I get dressed. Dark jeans, clean. The navy blue henley because it's the nicest thing I own that doesn't require ironing. Boots. I look like a developer who might also fix your sink. Which is approximately what I am, minus the development job and the functioning sink.
 
-I look at myself one more time. In a few hours someone is going to explain how to put this brain, this specific consciousness, these memories, this voice, into a body that doesn't look anything like the one in this mirror. A woman's body. And I'm going to sit there and take notes on my phone and nod like it's a Tuesday standup at Brevity Labs, because I need a visa and this is the only door that hasn't closed in my face.
+I look at myself one more time. In a few hours someone is going to explain how to put this brain, this specific consciousness, these memories, this voice, into a body that doesn't look anything like the one in this mirror. A woman's bodyand I'm going to sit there and take notes on my phone and nod like it's a Tuesday standup at Brevity Labs, because I need a visa and this is the only door that hasn't closed in my face.
 
 "Okay," I say to my reflection. My reflection says nothing helpful back.
 
@@ -134,11 +134,11 @@ The bus turns onto Ninth Street. My stop is four blocks away. I can see the numb
 
 814.
 
-The building is nondescript. Five stories. Brick and glass. There's no sign. No logo on the door. Just a number: 814. And a small camera above the entrance that tracks me as the bus rolls past.
+The building is nondescript. Five stories. Brick and glass. There's no sign. No logo on the door. Just a number: 814and a small camera above the entrance that tracks me as the bus rolls past.
 
 I pull the cord. The bus stops. I stand up.
 
-Twenty-seven days. $2,100 in checking. A family in Guadalajara praying for good news. And a door that might lead somewhere or nowhere, but I can't afford nowhere, so here I am.
+Twenty-seven days. $2,100 in checking. A family in Guadalajara praying for good newsand a door that might lead somewhere or nowhere, but I can't afford nowhere, so here I am.
 
 I step off the bus. The October air bites through my henley. My breath makes a small cloud.
 
@@ -154,7 +154,7 @@ I step off the bus. The October air bites through my henley. My breath makes a s
 
 The sky is the color of a bruise when I come out of 814 Ninth Street. Purple and yellow at the edges, going dark. October evenings arrive sudden and non-negotiable.
 
-My head is full. Overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifying. And Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
+My head is full. Overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifyingand Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
 
 I need food. I need beer. I need Chipi on my chest. But first I need to walk past something normal, so I take the long way home and stop at Lulu's.
 
@@ -168,11 +168,11 @@ The bells on the door. She looks up from her newspaper, different section now; s
 
 "The science was... a lot."
 
-She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked. Rice. Beans. Two Modelos. And the empanadas, different ones from this morning, chicken and green chile.
+She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked. Rice. Beans. Two Modelosand the empanadas, different ones from this morning, chicken and green chile.
 
 "How much?"
 
-"Twelve dollars. And you eat all of it, you hear me? You're too skinny. Your mother would be ashamed."
+"Twelve dollarsand you eat all of it, you hear me? You're too skinny. Your mother would be ashamed."
 
 "My mother is four thousand miles away."
 
@@ -252,7 +252,7 @@ I stare at that text for a while. "You deserve good things." James says stuff li
 
 **Mamá (voice note, 2:14 PM):** I play it now, low volume, phone against my ear.
 
-"Mijo, I went to church this morning and I lit a candle for you. Tía Rosa was there, she says hello, she looks terrible, she's gained weight since the thing with her gallbladder but don't tell her I said that. Your father is fine, he's fixing the neighbor's truck again, I told him to charge more but he never listens. I made pozole yesterday and I thought of you, I'll send you the recipe but you won't make it because you never make what I send you. I love you, mijo. Call me back. And when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother."
+"Mijo, I went to church this morning and I lit a candle for you. Tía Rosa was there, she says hello, she looks terrible, she's gained weight since the thing with her gallbladder but don't tell her I said that. Your father is fine, he's fixing the neighbor's truck again, I told him to charge more but he never listens. I made pozole yesterday and I thought of you, I'll send you the recipe but you won't make it because you never make what I send you. I love you, mijo. Call me backand when are you going to find a nice girl? You're twenty-five. When I was twenty-five I already had your brother."
 
 I listen to it twice. Her voice fills the kitchen like a presence. Warm and relentless and absolutely sure of things I'm not sure of at all.
 
@@ -314,7 +314,7 @@ Long pause. Paco goes quiet and when Paco goes quiet you pay attention because t
 
 "Paco."
 
-"Tits, Manuel. I'm talking about tits. And the other stuff. The whole situation."
+"Tits, Manuel. I'm talking about titsand the other stuff. The whole situation."
 
 "Yes. The whole situation."
 
@@ -358,7 +358,7 @@ I think about it. Really think about it. The answer is complicated and I don't w
 
 "Night, Paco."
 
-"Night. And Manuel?"
+"Nightand Manuel?"
 
 "Yeah?"
 

@@ -200,7 +200,7 @@ She looks directly at me. I don't know why. I keep typing.
 
 Her voice gets quieter. Not softer; quieter. Like she's delivering information she wants to make sure lands.
 
-<<say "Elena">>Female bodies run on different hormonal profiles. Estrogen, progesterone, varying levels of testosterone. When your consciousness enters a female body, you inherit the hormonal environment of that body. This affects emotional responsiveness, pain sensitivity, temperature perception, and arousal thresholds. You will feel things differently. Not more. Not less. Differently. And you will need to learn the difference between what the body is feeling and what you are choosing to feel.<</say>>
+<<say "Elena">>Female bodies run on different hormonal profiles. Estrogen, progesterone, varying levels of testosterone. When your consciousness enters a female body, you inherit the hormonal environment of that body. This affects emotional responsiveness, pain sensitivity, temperature perception, and arousal thresholds. You will feel things differently. Not more. Not less. Differentlyand you will need to learn the difference between what the body is feeling and what you are choosing to feel.<</say>>
 
 The room is very still.
 
@@ -396,7 +396,7 @@ He looks at me steadily. No pity. Something adjacent to pity that's more useful,
 <<say "Rafael">>Tell me about your family.<</say>>
 <<say "Me">>My parents are in Guadalajara. My father, Ricardo, retired mechanic. My mother, Lupita, she lights candles at church for me every week. My brother Héctor is military.<</say>>
 <<say "Rafael">>Do they know about your situation?<</say>>
-<<say "Me">>My mother knows I lost the job. She doesn't know the rest. The visa clock. She'd... she'd panic. And then she'd pray. And neither of those helps.<</say>>
+<<say "Me">>My mother knows I lost the job. She doesn't know the rest. The visa clock. She'd... she'd panicand then she'd prayand neither of those helps.<</say>>
 <<say "Rafael">>And your brother?<</say>>
 <<say "Me">>Héctor thinks I'm soft for choosing computers over something real. He's not wrong.<</say>>
 
@@ -482,11 +482,11 @@ I look at the compass on his wrist. It points in every direction. That seems rig
 
 He holds my gaze. The warmth in his face doesn't disappear. It deepens, like a fire settling into its coals.
 
-<<say "Rafael">>That's the best question anyone has asked me in this room in six months. And the honest answer is, yes, and also you will be more than you were. Whether that's a good thing depends on what you do with it.<</say>>
+<<say "Rafael">>That's the best question anyone has asked me in this room in six monthsand the honest answer is, yes, and also you will be more than you were. Whether that's a good thing depends on what you do with it.<</say>>
 
 He stands. Extends his hand. I shake it. His grip is firm and his palm is warm and the compass tattoo faces me as our hands clasp.
 
-<<say "Rafael">>Get some rest tonight, Manuel. Read chapters one through three of the handbook. And eat something. You look thin.<</say>>
+<<say "Rafael">>Get some rest tonight, Manuel. Read chapters one through three of the handbookand eat something. You look thin.<</say>>
 <<say "Me">>Everyone keeps telling me to eat.<</say>>
 <<say "Rafael">>Then eat.<</say>>
 

@@ -392,7 +392,7 @@ I pick up the water. Drink. Put it down.
 
 "Is that the only reason?"
 
-"No." I sit with it. Rafael waits. The man is built for waiting. He breathes and the silence breathes with him and neither of them pressure you. "Because I wanted to. And the wanting is the warning."
+"No." I sit with it. Rafael waits. The man is built for waiting. He breathes and the silence breathes with him and neither of them pressure you. "Because I wanted toand the wanting is the warning."
 
 He writes something down. The pen scratches on paper. He nods.
 

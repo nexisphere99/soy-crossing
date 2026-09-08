@@ -20,7 +20,7 @@ If that isn't for you, close the tab now. No judgment.
 
 <<opt "backstory_layoff" "Read the backstory" "The layoff, the visa clock, the friend who points at a door. How Manuel ends up here.">>
 
-<<opt "t0_day01_wake" "Skip the backstory &mdash; go to Tier 0" "Day 1 at Shape of You Inc. Twenty-eight days on the clock. You can read the backstory later from Restart.">>
+<<opt "t0_day01_wake" "Skip the backstory and go to Tier 0" "Day 1 at Shape of You Inc. Twenty-eight days on the clock. You can read the backstory later from Restart.">>
 
 /* Later, jump points into Tier 1+ slot in here as more <<opt>> cards. */
 
@@ -59,8 +59,6 @@ Going back to my father Ricardo, retired mechanic, thick hands, who would look a
 Going back to my mother Lupita, who lit candles at church for my success and would now light them for my return, which is a different kind of prayer.
 
 Going back to my brother Héctor, career military, who already thinks I'm soft for choosing computers over something real, and who would be right in the worst possible way.
-
-Sixty days.
 
 I said it out loud to the empty apartment.
 
@@ -295,7 +293,7 @@ Paco leaned forward.
 
 I stared at him.
 
-<<say "Paco">>Don't look at me like that. It's real. It's regulated. The company takes your consciousness and puts it in another body. A clone body. You do a job in that body, you come back, you get paid.<</say>>
+<<say "Paco">>Don't look at me like that. It's real. It's regulated. The company takes your consciousness and puts it in another body. A clone or someone else's body. You do a job in that body, you come back, you get paid.<</say>>
 <<say "Me">>That sounds insane.<</say>>
 <<say "Paco">>It is insane. It's also real and here's the part that matters to you.<</say>>
 
@@ -324,21 +322,19 @@ I tried calling. Automated system.
 
 <div class="thread"><div class="thread-head"><span>Shape of You Inc.</span></div><div class="thread-body"><div class="msg msg-in"><div class="line-body"><div class="bubble">Our offices are currently closed. Walk-in consultations are available during business hours.</div></div></div></div></div>
 
-I looked at the time. 4:17 PM. Too late to go today.
-
-Tomorrow.
+I looked at the time. 4:17 PM. Too late to go today. Maybe Tomorrow.
 
 I set the phone down. Lay back on the bed. Chipi jumped up and curled against my hip. The apartment was quiet. No one waiting for me to explain. No one to convince. No one to consult.
 
 That's the thing about being single in a crisis. Every decision is yours alone. The freedom of that is also the weight of it. There's no one to talk you into courage and no one to talk you out of fear and the space between those two things is the exact width of an empty bed.
 
-Twenty-eight days. A career in ashes. A family in Guadalajara waiting for good news I can't deliver. And a door on Ninth Street that might lead somewhere or nowhere.
+Twenty-eight days. A career in ashes. A family in Guadalajara waiting for good news I can't deliverand a door on Ninth Street that might lead somewhere or nowhere.
 
 I didn't have the luxury of nowhere.
 
 Tomorrow I go to Ninth Street.
 
-<<opt "backstory_end" "End of the backstory.">>
+<<opt "backstory_end" "Back to the reality">>
 
 
 :: backstory_end

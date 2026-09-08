@@ -4,17 +4,42 @@
 	#passages .passage { padding: var(--s7) var(--s4) var(--s7); }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
 	#passages .passage {
-		padding: var(--s5) var(--s4) var(--s7);
+		padding: var(--s6) var(--s4) var(--s7);
 		font-size: 1rem;
-		line-height: 1.65;
+		line-height: 1.62;
+		text-align: left;   /* justify reads badly on a narrow measure */
 	}
+	#passages .passage h1, .passage-title { font-size: var(--fs-2xl); }
+	.card { padding: var(--s5) 0 var(--s4); }
 	.card .passage-title { font-size: var(--fs-2xl); }
 	.card .sub { font-size: var(--fs-base); }
-	#passages .passage h1, .passage-title { font-size: var(--fs-2xl); }
-	figure.portrait { width: 108px; }
 	.thread-body { padding: var(--s3); }
+	.thread { margin: var(--s4) 0; }
+	.line, .msg { max-width: 100%; }
+	.line-body, .line-me .line-body { max-width: 100%; }
+	figure.portrait { width: 104px; margin: 0.1rem 0 var(--s3) var(--s3); }
+}
+
+@media (max-width: 440px) {
+	#passages .passage {
+		padding: var(--s4) var(--s3) var(--s6);
+		font-size: 0.98rem;
+	}
+	#passages .passage h1, .passage-title,
+	.card .passage-title { font-size: var(--fs-xl); }
+	.card .sub { font-size: var(--fs-sm); }
+	#passages .passage .opt a.link-internal,
+	#passages .passage > a.link-internal { font-size: 0.9rem; padding-left: 1.4rem; }
+	.opt-hint { padding-left: 1.4rem; font-size: 0.78rem; }
+	figure.portrait { width: 88px; }
+	.line { gap: var(--s2); }
+	.avatar { width: 30px; height: 30px; font-size: 0.85rem; }
+	.avatar-space { width: 30px; }
+	.bubble { padding: 0.5rem 0.8rem; font-size: 0.95rem; }
+	.char-card { width: 82vw; }
+	#char-toggle { height: 92px; }
 }
 
 @media (min-width: 1600px) {

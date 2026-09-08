@@ -66,7 +66,7 @@
 #### Rafael Debrief
 - Returned to own body: "The heaviness of male skeletal architecture settling back like sandbags dropped from a height."
 - Hands: closes fist, opens it. Grip strength back. Registers male hands as "one version" not "the only version."
-- Mirror discussion: "The fourth second was the one where I could have stayed." "Because I wanted to. And the wanting is the warning."
+- Mirror discussion: "The fourth second was the one where I could have stayed." "Because I wanted toand the wanting is the warning."
 - Shower discussion: "The body turned getting dressed into something intimate without my consent." Vulnerability, not fear.
 - Knock discussion: "The body signaled approach-welcome. I didn't choose that signal."
 - Rafael's framework: "Feel, note, choose. The people who fail skip step two."

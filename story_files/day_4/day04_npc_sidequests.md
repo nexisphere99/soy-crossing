@@ -32,7 +32,7 @@ My phone buzzes. James.
 
 **James** (4:23 PM): "Also fair warning, my mom made another casserole. I'm bringing you a container. You cannot say no. She asked about you by name. Manuel. She ASKED."
 
-I type back: "7 works. Tell your mom I said thank you. And hi."
+I type back: "7 works. Tell your mom I said thank youand hi."
 
 **James** (4:24 PM): "She says hi and also 'is he eating enough?' I told her yes but honestly idk man, are you eating enough?"
 

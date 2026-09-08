@@ -1,37 +1,75 @@
-/* 08-charpanel.css — right-hand character panel (charpanel.js)
-   A framed full-body portrait card floated in the bottom-right corner. Only on
-   wide windows; the reading column keeps its centring because #story reserves
-   the panel's footprint on the right. */
+/* 08-charpanel.css — collapsible character panel (charpanel.js)
+   A framed full-body portrait in a drawer that slides in from the right. A tab
+   on its left edge toggles it. On wide screens an open drawer reserves space so
+   the reading column stays centred (html.charpanel-reserve); on mobile it just
+   overlays. */
 
 #char-panel {
 	position: fixed;
-	right: var(--s3);
+	right: 0;
 	bottom: var(--s3);
-	width: 292px;
-	display: none;                 /* enabled by the width query below */
+	display: flex;
+	align-items: center;
+	z-index: 40;
+	pointer-events: none;
+	transform: translateX(calc(100% - 32px));
+	transition: transform .34s cubic-bezier(.33, 1, .68, 1);
+}
+#char-panel.open { transform: translateX(0); }
+#char-panel.no-img,
+#char-panel[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+	#char-panel { transition: none; }
+}
+
+#char-toggle {
+	pointer-events: auto;
+	flex: none;
+	width: 32px;
+	height: 108px;
+	display: grid;
+	place-items: center;
+	padding: 0;
+	background: var(--bg-3);
+	border: 1px solid var(--line-3);
+	border-right: 0;
+	border-radius: var(--r2) 0 0 var(--r2);
+	color: var(--ink-2);
+	cursor: pointer;
+	box-shadow: -10px 0 30px rgba(0, 0, 0, 0.45);
+	transition: color .15s, border-color .15s, background .15s;
+}
+#char-toggle:hover {
+	color: var(--amber-bright);
+	border-color: var(--amber-deep);
+	background: var(--bg-4);
+}
+.char-toggle-icon { font-size: 1.15rem; line-height: 1; transition: transform .34s; }
+#char-panel.open .char-toggle-icon { transform: rotate(180deg); }
+
+.char-card {
+	flex: none;
+	width: min(300px, 76vw);
+	max-height: 88vh;
 	padding-bottom: var(--s3);
 	text-align: center;
 	overflow: hidden;
-	pointer-events: none;
-	user-select: none;
-	z-index: 3;
 	background: var(--bg-2);
 	border: 1px solid var(--line-3);
-	border-radius: var(--r3);
+	border-radius: var(--r3) 0 0 var(--r3);
 	box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
-#char-panel img {
+.char-card img {
 	display: block;
 	width: 100%;
-	max-height: 86vh;
+	max-height: 84vh;
 	object-fit: contain;
 	object-position: bottom center;
 	filter: saturate(0.95) brightness(0.94);
-	/* soften only the bottom edge so the figure melts into the card */
 	-webkit-mask-image: linear-gradient(to top, transparent, #000 6%);
 	        mask-image: linear-gradient(to top, transparent, #000 6%);
 }
-#char-panel .char-name {
+.char-card .char-name {
 	display: block;
 	margin-top: var(--s2);
 	font-size: var(--fs-xs);
@@ -39,16 +77,15 @@
 	text-transform: uppercase;
 	color: var(--ink-2);
 }
-#char-panel.no-img,
-#char-panel[hidden] { display: none !important; }
 
-/* reserve the panel's footprint on the right of #story so the passage stays
-   centred between the ui-bar and the panel (overrides SugarCube's 1.5em) */
-@media (min-width: 1380px) {
-	#char-panel { display: block; }
-	#story { margin-right: 324px; }
+/* wide screens: an open drawer reserves space so the passage stays centred */
+@media (min-width: 1200px) {
+	html.charpanel-reserve #story {
+		margin-right: min(332px, 27vw);
+		transition: margin-right .34s cubic-bezier(.33, 1, .68, 1);
+	}
 }
 @media (min-width: 1620px) {
-	#char-panel { width: 332px; }
-	#story { margin-right: 364px; }
+	.char-card { width: 332px; }
+	html.charpanel-reserve #story { margin-right: 364px; }
 }

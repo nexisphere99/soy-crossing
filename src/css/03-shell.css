@@ -2,9 +2,10 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-html { background: var(--bg-1); }
+html { background: var(--bg-1); overflow-x: hidden; }
 body {
 	margin: 0;
+	overflow-x: hidden;   /* the closed character drawer sits off the right edge */
 	font-family: var(--sans);
 	font-size: var(--fs-base);
 	line-height: var(--lh-body);
