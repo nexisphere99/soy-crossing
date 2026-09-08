@@ -66,6 +66,8 @@ Chipi looked at me from the counter where she was already plotting to knock some
 
 <<opt "backstory_night" "That night.">>
 
+<div class="menu-back"><<link "Skip the backstory &rarr;" "jump_menu">><</link>></div>
+
 
 :: backstory_night [backstory]
 I ate leftover rice standing at the counter that night. The apartment was quiet in the specific way that a single person's apartment is quiet when bad news has moved in. Not the silence of peace. The silence of absence. No one to tell. No one to hold the other end of the weight.

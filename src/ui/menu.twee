@@ -1,0 +1,4 @@
+:: StoryMenu
+<<if $phase is "backstory" and passage() isnot "Start" and passage() isnot "jump_menu" and passage() isnot "backstory_decline">>
+[[Jump ahead|jump_menu]]
+<</if>>
