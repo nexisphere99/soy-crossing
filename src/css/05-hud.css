@@ -28,6 +28,18 @@
 	color: var(--ink-4);
 }
 
+.cap-skip {
+	margin-top: var(--s2);
+	padding-top: var(--s3);
+	border-top: 1px solid var(--line);
+}
+.cap-skip a {
+	font-size: var(--fs-xs);
+	letter-spacing: 0.04em;
+	color: var(--ink-3);
+}
+.cap-skip a:hover { color: var(--amber-bright); }
+
 /* ---- Visa clock ---- */
 .visa {
 	border: 1px solid var(--line-2);

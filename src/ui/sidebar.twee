@@ -7,6 +7,9 @@
 		<<= setup.visaHTML($visaDays)>>
 		<div class="hud-row hud-loc">The González apartment</div>
 		<div class="hud-row">Chipi, unconcerned</div>
+		<<if passage() isnot "Start" and passage() isnot "jump_menu" and passage() isnot "backstory_decline">>
+			<div class="cap-skip"><<link "Jump ahead &rarr;" "jump_menu">><</link>></div>
+		<</if>>
 	</div>
 
 <<else>>

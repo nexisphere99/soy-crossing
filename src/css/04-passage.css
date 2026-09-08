@@ -213,6 +213,23 @@ figure.portrait.is-missing { display: none; }
 	letter-spacing: 0.1em;
 	color: var(--ink-4);
 }
+
+/* secondary "back" link on menu passages */
+.menu-back {
+	margin-top: var(--s5);
+	text-align: center;
+}
+.menu-back a.link-internal {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: 0;
+	font: 400 var(--fs-sm)/1.4 var(--sans);
+	color: var(--ink-3);
+}
+.menu-back a.link-internal::before { content: none; }
+.menu-back a.link-internal:hover { color: var(--amber-bright); padding: 0; }
 .card .sub {
 	color: var(--ink-2);
 	font-style: italic;

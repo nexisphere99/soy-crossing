@@ -15,12 +15,24 @@ If that isn't for you, close the tab now. No judgment.
 <<opt "Start" "Back">>
 
 
+:: jump_menu [backstory]
+<div class="card"><h1 class="passage-title">Jump ahead</h1><p class="sub">Skip past what you've already read. Restart from the top anytime to see the rest.</p></div>
+
+<<opt "t0_day01_wake" "Day 1 &mdash; Shape of You Inc." "Laid off from a dev job, visa clock running, twenty-eight days left. A friend pointed at a door on Ninth Street, and I walked through it.">>
+
+/* Later: <<opt "t1_..." "Tier 1 — ...">> etc. */
+
+<div class="menu-back"><<return "&larr; Keep reading">></div>
+
+
 :: backstory_layoff [backstory]
 <<face "manuel" "Manuel González">>
 <<scene "backstory/layoff-parking-lot" "A man alone with a cardboard box in a sunlit corporate parking lot">>
 The thing about getting fired is that your body knows before your brain catches up.
 
-I was sitting in the all-hands at Brevity Labs on a Tuesday morning, coffee going cold in my hand, watching our CEO David stand at the front of the room with that face. You know the face. The one where someone has rehearsed bad news so many times it's gone smooth, like a stone rubbed between anxious fingers. He kept touching the back of his neck. He said "strategic pivot" and "difficult decisions" and "streamlining our operational focus" and my stomach dropped three floors before my brain even started translating the corporate into human.
+I was sitting in the all-hands at Brevity Labs on a Tuesday morning, coffee going cold in my hand, watching our CEO David stand at the front of the room with that face. You know the face. The one where someone has rehearsed bad news so many times it's gone smooth, like a stone rubbed between anxious fingers. He kept touching the back of his neck. 
+
+He said "strategic pivot" and "difficult decisions" and "streamlining our operational focus" and my stomach dropped three floors before my brain even started translating the corporate into human.
 
 Six people on my team. All of backend. Gone.
 
