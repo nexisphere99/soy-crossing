@@ -199,34 +199,36 @@ IMG1 Morning apartment (Day-3 black henley), IMG2 Bus ride, IMG10 Lulu's bodega
 
 # Day 4 image map
 
-Prompts: `story_files/day_4/day04_image_prompts.md`. Missing files collapse
-silently. Reused art: `locations/apartment-morning.png`,
-`locations/bus-ninth-street.png`, `locations/soy-lobby.png`,
-`locations/pod-room.png`, `locations/dannys-ramen.png`,
+Prompts: `story_files/day_4/day04_image_prompts.md`. All 12 Day 4 scene images
+are wired. Reused art: `locations/soy-lobby.png`, `locations/dannys-ramen.png`,
 `locations/lulus-bodega.png`, `mood/october-evening-walk-2.png`,
-`mood/transfer-warp.png`, `mood/apartment-night-couch.png`,
-`mood/bed-night.png`. Clone reused: Katya (`portraits/katya.png`,
-`full_body/katya.png`, `avatars/katya.png`).
+`mood/apartment-night-couch.png`. Clone reused: Katya
+(`portraits/katya.png`, `full_body/katya.png`, `avatars/katya.png`).
 
-## new files
+## new files (Day-4 specific)
 
 | File | Prompt | Used in |
 |---|---|---|
-| `slides/legal-triangle.png` | IMG-D4-03 Facility Room 3, Legal Lecture (HOST / TRANSFEREE / COMPANY circles) | `t0_day04_lecture_legal` |
-| `slides/case-studies.png` | IMG-D4-04 Case Studies Screen (white text, dollar amounts, "18 months") | `t0_day04_lecture_cases` |
-| `scenarios/living-room.png` | IMG-D4-06 Scenario 4, The Living Room | `t0_day04_scenario4_couch` |
-| `scenarios/hand-on-knee.png` | IMG-D4-07 Scenario 4, The Hand on the Knee | `t0_day04_scenario4_partner` |
+| `locations/apartment-morning-d4.png` | IMG-D4-01 Morning apartment (navy crewneck) | `t0_day04_wake` |
+| `locations/bus-ninth-street-d4.png` | IMG-D4-02 Bus observation | `t0_day04_bus` |
+| `mood/vidal-note.png` | IMG-D4-12 Señora Vidal's note on the doormat | `t0_day04_leave` |
+| `slides/legal-triangle.png` | IMG-D4-03 Legal lecture (HOST / TRANSFEREE / COMPANY) | `t0_day04_lecture_legal` |
+| `slides/case-studies.png` | IMG-D4-04 Case-studies screen | `t0_day04_lecture_cases` |
+| `locations/pod-room-d4.png` | IMG-D4-05 Katya in the pod (Day-4 framing) | `t0_day04_transfer_katya` |
+| `scenarios/living-room.png` | IMG-D4-06 Scenario 4, the living room | `t0_day04_scenario4_couch` |
+| `scenarios/hand-on-knee.png` | IMG-D4-07 Scenario 4, the hand on the knee | `t0_day04_scenario4_partner` |
+| `mood/detransfer.png` | IMG-D4-08 De-transfer disorientation | `t0_day04_detransfer` |
 | `locations/siam-corner.png` | IMG-D4-09 James at Siam Corner | `t0_day04_james_dinner` |
-| `mood/paco-night-walk.png` | IMG-D4-10 Paco Phone Call, Night Walk | `t0_day04_paco_call` |
+| `mood/paco-night-walk.png` | IMG-D4-10 Paco phone call, night walk | `t0_day04_paco_call` |
+| `mood/bed-night-d4.png` | IMG-D4-11 Solo night, bedroom | `t0_day04_solo` |
 
-## spare Day 4 prompts (no passage wired yet)
-
-IMG-D4-01 Morning apartment (Day-4 navy crewneck), IMG-D4-02 Bus observation,
-IMG-D4-05 Katya in pod (Day-4 framing), IMG-D4-08 De-transfer disorientation,
-IMG-D4-11 Solo night bedroom, IMG-D4-12 Señora Vidal's note — passages reuse
-existing shots or render the note as a styled block.
+The user's uploads arrived as `t0_day04_<passage>.png` in the img root; each was
+renamed to the path its `<<scene>>` expects and moved into `locations/`,
+`slides/`, `scenarios/` or `mood/`. Passages that had been reusing a Day 1-3
+shot (`apartment-morning`, `bus-ninth-street`, `pod-room`, `bed-night`,
+`transfer-warp`) were repointed to the new `-d4` / dedicated files.
 
 ## character avatars still on initial-letter fallback
 
 `avatars/james.png` and `avatars/mama.png` exist. `avatars/partner.png` is not
-needed — the Scenario 4 actor's lines render as prose, not `<<say>>`.
+needed , the Scenario 4 actor's lines render as prose, not `<<say>>`.

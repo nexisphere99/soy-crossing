@@ -203,7 +203,7 @@ She looks at each of us.
 
 
 :: t0_day04_transfer_katya [facility warp]
-<<scene "locations/pod-room" "The pod room, blue-white light, Katya breathing behind the glass partition">>
+<<scene "locations/pod-room-d4" "The pod room, blue-white light, Katya breathing behind the glass partition">>
 
 The pod room. Same as yesterday. Same reclined chair, same Type II headset, same blue-white light that makes everything look clinical and faintly underwater.
 
@@ -340,7 +340,7 @@ Elena's voice in my ear.
 
 
 :: t0_day04_detransfer [facility warp-out]
-<<scene "mood/transfer-warp" "The reverse: heat, compression, the narrow space, the pop">>
+<<scene "mood/detransfer" "Back in the chair, leaning forward, staring at your own hands like you're checking they belong to you">>
 <<run SOY.Body.deTransfer()>>
 <<run SOY.Body.addPhantom({ name: 'Katya', phantomSet: [
 	{ type: 'partner_touch', label: 'the ghost of a warm hand on a knee', intensity: 3 },

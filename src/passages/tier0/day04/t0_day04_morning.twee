@@ -7,7 +7,7 @@
 <<set $body.todayTransferred = false>>
 <<if not $quests.main.t0_day04>><<run SOY.Quests.registerDay4()>><</if>>
 <<run SOY.Locations.travel('apartment')>>
-<<scene "locations/apartment-morning" "The bedroom before the alarm, grey October light through the gap in the curtain">>
+<<scene "locations/apartment-morning-d4" "The bedroom before the alarm, grey October light through the gap in the curtain">>
 
 I open my eyes at 5:47. The alarm hasn't gone off yet.
 
@@ -123,6 +123,7 @@ She looks at me. Back at the spoon. Back at me. The experiment has concluded. Th
 
 :: t0_day04_leave [home]
 <<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
+<<scene "mood/vidal-note" "A folded yellow note on the HOLA doormat, cramped handwriting, a crucifix drawn in the margin">>
 
 I grab my bag. Keys. Phone. Badge, the amber one Yuki gave me yesterday that means Module 2, which means ethics, which means today is the day they teach me about boundaries by putting me in situations designed to make me cross them.
 
@@ -175,7 +176,7 @@ I put the phone away. The note goes in my pocket with the others.
 
 
 :: t0_day04_bus
-<<scene "locations/bus-ninth-street" "The 9th Street bus at 7:15, a rain-streaked window, commuters inside their own heads">>
+<<scene "locations/bus-ninth-street-d4" "The 9th Street bus at 7:15, a rain-streaked window, commuters inside their own heads">>
 <<run SOY.Economy.spend(2.75, 'transport')>>
 <<run SOY.Locations.travel('street')>>
 
