@@ -52,12 +52,24 @@ SOY.isPlayerSpeaker = function (key) {
 	return key === 'me' || key === 'manuel' || key === 'i' || key === 'manuel gonzález';
 };
 
-SOY.avatarHTML = function (key, name) {
+/* Who the player currently *is*: Manuel, or the clone he's transferred into.
+ * Drives the player's dialogue avatar and the sidebar figure. */
+SOY.playerFigure = function () {
+	try {
+		if (SOY.Body && SOY.Body.isTransferred && SOY.Body.isTransferred()) {
+			var p = (State.variables.body && State.variables.body.currentProfile) || {};
+			return { slug: p.slug || p.id || 'clone', name: p.name || 'Me' };
+		}
+	} catch (e) {}
+	return { slug: 'manuel', name: 'Manuel' };
+};
+
+SOY.avatarHTML = function (key, name, slugOverride) {
 	var sp = setup.speakers[key] || {};
 	var hue = sp.hue != null ? sp.hue : SOY.hueFor(name || key);
 	var label = (name || sp.name || key || '?').trim();
 	var initial = label.charAt(0).toUpperCase() || '?';
-	var slug = sp.slug || key.replace(/[^a-z0-9_-]/g, '');
+	var slug = slugOverride || sp.slug || key.replace(/[^a-z0-9_-]/g, '');
 	var src = 'game_files/img/avatars/' + slug + '.png';
 	return '<span class="avatar" style="--hue:' + hue + '">'
 		+ '<img src="' + src + '" alt="" '
@@ -112,10 +124,12 @@ SOY.avatarHTML = function (key, name) {
 		if (kind === 'txt') {
 			wrap.append(body);
 		} else {
-			/* in-person lines get an avatar on their own side */
+			/* in-person lines get an avatar on their own side; when the player
+			   is transferred, their avatar becomes the body they're wearing */
+			var slugOverride = me ? SOY.playerFigure().slug : null;
 			var av = cont
 				? jQuery('<span class="avatar-space">')
-				: jQuery(SOY.avatarHTML(key, name));
+				: jQuery(SOY.avatarHTML(key, name, slugOverride));
 			if (me) { wrap.append(body).append(av); }
 			else    { wrap.append(av).append(body); }
 		}

@@ -9,9 +9,7 @@
 <<run SOY.Locations.travel('apartment')>>
 <<scene "locations/apartment-morning" "The apartment before dawn, the ceiling crack that looks like Baja">>
 
-The alarm doesn't wake me. Chipi doesn't wake me. I'm already awake at 5:51, staring at the ceiling crack that looks like Baja, thinking about what it feels like to be pulled through something impossibly narrow.
-
-Sixteen hours ago Rafael said it. //In approximately sixteen hours you're going to sit in a chair and someone is going to put your consciousness into the body of a woman.// The hours ran out while I slept. Or didn't sleep. The night was a series of half-dreams where I kept reaching for things with hands that weren't mine, and every time I looked down they changed shape.
+The alarm doesn't wake me. Chipi doesn't wake me. I'm already awake at 5:51, thinking about what it feels like to be pulled through something impossibly narrow.
 
 The alarm goes off at 6:15. I kill it. Chipi, who was sleeping on the pillow next to my head like a furry surveillance unit, opens one eye, decides I'm not interesting, and closes it again.
 
@@ -98,7 +96,7 @@ I eat one empanada on the walk to the bus. Beef and cheese. Perfect. Greasy. The
 My thumb hovers over Paco's name. I want to type something. Something like: //Today they put my brain in a woman's body and I'm scared in a way I don't have vocabulary for.// Instead I type:
 
 <<phone "Paco">>
-<<txt "Me">>Day 2. Transfer day.<</txt>>
+<<txt "Me">>Transfer day.<</txt>>
 <</phone>>
 
 Three dots. Then nothing. Then three dots again. Then:

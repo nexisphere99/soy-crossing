@@ -126,14 +126,19 @@ Reused Day 1 art (no new file needed): `locations/apartment-morning.png`,
 
 ## avatars/   square
 
-`avatars/flor.png` — optional; Flor never speaks, but the `flor` speaker is
-registered so a future line falls back to art rather than an initial.
-
-## full_body/   tall
-
 | File | Who |
 |---|---|
-| `full_body/flor.png` | Clone 7-F — grey cotton training top and shorts, athletic-slim, B-cup, moles across the collarbones (shown in the character panel while transferred) |
+| `avatars/flor.png` | Clone 7-F — used for Manuel's own `<<say "Me">>` bubbles **while he is transferred into Flor** (`SOY.playerFigure()` swaps the player avatar). |
+
+## portraits/ + full_body/   while transferred
+
+| File | Where |
+|---|---|
+| `portraits/flor.png` | `<<face "flor">>` in `t0_day02_transfer_room` and `t0_day02_transfer_begins`; `<<scene "portraits/flor">>` in `t0_day02_exercise_hands` |
+| `full_body/flor.png` | right-hand character panel — auto-switches from `manuel` to `flor` on transfer, back on de-transfer |
+
+Clone 7-F look: grey cotton training top and shorts, athletic-slim, B-cup,
+moles across the collarbones.
 
 ## spare Day 2 prompts (no passage wired yet)
 

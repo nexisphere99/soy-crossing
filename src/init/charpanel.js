@@ -74,10 +74,9 @@
 	}
 
 	function currentFigure() {
-		var v = State.variables;
-		if (SOY.Body && SOY.Body.isTransferred && SOY.Body.isTransferred()) {
-			var p = (v.body && v.body.currentProfile) || {};
-			return { slug: p.slug || p.id || 'clone', name: p.name || 'Transferred' };
+		if (SOY.playerFigure) {
+			var f = SOY.playerFigure();
+			return { slug: f.slug, name: f.slug === 'manuel' ? 'Manuel' : f.name };
 		}
 		return { slug: 'manuel', name: 'Manuel' };
 	}

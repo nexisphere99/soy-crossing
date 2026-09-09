@@ -62,6 +62,7 @@ I open my eyes.
 
 <<run SOY.Body.transfer('7f', setup.clones['7f'])>>
 <<run SOY.Quests.complete('t0_day02', 'transfer')>>
+<<face "flor" "Clone 7-F &mdash; the body you're wearing">>
 
 The ceiling is the same. Same lights. Same room. But everything is different. Everything.
 
