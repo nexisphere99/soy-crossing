@@ -25,6 +25,11 @@
 				<span class="body-chip m">&#9794; Manuel</span>
 			<</if>>
 		</div>
+		<<if SOY.Body.isTransferred() and ($body.exercises and $body.exercises.length gt 0)>>
+			<div class="hud-row"><<exerciseBar>></div>
+		<<elseif SOY.Body.hasPhantoms()>>
+			<div class="hud-row hud-echo">&#10023; body echoes</div>
+		<</if>>
 
 		<div class="hud-obj">
 			<<button "Objectives">><<objectivesDialog>><</button>>

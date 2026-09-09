@@ -1,0 +1,275 @@
+:: t0_day02_facility_morning [facility]
+<<run SOY.Locations.travel('facility')>>
+<<scene "locations/soy-lobby" "The SoY lobby, Yuki at the desk, new pins on her lapel">>
+
+Yuki is at the desk. Different enamel pins today: a mushroom and a tiny wrench. She doesn't look up.
+
+<<say "Yuki">>Room 4. She's already in there.<</say>>
+
+A pause.
+
+<<say "Yuki">>Don't eat anything after eleven. Transfer slot is one-thirty.<</say>>
+<<say "Me">>I ate toast at seven.<</say>>
+<<say "Yuki">>Toast is fine. No food after eleven. Water only.<</say>>
+
+She types something. Looks at me for exactly one second.
+
+<<say "Yuki">>You look like you didn't sleep.<</say>>
+<<say "Me">>I slept.<</say>>
+<<say "Yuki">>Sure.<</say>>
+
+Back to typing.
+
+<<say "Yuki">>Go.<</say>>
+
+The hallway. My footsteps on the floor, my boots heavier than yesterday, or I'm more conscious of them because in a few hours my footsteps will sound different, will fall lighter, will be made by feet that aren't these feet.
+
+Room 4. Elena is already standing at the center of the semicircle. The screen behind her is live, showing a diagram of the Type II headset in cross-section. Tommy is in his seat, knee bouncing. Georgia is seated, composed, phone away, hands flat on her thighs. Brett has his energy drink. The two background candidates are in the back row, whispering.
+
+I sit. Third from the left. Same chair. My chair now, apparently.
+
+Elena doesn't waste time.
+
+<<say "Elena">>Today you transfer.<</say>>
+
+The room goes still. Even Brett's energy drink stops crinkling.
+
+<<opt "t0_day02_lecture_pretransfer" "The pre-transfer lecture begins">>
+
+
+:: t0_day02_lecture_pretransfer [facility]
+<<say "Elena">>Before we begin, some of you will not complete today's transfer. That is acceptable. The failsafe returns you to your body within eleven seconds. Choosing to abort is not failure. Choosing to endure something your psychology cannot handle is.<</say>>
+
+She lets that settle. Then she touches the screen.
+
+<<say "Elena">>Pre-transfer protocols. Three elements.<</say>>
+
+The screen shows a numbered list. Simple. Clinical.
+
+<<say "Elena">>One. Fasting. Your body must be in a metabolically neutral state. No food for four hours prior to transfer. Water is permitted. Caffeine is not. The reason: consciousness compression is sensitive to metabolic activity. Active digestion creates neural noise. Caffeine elevates baseline stress markers. Both reduce transfer fidelity.<</say>>
+
+She touches the second point.
+
+<<say "Elena">>Two. Clothing. You will change into a standard transfer garment before entering the headset. Loose cotton, no metal fasteners, no undergarments. The headset requires unobstructed access to four contact points: temples, base of skull, and the C7 vertebra at the top of the spine. Clothing that interferes with these contact points compromises the signal.<</say>>
+
+Third point.
+
+<<say "Elena">>Three. Mental preparation. This is the one I cannot standardize.<</say>>
+
+She crosses her arms. Looks at each of us.
+
+<<say "Elena">>Some candidates meditate. Some pray. Some stare at the wall. I do not care what you do. I care that you enter the headset with a clear understanding that you are about to leave your body and enter another, and that the body you are entering will feel different in every measurable way. You will be disoriented. You will be confused. You may be frightened. None of that is a problem. The problem is if you panic, and panic is just confusion without a frame. I am going to give you the frame.<</say>>
+
+She kills the numbered list. The screen changes to a human body diagram, female, with annotations at every major region.
+
+<<opt "t0_day02_lecture_gender" "The gender differential briefing">>
+
+
+:: t0_day02_lecture_gender [facility]
+<<scene "slides/gender-differential" "A split anatomical diagram: male body in blue, female body in rose, differential areas labelled">>
+
+<<say "Elena">>The gender differential briefing. Pay attention. This information will save you.<</say>>
+
+Her voice drops half a register. Not dramatic; precise. Like a surgeon marking incision lines before she cuts.
+
+<<say "Elena">>When a male consciousness enters a female body, the following changes occur immediately.<</say>>
+
+She points to the diagram's torso.
+
+<<say "Elena">>Center of gravity. Male bodies carry weight in the upper body, shoulders and chest. Female bodies carry weight lower, hips and pelvis. The moment you stand up in a female body, your balance will be wrong. You will sway. You will feel like the floor is tilted. This is normal. Your proprioceptive system needs thirty to ninety seconds to recalibrate. Do not try to walk during this window. Stand still. Let it settle.<</say>>
+
+She moves to the chest region.
+
+<<say "Elena">>Breast weight. Clone 7-F, your training body today, has B-cup breasts. That translates to approximately four hundred grams of additional tissue on the anterior chest wall, distributed across two separate masses that move independently. When you stand, they settle. When you walk, they shift. When you bend forward, they hang. This is not sexual information. This is physics. You need to understand the physics because the body will move in ways you did not initiate, and you need to distinguish between what the body does automatically and what you choose to do.<</say>>
+
+Tommy's knee is going at double speed. Georgia sits completely still.
+
+Elena moves to the hip region.
+
+<<say "Elena">>Hip-width gait adjustment. The female pelvis is wider. The femoral angle is different. This means your walking gait will change involuntarily. Your hips will sway. Not because you are "walking like a woman." Because the skeletal architecture produces a different mechanical output with the same muscular input. You are not performing gender. You are inhabiting a body that is structurally different from yours, and the structure dictates movement.<</say>>
+
+She pauses. Looks directly at the cohort.
+
+<<say "Elena">>Genital reconfiguration. I will be direct. When you transfer into a female body, you will not have a penis. You will have a vulva, a vaginal canal, a cervix, a uterus. The absence of your genitalia and the presence of different genitalia will be disorienting. Some candidates describe it as feeling "empty." Some describe it as feeling "compressed." A few feel nothing at all, which is its own kind of disorienting. You are not permitted to touch, explore, or investigate the genital region during training transfers. This prohibition is absolute.<</say>>
+
+The room is very quiet. Brett has stopped drinking his energy drink. One of the background candidates has his hands clasped so tightly his fingers are white.
+
+<<say "Elena">>Hormonal environment. This is the one that sneaks up on you.<</say>>
+
+Elena's voice softens by a fraction, not warmer, just quieter.
+
+<<say "Elena">>Female bodies operate on a different hormonal profile. Estrogen and progesterone affect emotional responsiveness, pain sensitivity, temperature perception. You will feel colder. Sounds may seem louder. Your emotional reactions may be more immediate, more intense, more physical. You may cry more easily. You may feel a vague sense of tenderness or vulnerability that has no specific cause. This is not weakness. This is chemistry. The body is telling you how it processes the world, and your job is to listen without following.<</say>>
+
+She shuts the screen off.
+
+<div class="prohibit">
+<h2>What NOT to do. Four prohibitions.</h2>
+<ol>
+<li><strong>No mirror use.</strong> You will be curious about what you look like. You will want to see the face in the glass. You will resist this impulse. The mirror can wait until you have built a stable internal relationship with the body. Seeing yourself from the outside before you understand yourself from the inside creates a dissociative split that is difficult to repair.</li>
+<li><strong>No genital exploration.</strong> I said this already. I'm saying it again.</li>
+<li><strong>No vocalizing until instructed.</strong> Your voice will be different. Hearing it without preparation can trigger panic in candidates who were managing fine until they heard themselves speak in someone else's voice. I will tell you when to speak.</li>
+<li><strong>No rapid movement.</strong> Quick gestures, sudden standing, running, anything fast. Your reflexes are calibrated to your body. In the new body, rapid movement will either overshoot or undershoot. You will fall, collide, or injure the clone. Move slowly. Move deliberately. Move like you're learning to move, because you are.</li>
+</ol>
+</div>
+
+She checks her watch.
+
+<<say "Elena">>Transfer slots begin at thirteen-hundred hours. You will be called individually. Until then, water only. Stay in the building. Prepare however you need to prepare.<</say>>
+
+She walks out. The door closes behind her.
+
+The room exhales.
+
+<<run SOY.Quests.complete('t0_day02', 'lecture')>>
+<<opt "t0_day02_transfer_wait" "Wait for your transfer slot">>
+
+
+:: t0_day02_transfer_wait [facility]
+<<run SOY.Locations.travel('facility')>>
+
+The hours between the lecture and my transfer slot are the longest of my life. Not the longest in a dramatic sense. The longest in the specific, grinding, clock-watching sense of a man who knows exactly what's coming and can do nothing to speed it up or slow it down.
+
+I sit in the cafeteria. Water. No coffee, Elena said no caffeine. The water tastes like nothing. I drink three cups of nothing and try to read the handbook on my phone but the words slide off my brain like oil.
+
+<<if not visited("t0_day02_tommy_cafeteria")>>
+<<opt "t0_day02_tommy_cafeteria" "Tommy drops into the chair across from you" "Four crushed paper cups on the table already.">>
+<</if>>
+<<opt "t0_day02_transfer_wait_solo" "Keep to yourself and let the clock run">>
+
+
+:: t0_day02_tommy_cafeteria [facility]
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+<<set $npcs.tommy.flags.shared_transfers = 1>>
+<<set $flags.tommy_dannys_invite = true>>
+<<face "tommy" "Tommy Watts">>Tommy is sitting at the cafeteria table with four crushed paper cups in front of him like tiny monuments to anxiety. He's filled and destroyed a fifth by the time I sit down.
+
+<<say "Tommy">>You're first.<</say>>
+<<say "Me">>Yuki told me.<</say>>
+<<say "Tommy">>I'm second.<</say>>
+
+Crush.
+
+<<say "Tommy">>So I get to sit here for another hour and think about it while you go do it.<</say>>
+<<say "Me">>Lucky you.<</say>>
+<<say "Tommy">>Yeah. Lucky me.<</say>>
+
+He stacks the crushed cups into a tower. It falls. He stacks them again.
+
+<<say "Tommy">>I keep thinking about the balance thing. Elena said thirty to ninety seconds. What if mine is longer? What if I just stand there wobbling like an idiot for five minutes?<</say>>
+<<say "Me">>Then you wobble for five minutes.<</say>>
+<<say "Tommy">>What if I fall?<</say>>
+<<say "Me">>Then you fall.<</say>>
+<<say "Tommy">>You're very calm about this.<</say>>
+<<say "Me">>I'm not calm. I'm just too scared to be nervous.<</say>>
+
+He looks at me. The tower falls again. He leaves it.
+
+<<say "Tommy">>That's either zen or insane.<</say>>
+<<say "Me">>Probably both.<</say>>
+
+Quiet. The cafeteria hum. The coffee machine doing its thing in the corner. Georgia at the next table, reading something on her phone, eating an apple core and all.
+
+Tommy lowers his voice.
+
+<<say "Tommy">>Did you read the part in the handbook about the, uh. The genital thing.<</say>>
+<<say "Me">>Which part.<</say>>
+<<say "Tommy">>The part where it says you won't have a...<</say>>
+
+He gestures vaguely below the table.
+
+<<say "Tommy">>You know.<</say>>
+<<say "Me">>Yeah. I read it.<</say>>
+<<say "Tommy">>How are you processing that?<</say>>
+
+I think about it. My hands are on the table, my hands, wide and veined and knuckled. In less than an hour these hands will be different.
+
+<<say "Me">>I'm not processing it. I'm postponing processing it until after it happens.<</say>>
+<<say "Tommy">>Smart.<</say>>
+
+He picks up a crushed cup. Uncrushes it. Crushes it again.
+
+<<say "Tommy">>My ex-girlfriend used to say I overthink everything. She was right about most things. Wrong about the important ones.<</say>>
+<<say "Me">>Is that why she's your ex?<</say>>
+<<say "Tommy">>That's why everyone's an ex, man.<</say>>
+
+He looks at the cup in his hand.
+
+<<say "Tommy">>You think they'll let us talk after? Like, compare notes?<</say>>
+<<say "Me">>Probably not during the debrief. But after, at home...<</say>>
+<<say "Tommy">>You want to grab food after? Both of us? I don't want to go home and sit with this alone.<</say>>
+<<say "Me">>Danny's. Six blocks east. Ramen. He plays K-pop too loud but the noodles are worth it.<</say>>
+<<say "Tommy">>Deal.<</say>>
+
+He crushes the cup one final time.
+
+<<say "Tommy">>If I survive.<</say>>
+<<say "Me">>You'll survive.<</say>>
+<<say "Tommy">>You don't know that.<</say>>
+<<say "Me">>Tommy. You're an EMT. You've pulled people out of car wrecks. You can survive sitting in a chair with a headset on.<</say>>
+
+He considers this. Nods. The nod that says he wants to believe it and is working on it.
+
+<<say "Tommy">>Fair point.<</say>>
+
+Pause.
+
+<<say "Tommy">>Still scared though.<</say>>
+<<say "Me">>Same.<</say>>
+
+<<opt "t0_day02_transfer_summons" "Wait it out">>
+
+
+:: t0_day02_transfer_wait_solo [facility]
+<<face "georgia" "Georgia Hayes">>Tommy finds me at 12:15 anyway.
+
+<<say "Tommy">>You're first.<</say>>
+<<say "Me">>How do you know?<</say>>
+<<say "Tommy">>Yuki told me. She told me I'm second.<</say>>
+
+He sits down. Fills a water cup from the cooler. His hands are steady but his voice isn't.
+
+<<say "Tommy">>You ready?<</say>>
+<<say "Me">>No.<</say>>
+<<say "Tommy">>Cool. Me neither.<</say>>
+
+He drinks the water in one gulp. Crushes the cup.
+
+<<say "Tommy">>What do you think it feels like? The transfer.<</say>>
+<<say "Me">>Elena said thermal shift. Pressure. Compression.<</say>>
+<<say "Tommy">>Yeah but what does she mean. Like, pressure where? Like a headache? Like being squeezed? Like...<</say>>
+<<say "Me">>I don't know, Tommy.<</say>>
+<<say "Tommy">>Right.<</say>>
+
+He fills another cup.
+
+<<say "Tommy">>Right. You don't know. I don't know. Nobody knows until they do it.<</say>>
+
+He drinks. Crushes.
+
+<<say "Tommy">>Shit.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>Shit.<</say>>
+
+Georgia passes through. Gets water. Sits at the next table. Opens her phone. Says nothing. Her presence is calming in the way a wall is calming: solid, unmoving, requiring nothing from you.
+
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+<<set $npcs.tommy.flags.shared_transfers = 1>>
+
+<<opt "t0_day02_transfer_summons" "Wait for the summons">>
+
+
+:: t0_day02_transfer_summons [facility]
+At 1:25, Yuki appears in the cafeteria doorway.
+
+<<say "Yuki">>González. Transfer room. Now.<</say>>
+
+My legs stand me up before my brain gives permission. Tommy looks at me. Nods. The nod of a man watching someone walk off a cliff and knowing he's next.
+
+<<say "Tommy">>See you on the other side.<</say>>
+<<say "Me">>Don't say it like that.<</say>>
+<<say "Tommy">>See you in, like, two hours then.<</say>>
+<<say "Me">>Better.<</say>>
+
+I follow Yuki down the hallway.
+
+<<opt "t0_day02_transfer_room" "Enter the transfer room">>

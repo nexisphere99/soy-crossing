@@ -49,6 +49,7 @@ SOY.ensureState = function () {
 	if (!v.calendar)        SOY.Time.init();
 	if (!v.npcs)            SOY.NPCs.init();
 	if (!v.body)            SOY.Body.init();
+	if (v.body && !v.body.exercises) v.body.exercises = [];
 	if (!v.money)           SOY.Economy.init();
 	if (!v.phone)           SOY.Phone.init();
 	if (!v.quests)          SOY.Quests.init();

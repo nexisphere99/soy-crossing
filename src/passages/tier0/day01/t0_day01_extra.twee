@@ -138,16 +138,3 @@ Twenty-seven days. If I learn to notice everything about how a body moves throug
 I walk home. Cold air. Full stomach. K-pop lingering in my ears like a blessing I didn't ask for.
 
 <<opt "t0_day01_arrive_home" "Head home">>
-
-
-:: t0_day02_wake [day-start]
-<<run SOY.Quests.complete('t0_day01', 'go_home')>>
-<div class="card"><h1 class="passage-title">End of the Day 1 build</h1><p class="sub">Chipi's paw finds your eyelid at 6:14 the next morning. Day 2 - the first transfer - isn't written yet.</p></div>
-
-Here's where Day 1 landed,
-
-<div class="day-recap"><<questRender>></div>
-
-Module 1, Day 2 picks up from this wake, the pod room, Clone 7-F, the first cross-gender transfer. When that content lands, this passage becomes the real Day 2 morning.
-
-<<opt "Start" "Restart from the layoff">>

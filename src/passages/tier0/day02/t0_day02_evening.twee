@@ -1,0 +1,333 @@
+:: t0_day02_evening_walk [home]
+<<run SOY.Time.ensureSlot(2)>>
+<<run SOY.Locations.travel('street')>>
+<<scene "mood/october-evening-walk" "Ninth Street at dusk, amber streetlights, leaves on the concrete">>
+
+I walk.
+
+Not to the bus. Past the bus stop, past Seventh Street, past the Dominican barbershop where the old men are gone for the evening and the chairs are folded and stacked against the wall. I walk because I need to feel my own body moving. My body. These legs, this stride, this weight pressing into the pavement with each step.
+
+But the echoes are there.
+
+My gait keeps trying to adjust. My hips want to swing wider than they should, compensating for a pelvis shape that isn't mine anymore. My center of gravity feels too high, like I'm walking on stilts when two hours ago I was walking six inches closer to the ground. I catch myself shortening my stride, then overcorrecting, taking too-long steps that feel wrong in the opposite direction.
+
+My hands. I keep looking at my hands. They're too big. Not objectively too big, they're the same hands I've had for twenty-five years, but for two hours they were smaller and softer with short fingernails and a scattering of moles, and now they're these wide blunt instruments with knuckles and hair on the fingers and I can't stop turning them over and looking at them like they belong to someone else.
+
+The cold helps. October air, sharp, biting through my grey t-shirt. My body's temperature regulation kicks in immediately, goosebumps rising on my forearms, the hair standing up. In Flor's body the cold landed differently. Sharper somehow. More immediate. Like the skin itself was thinner.
+
+I walk twelve blocks before I realize I'm heading to Danny's.
+
+<<opt "t0_day02_walk_noticing" "Keep walking">>
+
+
+:: t0_day02_walk_noticing [home]
+Three blocks from the facility. October cold. Streetlights coming on, that amber wash that turns everything the color of old photographs.
+
+A woman walks ahead of me on the sidewalk. Dark coat, boots, bag on her right shoulder. She's walking fast, the way women walk at night, and I notice things. Her stride is shorter than mine but her pace is the same because her cadence is higher, more steps per block. Her hips sway. Not a lot. Just the structural output of a female pelvis doing what it does. The exact same motion I felt in Flor's body ninety minutes ago.
+
+She shifts her bag from right shoulder to left. A man passes her going the other direction, big guy, jacket collar up, and as he passes she rotates the bag to her front, hand on the clasp, subtle, practiced, a motion she's done a thousand times without thinking about it.
+
+I've never noticed that before. The bag thing. The protective rotation. The way women rearrange themselves around the proximity of strange men, small adjustments that happen below the level of conscious thought, the same way Flor's body crossed its legs without me choosing to.
+
+The man passes. She rotates the bag back. Keeps walking. Turns left at the next block. Gone.
+
+I stand on the sidewalk for a second. My hands in my pockets. My big, heavy, male hands in the pockets of my jeans on a Tuesday night in October.
+
+I keep walking.
+
+<<opt "t0_day02_dannys" "Go to Danny's" "Twelve blocks of my own body deciding for me.">>
+<<opt "t0_day02_arrive_home" "Straight home" "Chipi's been alone all day.">>
+
+
+:: t0_day02_dannys [home]
+<<scene "locations/dannys-ramen" "Danny's counter at night, slow K-pop, steam off the bowls">>
+<<run SOY.Economy.spend(14, 'food')>>
+<<set $npcs.danny.flags.chashu_bonus += 1>>
+<<run SOY.NPCs.adjustRelationship('danny', 1)>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+The K-pop tonight is slower. Ballad territory. Danny's behind the counter slicing scallions with the precision of a man who takes green onions personally.
+
+<<say "Danny">>Yo.<</say>>
+
+He doesn't look up.
+
+<<say "Danny">>Spicy miso?<</say>>
+<<say "Me">>Spicy miso.<</say>>
+
+He glances at me. Does a double take. Sets the knife down.
+
+<<say "Danny">>You look weird, man. Weirder than usual.<</say>>
+<<say "Me">>Long day.<</say>>
+<<say "Danny">>Long day how? Like, long meeting long day? Or long existential crisis long day?<</say>>
+<<say "Me">>Somewhere in the middle.<</say>>
+
+He stares at me for another second. Danny has this thing where he looks at you like he's reading the menu that's written on your face, deciding what you actually need. Then he picks up the knife and goes back to the scallions.
+
+<<say "Danny">>Extra chashu.<</say>>
+
+Not a question.
+
+The bowl arrives. Red-gold broth, steam rising, the smell of miso and chili oil hitting my sinuses like a warm slap. I eat at the counter. Third stool from the left, the one with the wobble. The noodles are perfect. The chashu melts. The broth is hot enough to make my eyes water, or maybe that's not the broth.
+
+I eat slowly. My body feels recalibrated after the walk but still not entirely mine. When I lift the chopsticks my fingers grip them the way my fingers have always gripped chopsticks, but I keep expecting them to be smaller. Keep expecting the chopsticks to feel proportionally different in a hand that isn't here anymore.
+
+Danny slides a glass of water across the counter without being asked.
+
+<<say "Danny">>New job still going?<</say>>
+<<say "Me">>Still going.<</say>>
+<<say "Danny">>You eating enough? You look thinner.<</say>>
+<<say "Me">>Everyone keeps telling me that.<</say>>
+<<say "Danny">>Because it's true.<</say>>
+
+He wipes his hands on his apron.
+
+<<say "Danny">>Come back tomorrow. I'm testing a new tonkotsu batch. You're my guinea pig.<</say>>
+<<say "Me">>I might be late.<</say>>
+<<say "Danny">>Broth doesn't care.<</say>>
+
+I finish the bowl. Drink the broth. Leave money. Danny pushes half back. I leave it as a tip. The dance continues.
+
+<<if $flags.tommy_dannys_invite and not visited("t0_day02_tommy_after")>>
+<<opt "t0_day02_tommy_after" "Tommy's already at the counter" "Second stool from the left, staring into a bowl of tonkotsu like it has answers.">>
+<</if>>
+<<opt "t0_day02_arrive_home" "Walk home">>
+
+
+:: t0_day02_tommy_after [home]
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+<<set $npcs.tommy.flags.shared_transfers += 1>>
+<<run SOY.Quests.completeSide('sq_007_tommy', 'post_transfer')>>
+
+Tommy is already at Danny's when I arrive. He's at the counter, second stool from the left, staring into a bowl of tonkotsu like it contains answers. His hands are wrapped around the bowl for warmth. His eyes are wider than this morning.
+
+I sit. Third stool. My stool.
+
+Danny slides a menu across.
+
+<<say "Danny">>Your friend here looks like he saw Jesus.<</say>>
+<<say "Tommy">>Close.<</say>>
+
+He still hasn't eaten. The noodles are getting cold in the broth.
+
+I order the spicy miso. Danny moves to the stove.
+
+<<say "Me">>So.<</say>>
+<<say "Tommy">>So.<</say>>
+
+He picks up his chopsticks. Puts them down. Picks them up again.
+
+<<say "Tommy">>I was in there for an hour forty-five. Elena said my calibration was sixty-eight seconds.<</say>>
+<<say "Me">>Sixty-eight is fine.<</say>>
+<<say "Tommy">>Yours?<</say>>
+<<say "Me">>Forty-two.<</say>>
+<<say "Tommy">>Shit. That's fast.<</say>>
+
+He finally eats a noodle. Chews slowly.
+
+<<say "Tommy">>The walking. Did you, like. The hips.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>They just go. You don't tell them to. They just.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>Like being in a car that's steering itself. Your feet are on the pedals but the wheel is doing its own thing.<</say>>
+
+I eat. He eats. Danny plays K-pop, something mid-tempo with a bassline that vibrates the counter. We don't talk for a few minutes. The not-talking is good. It's the kind of silence that means we're both processing the same impossible thing and neither of us needs to narrate it.
+
+Then Tommy sets his chopsticks down.
+
+<<say "Tommy">>The voice thing messed me up.<</say>>
+<<say "Me">>Me too.<</say>>
+<<say "Tommy">>I said my name and this girl's voice came out. Like, this voice I'd never heard before said "Tommy" and my brain just.<</say>>
+
+He stops. Starts again.
+
+<<say "Tommy">>It's like hearing a stranger answer your phone. You know it's your phone. But the voice is wrong.<</say>>
+<<say "Me">>Did Elena let you talk for long?<</say>>
+<<say "Tommy">>Two sentences. My name, then "I am an EMT from Bridgeport." That's all. But those two sentences are going to live in my head for a while.<</say>>
+
+Danny refills our waters without being asked. He's listening. Danny always listens. He just never lets you know he's doing it.
+
+<<say "Me">>How about the rest of it?<</say>>
+
+I keep it vague. Open. Let him take it where he needs to.
+
+Tommy looks at his bowl.
+
+<<say "Tommy">>The chest thing. The breasts.<</say>>
+
+He says it quietly. Not ashamed. Just private.
+
+<<say "Tommy">>When I stood up I felt them. Just, there. On me. On the body. Whatever. Gravity pulling on something that's not supposed to be there. My brain kept wanting to look down but Elena said don't look at the mirror and I guess looking down counts.<</say>>
+<<say "Me">>It counts.<</say>>
+<<say "Tommy">>So I just felt them. Shifting when I moved. Like carrying something fragile strapped to your chest and you can't put it down.<</say>>
+<<say "Me">>That's a good way to describe it.<</say>>
+<<say "Tommy">>I've had forty minutes to think of nothing else.<</say>>
+
+He finishes his noodles. Drinks the broth. Danny watches approvingly.
+
+<<say "Tommy">>Can I ask you something weird?<</say>>
+<<say "Me">>Today's been nothing but weird.<</say>>
+<<say "Tommy">>Do you feel different? Right now? In your own body?<</say>>
+
+I hold up my hands. Turn them over. These hands. My hands.
+
+<<say "Me">>Yes.<</say>>
+
+He holds up his. Big, thick, EMT hands built for lifting gurneys.
+
+<<say "Tommy">>Me too. Like, I know these are mine. I've had them forever. But for an hour and forty-five minutes they were different, and now I can feel the difference between having these hands and having those hands, and I never noticed my hands before and now I can't stop noticing them.<</say>>
+
+We sit with that. Danny's K-pop plays. The counter vibrates. Two men in a ramen shop staring at their own hands like they've never seen them before.
+
+<<say "Tommy">>Thursday? Same place?<</say>>
+<<say "Me">>Thursday I might have plans. Friday?<</say>>
+<<say "Tommy">>Friday works.<</say>>
+
+We split the check. He doesn't argue. I leave Danny's tip. Tommy pulls on his jacket at the door.
+
+<<say "Tommy">>Manuel.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>Thanks for not making it weird.<</say>>
+<<say "Me">>Tommy, we spent two hours in women's bodies today. It's already weird.<</say>>
+
+He laughs. First genuine laugh I've heard from him. Big, startled, like it escaped against his will. He walks east. I walk west. The cold air tastes like exhaust and November approaching and the lingering phantom of a body that isn't mine anymore.
+
+<<opt "t0_day02_arrive_home" "Walk home">>
+
+
+:: t0_day02_evening_home [home]
+<<run SOY.Locations.travel('apartment')>>
+<<run SOY.Quests.complete('t0_day02', 'go_home')>>
+<<scene "mood/apartment-night-couch" "The apartment at night, one kitchen light, the cat on the couch">>
+
+<<if visited("t0_day02_evening_home") lte 1>>
+The apartment. Chipi at the door, same position, same offended stare. I pick her up. She allows it for exactly three seconds before squirming free and jumping to the counter.
+
+I feed her. Crack a Modelo. Stand at the counter and drink it and stare at the wall above the stove where there's a grease stain from the time I tried to make my mother's chiles rellenos and the oil popped and I flinched and dropped the whole pan.
+
+The beer is cold. My apartment is warm. Chipi eats. The radiator ticks. Normal sounds. My sounds. Except everything is louder than it was this morning, or I'm more aware of it. My own breathing is deeper, coming from a wider chest. When I swallow the beer my throat feels thick. My adam's apple moves in a way I never noticed before because I never had a frame of reference for a throat without one.
+
+I sit on the couch. Chipi jumps up. Settles on my chest.
+
+Here's the thing. Three kilograms of cat on my chest. Warm, purring, her paws kneading the fabric of my t-shirt. I feel her weight on my flat chest and my brain sends a phantom signal, brief, barely there, expecting the pressure to land differently. Expecting something between Chipi's paws and my ribs that isn't there. Softness. Give. The slight redistribution of weight that happens when you press on a chest that has breasts.
+
+The phantom passes. My chest is flat. My chest has always been flat. But for two hours it wasn't, and my nervous system hasn't finished updating the file.
+<<else>>
+Back inside. The Modelo's gone warm on the counter. Chipi reclaims my chest without asking.
+<</if>>
+
+<<opt "t0_day02_evening_phone" "Check phone">>
+<<if not visited("t0_day02_evening_couch_sit")>>
+<<opt "t0_day02_evening_couch_sit" "Just sit with it" "The apartment, the cat, the phantom. Do nothing.">>
+<</if>>
+<<opt "t0_day02_shower_night" "Shower and get ready for bed">>
+<<opt "t0_day02_sleep" "Go straight to bed">>
+
+
+:: t0_day02_evening_couch_sit [home]
+I sit with Chipi on my chest and the beer in my hand and the apartment around me and I do nothing. I think about nothing. I watch the ceiling and the Baja Peninsula crack and I breathe.
+
+In through the nose. My nose. My nostrils, which are wider than Flor's, which pull in more air per breath, which smell the apartment differently. Modelo. Cat food. The ghost of last night's rice and beans. Laundry I should do. The specific smell of a man who's been sweating through a consciousness transfer for two hours and then walking twelve blocks in October.
+
+I should shower. I will shower. In a minute. For now I'm just going to sit here and remember what it feels like to be in this body, in this specific body, in this apartment, on this couch, with this cat, on this Tuesday night in October with twenty-six days left on a clock that might not matter anymore if I keep passing.
+
+Chipi purrs. The radiator ticks. I close my eyes.
+
+When I open them it's 9:47 PM. I fell asleep on the couch. Chipi has migrated to my lap. The Modelo is warm in my hand. My neck hurts from the couch angle. My body feels fully mine again, heavy and blunt and angular and mine.
+
+<<opt "t0_day02_evening_phone" "Check phone">>
+<<opt "t0_day02_shower_night" "Shower and go to bed">>
+
+
+:: t0_day02_shower_night [home]
+The shower is different tonight.
+
+Not the water, not the temperature, not the pressure. The shower itself is the same shower it's always been. What's different is me in it. I stand under the water and I'm aware of my body in a way I wasn't yesterday. The width of my shoulders. The flat plane of my chest where the water runs straight down without interruption, without the detour it took in Flor's body where it hit the curve of the breast and split into two streams. The way the water hits my hips, which are narrow, which don't flare, which are just bones and muscle and skin in a straight line from ribs to thigh.
+
+My hand rests on my chest for a second. Flat. No weight. No give. Just pectoral muscle and rib and the steady thud of my heart underneath. Two hours ago this chest was different. Two hours ago this hand would have felt something there, something soft and warm and heavy enough to shift when I moved.
+
+I take my hand off my chest. Finish the shower. Towel off. Stand in front of the fogged mirror and wipe it and look at myself. Same face. Same body. But the face knows something it didn't know yesterday. The body remembers a shape it tried on for two hours and can't quite forget.
+
+I brush my teeth. Pull on boxers and the t-shirt I slept in last night. Crawl into bed. Chipi takes her spot at my hip.
+
+<<opt "t0_day02_sleep" "Sleep">>
+<<if not visited("t0_day02_evening_phone")>>
+<<opt "t0_day02_evening_phone" "Check phone first">>
+<</if>>
+
+
+:: t0_day02_sleep [home]
+<<run SOY.Locations.travel('apartment')>>
+The bed is too big. Still too big. Left side, Chipi, unused pillow, ghost of a person I haven't met.
+
+I lie on my back. Close my eyes. The day replays.
+
+Elena's voice: //The thermal shift will feel like pressure behind your eyes. Don't fight it.//
+
+The heat. The compression. The narrow place. Then Flor's body, opening around me like a room I'd never been in.
+
+Hands. Small hands. Short nails. Moles on the collarbones I could feel but not see.
+
+The hip sway that happened without my permission. My name in a voice that wasn't mine.
+
+The t-shirt exercise. Fabric catching on breasts. The weight of them settling when the shirt came off. Brief. Heavy. Real.
+
+Then back. My body. Heavier. Louder. Blunter. Like stepping off a violin and back onto a drum.
+
+My hand drifts to my chest again in the dark. Flat. The phantom is quieter now. Barely a whisper. But it's there. My nervous system filing a report it doesn't know how to label.
+
+I don't act on anything. I'm not aroused. I'm not confused. I'm just aware. Aware of this body in a way I've never been before, because now I have exactly one other body to compare it to, and the comparison makes both of them specific instead of default.
+
+Chipi purrs. I put my hand on her back instead of my chest. The vibration travels through my palm into my wrist. Small engine. Warm. Alive.
+
+Twenty-six days. Tomorrow is Day 3. Tomorrow there's a new body. Tomorrow things get harder.
+
+<<opt "t0_day02_handbook_night" "Read the handbook first" "Chapter 4. Post-transfer somatic processing.">>
+<<opt "t0_day02_sleep_final" "Let sleep take me">>
+
+
+:: t0_day02_handbook_night [home]
+<<set $flags.handbook_read_day2 = true>>
+
+I pull out my phone. The Transfer Worker's Handbook. 340 pages. I managed three yesterday before Chipi fell asleep on my chest and my brain quit. Tonight I go further.
+
+<h2>Chapter 4: Post-Transfer Somatic Processing</h2>
+
+<div class="quote">The first de-transfer is rarely the hardest. It is the hours following the first de-transfer that challenge most candidates. The body remembers shapes it has worn. Neural pathways activated during transfer do not immediately reset upon return to the natal body. Candidates may experience phantom weight distribution, gait adjustment echoes, proprioceptive confusion (reaching for objects with calibration appropriate to the transfer body rather than the natal body), and a general sense of unfamiliarity with their own physical form.</div>
+
+I stop reading. Put the phone on my chest. Chipi is curled at my hip, one paw resting on my thigh. The words on the screen are describing exactly what I've been feeling since 4 PM. The gait adjustment. The hand confusion. The flat chest that my nervous system keeps expecting to be different.
+
+<div class="quote">These sensations are normal and temporary. They typically resolve within twenty-four to forty-eight hours after a single transfer. With repeated transfers, the resolution period may shorten as the brain develops a more flexible somatic map. Alternatively, in a minority of candidates, the resolution period may extend, as the brain begins to maintain parallel somatic maps: one for the natal body, one for the most recent transfer body.</div>
+
+Parallel somatic maps. My body and Flor's body, existing simultaneously in my nervous system like two radio stations playing at once. Right now the signal is mostly mine, my station, my frequency. But the other station is there, faint, bleeding through. The phantom chest weight. The hip sway echo. The hands that feel too big.
+
+<div class="quote">Candidates experiencing persistent somatic echoes beyond forty-eight hours should report to their evaluator. Persistence is not pathological. It is data.</div>
+
+I read two more chapters. The words blur. My phone battery hits 12%. I plug it in, set it on the nightstand, and lie in the dark.
+
+Chipi adjusts. Her paw lands on my stomach. Her purr is a low constant, a vibration I can feel through the mattress.
+
+I put both hands flat on my own chest. Left hand. Right hand. Ten fingers spread across a flat ribcage with a heartbeat underneath. My heartbeat. My chest. My body. The one I was born in, the one I grew up in, the one that sat in forty-one interviews and ate Lulu's empanadas and slept in this too-big bed for three and a half years.
+
+It feels specific tonight. Not default. Specific. Like one of several options rather than the only possibility. That's new. That's the thing I can't name. My body was always just my body, the water I swam in, invisible because it was everywhere. Now it's a glass of water sitting on a table. I can see the shape of it. I can see the edges.
+
+I take my hands off my chest. Close my eyes.
+
+Tomorrow there's a new body. Tomorrow the water changes shape again.
+
+Chipi's purr carries me under. The last thought before sleep is the sensation of Flor's hands holding a pen, the letters coming out smaller than mine, the precision of fingers that traded strength for accuracy. Then the thought dissolves and I'm gone.
+
+<<opt "t0_day02_sleep_final" "Sleep">>
+
+
+:: t0_day02_sleep_final
+<<if $calendar.day is 2>>
+	<<run SOY.Time.ensureSlot(3)>>
+	<<run SOY.Time.advance()>>
+	<<run SOY.Body.decayPhantoms()>>
+<</if>>
+<<run SOY.Locations.travel('apartment')>>
+
+I fall asleep with Chipi's purr in my ear and the phantom weight of breasts I wore for two hours and the specific gravity of my own body pressing me into a mattress that's still too big for one person.
+
+<<opt "t0_day03_wake" "Day 3">>

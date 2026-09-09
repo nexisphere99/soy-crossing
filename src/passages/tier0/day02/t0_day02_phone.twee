@@ -1,0 +1,329 @@
+:: t0_day02_arrive_home
+<<if not visited("t0_day02_senora_vidal") and SOY.Random.check(50)>>
+<<goto "t0_day02_senora_vidal">>
+<<else>>
+<<goto "t0_day02_evening_home">>
+<</if>>
+
+
+:: t0_day02_senora_vidal [home]
+<<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
+<<set $npcs.senora_vidal.notes_received += 1>>
+
+Another note on the door. Blue pen. Same handwriting.
+
+<div class="note">Manuel: The cat was crying again at 3 PM. She sounded upset. Are you feeding her enough? Also, I heard footsteps above me at 11:30 last night. Were you pacing? If you are having trouble sleeping, I have chamomile tea. Knock on my door before 9 PM. After 9 PM I am asleep and do not wish to be disturbed.<span>/S. Vidal</span></div>
+
+No plate this time. Just the note. The notes are getting longer. Señora Vidal's notes track with her concern level. Short notes mean she's mildly annoyed. Long notes mean she's worried but can't say so directly because worry is a vulnerability and Señora Vidal does not do vulnerability. She does notes.
+
+Chipi was crying at 3 PM because Chipi cries every day at 3 PM. It's her schedule. She cries, then she naps, then she knocks something off the counter. The cycle of life.
+
+I was pacing at 11:30 because I was reading the handbook and my legs needed to move. Guilty as charged.
+
+I should bring her something. A thank-you. Not a note. Something real. Empanadas from Lulu's, maybe. Or flowers. Can you bring your neighbor flowers without it being weird? Is that a thing men do for sixty-year-old Dominican women who leave passive-aggressive notes and unsolicited dinner plates?
+
+I'll figure it out tomorrow.
+
+<<opt "t0_day02_evening_home" "Go inside">>
+
+
+:: t0_day02_evening_phone [phone]
+<<set _jamesDone = visited("t0_day02_james_reply")>>
+<<set _mamaDone = visited("t0_day02_mama_voicenote")>>
+<<set _lylaDone = visited("t0_day02_lyla_call") or visited("t0_day02_lyla_text_dodge")>>
+<<set _pacoDone = visited("t0_day02_paco_call") or visited("t0_day02_paco_text_reply")>>
+
+<<if visited("t0_day02_evening_phone") lte 1>>
+Phone check. A few things waiting.
+<<else>>
+The phone again.
+<</if>>
+
+<<if not _jamesDone>>
+<<phone "James">>
+<<txt "James">>Thursday still good? Found this Thai place on 12th, rated 4.7 stars. They do a green curry that looks insane.<</txt>>
+<</phone>>
+<<opt "t0_day02_james_reply" "Answer James" "3:14 PM. He's been holding the reservation in his head all day.">>
+<</if>>
+
+<<if not _mamaDone>>
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 1:48 PM<</txt>>
+<</phone>>
+<<opt "t0_day02_mama_voicenote" "Mamá's voice note" "Short one today. She's at the market.">>
+<</if>>
+
+<<if not _pacoDone>>
+<<phone "Paco">>
+<<txt "Paco">>???<</txt>>
+<<txt "Paco">>well???<</txt>>
+<<txt "Paco">>DID YOU DO IT<</txt>>
+<<txt "Paco">>are you a woman right now<</txt>>
+<<txt "Paco">>if you're a woman right now text me a secret women's code word so I know<</txt>>
+<<txt "Paco">>like "moisturizer" or "brunch"<</txt>>
+<</phone>>
+<<opt "t0_day02_paco_evening" "Deal with Paco" "6:47 PM and escalating.">>
+<</if>>
+
+<<if not _lylaDone>>
+<<phone "Lyla">>
+<<txt "Lyla">>&#9742; Incoming call &middot; 9:22 PM<</txt>>
+<</phone>>
+<<opt "t0_day02_lyla_call" "Answer Lyla" "Not a text. A call.">>
+<<opt "t0_day02_lyla_text_dodge" "Let it ring, text her instead">>
+<</if>>
+
+<<opt "t0_day02_evening_home" "Put the phone down">>
+
+
+:: t0_day02_james_reply [phone]
+<<set $npcs.james.flags.guilt_dinners += 1>>
+<<run SOY.Quests.completeSide('sq_003_james', 'respond')>>
+
+<<if $flags.james_dinner_thursday>>
+<<run SOY.NPCs.adjustRelationship('james', 1)>>
+<<phone "James">>
+<<txt "James">>Thursday still good? Found this Thai place on 12th, rated 4.7 stars.<</txt>>
+<<txt "Me">>Still good. 7?<</txt>>
+<<txt "James">>Perfect. My treat obviously.<</txt>>
+<</phone>>
+
+Obviously.
+<<else>>
+<<phone "James">>
+<<txt "James">>Thursday still good? Found this Thai place on 12th.<</txt>>
+<<txt "Me">>Rain check still standing. Next week for sure.<</txt>>
+<<txt "James">>No rush! Anytime!<</txt>>
+<</phone>>
+
+Two exclamation marks. That's how James's guilt punctuates.
+<</if>>
+
+<<opt "t0_day02_evening_phone" "Back to the phone">>
+
+
+:: t0_day02_mama_voicenote [phone]
+<<run SOY.Quests.completeSide('sq_005_mama', 'respond')>>
+
+I hold the phone to my ear. Low volume.
+
+She's at the market. I can hear the noise behind her, vendors calling, music from a stall, the specific chaos of a Guadalajara mercado.
+
+<<say "Mamá">>Mijo, just thinking of you. I bought chayotes, your favorite. Call me, okay? Besos.<</say>>
+
+Chayotes are not my favorite. They've never been my favorite. She says they are because she likes them and has decided I do too. I love her for this. I don't call back. Wednesday. I'll call Wednesday.
+
+<<opt "t0_day02_evening_phone" "Back to the phone">>
+
+
+:: t0_day02_paco_evening [phone]
+<<opt "t0_day02_paco_call" "Call Paco">>
+<<opt "t0_day02_paco_text_reply" "Text back instead">>
+
+
+:: t0_day02_paco_call [phone]
+<div class="callbar">&#9742; Paco Herrera &middot; connected</div>
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+Paco picks up before the first ring finishes.
+
+<<say "Paco">>¿Y?<</say>>
+<<say "Me">>I did it.<</say>>
+<<say "Paco">>You did the thing. The body thing.<</say>>
+<<say "Me">>I did the body thing.<</say>>
+<<say "Paco">>¡COÑO!<</say>>
+
+The sound of something falling over. Probably him jumping off the couch.
+
+<<say "Paco">>Tell me. Everything. Right now. Don't skip anything.<</say>>
+
+I tell him. Not everything. Not the compression, not the narrow place, not the exact sensation of breasts shifting under a t-shirt. But the broad strokes. The headset. The heat. Opening my eyes in a different body. The hands. The walking. The voice.
+
+He's quiet through most of it. Paco quiet. Which means the ocean is flat and something big is underneath.
+
+<<say "Paco">>The voice. You said your name and a woman's voice came out.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Paco">>What did that feel like?<</say>>
+<<say "Me">>Like hearing someone else answer my phone.<</say>>
+<<say "Paco">>Mierda.<</say>>
+
+Long breath.
+
+<<say "Paco">>So you were in there for two hours. Walking around. In this woman's body.<</say>>
+<<say "Me">>Clone. Not a woman. No person inside.<</say>>
+<<say "Paco">>Right, right, the clone thing. But it looked like a woman.<</say>>
+<<say "Me">>It looked like a woman and felt like a woman and had all the, you know.<</say>>
+<<say "Paco">>The equipment.<</say>>
+<<say "Me">>The equipment.<</say>>
+<<say "Paco">>The full equipment.<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>I'm just clarifying! Did you, like, look? At the equipment?<</say>>
+<<say "Me">>No. That's not allowed. That's literally rule number two. No genital exploration.<</say>>
+<<say "Paco">>They have a rule about that.<</say>>
+<<say "Me">>They have a rule about everything.<</say>>
+<<say "Paco">>Makes sense.<</say>>
+
+Pause.
+
+<<say "Paco">>Makes terrifying sense.<</say>>
+
+Another pause.
+
+<<say "Paco">>How do you feel now? In your body?<</say>>
+
+I look at my hands. My hands. I've been looking at my hands all evening.
+
+<<say "Me">>Heavy. My body feels heavy. Not tired. Heavy. Like someone turned up the weight dial. Everything is bigger and thicker and louder. My own voice sounds deeper than it did this morning. I keep bumping into things because I think I'm smaller than I am.<</say>>
+<<say "Paco">>That's wild.<</say>>
+<<say "Me">>Wild is one word.<</say>>
+<<say "Paco">>What's another word?<</say>>
+
+I think about it. Chipi is on the couch next to me, paw on my thigh, purring.
+
+<<say "Me">>Educational.<</say>>
+<<say "Paco">>Educational.<</say>>
+
+He laughs. Short, surprised.
+
+<<say "Paco">>You're telling me you spent two hours in a woman's body and the word you pick is educational.<</say>>
+<<say "Me">>I don't have better words yet.<</say>>
+<<say "Paco">>Get better words. I want the movie version. With subtitles.<</say>>
+<<say "Me">>Goodnight, Paco.<</say>>
+<<say "Paco">>Goodnight, hermano. Call me tomorrow after round two.<</say>>
+<<say "Me">>It's a different body tomorrow.<</say>>
+<<say "Paco">>A DIFFERENT, Manuel, how many bodies do they have?<</say>>
+<<say "Me">>Three. For training.<</say>>
+<<say "Paco">>Three women's bodies and you're going to be in all of them.<</say>>
+<<say "Me">>That's the job.<</say>>
+<<say "Paco">>That's insane. That's absolutely, completely, totally insane.<</say>>
+
+Beat.
+
+<<say "Paco">>But you're staying, right? This is working? The visa?<</say>>
+<<say "Me">>If I pass.<</say>>
+<<say "Paco">>You'll pass. You calibrated in forty-two seconds. That's fast, right?<</say>>
+<<say "Me">>That's fast.<</say>>
+<<say "Paco">>You'll pass.<</say>>
+
+His voice is firm. The joke mode is off. Underneath the noise, Paco is the most serious person I know.
+
+<<say "Paco">>Get some sleep. Eat something. Call me tomorrow.<</say>>
+<<say "Me">>Tomorrow.<</say>>
+<<say "Paco">>Buenas noches, Manuel.<</say>>
+<<say "Me">>Buenas noches.<</say>>
+
+<<opt "t0_day02_evening_phone" "Back to the phone">>
+
+
+:: t0_day02_paco_text_reply [phone]
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+<<phone "Paco">>
+<<txt "Me">>Back in my own body. Transfer done.<</txt>>
+<<txt "Paco">>AND???<</txt>>
+<<txt "Me">>It was... a lot. I'll call you tomorrow with details.<</txt>>
+<<txt "Paco">>DETAILS. I want DETAILS. Did you have boobs?<</txt>>
+<<txt "Me">>Goodnight Paco.<</txt>>
+<<txt "Paco">>that's a yes<</txt>>
+<<txt "Paco">>I'm interpreting silence as boobs<</txt>>
+<<txt "Paco">>BUENAS NOCHES HERMANA<</txt>>
+<<txt "Paco">>that was a joke. hermano. you know what I mean.<</txt>>
+<<txt "Paco">>sleep well 🫡<</txt>>
+<</phone>>
+
+<<opt "t0_day02_evening_phone" "Back to the phone">>
+
+
+:: t0_day02_lyla_call [phone]
+<div class="callbar">&#9742; Lyla &middot; connected</div>
+<<run SOY.NPCs.adjustRelationship('lyla', 1)>>
+<<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
+
+<<say "Lyla">>MANUEL.<</say>>
+<<say "Me">>Lyla.<</say>>
+<<say "Lyla">>I've been texting you since yesterday and you've given me nothing. Nothing! I'm getting more information from spam emails. At least they tell me what they're selling.<</say>>
+<<say "Me">>I told you. Research. Biometric.<</say>>
+<<say "Lyla">>Those words mean literally zero things combined. I looked it up. "Biometric research consultant" returns three LinkedIn profiles and two of them are in Belarus. What are you doing?<</say>>
+
+I'm on the couch. Chipi is on my lap. The apartment is dark except for the kitchen light. My body still feels recalibrated. My voice sounds like my voice and the relief of that hasn't worn off yet.
+
+<<say "Me">>I can't tell you the specifics yet.<</say>>
+<<say "Lyla">>Yet. You keep saying yet. Give me a timeline. When is "yet"?<</say>>
+<<say "Me">>When I know more.<</say>>
+
+<<if $npcs.lyla.flags.suspicion gte 2>>
+<<say "Lyla">>Manuel González.<</say>>
+
+Her voice drops. Serious Lyla. Rare.
+
+<<say "Lyla">>Are you in trouble?<</say>>
+<<say "Me">>No.<</say>>
+<<say "Lyla">>Because if you're in trouble, you tell me. That's the deal. We walked out of Brevity together carrying our sad boxes and you said "if either of us is ever in trouble" and I said "we tell each other" and you said "deal" and I don't break deals, Manuel.<</say>>
+<<say "Me">>I remember.<</say>>
+<<say "Lyla">>Are you in trouble?<</say>>
+<<say "Me">>No. I'm not in trouble. The job is real. It's legitimate. It's just... unusual.<</say>>
+<<say "Lyla">>Unusual how?<</say>>
+<<say "Me">>Unusual in a way I can't explain over the phone at ten o'clock at night.<</say>>
+
+Long pause. I can hear her breathing. I can hear her thinking, which with Lyla is practically audible, gears turning behind her eyes.
+
+<<say "Lyla">>Friday. I'm coming over. Wine. You're going to sit on that ugly couch of yours and you're going to tell me something real or I'm going to start following you to work.<</say>>
+<<say "Me">>You wouldn't.<</say>>
+<<say "Lyla">>Try me.<</say>>
+
+<<set $flags.lyla_friday_visit = true>>
+<<set $npcs.lyla.flags.suspicion += 1>>
+<<else>>
+<<say "Lyla">>Is it at least paying well?<</say>>
+<<say "Me">>It will. If I pass the training.<</say>>
+<<say "Lyla">>Training for what? See, this is what I mean. Every answer creates two more questions. You're like a Wikipedia rabbit hole except less informative.<</say>>
+<<say "Me">>I'll tell you more soon. I promise.<</say>>
+<<say "Lyla">>You promise.<</say>>
+<<say "Me">>I promise.<</say>>
+<<say "Lyla">>Fine. But soon has an expiration date, Manuel. My patience is not unlimited.<</say>>
+
+Pause.
+
+<<say "Lyla">>How are you though? For real. Not job stuff. Just you.<</say>>
+<<say "Me">>Tired. Long day.<</say>>
+<<say "Lyla">>Eat something?<</say>>
+<<say "Me">>Danny's.<</say>>
+<<say "Lyla">>Good. The ramen guy loves you. In a platonic, broth-based way.<</say>>
+
+She yawns.
+
+<<say "Lyla">>Okay. I'll stop harassing you. For tonight. Tomorrow I resume.<</say>>
+<<say "Me">>Goodnight, Lyla.<</say>>
+<<say "Lyla">>Goodnight, hot stuff. Tell Chipi I say meow.<</say>>
+
+<<set $npcs.lyla.flags.suspicion += 1>>
+<</if>>
+
+<<opt "t0_day02_sleep" "Go to bed">>
+<<opt "t0_day02_evening_couch_sit" "One more beer on the couch">>
+
+
+:: t0_day02_lyla_text_dodge [phone]
+<<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
+<<set $npcs.lyla.flags.suspicion += 2>>
+
+I let it ring. Five rings. Six. Voicemail.
+
+I text instead:
+
+<<phone "Lyla">>
+<<txt "Me">>Hey, in bed already. Early day tomorrow. Talk soon?<</txt>>
+<<txt "Lyla">>You're dodging me.<</txt>>
+<<txt "Me">>I'm tired.<</txt>>
+<<txt "Lyla">>You're tired AND dodging me. Those aren't mutually exclusive.<</txt>>
+<<txt "Lyla">>Fine. But I'm keeping score, Manuel. The dodge count is at 3.<</txt>>
+<<txt "Me">>There's a dodge count?<</txt>>
+<<txt "Lyla">>There's always been a dodge count. You just didn't know because I'm generous.<</txt>>
+<<txt "Me">>Goodnight Lyla.<</txt>>
+<<txt "Lyla">>Goodnight Manuel. Sleep well. Dream of telling your best friend literally anything about his life.<</txt>>
+<<txt "Lyla">>her* life. I'm her. I'm the best friend.<</txt>>
+<<txt "Lyla">>you know what I mean<</txt>>
+<<txt "Lyla">>GOODNIGHT<</txt>>
+<</phone>>
+
+<<opt "t0_day02_sleep" "Go to bed">>

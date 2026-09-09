@@ -21,6 +21,7 @@ setup.speakers = {
 	rafael:    { name: 'Rafael Mende',   hue: 150 },
 	yuki:      { name: 'Yuki Tanaka',    hue: 264 },
 	tommy:     { name: 'Tommy',          hue: 12  },
+	flor:      { name: 'Flor',           hue: 340, slug: 'flor' },
 	georgia:   { name: 'Georgia',        hue: 288 },
 	brett:     { name: 'Brett',          hue: 96  },
 	danny:     { name: 'Danny',          hue: 6   },

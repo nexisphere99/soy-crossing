@@ -1,0 +1,83 @@
+:: t0_day02_debrief [facility]
+<<face "rafael" "Rafael Mende">>Rafael's office. The rubber tree plant. The leather chair. The compass tattoo. Everything the same as yesterday except I'm not the same.
+
+He sits. I sit. He doesn't speak immediately. He watches me. The waiting thing, the silence-as-tool thing. But today I don't squirm. Today I'm too full of sensation to be nervous about silence.
+
+<<say "Rafael">>So. How was it?<</say>>
+
+I look at my hands. My hands. Turn them over.
+
+<<say "Me">>Different.<</say>>
+<<say "Rafael">>Tell me more.<</say>>
+<<say "Me">>Everything was different. The size of my hands. The way the chair felt. The balance. I kept wanting to adjust for hips that don't exist in this body.<</say>>
+
+I flex my fingers.
+
+<<say "Me">>The pen felt too big. The tennis ball was harder to squeeze. The water tasted the same but the swallowing was different.<</say>>
+<<say "Rafael">>What surprised you?<</say>>
+
+I sit with it. Really sit with it, the way I sat with his question yesterday about being in a different body. Except yesterday was theoretical and today I know the answer.
+
+<<say "Me">>The hip sway. I didn't choose it. The body just did it. I was walking and the hips were swinging and I was a passenger in that specific motion. The body had opinions I didn't ask for.<</say>>
+
+Rafael writes.
+
+<<say "Rafael">>What else?<</say>>
+<<say "Me">>The voice.<</say>>
+
+My voice cracks slightly saying it. My voice, in this body, in this chest, cracking.
+
+<<say "Me">>I said my name and a woman's voice said it. There was about two seconds where I wasn't sure whose name it was.<</say>>
+
+He nods. Leans back.
+
+<<say "Rafael">>What scared you?<</say>>
+<<say "Me">>The clothing exercise. The t-shirt. Pulling it over the breasts.<</say>>
+
+I stop. Start again.
+
+<<say "Me">>The breasts moved. They shifted. It was physical, just physics, but the sensation was so specific. Weight moving on my chest. I've never felt anything like it. My breath caught.<</say>>
+<<say "Rafael">>Why did your breath catch?<</say>>
+<<say "Me">>Because it was real. Up until that moment I could have been wearing a suit. A costume. Something I put on that looked different but felt like me. The breasts made it real. Weight that moved on its own. Part of the body but operating on separate physics. I felt them settle and my brain just...<</say>>
+
+I make a fist. Open it.
+
+<<say "Me">>Stopped.<</say>>
+
+Rafael studies me. Warm eyes. Reading glasses catching the light.
+
+<<say "Rafael">>Did you feel aroused at any point?<</say>>
+<<say "Me">>No.<</say>>
+<<say "Rafael">>Are you sure?<</say>>
+<<say "Me">>I'm sure. I was too overwhelmed for arousal. There was too much happening. Every sensation was new and my brain was processing at full capacity and there wasn't room for anything else.<</say>>
+<<say "Rafael">>That's a good answer.<</say>>
+
+He writes.
+
+<<say "Rafael">>Some candidates report arousal during the clothing exercise. Some don't. The ones who report it are not in trouble. The ones who hide it are.<</say>>
+
+He sets his tablet down. Leans forward.
+
+<<say "Rafael">>Manuel. Your calibration period in Flor was forty-two seconds. The cohort average is ninety. You settled quickly.<</say>>
+<<say "Me">>Is that good?<</say>>
+<<say "Rafael">>It means you adapted. Quick adaptation means comfort. Comfort can become preference. Preference can become need.<</say>>
+
+He holds my eyes.
+
+<<say "Rafael">>I'm not warning you. I'm giving you a tool. Monitor yourself honestly. If the female body starts feeling more like home than your own, that's data, not a diagnosis. Bring it to me.<</say>>
+
+He stands. Extends his hand. The compass tattoo faces me.
+
+<<say "Rafael">>Get some rest. Tomorrow is Module 2. Ethics. Things get harder.<</say>>
+<<say "Me">>Harder than having my brain put in a woman's body?<</say>>
+
+He smiles.
+
+<<say "Rafael">>Harder than that. Because tomorrow, the body talks back.<</say>>
+
+<<run SOY.Quests.complete('t0_day02', 'debrief')>>
+<<set $flags.first_transfer_done = true>>
+<<set $player.totalTransfers += 1>>
+<<run SOY.NPCs.adjustRelationship('rafael', 1)>>
+
+<<opt "t0_day02_evening_walk" "Leave the facility">>

@@ -60,6 +60,56 @@ SOY.Quests = {
 		});
 	},
 
+	/* Registers the Day 2 main quest + refreshes the daily side quests. */
+	registerDay2: function () {
+		this.addMain('t0_day02', {
+			id: 'first_transfer',
+			title: 'First Transfer',
+			status: 'active',
+			objectives: [
+				{ id: 'lecture',    text: 'Sit the pre-transfer lecture',       where: 'Room 4',          done: false },
+				{ id: 'transfer',   text: 'Transfer into Clone 7-F',            where: 'The transfer room', done: false },
+				{ id: 'exercises',  text: 'Complete the guided exercises',      where: 'The transfer room', done: false },
+				{ id: 'detransfer', text: 'Return to your own body',            where: 'The transfer room', done: false },
+				{ id: 'debrief',    text: "Debrief with Rafael",                where: "Rafael's office",  done: false },
+				{ id: 'go_home',    text: 'Get home and let the day close',     where: 'The apartment',    done: false }
+			]
+		});
+
+		// new day, fresh daily board
+		State.variables.quests.side = [];
+		this.addSide({
+			id: 'sq_001_feed', title: 'Feed the Machine',
+			description: 'Eat before the 11 AM fast. Then eat again tonight.',
+			status: 'active',
+			objectives: [{ id: 'eat', text: 'Eat something', done: false }]
+		});
+		this.addSide({
+			id: 'sq_002_lyla', title: 'Keeping Up Appearances',
+			description: 'Lyla is done being patient. Handle her.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Deal with Lyla', done: false }]
+		});
+		this.addSide({
+			id: 'sq_003_james', title: 'Guilt Dinner',
+			description: 'Confirm or push the dinner with James.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Reply to James', done: false }]
+		});
+		this.addSide({
+			id: 'sq_006_echo', title: 'Body Echo',
+			description: 'Your body remembers a shape it wore. Notice it.',
+			status: 'active',
+			objectives: [{ id: 'first_phantom', text: 'Notice your first phantom', done: false }]
+		});
+		this.addSide({
+			id: 'sq_007_tommy', title: "Tommy's Nerve",
+			description: 'Tommy wants to compare notes after the transfer.',
+			status: 'active',
+			objectives: [{ id: 'post_transfer', text: 'Meet Tommy after the transfer', done: false }]
+		});
+	},
+
 	addMain: function (key, quest) {
 		State.variables.quests.main[key] = quest;
 	},

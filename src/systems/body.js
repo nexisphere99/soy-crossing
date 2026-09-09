@@ -2,16 +2,31 @@
 window.SOY = window.SOY || {};
 
 SOY.Body = {
+	EXERCISES: ['standing', 'walking', 'hands', 'voice', 'clothing'],
+
 	init: function () {
 		State.variables.body = {
 			current: 'self',
 			currentProfile: null,
 			phantoms: [],
+			exercises: [],
 			arousal: 0,
 			transferCount: 0,
 			lastTransfer: null,
 			todayTransferred: false
 		};
+	},
+
+	/* Marks one guided transfer exercise done (idempotent). */
+	completeExercise: function (name) {
+		var b = State.variables.body;
+		if (!b.exercises) b.exercises = [];
+		if (b.exercises.indexOf(name) === -1) b.exercises.push(name);
+	},
+
+	/* Fresh start for a new transfer session. */
+	resetExercises: function () {
+		State.variables.body.exercises = [];
 	},
 
 	transfer: function (bodyId, bodyData) {
@@ -34,13 +49,18 @@ SOY.Body = {
 
 	addPhantom: function (bodyData) {
 		var phantoms = State.variables.body.phantoms;
-		phantoms.push({
-			source: bodyData.name,
-			type: bodyData.cupSize,
-			intensity: 3,
-			day: State.variables.calendar.day
+		var day = State.variables.calendar.day;
+		var src = bodyData.name;
+		var set = [
+			{ type: 'chest_weight',  label: 'phantom weight at the chest',   intensity: 3 },
+			{ type: 'hip_sway',      label: 'gait adjusting for wider hips', intensity: 2 },
+			{ type: 'hand_size',     label: 'hands feel too large',          intensity: 2 },
+			{ type: 'voice_register', label: 'own voice sounds too deep',    intensity: 1 }
+		];
+		set.forEach(function (p) {
+			phantoms.push({ source: src, type: p.type, label: p.label, intensity: p.intensity, day: day });
 		});
-		if (phantoms.length > 5) phantoms.shift();
+		while (phantoms.length > 8) phantoms.shift();
 	},
 
 	decayPhantoms: function () {

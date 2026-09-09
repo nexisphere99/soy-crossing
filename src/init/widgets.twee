@@ -12,6 +12,19 @@
 <div class="opt"><<link _args[1] _args[0]>><</link>><<if _args.length gt 2>><span class="opt-hint"><<= _args[2]>></span><</if>></div>
 <</nobr>><</widget>>
 
+/* <<exDone "standing">>   marks one guided transfer exercise complete. */
+<<widget "exDone">><<run SOY.Body.completeExercise(_args[0])>><</widget>>
+
+/* <<exerciseBar>>   five-dot progress through the guided exercises. */
+<<widget "exerciseBar">><<nobr>>
+<<set _done = ($body.exercises ? $body.exercises.length : 0)>>
+<div class="ex-bar">
+<span class="ex-label">Calibration</span>
+<span class="ex-dots"><<for _i = 0; _i lt 5; _i++>><span class="ex-dot<<if _i lt _done>> on<</if>>"></span><</for>></span>
+<span class="ex-n"><<= _done>>/5</span>
+</div>
+<</nobr>><</widget>>
+
 /* <<questRender>>   objectives panel (modal + inline recap). */
 <<widget "questRender">><<nobr>>
 <div class="qb">

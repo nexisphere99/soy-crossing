@@ -89,3 +89,54 @@ A transfer body would use `full_body/<clone-slug>.png` (from its profile's `slug
 | `full_body/manuel.png` | right-hand character panel (all passages, wide screens) |
 | `portraits/manuel.png` | `<<face "manuel">>` in `t0_day01_mirror` |
 | `avatars/manuel.png` | his `<<say "Me">>` bubbles (right side); `me`/`manuel` both slug to this |
+
+---
+
+# Day 2 image map
+
+Prompts: `story_files/day_2/soy_day02_part5_image_prompts.md`.
+Reused Day 1 art (no new file needed): `locations/apartment-morning.png`,
+`locations/lulus-bodega.png`, `locations/bus-ninth-street.png`,
+`locations/soy-lobby.png`, `locations/dannys-ramen.png`,
+`mood/october-evening-walk.png`, `mood/apartment-night-couch.png`.
+
+## locations/   16:9
+
+| File | Prompt | Used in |
+|---|---|---|
+| `locations/transfer-room.png` | IMG-D2-001 Transfer Room | `t0_day02_transfer_room`, `t0_day02_transfer_begins` |
+
+## portraits/   3:4 (Flor's hands is a detail crop, still fine at 3:4)
+
+| File | Prompt | Used in |
+|---|---|---|
+| `portraits/flor.png` | IMG-D2-004 Clone 7-F "Flor", Resting / IMG-D2-005 Flor's Hands | `t0_day02_transfer_room` (`<<face "flor">>`), `t0_day02_exercise_hands` |
+
+## slides/   1:1 or 16:9, dark, glowing
+
+| File | Prompt | Used in |
+|---|---|---|
+| `slides/gender-differential.png` | IMG-D2-007 Gender Differential Diagram | `t0_day02_lecture_gender` |
+
+## mood/   16:9 (transfer-warp is an abstract interstitial)
+
+| File | Prompt | Used in |
+|---|---|---|
+| `mood/transfer-warp.png` | IMG-D2-009 The Transfer Moment (Abstract) | `t0_day02_transfer_begins`, `t0_day02_detransfer` |
+
+## avatars/   square
+
+`avatars/flor.png` — optional; Flor never speaks, but the `flor` speaker is
+registered so a future line falls back to art rather than an initial.
+
+## full_body/   tall
+
+| File | Who |
+|---|---|
+| `full_body/flor.png` | Clone 7-F — grey cotton training top and shorts, athletic-slim, B-cup, moles across the collarbones (shown in the character panel while transferred) |
+
+## spare Day 2 prompts (no passage wired yet)
+
+IMG-D2-002 Headset close-up, IMG-D2-003 Evening walk / amber streetlights,
+IMG-D2-006 Manuel's hands (contrast), IMG-D2-008 Four Prohibitions icon set,
+IMG-D2-010 Apartment at night / post-transfer.

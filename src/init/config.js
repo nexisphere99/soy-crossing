@@ -21,7 +21,30 @@ window.SOY = window.SOY || {};
  * SOY.Time.updatePhase() reads this and no-ops on missing days.
  */
 setup.masterSchedule = {
-	1: { phase: 'course', tier: 0, courseDay: 1 }
+	1: { phase: 'course', tier: 0, courseDay: 1 },
+	2: { phase: 'course', tier: 0, courseDay: 2 }
+};
+
+/*
+ * Training clones. Each is a body profile passed to SOY.Body.transfer();
+ * `slug` drives the portrait / full-body art and the sidebar name.
+ */
+setup.clones = {
+	'7f': {
+		id: '7f',
+		slug: 'flor',
+		name: 'Flor',
+		designation: 'Clone 7-F',
+		height: "5'4\"",
+		skinTone: 'light brown',
+		hair: 'dark brown, wavy, shoulder-length',
+		eyes: 'brown',
+		cupSize: 'B',
+		build: 'athletic-slim',
+		details: 'moles across the collarbones',
+		neuralProfile: 'passive',
+		module: 1
+	}
 };
 
 /*

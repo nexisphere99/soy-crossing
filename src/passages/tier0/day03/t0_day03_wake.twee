@@ -1,0 +1,14 @@
+:: t0_day03_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 25>>
+<<set $calendar.weekday = 3>>
+<<run SOY.Locations.travel('apartment')>>
+<div class="card"><h1 class="passage-title">End of the Day 2 build</h1><p class="sub">Chipi's paw finds your eyelid before the alarm. Day 3 &mdash; Module 2, Ethics, and Clone 7-K &mdash; isn't written yet.</p></div>
+
+Here's where Day 2 landed.
+
+<div class="day-recap"><<questRender>></div>
+
+Day 3 picks up from this wake: the ethics module, the second transfer into a more reactive body, and the first night at the Vega bar. When that content lands, this passage becomes the real Day 3 morning.
+
+<<opt "Start" "Restart from the top">>

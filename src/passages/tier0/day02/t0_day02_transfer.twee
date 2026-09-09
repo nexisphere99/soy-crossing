@@ -1,0 +1,263 @@
+:: t0_day02_transfer_room [facility]
+<<run SOY.Time.ensureSlot(1)>>
+<<scene "locations/transfer-room" "A small clinical room: a reclined chair, a matte-black headset on a ceiling arm, a second bed">>
+
+The transfer room is nothing like I imagined.
+
+I expected something from a movie. Chrome and glass and dramatic lighting, something that screams "sci-fi" loud enough to prepare you for what's about to happen. What I get is a room the size of a large bedroom with soft overhead lighting, a reclined chair that looks like it belongs in a dental office, and the headset.
+
+The headset is on a mechanical arm attached to the ceiling. Matte black, curved, with four prongs extending from the main housing at precise angles. The prongs end in small contact pads that look like they're made of something between rubber and metal. The whole thing is eerily quiet. No humming. No glowing. Just a device, hanging there, waiting.
+
+Beside the chair, a second bed. On it lies a body.
+
+Flor.
+
+<<face "flor" "Clone 7-F">>She's wearing a grey cotton training top and matching shorts. Eyes closed. Breathing. The breath is slow, rhythmic, mechanical, the respiration of a body that runs on autopilot with nobody at the controls. Light brown skin. Dark brown hair, wavy, thick, fanned across the pillow. She looks like a woman sleeping. She looks real. She looks alive. She is alive, in the way that a heart beating and lungs breathing constitutes alive. But there's nobody in there. No consciousness. No person behind those closed eyes.
+
+I can't stop staring at her hands. Small. Short nails. A scattering of moles across the collarbones that are visible where the training top's neckline dips.
+
+Elena's voice behind me.
+
+<<say "Elena">>Take a moment.<</say>>
+
+I take a moment. My heart is slamming. My mouth is dry. Twenty-six days and a career and a visa and a life and it all comes down to whether I can get into that body and function for two hours.
+
+<<say "Elena">>Change into the transfer garment. Locker is behind you. Everything off, including underwear. The gown ties at the back.<</say>>
+
+I change. The gown is thin cotton, hospital-style, cool against my skin. I feel naked in a way that isn't about the clothing. It's about what's about to happen. About the fact that I'm about to stop being this body, my body, the only body I've ever known, and become that one. The one on the bed. The one breathing without anyone inside it.
+
+<<say "Elena">>Sit.<</say>>
+
+I sit in the chair. It reclines slightly. Elena adjusts something at the headrest. The headset descends from its arm, slow, precise, and settles around my skull. The four prongs find their positions: one at each temple, one at the crown, one at the base of my skull where it meets my neck. The contact pads are cold. Then warm. Then something between temperatures, something I don't have a word for.
+
+<<say "Elena">>Breathe normally.<</say>>
+
+Elena's voice is close, near my ear, but her tone has shifted. Still precise. But underneath the precision there's something careful, almost gentle. She's done this hundreds of times. She knows what comes next.
+
+<<say "Elena">>The thermal shift will feel like pressure behind your eyes. Don't fight it.<</say>>
+
+I breathe. In through the nose. Out through the mouth.
+
+The headset hums. Not audibly. I feel it in my teeth, in the bones of my face, a vibration that travels inward.
+
+<<opt "t0_day02_transfer_begins" "The transfer begins">>
+
+
+:: t0_day02_transfer_begins [facility warp]
+<<scene "mood/transfer-warp" "A silhouette dissolving into light, streaming through a narrow luminous channel, reforming on the far side">>
+
+Heat.
+
+It starts at the contact points and floods inward. Not painful. Not comfortable. Just heat, pure and total, like someone turned the temperature dial inside my skull from "room" to "noon in Guadalajara." My vision blurs. The ceiling dissolves into white static. The pressure builds behind my eyes, exactly where Elena said it would, a ballooning sensation like my brain is trying to expand past the limits of my skull.
+
+Then the compression.
+
+The heat collapses. Inverts. The expansion becomes a contraction so total that for one second, maybe two, I am nothing. Not a body. Not a mind. A point. A signal being squeezed through a channel so narrow it has no dimensions. No width, no height, no length. Just passage. Just the sensation of being pulled through something that shouldn't be possible to pass through, and the absolute certainty that I'm going to get stuck, I'm going to get lost, I'm going to stay in this narrow place forever.
+
+Then expansion.
+
+The narrow place opens and I pour into something and the something has edges, has shape, has weight, has temperature, has a heartbeat that isn't mine.
+
+I open my eyes.
+
+<<run SOY.Body.transfer('7f', setup.clones['7f'])>>
+<<run SOY.Quests.complete('t0_day02', 'transfer')>>
+
+The ceiling is the same. Same lights. Same room. But everything is different. Everything.
+
+My hands.
+
+I look down at my hands and they're wrong. Not wrong. Different. Smaller. The fingers are thinner, shorter, the nails cut close with half-moons of white at the tips. The skin is lighter than mine, a warm brown that's several shades paler. When I flex my fingers they move the way fingers move, each knuckle bending in sequence, but the sensation is off. The tendons pull differently. The grip strength is less. Everything is less. Lighter. Softer. More precise in a way that trades power for dexterity.
+
+I keep staring at the hands. My hands. Not my hands. The hands I'm wearing.
+
+<<say "Elena">>Manuel.<</say>>
+
+A woman's voice. Close. Elena. I look up and she's standing beside the bed, which is where I am now, on the bed where Flor was lying, because I am Flor now, or at least I am inside Flor, which is the same thing and also not the same thing at all.
+
+<<say "Elena">>Can you hear me?<</say>>
+
+I open my mouth. Close it. She said no vocalizing until instructed, so I nod instead. The nod feels different. My head is lighter. My neck is thinner. The muscles that control the nod are the same muscles but they're scaled down, like someone rebuilt the same machine at seventy percent.
+
+<<say "Elena">>Good. Stay lying down. I'm going to ask you to do some things in sequence. Do not rush. There is no time limit.<</say>>
+
+<<opt "t0_day02_exercise_standing" "Begin the exercises">>
+
+
+:: t0_day02_exercise_standing [facility]
+<<exDone "standing">>
+<<exerciseBar>>
+
+<<say "Elena">>Sit up. Slowly.<</say>>
+
+I push myself up from the bed. The motion is familiar, the same sit-up I've done ten thousand mornings, but the physics are different. There's weight on my chest. Not a lot. Flor is B-cup, Elena said, approximately four hundred grams. But four hundred grams distributed across two separate masses that shift and settle as I sit up is not the same as four hundred grams of anything else. The breasts move. They actually move, settling forward as I lean upright, redistributing like something liquid finding its level. I feel them against the inside of the training top, pressing into the fabric, occupying space that doesn't exist on my body.
+
+My body. My other body. The one lying in the chair somewhere in this room, breathing without me.
+
+<<say "Elena">>Good. Now stand.<</say>>
+
+I swing my legs off the bed. My feet touch the floor. They're smaller. My toes are shorter. The arch is higher. I can feel the floor temperature through thinner skin. Then I stand.
+
+The room tilts.
+
+Not literally. The room is exactly where it was. But my center of gravity has dropped six inches and shifted backward into my hips and my brain has twenty-five years of standing-up data that suddenly doesn't apply. I sway. My arms go out. Elena's hand appears at my elbow, steadying, and her grip on Flor's arm feels different than her grip would feel on mine, more encompassing, her fingers wrapping further around a forearm that's narrower.
+
+<<say "Elena">>Let it settle. Don't fight the sway.<</say>>
+
+I stand still. Breathe. The room stops tilting. My legs adjust. The balance finds itself, slowly, like water settling in a container it's never been in before. It takes about forty seconds. Elena is counting; I can see her lips moving.
+
+<<say "Elena">>Forty-two seconds. Good. That's well within normal.<</say>>
+
+<<opt "t0_day02_exercise_walking" "Walking exercise">>
+
+
+:: t0_day02_exercise_walking [facility]
+<<exDone "walking">>
+<<exerciseBar>>
+
+<<say "Elena">>Walk to the far wall. Slowly.<</say>>
+
+I take a step. The hip sway is instant. Involuntary. Something about the wider pelvis and the femoral angle Elena described in the lecture, but hearing about it and feeling it are two completely different things. My hip swings out to the right as my left foot lifts, a lateral motion I didn't initiate that shifts my entire torso. Then the left hip swings as the right foot lifts. The result is a sinusoidal path through space, a wave function made of bone and muscle, that I am riding rather than controlling.
+
+The breasts move with each step. Not a lot. B-cup on an athletic-slim frame, there's support from the training top. But there's a micro-bounce at the apex of each stride, a tiny upward-then-downward motion that's maybe half a centimeter but I feel every millimeter of it because it's happening on a chest that was flat an hour ago.
+
+I reach the far wall. Turn. Walk back. The gait is smoothing out. My brain is recalibrating. The sway still happens but I'm riding it better, finding the rhythm of it, letting the hips do what the skeleton demands.
+
+<<say "Elena">>Sit.<</say>>
+
+There's a chair. I sit. My legs cross.
+
+I didn't tell them to cross. I sat down and my right leg swung over my left and my thighs pressed together and my ankles hooked and I'm sitting cross-legged in a way I never sit in my own body because the geometry doesn't work the same way with narrower hips and thighs that press together more naturally. The sensation is warm. The inner thighs touching, a line of contact that doesn't exist when I sit in my body.
+
+<<say "Elena">>Stand again.<</say>>
+
+I uncross. Stand. The sway is shorter this time. Five seconds.
+
+<<say "Elena">>Good.<</say>>
+
+<<opt "t0_day02_exercise_hands" "Hand examination">>
+
+
+:: t0_day02_exercise_hands [facility]
+<<exDone "hands">>
+<<exerciseBar>>
+<<scene "portraits/flor" "Flor's hands, palm-up, a pen resting across one">>
+
+Elena places a tray on the table beside me. On it: a pen, a cup of water, a tennis ball, a piece of paper.
+
+<<say "Elena">>Examine your hands. Then interact with each object.<</say>>
+
+I hold Flor's hands up. Turn them over. The palms are lighter than the backs, the lines deeper, the skin softer. The fingers are short and tapered. No calluses. My hands have calluses from years of keyboard work; these hands have smooth tips. The moles on the collarbones are visible at the edge of my vision, small dark dots on light brown skin.
+
+I pick up the pen. The grip is different. My fingers wrap around it at a different angle, the pen sits in the hand differently because the hand is shaped differently. I write my name. MANUEL. The handwriting is shaky, not from nerves but from unfamiliar motor calibration. The letters are smaller than my usual handwriting. The pen feels oversized.
+
+I pick up the cup. Drink. Water on the tongue, cold, the same water from the same cooler, but the mouth is smaller and the throat is narrower and the swallowing motion feels like a tighter version of my own.
+
+The tennis ball. I squeeze it. Flor's grip strength is about sixty percent of mine. The ball compresses but I can't fully crush it the way I can in my own hand. The effort of squeezing sends a burn through the forearm that arrives sooner and sharper than it would in my body.
+
+The piece of paper. I fold it in half. The dexterity is higher. My fingers find the crease with a precision that surprises me, lining up the edges with a fine motor control that exceeds my usual. What these hands lack in strength they recover in accuracy.
+
+Elena watches. Makes notes on her tablet. Says nothing.
+
+<<opt "t0_day02_exercise_voice" "Vocal test">>
+
+
+:: t0_day02_exercise_voice [facility]
+<<exDone "voice">>
+<<exerciseBar>>
+
+<<say "Elena">>You may speak now. Say your name.<</say>>
+
+I open my mouth. The jaw moves, the tongue positions, the diaphragm pushes air through a larynx that is smaller and tighter than mine. The vocal cords are shorter. I know this from the lecture. I know the physics of why the voice will be different.
+
+<<say "Me">>Manuel.<</say>>
+
+A woman's voice says my name.
+
+The disconnect is total. Absolute. The intent was mine. The word was mine. The voice was not. Higher by a third. Softer. The consonants land differently, the 'M' lighter, the 'uel' with a brightness that my own voice doesn't have. I said my name and someone else's mouth said it back and for one second, maybe two, I am not in any body at all. I'm floating between the intent and the output, suspended in the gap between who I am and what this body produces.
+
+Elena watches me. Dark eyes. Steady.
+
+<<say "Elena">>Say it again.<</say>>
+<<say "Me">>Manuel.<</say>>
+
+The woman's voice again. My name in a stranger's register. My brain flinches. Then adjusts. Then flinches again. It's like hearing a recording of yourself that sounds nothing like you, except it's happening in real time and you can feel the vibration of the vocal cords in your throat and the throat is wrong, or the throat is right and everything else is wrong.
+
+<<say "Elena">>Good. Say: "My name is Manuel González. I am twenty-five years old."<</say>>
+<<say "Me">>My name is Manuel González. I am twenty-five years old.<</say>>
+
+The words come out in Flor's voice, smooth and clear, feminine in every frequency, carrying my name and my age and my identity in a package that contradicts all three. My name is Manuel. This voice belongs to someone named Flor. I am twenty-five. This body has no age because this body has no person.
+
+The existential vertigo lasts about ten seconds. Then it fades. Not gone. Filed. Set aside in the place where things you can't process go to wait for later.
+
+<<opt "t0_day02_exercise_clothing" "Clothing exercise">>
+
+
+:: t0_day02_exercise_clothing [facility]
+<<exDone "clothing">>
+<<exerciseBar>>
+<<run SOY.Quests.complete('t0_day02', 'exercises')>>
+
+<<say "Elena">>Final exercise. Clothing interaction.<</say>>
+
+Elena places a folded grey t-shirt on the table. Same style as the training top I'm wearing, loose cotton, nothing complicated.
+
+<<say "Elena">>Remove the top you are wearing. Put on this one. Then remove it.<</say>>
+
+I reach for the hem of the training top. My hands grip the fabric. I pull up.
+
+The shirt lifts. It clears my stomach, my ribs, and then it catches. The breasts. The fabric snags on the curve of them, requires me to pull wider to clear the chest, and as the shirt lifts past them they shift. The weight redistributes. They settle, freed from the compression of the top, hanging slightly lower without the fabric's support. I feel them move. Distinct from my body and part of my body at the same time. A weight on my chest that shifts with gravity, that responds to movement, that exists as separate masses connected to me but operating on their own physics.
+
+My breath catches.
+
+<<say "Elena">>Continue.<</say>>
+
+I pull the shirt over my head. I'm standing in the transfer room with bare arms and a sports bra and Flor's body and the air on my skin is cooler on the chest than anywhere else because the breasts have more surface area and more nerve endings and the temperature differential is significant. I can feel the bra's band around my ribs, the elastic of it, the cups holding the breasts in place, the straps on my shoulders.
+
+I pick up the fresh shirt. Pull it on. Navigate the breasts again, this time in reverse, pulling the fabric down over them, feeling them compress and settle into the new shirt's shape. The whole process takes about fifteen seconds. Women do this every day. Multiple times a day. The putting on and taking off of shirts around a part of their body that I've been conscious of for ninety minutes.
+
+<<say "Elena">>Good.<</say>>
+
+Elena makes a final note.
+
+<<opt "t0_day02_detransfer" "De-transfer">>
+
+
+:: t0_day02_detransfer [facility warp-out]
+<<scene "mood/transfer-warp" "The light reversing, pouring back the other way through the narrow channel">>
+
+<<say "Elena">>That concludes the practical. I'm going to return you to your body now.<</say>>
+
+Elena guides me back to the bed. I lie down. The mattress feels different under Flor's body, the pressure points landing in different places, the shoulders narrower, the hips wider, the whole shape of me against the surface a different silhouette.
+
+<<say "Elena">>Close your eyes. The de-transfer is faster than the transfer. It will feel like falling.<</say>>
+
+I close my eyes. The headset hums again, the teeth-and-bones vibration.
+
+This time it's not heat. It's cold. A sudden, total cold that starts at the contact points and floods inward, and then the compression comes again but in reverse, like being pulled out of a sock, the narrow place from the other direction, and I have just enough time to think "falling" before I'm falling, and then I'm.
+
+I'm.
+
+<<run SOY.Body.deTransfer()>>
+<<run SOY.Quests.complete('t0_day02', 'detransfer')>>
+<<run SOY.Quests.completeSide('sq_006_echo', 'first_phantom')>>
+
+I open my eyes. The ceiling. Same ceiling. But.
+
+Everything is heavier. My arms are heavier. My chest is flat and solid and when I breathe the air goes into lungs that are bigger, deeper, the breath filling a cavity that has more room. My shoulders are wider. I can feel them against the chair's padding, broader, the contact patch larger. My hips are narrow. The seat that felt snug thirty seconds ago now has space at the sides.
+
+I lift my hands. My hands. Big. Veined. Callused from four years of keyboard work. The knuckles are prominent. The fingers are longer, thicker, the nails wider. These are my hands.
+
+I try to sit up. The sit-up uses different muscles, or the same muscles at different sizes, and the motion is faster and stronger than I expected because Flor's body calibrated me to less power and now I have my full power back and the sit-up nearly launches me off the chair.
+
+<<say "Elena">>Easy.<</say>>
+
+Elena's hand on my shoulder.
+
+<<say "Elena">>Take twenty minutes. Water is beside you. Don't stand until you stop swaying.<</say>>
+
+I sit. Drink water. My throat is thicker. My adam's apple moves when I swallow. The water tastes the same. Everything else is different.
+
+My body. Heavier. Louder. Blunter. Like stepping off a violin and back onto a drum. The drum is familiar. The drum is mine. But the violin's resonance is still humming in my bones, a fading tone that says: you were something else. For two hours, you were something else. Remember.
+
+<<opt "t0_day02_debrief" "Rafael's debrief">>

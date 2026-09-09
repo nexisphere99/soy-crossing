@@ -1,0 +1,154 @@
+:: t0_day02_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 26>>
+<<set $calendar.weekday = 2>>
+<<set $calendar.phase = "course">>
+<<run SOY.Body.resetExercises()>>
+<<set $body.todayTransferred = false>>
+<<if not $quests.main.t0_day02>><<run SOY.Quests.registerDay2()>><</if>>
+<<run SOY.Locations.travel('apartment')>>
+<<scene "locations/apartment-morning" "The apartment before dawn, the ceiling crack that looks like Baja">>
+
+The alarm doesn't wake me. Chipi doesn't wake me. I'm already awake at 5:51, staring at the ceiling crack that looks like Baja, thinking about what it feels like to be pulled through something impossibly narrow.
+
+Sixteen hours ago Rafael said it. //In approximately sixteen hours you're going to sit in a chair and someone is going to put your consciousness into the body of a woman.// The hours ran out while I slept. Or didn't sleep. The night was a series of half-dreams where I kept reaching for things with hands that weren't mine, and every time I looked down they changed shape.
+
+The alarm goes off at 6:15. I kill it. Chipi, who was sleeping on the pillow next to my head like a furry surveillance unit, opens one eye, decides I'm not interesting, and closes it again.
+
+Kitchen. Coffee. The routine helps. Grind, filter, kettle, pour. My hands shake slightly when I hold the mug but the coffee is hot and good and I drink it standing at the counter in boxer shorts the same way I drank it yesterday and the day before and every day since I moved into this apartment. The sameness of it is a small anchor.
+
+Toast. Butter. Chipi knocks the butter knife off the counter with one deliberate paw, watches it clatter to the floor, then looks at me with the expression of an animal who has never once in her life been responsible for anything.
+
+<<say "Me">>Really.<</say>>
+
+She blinks. Slowly. The blink of the innocent.
+
+I pick up the knife. Wash it. Butter the toast. Eat it over the sink. The handbook says fasting is required before a transfer, nothing but water for four hours prior. My slot is afternoon, so morning food is fine. But the toast sits in my stomach like a brick. Nerves have a way of turning everything to concrete.
+
+I shower. The water is hot and I stand under it too long again and Chipi sits on the toilet lid again and the mirror is fogged when I get out. I wipe it with my palm. Same face. Same body. Brown skin, dark hair curling over my ears, circles under my eyes darker than yesterday. The navy henley is in the hamper. I pull out a grey t-shirt and the same dark jeans. Boots.
+
+I look at myself. This body. These shoulders, this flat chest, these hands with their knuckles and their veins and their specific way of gripping things. In a few hours I'm going to leave all of it behind, temporarily, and step into something completely different. Something with breasts and narrower shoulders and hips that change the way gravity works. Then I'm going to come back to this, to these hands and this chest and this jaw, and it's supposed to feel normal.
+
+My leg starts bouncing. I grab my keys, my phone, my badge with the green stripe. Kiss Chipi on the head. She permits it.
+
+The clock over the stove says 7:14. The 34 bus comes at 8:00 and Room 4 is a twenty-minute ride from the stop. Room for one thing on the way. Not two.
+
+<<if not visited("t0_day02_paco_morning_text")>>
+<<opt "t0_day02_paco_morning_text" "Text Paco first" "He's been up since the layoff, spiritually. He'll want to know it's today.">>
+<</if>>
+<<if not visited("t0_day02_lulu_morning")>>
+<<opt "t0_day02_lulu_morning" "Stop at Lulu's" "Four blocks east. She'll feed me before the fast whether I ask or not.">>
+<</if>>
+<<opt "t0_day02_bus" "Head straight to the bus" "Twenty-six days. Transfer day. Don't be late.">>
+
+
+:: t0_day02_lulu_morning [home]
+<<scene "locations/lulus-bodega" "Lulu's bodega, morning, canned goods half-stocked on the top shelf">>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+<<set $flags.lulu_morning_visit_d2 = true>>
+<<set $npcs.lulu.flags.empanada_count += 1>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+
+The bells on the door. Lulu is restocking canned goods on the top shelf, standing on a step stool that makes her approximately the same height as me. She turns. Sees me. Sees my face.
+
+<<say "Lulu">>Mijo. Two days in a row? Either the science is very good or very bad.<</say>>
+<<say "Me">>Just picking up breakfast.<</say>>
+<<say "Lulu">>You already ate toast. I can tell. You have toast face.<</say>>
+
+She steps off the stool.
+
+<<say "Lulu">>Toast is not breakfast. Toast is a suggestion of breakfast. Here.<</say>>
+
+She reaches behind the counter. Wax-paper bag.
+
+<<say "Lulu">>Empanadas. Same as yesterday. Beef and cheese.<</say>>
+<<say "Me">>Lulu, I need to fast after eleven.<</say>>
+<<say "Lulu">>It's seven-thirty. Eat now. Fast later.<</say>>
+
+She pushes the bag across the counter.
+
+<<say "Lulu">>Is the science making you fast? What kind of science makes a person not eat?<</say>>
+<<say "Me">>The medical kind.<</say>>
+
+Her eyes narrow. The crucifix gets a touch.
+
+<<say "Lulu">>Medical. You said research yesterday.<</say>>
+<<say "Me">>Medical research.<</say>>
+<<say "Lulu">>Are they experimenting on you?<</say>>
+
+Her voice drops. Genuine concern underneath the interrogation.
+
+<<say "Lulu">>Because I saw a show about that. Companies that experiment on immigrants because they think nobody will complain. Mijo, if someone is experimenting on you...<</say>>
+<<say "Me">>Nobody is experimenting on me. It's legitimate. It's safe. I promise.<</say>>
+
+She stares at me the way she stared at me yesterday, that long searching look, but today there's something sharper in it. Worry, maybe. The specific worry of a fifty-five-year-old bodega owner who's adopted a stray Mexican kid as her unofficial responsibility.
+
+<<say "Lulu">>You eat those empanadas before eleven. All of them.<</say>>
+<<say "Me">>Yes, Lulu.<</say>>
+<<say "Lulu">>God watches, Manuel.<</say>>
+<<say "Me">>You said that yesterday.<</say>>
+<<say "Lulu">>God is consistent. You should try it.<</say>>
+
+I eat one empanada on the walk to the bus. Beef and cheese. Perfect. Greasy. The cheese burns my mouth. Some things don't change.
+
+<<opt "t0_day02_bus" "Head to the bus">>
+
+
+:: t0_day02_paco_morning_text [phone]
+My thumb hovers over Paco's name. I want to type something. Something like: //Today they put my brain in a woman's body and I'm scared in a way I don't have vocabulary for.// Instead I type:
+
+<<phone "Paco">>
+<<txt "Me">>Day 2. Transfer day.<</txt>>
+<</phone>>
+
+Three dots. Then nothing. Then three dots again. Then:
+
+<<phone "Paco">>
+<<txt "Paco">>hermano<</txt>>
+<<txt "Paco">>today you become a woman temporarily for money and visa purposes<</txt>>
+<<txt "Paco">>this is the most venezuelan sentence I've ever typed<</txt>>
+<<txt "Me">>You're Venezuelan. I'm Mexican.<</txt>>
+<<txt "Paco">>same energy different arepa<</txt>>
+<<txt "Paco">>seriously tho. you got this. text me after?<</txt>>
+<<txt "Me">>After.<</txt>>
+<<txt "Paco">>and Manuel<</txt>>
+<<txt "Paco">>if you come back with opinions about bras I don't want to hear it<</txt>>
+<</phone>>
+
+I almost laugh. Not quite. But the muscles try.
+
+<<opt "t0_day02_bus" "Head to the bus">>
+
+
+:: t0_day02_bus
+<<scene "locations/bus-ninth-street" "The 34 bus, morning, the city sliding past smudged windows">>
+<<run SOY.Locations.travel('street')>>
+
+The 34 bus. Same smell, diesel and breakfast sandwiches and metal. Different seat today, second row from the back, because the middle seats were taken by a group of high school kids with backpacks the size of body bags.
+
+My leg bounces. I press my knee down. It bounces anyway. The kid next to me glances at my leg, then at his phone, then back at my leg. He's maybe sixteen, wearing earbuds that leak a tinny bass line. He doesn't say anything. Good.
+
+The bus lurches through a yellow light. I grab the rail. My hand wraps around the metal and I'm conscious of the grip in a way I wasn't yesterday. These knuckles. This palm. The calluses on my fingertips from four years of typing at Brevity Labs, four years of code flowing through these specific fingers. In three hours these fingers will be different. Smaller. Smoother. Moles instead of calluses.
+
+My phone vibrates. Mamá, sending a photo to the family group chat. Tía Rosa's new dog, small and white and angry-looking. My mother has typed "¡QUE LINDO!" with seven exclamation marks. Héctor has responded with a single thumbs up, which in Héctor-language is equivalent to a four-paragraph love letter.
+
+I close the chat. Open the handbook instead. Chapter 3, section on pre-transfer anxiety management.
+
+<div class="quote">Anxiety prior to first transfer is universal and does not correlate with transfer success. Candidates who report high pre-transfer anxiety frequently outperform candidates who report confidence. The reason: anxiety indicates accurate risk assessment. Confidence, in a candidate who has never transferred, indicates either insufficient understanding or psychological suppression. Neither is useful.</div>
+
+Great. My anxiety is a feature, not a bug. Very reassuring.
+
+Outside, October continues its slow demolition of the city's trees. The maples on Seventh Street are half-bare, their leaves scattered across sidewalks in orange and brown. A woman at the bus stop is adjusting her bra strap through her shirt, that quick two-finger pull at the shoulder, and I notice it the way I've started noticing things since yesterday's lecture. The mechanics of a body I'm about to inhabit. The small negotiations women make with their own clothing every ten minutes that I never registered before.
+
+She catches me looking. Not at her body. At the gesture. But she doesn't know that. She crosses her arms. Turns slightly away. The universal posture of a woman who's been stared at on public transit enough times that the defense is automatic.
+
+I look away. Out the window. My face is hot. I wasn't looking at her the way she thinks I was looking at her, but the guilt is the same, and there's a new dimension to it now, because in a few hours I'm going to be in a body that gets looked at like that, and the looking will land differently from the inside.
+
+Twenty-six days. The number is one less than yesterday. The math keeps working in one direction.
+
+The bus turns onto Ninth Street. 814 appears in the window like a face I'm starting to recognize. I pull the cord.
+
+Cold air. Breath cloud. The heavy door.
+
+<<run SOY.Locations.travel('facility')>>
+<<opt "t0_day02_facility_morning" "Inside 814">>
