@@ -3,12 +3,18 @@
 <<set $visaDays = 25>>
 <<set $calendar.weekday = 3>>
 <<run SOY.Locations.travel('apartment')>>
-<div class="card"><h1 class="passage-title">End of the Day 2 build</h1><p class="sub">Chipi's paw finds your eyelid before the alarm. Day 3 - Module 2, Ethics, and Clone 7-K - isn't written yet.</p></div>
+<div class="card"><h1 class="passage-title">End of Version 0.0.1</h1><p class="sub">Two days at Shape of You Inc. Intake, the fundamentals lecture, and the first transfer into Flor.</p></div>
 
 Here's where Day 2 landed.
 
 <div class="day-recap"><<questRender>></div>
 
-Day 3 picks up from this wake: the ethics module, the second transfer into a more reactive body, and the first night at the Vega bar. When that content lands, this passage becomes the real Day 3 morning.
+<div class="support">
+<p><strong>This is the end of Version 0.0.1.</strong></p>
+<p>If you want to play more recent versions, or support the developer, visit:</p>
+<p><a class="support-cta" href="https://www.patreon.com/c/soytg" target="_blank" rel="noopener noreferrer">patreon.com/c/soytg</a></p>
+</div>
+
+Day 3 picks up from this wake: Module 2, the ethics scenarios, and the second transfer into a more reactive body. When that content lands, this passage becomes the real Day 3 morning.
 
 <<opt "Start" "Restart from the top">>
