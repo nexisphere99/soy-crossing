@@ -237,32 +237,32 @@ needed , the Scenario 4 actor's lines render as prose, not `<<say>>`.
 
 # Day 5 image map
 
-Prompts: `story_files/day_5/day05_image_prompts (1).md`. Missing files collapse
-silently. Reused: `locations/soy-lobby.png`, `locations/cafeteria.png`,
-`locations/lulus-bodega.png`, `mood/october-evening-walk-2.png`,
-`mood/apartment-night-couch.png`, `mood/detransfer.png`, `mood/bed-night-d4.png`.
-Clone art already present: Renata (`portraits/renata.png`, `full_body/renata.png`,
-`avatars/renata.png`).
+Prompts: `story_files/day_5/day05_image_prompts (1).md`. The user's 13 uploads
+arrived in the img root named by prompt title; each was renamed to the path its
+`<<scene>>` expects and sorted into locations/ slides/ scenarios/ mood/.
+Reused: `locations/cafeteria.png`, `locations/lulus-bodega.png`,
+`mood/october-evening-walk-2.png`, `mood/apartment-night-couch.png`,
+`mood/detransfer.png`. Renata art already present.
 
-## new files (drop PNGs at these paths)
+## new files
 
-| File | Prompt | Used in |
+| Upload | -> path | Used in |
 |---|---|---|
-| `locations/apartment-morning-d5.png` | IMG-D5-001 Morning kitchen, Chipi vs grinder | `t0_day05_wake` |
-| `locations/bus-ninth-street-d5.png` | IMG-D5-009 Diana's call / bus window (or a plain bus shot) | `t0_day05_bus` |
-| `slides/contract-whiteboard.png` | IMG-D5-003 Elena's contract whiteboard | `t0_day05_lecture` |
-| `locations/conference-room-b.png` | IMG-D5-004 Contract negotiation, Elena as Maria | `t0_day05_negotiation` |
-| `mood/transfer-renata.png` | IMG-D5-005 Transfer into Renata, the weight | `t0_day05_transfer_renata` |
-| `scenarios/exam-room.png` | IMG-D5-007 The exam room (empty) | `t0_day05_scenario5` |
-| `locations/stave-wine-bar.png` | IMG-D5-011 Stave wine bar, Lyla's table | `t0_day05_lyla_bar` |
+| Morning Kitchen | `locations/apartment-morning-d5.png` | `t0_day05_wake` |
+| Yuki's Pins | `locations/soy-lobby-d5.png` (repoint) | `t0_day05_facility_arrive` |
+| Elena's Contract Whiteboard | `slides/contract-whiteboard.png` | `t0_day05_lecture` |
+| Contract Negotiation (Elena as Maria) | `locations/conference-room-b.png` | `t0_day05_negotiation` |
+| Transfer into Renata | `mood/transfer-renata.png` | `t0_day05_transfer_renata` |
+| The Exam Room | `scenarios/exam-room.png` | `t0_day05_scenario5` |
+| The Speculum Moment | `scenarios/speculum-moment.png` (new `<<scene>>`) | `t0_day05_exam` |
+| Diana's Call / Bus Window | `locations/bus-ninth-street-d5.png` | `t0_day05_bus` |
+| Lyla's Chart | `mood/lyla-chart.png` (new `<<scene>>`) | `t0_day05_lyla_bar` |
+| Stave Wine Bar | `locations/stave-wine-bar.png` | `t0_day05_lyla_bar` |
+| Walk Home / Orange Streetlights | `mood/walk-home-night.png` (repoint) | `t0_day05_walk_home` |
+| Solo Scene / Ceiling in Dark | `mood/bed-night-d5.png` (repoint) | `t0_day05_solo` |
+| Señora Vidal's Note | `mood/vidal-note-d5.png` (new `<<scene>>`) | `t0_day05_vidal_note` |
 
-## avatars (optional, initial-letter fallback until added)
+## still on initial-letter fallback (optional)
 
-`avatars/diana.png`, `avatars/maria.png` (Elena-as-Maria in the negotiation),
-`avatars/nakamura.png` (Dr. Nakamura in Scenario 5).
-
-## spare Day 5 prompts (no passage wired)
-
-IMG-D5-002 Yuki's pins, IMG-D5-006 Renata's hands, IMG-D5-008 the speculum moment
-(abstract), IMG-D5-010 Lyla's chart, IMG-D5-012 walk home, IMG-D5-013 solo ceiling,
-IMG-D5-014 Señora Vidal's note (rendered as a styled `.note` block).
+`avatars/diana.png`, `avatars/maria.png`, `avatars/nakamura.png`,
+`portraits/vidal.png` (for the `<<face "vidal">>` in the knock branch).

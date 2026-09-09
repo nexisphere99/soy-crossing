@@ -164,6 +164,7 @@ A week. She's giving me a week. The clemency has a timer on it.
 
 
 :: t0_day05_vidal_note [home]
+<<scene "mood/vidal-note-d5" "A yellow legal-pad page under the door, dense angry cursive, a crucifix in the margin, a foil-covered plate below">>
 Under the door, a page torn from a yellow legal pad. Her handwriting is dense, slanted, angry cursive.
 
 <div class="note">Manuel. Your cat was vocal at 12, 2:15, and 4 AM. I know the schedule because GOD HAS TAKEN SLEEP FROM ME as punishment for living below a man who cannot manage one small animal. I left arroz con pollo at your door at 6. It is still there. Do you not eat? Do you want me to call your mother? I have her number. Don't test me. Also your mail is piling up again.<span>&mdash; Señora Vidal. PS: The arroz has sofrito. You're welcome.</span></div>
@@ -271,7 +272,7 @@ I almost laugh. The nurse across the aisle glances at me. I put my phone away.
 
 :: t0_day05_facility_arrive [facility]
 <<run SOY.Locations.travel('facility')>>
-<<scene "locations/soy-lobby" "The lobby, Yuki's pins today: an open book and a tiny speculum">>
+<<scene "locations/soy-lobby-d5" "The lobby, Yuki's pins today: an open book and a tiny speculum">>
 
 The building looks the same. Low, unmarked, that logo etched into the glass that makes your eyes do something uncomfortable. A face inside a face inside a face. Recursive. I've been here five days and it still doesn't sit right.
 

@@ -226,7 +226,7 @@ I don't reply. The response that text deserves needs a bar stool and her dark ey
 
 :: t0_day05_walk_home [night]
 <<run SOY.Locations.travel('street')>>
-<<scene "mood/october-evening-walk-2" "23rd Street at 10:22, orange sodium light, puddles holding the streetlamps like scattered coins">>
+<<scene "mood/walk-home-night" "23rd Street at 10:22, orange sodium light, puddles holding the streetlamps like scattered coins">>
 
 The wine bar door closes behind me and the October air is a slap after the indoor warmth. I zip the olive green jacket, shove my hands in the pockets, start walking.
 
@@ -330,7 +330,7 @@ The speculum. That's what pulls me under. Not the cold of it. The moment after. 
 <<set $flags.first_solo_done = true>>
 <<set $flags.solo_night_d5 = true>>
 <<set $body.arousal = 0>>
-<<scene "mood/bed-night-d4" "The ceiling crack, faintly lit, the cat curled at the edge of the frame">>
+<<scene "mood/bed-night-d5" "The ceiling crack, faintly lit, the cat curled at the edge of the frame">>
 
 <div class="scene-solo">
 My hand moves lower. My stomach. My hip. The narrow architecture. Where Renata's hips spread, mine taper. Where her thighs touched, mine leave space. I'm mapping the differences not from the outside but from the memory of the inside. I know what it feels like to be wide there. I know what it feels like to sit and have the chair adjust to you. I can't unknow it.
