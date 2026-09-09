@@ -102,6 +102,9 @@ The phone again.
 <</if>>
 
 <<opt "t0_day03_night_processing" "Put the phone down. Bed.">>
+<<if $settings.showExplicit and not visited("t0_day03_solo_night")>>
+<<opt "t0_day03_solo_night" "Put the phone down. Then pick it back up." "Explicit. Processing what the transfer left in the body.">>
+<</if>>
 
 
 :: t0_day03_night_processing [home intimate]
