@@ -120,7 +120,7 @@ I pocket the phone. Grab my jacket, the olive green one with the torn lining I k
 
 Señora Vidal's door is closed but there's a new note taped to my doorframe. Yellow paper this time, folded once. I take it.
 
-<div class="note">Manuel. Your cat was crying at 2 PM yesterday AND 4 PM. Two separate crying sessions. This is escalation. Also you came home late. I heard the stairs. You should sleep more. The bags under your eyes are visible from my peephole. I left arroz con pollo outside your door at 7 but you were not home so I took it back. Next time be home.<span>&mdash; V. Vidal (your neighbor, ground floor, in case you forgot)</span></div>
+<div class="note">Manuel. Your cat was crying at 2 PM yesterday AND 4 PM. Two separate crying sessions. This is escalation. Also you came home late. I heard the stairs. You should sleep more. The bags under your eyes are visible from my peephole. I left arroz con pollo outside your door at 7 but you were not home so I took it back. Next time be home.<span>, V. Vidal (your neighbor, ground floor, in case you forgot)</span></div>
 
 I fold the note into my pocket. The arroz con pollo I missed stings more than the surveillance.
 
@@ -183,11 +183,11 @@ She slides a different colored badge across the counter. Red stripe yesterday. T
 
 <<say "Yuki">>Also, no food restriction today. The transfer window is afternoon. Eat lunch.<</say>>
 <<say "Me">>Thanks.<</say>>
-<<say "Yuki">>Don't thank me, thank the schedule and&mdash; González?<</say>>
+<<say "Yuki">>Don't thank me, thank the schedule and, González?<</say>>
 
 I pause.
 
-<<say "Yuki">>Module 2 is harder than Module 1. Not physically. Just&mdash;<</say>>
+<<say "Yuki">>Module 2 is harder than Module 1. Not physically. Just,<</say>>
 
 She taps her temple.
 

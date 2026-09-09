@@ -136,7 +136,7 @@ Tommy drops into the chair across from me. His tray has three sandwiches and two
 
 He tears into the second sandwich.
 
-<<say "Tommy">>She looked at me like I'd committed a crime. Seven seconds. I just stood there. The face in the mirror wasn't mine, obviously, but it was making my face, you know? Like, the expression was mine but the canvas was wrong and my brain just&mdash;<</say>>
+<<say "Tommy">>She looked at me like I'd committed a crime. Seven seconds. I just stood there. The face in the mirror wasn't mine, obviously, but it was making my face, you know? Like, the expression was mine but the canvas was wrong and my brain just,<</say>>
 
 He makes a sound like a computer powering down.
 
@@ -295,9 +295,9 @@ We walk to the pod room together. The corridor is cold. The gown is thin. My fee
 
 The pod room. Three capsules. The one on the left is occupied, Flor's body breathing quietly, the steady rise and fall of an empty house. The middle one is empty, prepped, the headset mounted above it like a mechanical crown. The right one holds Katya.
 
-I look at her.
+<<face "katya" "Clone 7-K">>
 
-<<face "katya" "Clone 7-K">>Taller than Flor. I can see it even lying down. Pale skin with a warmth underneath, not paper-white but cream, the kind that shows blood easily. Auburn hair spread across the pod's headrest, long, straight, past the shoulders. Even from here I can see the body is different from Flor in the way that a cello is different from a violin. More curve. More weight in the hips and chest. The C-cup breasts rise with each autonomous breath, larger than Flor's, filling the grey training top with a presence that Flor's body whispered and Katya's body states.
+I look at her. Taller than Flor. I can see it even lying down. Pale skin with a warmth underneath, not paper-white but cream, the kind that shows blood easily. Auburn hair spread across the pod's headrest, long, straight, past the shoulders. Even from here I can see the body is different from Flor in the way that a cello is different from a violin. More curve. More weight in the hips and chest. The C-cup breasts rise with each autonomous breath, larger than Flor's, filling the grey training top with a presence that Flor's body whispered and Katya's body states.
 
 Blue-grey eyes. Closed. Long lashes. Lips slightly parted.
 
@@ -327,15 +327,11 @@ Fast this time. Faster than Flor. The narrowness shatters outward and I'm somewh
 
 
 :: t0_day03_katya_calibration [facility]
-<<face "katya" "Clone 7-K &mdash; the body you're wearing">>I open my eyes and the ceiling is different. The same room but the angle has changed because my head is positioned differently in the pod and also because the eyes processing the image are not my eyes.
+<<face "katya" "Clone 7-K , the body you're wearing">>I open my eyes and the ceiling is different. The same room but the angle has changed because my head is positioned differently in the pod and also because the eyes processing the image are not my eyes.
 
 Katya's eyes. Blue-grey. The world through them is sharper in a way I didn't expect. Not better vision, exactly. But the color temperature is different. Warmer. Like someone adjusted a filter I didn't know existed.
 
-I sit up.
-
-Weight.
-
-That's the first thing. Flor had weight, yes, the B-cup breasts, the shifted center of gravity. Katya is more. The C-cup breasts are immediately present, a heaviness on the chest that moves when I move, not dramatically but undeniably. When I swing my legs over the edge of the pod, the breast weight shifts laterally, follows the torso's rotation with a half-second delay, then settles.
+I sit up. Weight. That's the first thing. Flor had weight, yes, the B-cup breasts, the shifted center of gravity. Katya is more. The C-cup breasts are immediately present, a heaviness on the chest that moves when I move, not dramatically but undeniably. When I swing my legs over the edge of the pod, the breast weight shifts laterally, follows the torso's rotation with a half-second delay, then settles.
 
 I look down. The training top is grey, same as Flor's, but it fits differently. The fabric is stretched across the bust, pulled taut, and where it contacts the skin I can feel the texture of the cotton against, things are more sensitive. The training top's seam sits directly across the nipple line and I can feel it. Thread against skin. A friction that Flor's body registered as background noise and Katya's body registers as information.
 
