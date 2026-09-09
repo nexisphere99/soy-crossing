@@ -3,12 +3,18 @@
 <<set $visaDays = 24>>
 <<set $calendar.weekday = 4>>
 <<run SOY.Locations.travel('apartment')>>
-<div class="card"><h1 class="passage-title">End of the Day 3 build</h1><p class="sub">Thursday. Twenty-four days. Module 2 continues , the scenario Rafael wouldn't name, the Thai dinner with James, Lyla two days out , and it isn't written yet.</p></div>
+<div class="card"><h1 class="passage-title">End of Version 0.0.2</h1><p class="sub">Three days at Shape of You Inc. Two transfers, the ethics module, the mirror and the knock, and the first night at Vega.</p></div>
 
 Here's where Day 3 landed.
 
 <div class="day-recap"><<questRender>></div>
 
-Day 4 picks up from this wake. When that content lands, this passage becomes the real Thursday morning.
+<div class="support">
+<p><strong>This is the end of Version 0.0.2.</strong></p>
+<p>If you want to play more recent versions, or support the developer, visit:</p>
+<p><a class="support-cta" href="https://www.patreon.com/c/soytg" target="_blank" rel="noopener noreferrer">patreon.com/c/soytg</a></p>
+</div>
+
+Day 4 picks up from this wake: Module 2 continues, the legal framework and the scenario Rafael wouldn't name, the Thai dinner with James, and Lyla two days out. When that content lands, this passage becomes the real Thursday morning.
 
 <<opt "Start" "Restart from the top">>
