@@ -296,3 +296,26 @@ figure.portrait.is-missing { display: none; }
 	border-radius: var(--r3);
 }
 .day-recap .qb { display: flex; flex-direction: column; gap: var(--s5); }
+
+/* end-of-version / support-the-developer block */
+.support {
+	margin: var(--s6) 0 var(--s4);
+	padding: var(--s5);
+	text-align: center;
+	background: var(--amber-wash);
+	border: 1px solid var(--amber-deep);
+	border-radius: var(--r3);
+}
+.support p { margin: 0 0 var(--s3); color: var(--ink); }
+.support p:last-child { margin-bottom: 0; }
+.support a.support-cta {
+	display: inline-block;
+	padding: var(--s3) var(--s5);
+	background: var(--amber);
+	color: var(--bg-0);
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	border-radius: var(--r2);
+	border: 0;
+}
+.support a.support-cta:hover { background: var(--amber-bright); color: var(--bg-0); }
