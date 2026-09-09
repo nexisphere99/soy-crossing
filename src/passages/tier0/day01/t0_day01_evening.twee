@@ -109,7 +109,7 @@ Back inside. The Modelo's gone warm on the counter. Chipi reclaims my lap withou
 <</if>>
 <<opt "t0_day01_sleep" "Go to bed">>
 <<if $settings.showExplicit and not visited("t0_day01_solo_night")>>
-<<opt "t0_day01_solo_night" "Lie down &mdash; the body has other ideas" "Explicit. It's been over a week.">>
+<<opt "t0_day01_solo_night" "Lie down , the body has other ideas" "Explicit. It's been over a week.">>
 <</if>>
 
 

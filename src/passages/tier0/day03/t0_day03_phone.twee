@@ -92,7 +92,7 @@ Paco is quiet for a moment. That flat-ocean silence.
 
 Long exhale.
 
-<<say "Paco">>That's, hermano, that's heavy. You're wearing a woman's body and it's telling you to let a man in and you have to override it. That's not just ethics training. That's&mdash;<</say>>
+<<say "Paco">>That's, hermano, that's heavy. You're wearing a woman's body and it's telling you to let a man in and you have to override it. That's not just ethics training. That's,<</say>>
 <<say "Me">>I know.<</say>>
 <<say "Paco">>You're okay?<</say>>
 <<say "Me">>I'm processing.<</say>>
