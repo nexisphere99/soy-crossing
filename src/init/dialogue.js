@@ -71,11 +71,10 @@ SOY.avatarHTML = function (key, name, slugOverride) {
 	var initial = label.charAt(0).toUpperCase() || '?';
 	var slug = slugOverride || sp.slug || key.replace(/[^a-z0-9_-]/g, '');
 	var src = 'game_files/img/avatars/' + slug + '.png';
-	var alt = 'game_files/img/avatars/' + slug + '.jpeg';
 	return '<span class="avatar" style="--hue:' + hue + '">'
-		+ '<img src="' + src + '" data-fallback="' + alt + '" alt="" '
+		+ '<img src="' + src + '" alt="" '
 		+ 'onload="this.parentNode.classList.add(\'has-img\')" '
-		+ 'onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.removeAttribute(\'data-fallback\');}else{this.remove();}">'
+		+ 'onerror="this.remove()">'
 		+ '<b>' + initial + '</b></span>';
 };
 

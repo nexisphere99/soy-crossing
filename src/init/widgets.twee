@@ -2,10 +2,10 @@
 
 /* <<scene "locations/soy-lobby" "alt text">>   16:9 scene art.
    Collapses silently when the file isn't there yet. */
-<<widget "scene">><<if $settings.showImages>><<set _src = "game_files/img/" + _args[0] + ".png">><<set _fb = "game_files/img/" + _args[0] + ".jpeg">><<set _alt = _args.length > 1 ? _args[1] : "">><<= '<div class="scene"><img src="' + _src + '" data-fallback="' + _fb + '" alt="' + _alt + '" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.removeAttribute(\'data-fallback\');return;}this.closest(\'.scene\').classList.add(\'is-missing\')"></div>'>><</if>><</widget>>
+<<widget "scene">><<if $settings.showImages>><<set _src = "game_files/img/" + _args[0] + ".png">><<set _alt = _args.length > 1 ? _args[1] : "">><<= '<div class="scene"><img src="' + _src + '" alt="' + _alt + '" onerror="this.closest(\'.scene\').classList.add(\'is-missing\')"></div>'>><</if>><</widget>>
 
 /* <<face "elena" "Elena Cordero">>   floated 3:4 portrait with a caption. */
-<<widget "face">><<if $settings.showImages>><<set _src = "game_files/img/portraits/" + _args[0] + ".png">><<set _fb = "game_files/img/portraits/" + _args[0] + ".jpeg">><<set _cap = _args.length > 1 ? _args[1] : _args[0]>><<= '<figure class="portrait"><img src="' + _src + '" data-fallback="' + _fb + '" alt="' + _cap + '" onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.removeAttribute(\'data-fallback\');return;}this.closest(\'figure\').classList.add(\'is-missing\')"><figcaption>' + _cap + '</figcaption></figure>'>><</if>><</widget>>
+<<widget "face">><<if $settings.showImages>><<set _src = "game_files/img/portraits/" + _args[0] + ".png">><<set _cap = _args.length > 1 ? _args[1] : _args[0]>><<= '<figure class="portrait"><img src="' + _src + '" alt="' + _cap + '" onerror="this.closest(\'figure\').classList.add(\'is-missing\')"><figcaption>' + _cap + '</figcaption></figure>'>><</if>><</widget>>
 
 /* <<opt "passage" "Label" "optional hint">>   choice with a subtitle. */
 <<widget "opt">><<nobr>>
