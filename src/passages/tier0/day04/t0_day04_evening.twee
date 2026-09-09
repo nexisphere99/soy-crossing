@@ -507,79 +507,209 @@ Not sudden. Not sharp. It seeps in from the edges, starting at my lower belly an
 
 The hand on Katya's knee. The mint breath close to my face. The way the skin flushed, warm climbing up from the chest into the throat, and the tightening low in the belly that I know now is what female arousal feels like when it's starting. Not localized the way mine is. Not pointed. Spread out, diffuse, like someone turned the heat up in every room of a house at once.
 
-<<opt "t0_day04_solo" "Don't fight it">>
-
-
-:: t0_day04_solo [night intimate explicit-toggle]
-<<set $flags.first_solo_done = true>>
-<<set $body.arousal = 0>>
-<<scene "mood/bed-night" "The bedroom, one strip of streetlight across the ceiling, the cat on the pillow">>
-
-<<if $settings.showExplicit>>
-I don't fight it.
-
-My hand slides under the waistband of my boxers and I'm already hard, have been half-hard since the bus ride home, and the touch of my own hand on my own cock feels different tonight. Familiar and not. Like I know this body but I've been visiting another one and the comparison won't stop running.
-
-I wrap my fingers around myself. Close my eyes.
-
-The scenario room. The couch. Katya's body on the cushions, legs tucked under, the skirt riding up just enough that the knee was bare when the actor sat down. I felt the upholstery against the back of Katya's thighs. Rough fabric, almost scratchy, and Katya's skin registered every fiber like braille.
-
-Then his hand. The weight of it. Not heavy but warm, so warm, and the way the palm settled against the kneecap with a familiarity that meant this body remembered being touched by this hand. The clone's conditioning kicked in and everything accelerated. Heart rate doubling. Blood rushing to the surface. The blush climbing, God, the blush, from chest to throat to cheeks in a wave I could feel but couldn't stop.
-
-I stroke myself slowly. Not rushing. Processing.
-
-The hand moved up my thigh. His thigh. Katya's thigh. The possessive pronouns collapse when I try to remember it. Someone's thigh. A thigh I was inside of. The fingers pressed into the soft inner part where the skin is thinner and more sensitive and I felt the touch register in two places at once: at the point of contact and lower, deeper, between my legs where there was nothing I recognized but everything I could feel.
-
-Katya's body was getting wet. I know that now. I didn't know it in the moment, or I knew it and refused to name it, but lying here in my own bed with my hand on my own cock, I can name it. The body was aroused. She, it, whatever pronoun applies to a clone that breathes and blushes but isn't a person, was aroused. The warmth between the legs, the heaviness in the lower belly, the way the inner thighs pressed together automatically seeking pressure.
-
-I imagine what would have happened if I hadn't stopped it.
-
-The hand slides higher. Past the hem of the skirt. Fingers tracing the crease where thigh meets hip. The actor leaning in, mint breath on my neck, and saying something low, something like //I've been thinking about you all day//, and the body arching toward the voice. Arching. Chest lifting. Chin tilting back. Throat exposed. Every signal the female body knows how to send firing at once.
-
-I'd feel him hard against my hip. Through his pants. A pressure I recognize from the outside but have never experienced from this angle, from the receiving end, where the hardness isn't yours but someone else's and it's pressing into you and your body interprets it as want. As evidence. As //he wants this body and this body wants to be wanted.//
-
-I stroke faster. My back presses into the mattress. The fantasy isn't about the man. I need to be clear about that, even in the privacy of my own skull. It's not about the actor. Not about his face, his hands, his body. It's about the sensation. The female arousal that I felt for thirty seconds in Katya's body before I shut it down. The warm diffusion. The openness. The wanting that had no edges, no target, just a field of heat spreading in every direction at once and the body at the center of it saying //yes, more, here, please.//
-
-I imagine not stopping it. I imagine letting the body have what it wanted. Letting the hand find its destination. Letting the warmth build to wherever it was going before I put my hand over his and said //I need a minute.//
-
-What would the orgasm feel like? In that body? With that arousal pattern? Not sharp and pointed like mine, I'm guessing. Not concentrated in one nerve bundle that fires and empties. Something else. Something deeper. Something that lives in the belly and the thighs and the chest all at once, something that builds like a tide instead of a pressure, something that
-
-I come. Hard. My back arches off the mattress and my breath locks in my throat and the orgasm rips through me with a sharpness that almost hurts, like my body is overcompensating for what the fantasy was about, like my male orgasm is insisting on its own architecture in direct opposition to the phantom pattern I was imagining.
-
-<<say "Me">>Nnngh, fuck.<</say>>
-
-I gasp. Once. Twice. My hand is wet. My heart is slamming. Chipi meows from the pillow next to me, disgruntled by the sudden movement.
-
-I lie there.
-
-The ceiling. The crack. The distant hum of the refrigerator. A siren, blocks away, growing then fading.
-
-A man in his own bed, in his own body, getting off on the memory of what it felt like to be a woman who was wanted. Not the woman. Not the man who wanted her. The sensation itself. The architecture of desire as experienced by a body built differently from mine.
-
-I don't have a category for this. I don't have a name. I don't have a box to put it in or a shelf to put the box on. I have a wet hand and a racing pulse and a cat who's staring at me with an expression that says //are you done? can we sleep now?//
-
-<<say "Me">>Yeah. I'm done.<</say>>
-
-I clean up with the boxers because I'm too tired to get a towel. Pull the blanket up. Roll onto my side. Chipi resettles against the curve of my back, purring her rattling purr.
-<<else>>
-I don't fight it. My hand finds its way under the waistband and I let my body process what my mind can't. I think about the scenario. The hand on the knee. The warmth of female arousal, that diffuse, wide thing I felt for thirty seconds in someone else's body. I imagine not stopping it.
-
-What follows is sharp, fast, disorienting. When it's over I lie there and stare at the ceiling and I don't have a single category for what just happened. A man in his own bed, processing the memory of desire as felt by a body built nothing like his.
-
-Chipi meows. I pull the blanket up. Roll onto my side.
+<<if $settings.showExplicit and not visited("t0_day04_solo")>>
+<<opt "t0_day04_solo" "Don't fight it" "Explicit. Processing Scenario 4 through your own body.">>
 <</if>>
+<<opt "t0_day04_solo_skip" "Let it sit. Turn over and try to sleep.">>
 
-I close my eyes.
 
-Sleep doesn't come easily. It circles for a while, wary, waiting for my brain to stop running the comparison that won't stop running. My body. Katya's body. My arousal. Hers. The hand. The knee. The want.
+:: t0_day04_solo [night intimate explicit]
+<<set $flags.first_solo_done = true>>
+<<set $flags.solo_night_d4 = true>>
+<<set $body.arousal = 0>>
+<<scene "mood/bed-night" "11:15 PM, one strip of streetlight across the ceiling crack, the cat gone under on the next pillow">>
+
+The apartment is doing that thing where the silence has texture. The refrigerator hums its one note. The radiator ticks, cooling down from its last cycle. Outside, a siren starts four blocks away, climbs, fades. Chipi is on the pillow next to mine, curled so tight her nose touches her tail, purring that rattling purr that means she's already gone.
+
+I'm not gone. I'm lying on my back in boxers and nothing else, the blanket pulled to my waist, staring at the crack in the ceiling that runs from the light fixture to the corner. I've memorized that crack. I could draw it from memory. It's the last thing I see every night and the familiarity of it should be comforting but tonight it just means my eyes are open and my brain won't stop.
+
+The day replays itself in pieces. Not chronologically. The brain doesn't do chronological when it's processing. It does associative. It does temperature.
+
+Elena's voice: //The transferee masturbated in the host's body. Eighteen months.//
+
+The leather couch in the scenario room. The smell of fabric softener and old garlic.
+
+//Hey. Missed you today.//
+
+The hand.
+
+I close my eyes. Open them. The crack is still there.
+
+Paco's question on the phone, walking home through wet streets with orange light on the asphalt: //If it was your own body, if you felt that wanting in your own body, what would you do?//
+
+I didn't answer him. I changed the subject. He let me. Paco always lets me, which is the cruelest kindness because it means the question stays mine to carry.
+
+My body is warm under the blanket. The apartment is cold but I'm warm and the warmth is concentrated low, behind my navel, radiating downward in slow pulses that don't match my heartbeat. They match something else. A rhythm I learned today in someone else's body and can't unlearn in my own.
+
+I should sleep. I have Module 3 tomorrow. New clone. Renata. Rafael said new challenges with the specific gentleness of a man who knows exactly how hard the challenges will be and has decided not to warn you.
+
+I should sleep.
+
+The arousal doesn't care what I should do.
+
+It started building on the bus home from the facility. Four-fifteen, the sky going orange, my body heavy in the plastic seat. I was back in myself, back in the jeans and the navy crewneck and the boots, and everything fit wrong. Not literally. The clothes were fine. The body inside the clothes was the problem. Too angular. Too dense. My shoulders kept bumping the seat back and my legs spread automatically to accommodate equipment between them and the spreading felt, for the first time, like a choice I was making that Katya's body would never have made.
+
+Katya's body sat with her legs tucked. Compact. Nested. Making room.
+
+I sat on the bus with my legs spread and thought about the difference between a body that takes space and a body that makes space and the thought wouldn't finish because underneath it the arousal was sitting there, low and patient, a pilot light that wouldn't blow out.
+
+At dinner with James I ate pad thai and spring rolls and laughed at his biotech parser story and the whole time, the whole time, underneath the friendship and the beer and the warm restaurant light, the echo was there. The hand on the knee. The way the skin flushed under his palm. The pulling sensation between my legs that belonged to a body I wasn't wearing anymore but could still feel like a word on the tip of my tongue.
+
+James said //you deserve something that works// and I smiled and drank my Singha and the echo pulsed once, slow and warm, and I crossed my legs under the table and the crossing felt different because I knew now what it felt like to cross legs that were built differently, thighs pressing together with a pressure that was its own private conversation.
+
+Walking home. Paco on the phone. Cold air on my face. The wet sidewalk reflecting neon, red and green smeared on asphalt. I told him about Scenario 4. The couch. The hand. The body saying yes.
+
+//So you were in a woman's body and a hot guy touched your leg and your body wanted to fuck him.//
+
+//That's an extreme simplification.//
+
+//But accurate.//
+
+The accuracy is what I'm lying in bed with now. The accuracy is what won't let me sleep.
+
+I don't decide to touch myself. That implies a moment of deliberation. A weighing of options. A conscious choice.
+
+What happens is my hand moves. Under the waistband. Down. My fingers find my cock half-hard already, have been half-hard since the walk home, since the bus, since the moment I came back into my own body and felt the phantom of Katya's arousal riding my nervous system like a frequency my radio can't quite tune out but can't stop picking up.
+
+I wrap my hand around myself. The grip is familiar. Five fingers, a palm, the right pressure in the right place. I've done this ten thousand times. More. Since I was thirteen in my bedroom in Guadalajara with the door locked and the sound of my mother watching telenovelas through the wall. The mechanics are as known to me as breathing.
+
+Tonight the mechanics feel like a translation.
+
+I close my eyes. The scenario room materializes behind my eyelids. Not all at once. In pieces. The leather couch, worn smooth at the arms. The throw blanket folded over one side. The sneakers by the door. The water glass with the lipstick mark, light pink, the ghost of a mouth I was wearing.
+
+I'm on the couch. Katya's body. The cream v-neck shirt, thin, the fabric sitting against skin that registers every thread. The dark skirt above the knee. Legs tucked under, thighs pressing together, and the pressure between them is warm and full in a way my own thighs never produce because the architecture is different, the nerve density is different, everything is different.
+
+I stroke myself slowly. Not rushing.
+
+The door opens. He walks in. Button-down rolled to the elbows. Bag dropped by the sneakers. The smile that has history. That has a thousand other evenings encoded in the curve of it.
+
+//Hey. Missed you today.//
+
+Katya's heart rate doubles. I feel it in the memory the way you feel a phantom limb. The beat slamming against the ribcage, in the throat, in the wrists, in the pulse point behind her left ear. The blush starts. Not a decision. Not a reaction I could choose or refuse. The blood moves to the surface because the body recognizes this man the way a lock recognizes a key and the recognition is chemical, instant, total.
+
+He sits next to me. Close. The heat from his arm crosses the gap between us. His cologne, cedar and something clean, and underneath it the salt-warm smell of a living man. My stomach tightens. Katya's stomach. Low. Below the navel. Not nausea. The other thing. The thing that has no male equivalent because male arousal is a spike and this is a tide.
+
+I stroke faster. My own bed. My own hand. My own cock. But the fantasy is running Katya's operating system and the two sets of sensation layer on top of each other, male arousal in my fist and female arousal in my memory, and the combination is something I've never felt before. Like hearing a song in two keys at once.
+
+His hand on my knee.
+
+I feel it. Not metaphorically. The phantom is that precise. The weight of his palm settling against the kneecap, fingers wrapping to the side, the touch so casual that it carries the weight of ownership. This hand has been on this knee a hundred times. This body knows this hand the way you know your own name.
+
+The skin beneath his palm goes hot. The blush climbs, collarbone to throat to cheeks, a visible wave of blood and heat that I couldn't stop if I tried. Katya's nipples tighten against the thin shirt. The fabric catches against them and every micro-friction registers as information, thread against skin, the bra cup shifting slightly, the ache that lives between the nipple and the chest wall, that deep specific ache that isn't pain, isn't pleasure, is both, is a signal that the body is paying attention with every cell it has.
+
+I'm leaking. Precum slicking my fingers. My hips shift against the mattress. The springs creak once.
+
+His hand moves up my thigh. Past the kneecap. Onto the softer skin above. His thumb finds the inner thigh where the skin is thinner, where the veins are closer to the surface, where every touch registers in two places at once: at the point of contact and lower, deeper, between my legs where the warmth is gathering.
+
+//You look tense.//
+
+Mint breath. Close. His face tilted toward mine and Katya's vision locks onto his mouth without permission, the lower lip slightly fuller than the upper, the stubble along his jaw individual hairs catching light, and the body, God, the body is doing everything. Leaning in. Chest lifting. Chin tilting back. Throat exposed. The nipples aching. The belly tight and warm and the warmth spreading downward into something I could feel but couldn't name in the moment but can name now, lying in my own bed with my hand on my own cock.
+
+Katya's body was getting wet.
+
+I know that now. In the scenario I didn't let myself know it. I felt the warmth between the legs and I categorized it as response and moved past it because naming it felt like a door I couldn't walk back through. But I can name it now. The body was aroused. Specifically, precisely, undeniably aroused. The wetness was a response to the proximity and the touch and the smell and the history encoded in the clone's neural conditioning. A body that remembered being wanted by this man. A body that was ready.
+
+My hand tightens around my cock. The rhythm picks up. I'm breathing through my mouth now. The pillow is cool against the back of my neck. Chipi shifts on the pillow beside me, murmurs something in cat, resettles. I shouldn't be doing this three inches from the cat. The cat doesn't care. The cat has seen everything. The cat has no opinions about human sexuality.
+
+I let the fantasy go where I stopped it in the scenario.
+
+His hand doesn't stop at the inner thigh. It slides higher. Past the hem of the skirt. Fingers tracing the crease where thigh meets hip, that soft fold of skin that in Katya's body is exquisitely sensitive, wired to the same network as everything else south of the navel. His thumbnail catches the edge of her underwear. Cotton. Simple. The elastic pressing a shallow groove into the skin that I can feel in the phantom.
+
+He leans in. His mouth close to my ear. The breath warm, mint and heat, and his voice low, the kind of low that a body interprets as safety and as threat simultaneously: //I've been thinking about you all day.//
+
+Katya's body arches. Chest lifting, back pressing into the couch, the breasts shifting forward, nipples straining against the fabric. Chin tilting back, throat long and exposed, every vertebra in the neck extending. The hips rotate slightly, pressing toward his hand, and the rotation changes the angle between my thighs and the wetness shifts, spreads, and I feel it on the inner thighs where his thumb was just tracing circles.
+
+I imagine his hand finding its destination. Fingers pressing against the cotton. Feeling the heat and the dampness through the fabric. The outline of something my own body doesn't have, the specific geography of female anatomy mapped through a thin layer of cotton by fingertips that know the territory.
+
+I imagine Katya's body responding. The hips pressing forward. The gasp, alto, husky, involuntary, the sound of a woman's body saying yes with its whole respiratory system. The pelvic floor tightening around nothing, clenching on absence, wanting something inside it that isn't there yet.
+
+I stroke myself hard. Fast. My back is pressing into my own mattress and the springs are creaking and my free hand is gripping the sheet in a fist and the two sensations are layered, mine and hers, the spike and the tide, the male orgasm building to its point and the female one spreading to its horizon, and they're not the same thing, they're not even in the same language, but they're both happening in the same skull and the combination is
+
+I imagine what it would feel like. The orgasm. In that body. Not the sharp focused point that I'm approaching in my own, the one that builds in the base and fires through the shaft and empties in three or four contracting bursts. Not that. The other one. The one that starts in the belly and spreads, lower and wider, into the thighs and the chest and the fingers and the throat. The one that lives inside, deep, muscular, the pelvic floor contracting in waves around something or around nothing, the contractions pulling inward instead of pushing outward. Implosion instead of explosion. Receiving instead of expelling.
+
+What would it feel like to come from the inside.
+
+I come from the outside. Hard. My back arches off the mattress, hips lifting, cock pulsing in my fist, the orgasm ripping through me with a sharpness that almost hurts. My breath locks in my throat and holds, one second, two, and then breaks out in a sound I don't recognize.
+
+<<say "Me">>Nnnngh, fuck. Fuck.<</say>>
+
+The word punches out of me twice. My body jerks. Semen hits my stomach, my fist, the waistband of the boxers bunched around my thighs. My toes curl against the sheets. Every muscle from the neck down contracts, holds, releases.
+
+The orgasm is aggressive. Pointed. Insistent. Like my body is stamping its own signature on the experience, overriding the phantom, declaring this is how we do it here, this is male architecture, this is what ejaculation feels like and it is not that other thing, it is not the tide, it is not the implosion, it is this, the spike, the expulsion, the emptying.
+
+But underneath the spike, for about three seconds at the peak, I feel the ghost of the other pattern. The pulling instead of pushing. The inward instead of outward. Katya's phantom orgasm running its own subroutine beneath mine, quiet, deep, like a bass note under a cymbal crash.
+
+Three seconds. Then it's gone. My own orgasm finishes. The contractions slow. Stop. I'm lying on my back in a wet spot of my own making with my hand on my softening cock and my breath coming in ragged heaves and Chipi is staring at me from the pillow with an expression that communicates, clearly, //are you done? I was sleeping.//
+
+<<say "Me">>Yeah.<</say>>
+
+I'm talking to the cat. To the ceiling. To Rafael's voice in my head saying //how you process it is your business.//
+
+<<say "Me">>I'm done.<</say>>
+
+I clean up with the boxers. Pull them off, wipe my stomach, ball them up and throw them toward the laundry basket. They hit the rim and fall inside. Small victory.
+
+I pull the blanket up to my chest. My chest. Flat. The pectoral muscles are defined enough that I can feel the ridge where they meet the sternum. No softness. No weight. No half-second delay where gravity catches flesh. Just bone and muscle and skin pulled taut over the architecture of a male thorax.
+
+I put my hand on it. Palm flat. Feel my own heartbeat coming down from whatever it was doing. The beat steadies. Seventy. Sixty-five. Normal. My heartbeat. My rhythm.
+
+The crack in the ceiling is still there. The siren from earlier is gone. Replaced by nothing. The apartment is silent in the specific way that a single person's apartment is silent after midnight, the silence of one body and one heartbeat and no one to tell.
+
+I just got off on the memory of what it felt like to be a woman who was wanted. Not a specific woman. A clone. A vessel. Hardware without software. I was the software, and I used my access to her hardware to learn what wanting feels like from the other side, and then I came home to my own body and used that knowledge to have the most intense orgasm I've had in months.
+
+I don't know what to call that.
+
+It's not gay. The man in the scenario was a prop. I wasn't thinking about his body. His face is already blurring. I was thinking about the sensation. The diffuse warmth. The way arousal spreads through a female body like ink in water instead of concentrating to a point.
+
+It's not straight. Not in any framework I understand. Straight is: man thinks about woman, gets hard, acts on it. This was: man remembers being woman, remembers woman's arousal from inside, gets hard, acts on that. The object of desire wasn't a person. It was a state of being. A way of experiencing want.
+
+It's not about gender. Or it's entirely about gender. I can't tell.
+
+Paco asked: //If it was your own body, what would you do?//
+
+I did. I used my own body. I processed Katya's experience through Manuel's hardware and the result was this. Semen on my stomach and a question I can't answer and a cat who has gone back to sleep because cats have no existential crises at midnight, only humans, only men who have spent the day inside a woman's body learning that desire has more than one architecture.
+
+Rafael said: //Feel, note, choose.//
+
+I felt it. I'm noting it. I'm choosing to lie here and not categorize it and not pathologize it and not turn it into a narrative with a clean lesson at the end. I'm choosing to let it be the mess that it is. A man in his own bed. A memory in his body. A phantom between his legs that belongs to someone else's anatomy. The warmth fading. The quiet settling. The cat purring.
+
+The wanting was the warning, I said yesterday about the mirror. Four seconds of looking.
+
+Tonight the wanting wasn't a warning. The wanting was the whole sentence. Subject, verb, object. I wanted to feel what she felt. I felt it. And the feeling changed something in the architecture of who I am and I don't have blueprints for the new version yet.
+
+Tomorrow is Day 5. Module 3. Renata. A body that Elena described as "the one that tests composure."
+
+I close my eyes. The crack in the ceiling disappears. Chipi's purr fills the dark like static on an old radio, warm and constant and indifferent to everything I'm going through.
+
+<<say "Me">>Buenas noches, gata.<</say>>
+
+She doesn't answer. She's asleep. Smart cat.
+
+Sleep circles me for a while. Wary. Keeping its distance. When it finally lands it comes from the edges, the fingertips going numb first, then the toes, then the legs, the warmth of the blanket pulling me under like a current.
+
+The last thing I feel before I go is the phantom. Not the arousal. The hand. The weight of a palm on a knee that doesn't exist on this body. Warm. Proprietary. Gone.
+
+<<opt "t0_day04_sleep" "Under">>
+
+
+:: t0_day04_solo_skip [night intimate]
+<<set $body.arousal = 0>>
+
+I don't act on it.
+
+Not because I'm not tempted. The warmth is there, low and patient, a pilot light that won't blow out, and my hand knows the way and my brain has already queued up the footage, the couch and the hand and the body saying yes. It would be easy. It would probably be intense.
+
+I just don't want to, tonight. Not out of discipline. Out of something closer to self-preservation. The day was already a lot of body. A lot of Katya. If I chase the echo now I'm not sure what I'm feeding, and I'd rather not find out at midnight with a cat on the next pillow.
+
+I roll onto my side. My hip digs into the mattress. My arm settles across my ribs. The warmth doesn't leave. It just sits there, unspent, and I let it sit.
 
 Rafael said //feel, note, choose.//
 
 I felt it. I'm noting it. I'm choosing to sleep.
 
-The last thought before I go under is not about the scenario or the arousal or the body. It's about the moment in the mirror yesterday, the fourth second, the one where I could have stayed looking. The wanting was the warning, I said.
+The last thought before I go under is the moment in the mirror yesterday, the fourth second, the one where I could have stayed looking. The wanting was the warning, I said. Tonight the wanting is just a fact I'm carrying into sleep, unanswered, Paco's question folded inside it: //if it was your own body.//
 
-Tonight, the wanting was the whole sentence.
+Tomorrow is Day 5. Renata. Whatever that turns out to be.
 
 <<opt "t0_day04_sleep" "Under">>
 
