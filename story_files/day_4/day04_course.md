@@ -1,10 +1,10 @@
-# DAY 4 — COURSE CONTENT
+# DAY 4   COURSE CONTENT
 ## Module 2, Day 4: Legal Framework + Violation Consequences + Scenario 4: "The Partner"
 ## Thursday | Visa Clock: 24 Days
 
 ---
 
-## ARRIVAL — FACILITY
+## ARRIVAL   FACILITY
 
 ### Passage: `t0_day04_facility_arrive`
 
@@ -56,7 +56,7 @@ Tommy glances back. Catches my eye. Neither of us says anything.
 
 ---
 
-## MORNING LECTURE — LEGAL FRAMEWORK
+## MORNING LECTURE   LEGAL FRAMEWORK
 
 ### Passage: `t0_day04_lecture_legal`
 
@@ -188,7 +188,7 @@ She closes the lectern tablet.
 
 ---
 
-## AFTERNOON — SCENARIO 4: "THE PARTNER"
+## AFTERNOON   SCENARIO 4: "THE PARTNER"
 
 ### Passage: `t0_day04_pre_transfer`
 

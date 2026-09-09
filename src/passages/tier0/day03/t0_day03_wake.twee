@@ -3,7 +3,7 @@
 <<set $visaDays = 25>>
 <<set $calendar.weekday = 3>>
 <<run SOY.Locations.travel('apartment')>>
-<div class="card"><h1 class="passage-title">End of the Day 2 build</h1><p class="sub">Chipi's paw finds your eyelid before the alarm. Day 3 &mdash; Module 2, Ethics, and Clone 7-K &mdash; isn't written yet.</p></div>
+<div class="card"><h1 class="passage-title">End of the Day 2 build</h1><p class="sub">Chipi's paw finds your eyelid before the alarm. Day 3 - Module 2, Ethics, and Clone 7-K - isn't written yet.</p></div>
 
 Here's where Day 2 landed.
 

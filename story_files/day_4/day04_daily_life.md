@@ -1,9 +1,9 @@
-# DAY 4 — DAILY LIFE CONTENT
+# DAY 4   DAILY LIFE CONTENT
 ## Thursday | Visa Clock: 24 Days | Phase: Course (Module 2, Day 4)
 
 ---
 
-## MORNING — APARTMENT
+## MORNING   APARTMENT
 
 ### Passage: `t0_day04_wake`
 
@@ -91,7 +91,7 @@ At the door I stop. Señora Vidal has left another note. Yellow paper, same as a
 
 I unfold it.
 
-*"MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary. — V. Vidal"*
+*"MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary.   V. Vidal"*
 
 The note is longer today. The handwriting gets smaller toward the bottom where she ran out of space. There's a postscript crammed into the margin: *"Eat something with vegetables."*
 
@@ -121,7 +121,7 @@ I didn't use to know that. Now I can't stop knowing it.
 
 ---
 
-## EVENING — POST-DINNER, APARTMENT
+## EVENING   POST-DINNER, APARTMENT
 
 *[Evening continues after James dinner and Paco call, covered in NPC file]*
 

@@ -1,4 +1,4 @@
-# DAY 4 — CODE AGENT INTEGRATION PROMPT
+# DAY 4   CODE AGENT INTEGRATION PROMPT
 ## Instructions for integrating Day 4 content into SugarCube 2.x Twine game
 
 ---
@@ -197,18 +197,18 @@ t0_day04_wake [day-start]
 I walk out of the facility at 4:15. James dinner is at 7. I have almost three hours.
 
 <<if _available.indexOf('apartment') !== -1>>
-    [[Go home and decompress|t0_day04_apartment_afternoon]] — Chipi. Couch. Quiet.
+    [[Go home and decompress|t0_day04_apartment_afternoon]]   Chipi. Couch. Quiet.
 <</if>>
 
-[[Walk through the neighborhood|t0_day04_walk_neighborhood]] — Cold air. Room to think.
+[[Walk through the neighborhood|t0_day04_walk_neighborhood]]   Cold air. Room to think.
 
 <<if _available.indexOf('dannys') !== -1>>
-    [[Stop at Danny's|t0_day04_dannys_afternoon]] — Quick bowl. Quiet company.
+    [[Stop at Danny's|t0_day04_dannys_afternoon]]   Quick bowl. Quiet company.
 <</if>>
 
 /* Lulu's is available but Manuel walked past in the narrative. Optional: */
 <<if _available.indexOf('lulus') !== -1>>
-    [[Duck into Lulu's bodega|t0_day04_lulus_quick]] — Milk. Empanadas. Interrogation.
+    [[Duck into Lulu's bodega|t0_day04_lulus_quick]]   Milk. Empanadas. Interrogation.
 <</if>>
 
 /* All paths converge at James dinner at 7 PM */
@@ -245,7 +245,7 @@ I find a Post-It in my kitchen drawer...
 ## SIDEBAR STATE FOR DAY 4
 
 ```
-DAY 4 — THURSDAY
+DAY 4   THURSDAY
 Morning: ♂ Manuel | $2,097 (approx) | 📍 Apartment
 Facility: ♀ Katya (during scenario) → ♂ Manuel | 📍 SoY Facility
 Evening: ♂ Manuel | 📍 [Player choice] → Siam Corner → Apartment

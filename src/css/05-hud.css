@@ -28,7 +28,7 @@
 	color: var(--ink-4);
 }
 
-/* StoryMenu "Jump ahead" item — sits above SAVES during the backstory */
+/* StoryMenu "Jump ahead" item   sits above SAVES during the backstory */
 #menu-story li a { color: var(--amber-bright); }
 
 /* ---- Visa clock ---- */

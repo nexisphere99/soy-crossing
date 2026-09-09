@@ -10,9 +10,9 @@ The headset is on a mechanical arm attached to the ceiling. Matte black, curved,
 
 Beside the chair, a second bed. On it lies a body.
 
-Flor.
+Flor the Clone 7-F. She's wearing a grey cotton training top and matching shorts. Eyes closed. Breathing. The breath is slow, rhythmic, mechanical, the respiration of a body that runs on autopilot with nobody at the controls. Light brown skin. Dark brown hair, wavy, thick, fanned across the pillow. She looks like a woman sleeping. She looks real. She looks alive. She is alive, in the way that a heart beating and lungs breathing constitutes alive. But there's nobody in there. No consciousness. No person behind those closed eyes.
 
-<<face "flor" "Clone 7-F">>She's wearing a grey cotton training top and matching shorts. Eyes closed. Breathing. The breath is slow, rhythmic, mechanical, the respiration of a body that runs on autopilot with nobody at the controls. Light brown skin. Dark brown hair, wavy, thick, fanned across the pillow. She looks like a woman sleeping. She looks real. She looks alive. She is alive, in the way that a heart beating and lungs breathing constitutes alive. But there's nobody in there. No consciousness. No person behind those closed eyes.
+<<face "flor" "Clone 7-F">>
 
 I can't stop staring at her hands. Small. Short nails. A scattering of moles across the collarbones that are visible where the training top's neckline dips.
 
@@ -46,9 +46,7 @@ The headset hums. Not audibly. I feel it in my teeth, in the bones of my face, a
 :: t0_day02_transfer_begins [facility warp]
 <<scene "mood/transfer-warp" "A silhouette dissolving into light, streaming through a narrow luminous channel, reforming on the far side">>
 
-Heat.
-
-It starts at the contact points and floods inward. Not painful. Not comfortable. Just heat, pure and total, like someone turned the temperature dial inside my skull from "room" to "noon in Guadalajara." My vision blurs. The ceiling dissolves into white static. The pressure builds behind my eyes, exactly where Elena said it would, a ballooning sensation like my brain is trying to expand past the limits of my skull.
+Heat. It starts at the contact points and floods inward. Not painful. Not comfortable. Just heat, pure and total, like someone turned the temperature dial inside my skull from "room" to "noon in Guadalajara." My vision blurs. The ceiling dissolves into white static. The pressure builds behind my eyes, exactly where Elena said it would, a ballooning sensation like my brain is trying to expand past the limits of my skull.
 
 Then the compression.
 
@@ -58,13 +56,12 @@ Then expansion.
 
 The narrow place opens and I pour into something and the something has edges, has shape, has weight, has temperature, has a heartbeat that isn't mine.
 
-I open my eyes.
-
 <<run SOY.Body.transfer('7f', setup.clones['7f'])>>
 <<run SOY.Quests.complete('t0_day02', 'transfer')>>
-<<face "flor" "Clone 7-F &mdash; the body you're wearing">>
+<<face "flor" "Clone 7-F: the body you're wearing">>
 
-The ceiling is the same. Same lights. Same room. But everything is different. Everything.
+
+I open my eyes. The ceiling is the same. Same lights. Same room. But everything is different. Everything.
 
 My hands.
 
@@ -236,8 +233,6 @@ Elena guides me back to the bed. I lie down. The mattress feels different under 
 I close my eyes. The headset hums again, the teeth-and-bones vibration.
 
 This time it's not heat. It's cold. A sudden, total cold that starts at the contact points and floods inward, and then the compression comes again but in reverse, like being pulled out of a sock, the narrow place from the other direction, and I have just enough time to think "falling" before I'm falling, and then I'm.
-
-I'm.
 
 <<run SOY.Body.deTransfer()>>
 <<run SOY.Quests.complete('t0_day02', 'detransfer')>>

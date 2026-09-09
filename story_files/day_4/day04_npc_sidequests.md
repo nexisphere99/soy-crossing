@@ -1,4 +1,4 @@
-# DAY 4 — NPC & SIDE QUEST INTERACTIONS
+# DAY 4   NPC & SIDE QUEST INTERACTIONS
 ## Thursday | Visa Clock: 24 Days
 
 ---
@@ -428,7 +428,7 @@ He hangs up. I pocket the phone and walk the last four blocks home with the cold
 
 Yellow paper. Same handwriting, getting smaller toward the bottom. Crucifix drawn in the margin.
 
-> MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary. — V. Vidal
+> MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary.   V. Vidal
 > 
 > P.S. Eat something with vegetables.
 
@@ -443,7 +443,7 @@ Yellow paper. Same handwriting, getting smaller toward the bottom. Crucifix draw
 
 I find a Post-It note in my kitchen drawer. Yellow, same shade as hers. I write:
 
-*"Señora Vidal, thank you for watching Chipi. I'm sorry I missed the platanos. I will try to be home earlier. — M."*
+*"Señora Vidal, thank you for watching Chipi. I'm sorry I missed the platanos. I will try to be home earlier.   M."*
 
 I stick it on her door on my way out. The door has a small crucifix nailed above the peephole and a doormat that says BIENVENIDOS in letters that are half worn away.
 

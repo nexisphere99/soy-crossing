@@ -1,4 +1,4 @@
-/* charpanel.js — collapsible right-hand character panel.
+/* charpanel.js   collapsible right-hand character panel.
  *
  * A full-body image of whoever Manuel currently is, in a drawer that slides in
  * from the right. A tab on its left edge toggles it; the open/closed choice is
@@ -6,7 +6,7 @@
  * the reading column stays centred; on mobile it just overlays and defaults to
  * closed.
  *
- * Art: game_files/img/full_body/<slug>.png — "manuel" by default; a transfer
+ * Art: game_files/img/full_body/<slug>.png   "manuel" by default; a transfer
  * body uses its profile's `slug`/`id` if it has one.
  */
 (function () {

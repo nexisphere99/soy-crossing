@@ -1,4 +1,4 @@
-# DAY 4 — IMAGE PROMPTS
+# DAY 4   IMAGE PROMPTS
 ## For AI Image Generation (Midjourney / Stable Diffusion / DALL-E)
 
 ---

@@ -1,5 +1,5 @@
 #!/bin/bash
-# build.sh — compile all Twee/JS/CSS sources into a single HTML file
+# build.sh   compile all Twee/JS/CSS sources into a single HTML file
 set -e
 
 TWEEGO="${TWEEGO:-$HOME/tweego/tweego}"

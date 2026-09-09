@@ -9,7 +9,7 @@ Config.saves.maxSlotSaves = 8;
 /* let CSS `hyphens: auto` engage in justified prose */
 try { document.documentElement.lang = document.documentElement.lang || 'en'; } catch (e) {}
 
-/* Build version — shown under the title in the sidebar and on the splash. */
+/* Build version   shown under the title in the sidebar and on the splash. */
 setup.version = '0.0.1';
 
 /* Namespace bootstrap (systems files each guard this too) */
