@@ -1,0 +1,597 @@
+:: t0_day04_evening_choice [evening]
+<<run SOY.Time.ensureSlot(2)>>
+<<run SOY.Locations.travel('street')>>
+
+I walk out of the facility at 4:15 with the scenario still living in my nervous system. The sun is low, orange through the buildings, and the air smells like cold asphalt and someone's cigarette from the loading dock two doors down.
+
+My phone buzzes. James.
+
+<<phone "James">>
+<<txt "James">>Still on for 7? Found the place. It's called Siam Corner. Authentic, not the Americanized kind. My coworker says the pad thai is "transcendent" which is a bold word for noodles but I trust her.<</txt>>
+<<txt "James">>Also fair warning, my mom made another casserole. I'm bringing you a container. You cannot say no. She asked about you by name. Manuel. She ASKED.<</txt>>
+<<txt "Me">>7 works. Tell your mom I said thank you and hi.<</txt>>
+<<txt "James">>She says hi and also "is he eating enough?" I told her yes but honestly idk man, are you eating enough?<</txt>>
+<<txt "Me">>I ate toast this morning.<</txt>>
+<<txt "James">>That is NOT enough. See you at 7. We're ordering everything.<</txt>>
+<</phone>>
+
+I pocket the phone. I have almost three hours before dinner.
+
+<<opt "t0_day04_apartment_afternoon" "Go home and decompress" "Chipi. Couch. Quiet.">>
+<<opt "t0_day04_walk_neighborhood" "Walk through the neighborhood" "Cold air. Room to think. A straight line.">>
+<<opt "t0_day04_dannys_afternoon" "Stop at Danny's" "A quick bowl. The company of a man who asks one question.">>
+<<opt "t0_day04_lulus_quick" "Duck into Lulu's bodega" "Milk. Empanadas. Interrogation about the bartender.">>
+
+
+:: t0_day04_apartment_afternoon [evening]
+<<run SOY.Locations.travel('apartment')>>
+
+Home for two hours before dinner. Chipi meets me at the door, winds through my ankles, then loses interest and goes back to the windowsill where a strip of low afternoon sun is moving slowly across the wood.
+
+I don't turn on the TV. I lie on the couch with my forearm over my eyes and let the apartment be quiet around me. The radiator ticks. The fridge hums. Somewhere in the building a door closes.
+
+The phantom sits in my lower belly the whole time. Not doing anything. Just present. A coal that won't go out. I don't poke at it. I let it be there and I breathe and after a while I get up, splash water on my face, put the olive jacket back on, and head out to meet James.
+
+<<opt "t0_day04_james_dinner" "Siam Corner">>
+
+
+:: t0_day04_walk_neighborhood [evening]
+<<run SOY.Locations.travel('street')>>
+<<scene "mood/october-evening-walk-2" "The long way home: laundromat bleach, a barbershop, a scrubby park on Sixth">>
+
+I take the long way home. Not because I want exercise. Because I need to feel my own body moving through space in a straight line without hip sway, without breasts shifting, without skin that registers every temperature change like a weather station.
+
+Ninth Street to Seventh. Past the laundromat that always smells like bleach and Mexican radio. Past the Dominican barbershop where three guys are sitting in chairs that aren't barber chairs, just chairs, drinking from paper bag bottles and watching the street like it's television.
+
+One of them nods at me. I nod back. The exchange takes less than a second and contains an entire conversation: //I see you. You see me. We are men on this street. We have acknowledged each other's existence. That is sufficient.//
+
+I couldn't have described that transaction a week ago. Now I can. Now I know it's a thing men do that women don't get to do, this wordless mutual acknowledgment that costs nothing and means nothing and is invisible until you've stood on the other side of it in a body that doesn't receive it.
+
+I pass Lulu's bodega. The OPEN sign is on. I can see her through the window, restocking cans on the middle shelf, standing on a step stool because she's five-two and the shelf is five-seven. I could go in. She'd feed me. She'd interrogate me. She'd mention the bartender with the tattoos.
+
+I keep walking.
+
+Two blocks further. The park on Sixth. Small, scrubby, more concrete than grass, but there's a bench by the basketball court and nobody's playing right now. I sit down.
+
+The bench is cold through my jeans. The sky is doing that October thing where the blue gets diluted, washed out, like someone added too much water to the paint. A woman jogs past on the path. Ponytail swinging. She adjusts her earbuds without breaking stride and I notice the way her sports bra compresses her chest and the way she runs with her elbows tight, taking up minimum lateral space, and I think about Katya's body on the couch with its legs tucked under, compact, nested, making room.
+
+The woman is making room too. Even while running. Even while alone. The body negotiates with space even when nobody's watching.
+
+I sit on the bench for twenty minutes. The cold seeps through the denim into my thighs. I let it. The sensation is specific to this body, to these thighs, to jeans and cold metal and a flat chest that doesn't shift when I lean forward to put my elbows on my knees.
+
+My body. Specific. Not default. One version.
+
+I get up and walk home, and then out again to meet James.
+
+<<opt "t0_day04_james_dinner" "Siam Corner">>
+
+
+:: t0_day04_dannys_afternoon [evening]
+<<scene "locations/dannys-ramen" "Danny's at 4:45, mostly empty, a Korean ballad over the speakers">>
+<<run SOY.Locations.travel('dannys')>>
+<<run SOY.Economy.spend(10, 'food')>>
+<<set $flags.visited_dannys_day4 = true>>
+<<run SOY.NPCs.adjustRelationship('danny', 1)>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+Danny's at 4:45 is mostly empty. One guy at the counter eating tonkotsu with surgical focus. Danny behind the counter, wiping down the prep station, playing something I don't recognize. Not K-pop today. Something slower, sadder, a woman's voice over a piano.
+
+<<say "Danny">>Hey. You're early. Thursday's usually a night visit.<</say>>
+<<say "Me">>Needed noise.<</say>>
+<<say "Danny">>I got noise.<</say>>
+
+He turns up the music slightly.
+
+<<say "Danny">>Korean ballad. My grandma loves this song. It's about a woman waiting for a soldier to come home.<</say>>
+
+He shrugs.
+
+<<say "Danny">>Cheerful stuff.<</say>>
+
+I sit at the counter. Danny doesn't ask what I want. He puts a glass of water in front of me and goes back to wiping.
+
+<<say "Danny">>Bad day?<</say>>
+<<say "Me">>Complicated day.<</say>>
+<<say "Danny">>Complicated bad or complicated interesting?<</say>>
+<<say "Me">>You're the second person in this city who asks me that.<</say>>
+<<say "Danny">>Who's the first?<</say>>
+<<say "Me">>A bartender.<</say>>
+
+Danny grins.
+
+<<say "Danny">>Bartenders and ramen guys. We're in the same business. Feed people, ask them how they're doing, pretend the answer doesn't break our hearts.<</say>>
+
+He sets a small bowl of edamame in front of me.
+
+<<say "Danny">>On the house. You look like you need salt.<</say>>
+
+I eat the edamame. The salt is good. The music is good. The quiet company of a man who asks one question and then leaves space for silence, that's good too.
+
+I leave a ten on the counter and walk out. Danny calls after me.
+
+<<say "Danny">>Chashu special tonight if you come back!<</say>>
+<<say "Me">>I've got dinner plans.<</say>>
+<<say "Danny">>Look at you. Popular. Eat something green!<</say>>
+
+<<opt "t0_day04_james_dinner" "Siam Corner">>
+
+
+:: t0_day04_lulus_quick [evening]
+<<scene "locations/lulus-bodega" "Lulu's, the OPEN sign lit, a step stool by the middle shelf">>
+<<run SOY.Locations.travel('lulus')>>
+<<run SOY.Economy.spend(5, 'food')>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+<<set $npcs.lulu.flags.empanada_count += 1>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+The bell over the door. Lulu is up on the step stool, restocking the middle shelf, and she doesn't turn around.
+
+<<say "Lulu">>Whatever you're buying, get it and go, I'm counting cans.<</say>>
+<<say "Me">>It's me.<</say>>
+<<say "Lulu">>Mijo.<</say>>
+
+She climbs down, one hand on the shelf.
+
+<<say "Lulu">>You look like you slept in a chair. Milk?<</say>>
+<<say "Me">>Milk. And whatever's warm.<</say>>
+<<say "Lulu">>Empanada. Beef.<</say>>
+
+She wraps it in foil without asking.
+
+<<say "Lulu">>You eat this before your dinner, not instead of it. You have a dinner? A real one? With a person?<</say>>
+<<say "Me">>A friend. James.<</say>>
+<<say "Lulu">>A friend named James.<</say>>
+
+She hands me the bag.
+
+<<say "Lulu">>Not the bartender.<</say>>
+<<say "Me">>Not the bartender.<</say>>
+<<say "Lulu">>Pff. Go. Eat with your friend James. But Saturday, the bartender. Paco says she likes you. Paco is a fool but he is not a liar.<</say>>
+
+<<opt "t0_day04_james_dinner" "Siam Corner">>
+
+
+:: t0_day04_james_dinner [evening npc-james]
+<<scene "locations/siam-corner" "A small bright Thai restaurant, tables crammed close, framed family photos on every wall">>
+<<run SOY.Locations.travel('cafe')>>
+
+Siam Corner is on a side street I've never walked down. Small, bright, twenty tables crammed so close the chairs overlap. The walls are covered in framed photos of what I assume is the owner's family, a dynasty of cooks grinning over pots and woks across what looks like four decades. The air is thick with lemongrass and chili oil and the sizzle of something hitting a wok at exactly the right temperature.
+
+<<face "james" "James Okafor">>James is already there. Of course he is. James is always early. It's the guilt engine that runs him, the perpetual awareness that he survived the layoff and I didn't, translated into small acts of punctuality and generosity that he'll never admit are penance.
+
+He's at a two-top by the window. He stands up when he sees me and his face does that thing, the James thing, where relief and warmth and a little bit of shame all compete for the same expression. He pulls me into a hug. James hugs like he means it. Both arms, full contact, the kind of hug that says //I am glad you exist and I feel bad about the world.//
+
+<<say "James">>Man. You look different.<</say>>
+<<say "Me">>Different how?<</say>>
+<<say "James">>I don't know. Tired but, like, focused? Like you've been doing something intense.<</say>>
+
+He sits.
+
+<<say "James">>The menu's incredible. I already ordered spring rolls. Don't argue.<</say>>
+<<say "Me">>I wasn't going to argue.<</say>>
+<<say "James">>You always argue.<</say>>
+
+He pushes a menu across the table.
+
+<<say "James">>Get the pad thai. My coworker swears on her grandmother's grave.<</say>>
+
+A Tupperware container appears from his bag. Blue lid, fogged with condensation.
+
+<<say "James">>Mom's chicken casserole. She put extra cheese because, and I quote, "that boy needs comfort food."<</say>>
+<<say "Me">>She's never met me.<</say>>
+<<say "James">>She's seen photos. She says you have "kind eyes and a hungry face."<</say>>
+
+He pushes the container toward me.
+
+<<say "James">>Take it. If I bring it back she'll assume you're dead and start a prayer chain at church.<</say>>
+
+I take the casserole. It weighs about two pounds. Mrs. Okafor does not mess around.
+
+<<opt "t0_day04_james_dinner_02" "The spring rolls arrive">>
+
+
+:: t0_day04_james_dinner_02 [evening npc-james]
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+The spring rolls arrive. They're perfect. Crispy, not greasy, with a peanut sauce that has actual peanut chunks in it. James eats one in two bites and starts talking about his biotech side project with the specific enthusiasm of a man who has been waiting all day for someone to tell.
+
+<<say "James">>So the genome sequencing thing, right? I figured out the bottleneck. It was in the data pipeline, not the sequencing protocol. The parser was reading every strand as a discrete object instead of mapping relational clusters. I rebuilt the parser in Rust and the throughput tripled.<</say>>
+<<say "Me">>Tripled?<</say>>
+<<say "James">>Tripled. My advisor said it was "promising." From Dr. Chen, that's basically a marriage proposal.<</say>>
+
+I eat a spring roll and let his energy fill the table. James talks with his hands. He gestures so broadly that he almost knocks over the water glass twice. He has the specific quality of a man whose brain runs faster than his mouth and his mouth runs faster than most people's brains. Keeping up with James is like jogging beside a sprinter who doesn't know he's sprinting.
+
+The pad thai arrives. It's transcendent. James's coworker was right.
+
+<<say "James">>So.<</say>>
+
+He puts his chopsticks down. Gets serious. The shift is visible, his posture changes, shoulders coming in, voice dropping half a register.
+
+<<say "James">>The new job. How's it going? For real.<</say>>
+<<say "Me">>It's intense.<</say>>
+
+I eat a noodle. Chew. Buy time.
+
+<<say "Me">>Good, though. Different from anything I've done.<</say>>
+<<say "James">>Different how?<</say>>
+
+The question sits between us like something breakable. I pick it up carefully.
+
+<<say "Me">>It's physical. Not like construction. More like... learning how different bodies work. From the inside.<</say>>
+<<say "James">>Like physical therapy?<</say>>
+<<say "Me">>Something like that.<</say>>
+
+The lie is small and round and it slides between my teeth with the ease of practice. Four days of practice.
+
+<<say "Me">>The company does research on how people experience physical sensation. Biometric stuff. I'm a consultant.<</say>>
+<<say "James">>Biometric research consultant.<</say>>
+
+James says it slowly, tasting the words.
+
+<<say "James">>That's the most Manuel sentence I've ever heard. Vague, technical, and slightly evasive.<</say>>
+<<say "Me">>I can't talk about specifics. NDA.<</say>>
+<<say "James">>Right.<</say>>
+
+He nods. He doesn't push. James never pushes. He's built his entire personality around giving people room, which is what happens when you grow up with four siblings and a mother who ran the household like a benevolent general.
+
+<<say "James">>But you're okay? Like, physically? It's safe?<</say>>
+<<say "Me">>Very safe. Monitored. Supervised. Medical team on site.<</say>>
+<<say "James">>And the visa? This helps?<</say>>
+<<say "Me">>Diana thinks they can file a transfer petition. If I pass the certification.<</say>>
+<<say "James">>Manuel.<</say>>
+
+He leans forward.
+
+<<say "James">>That's amazing. That's, like, actually amazing.<</say>>
+
+His face is doing the James thing again, the relief and the warmth, and this time the shame is smaller.
+
+<<say "James">>You deserve this. You know that, right? After everything with Brevity and the job search and all of it. You deserve something that works.<</say>>
+<<say "Me">>Thanks, James.<</say>>
+<<say "James">>I mean it. You're the hardest-working person I know, and I work with a guy who sleeps under his desk.<</say>>
+
+He picks up his chopsticks.
+
+<<say "James">>Now eat your noodles. They're getting cold.<</say>>
+
+I eat my noodles. They're still transcendent.
+
+<<opt "t0_day04_james_dinner_03" "The bill comes">>
+
+
+:: t0_day04_james_dinner_03 [evening npc-james]
+<<run SOY.Quests.complete('t0_day04', 'dinner')>>
+<<set $flags.james_dinner_done = true>>
+<<set $npcs.james.flags.guilt_dinners += 1>>
+<<run SOY.NPCs.adjustRelationship('james', 1)>>
+
+The bill comes and James's hand shoots across the table like a cobra striking a mouse.
+
+<<say "Me">>James.<</say>>
+<<say "James">>Don't.<</say>>
+<<say "Me">>I can pay for my own food.<</say>>
+<<say "James">>My treat.<</say>>
+
+He's already putting his card down.
+
+<<say "James">>When you're a certified biometric research whatever and making bank, you can buy me dinner. Until then, let me have this.<</say>>
+
+I let him have it. The guilt is consistent if nothing else.
+
+We walk out into the cold. The restaurant's warmth clings to our clothes for about ten seconds before October strips it away. James pulls his collar up. He's wearing a puffy jacket that makes him look like a friendly marshmallow.
+
+<<say "James">>Thursday dinner number, what, twelve?<</say>>
+<<say "Me">>Something like that.<</say>>
+<<say "James">>I'm glad we do this. I know it started because, you know.<</say>>
+
+He waves his hand. The guilt. The layoff. The survivor's arithmetic.
+
+<<say "James">>But it's not about that anymore. For me. I hope you know that.<</say>>
+<<say "Me">>I know.<</say>>
+
+He claps my shoulder.
+
+<<say "James">>Get home safe. Eat the casserole. Text me when you do or my mom will call.<</say>>
+
+He turns toward his bus stop. I watch him walk, this big warm generous man who feels guilty about keeping his job and pays for it in pad thai and chicken casserole and Thursday nights, and I think about the version of honesty I can't give him yet. The body swapping. The female bodies. The hand on the knee. Someday I'll tell him and he'll process it the way James processes everything, with wide eyes and too many questions and eventually a hug.
+
+Someday. Not tonight.
+
+<<opt "t0_day04_paco_call" "Call Paco on the walk home">>
+
+
+:: t0_day04_paco_call [evening npc-paco]
+<div class="callbar">&#9742; Paco Herrera &middot; connected</div>
+<<scene "mood/paco-night-walk" "A wet sidewalk at night, orange sodium light, bodega neon smeared red and green on the asphalt">>
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+I call Paco from the walk home. He picks up on the second ring.
+
+<<say "Paco">>Hermano! How was legal day? Did they show you the prison one?<</say>>
+<<say "Me">>They showed me the prison one.<</say>>
+<<say "Paco">>Eighteen months.<</say>>
+
+Paco whistles.
+
+<<say "Paco">>For jerking off. In someone else's body. I mean, the audacity. The AUDACITY.<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>I'm not saying I condone it. I'm saying if you're going to commit a crime, at least commit an interesting one. That guy got eighteen months for being boring AND horny.<</say>>
+
+I laugh. It hurts a little, in the ribs, from the dinner and the spring rolls and the day.
+
+<<say "Me">>That's not the point.<</say>>
+<<say "Paco">>What's the point?<</say>>
+<<say "Me">>The point is the scenario.<</say>>
+<<say "Paco">>Which scenario?<</say>>
+<<say "Me">>Scenario 4. The Partner.<</say>>
+
+Silence. Paco's silence is notable because it happens so rarely.
+
+<<say "Paco">>Tell me.<</say>>
+
+I tell him. The living room. The couch. The actor coming through the door. //Hey, Katya? Missed you today.// The hand on the knee.
+
+<<say "Paco">>And what happened?<</say>>
+
+Paco's voice has shifted. Curious, careful, the way he sounds when he knows he's about to hear something that will change the shape of what he understands.
+
+<<say "Me">>The body reacted. Before I could think. Heart rate doubled. Skin flushed. Everything, like, opened. Toward him. The body knew him and the body wanted him and none of that was mine. None of it was my choice.<</say>>
+<<say "Paco">>But it felt like yours.<</say>>
+<<say "Me">>It felt like being inside a choice someone else already made.<</say>>
+<<say "Paco">>Okay.<</say>>
+
+Paco breathes.
+
+<<say "Paco">>So you were in a woman's body and a hot guy touched your leg and your body wanted to fuck him.<</say>>
+<<say "Me">>That's an extreme simplification.<</say>>
+<<say "Paco">>But accurate.<</say>>
+<<say "Me">>The body responded. I didn't choose it.<</say>>
+<<say "Paco">>Right. But what was that like?<</say>>
+
+I walk past a bodega, not Lulu's, a different one. The neon signs reflect off the wet sidewalk, red and green smeared on asphalt.
+
+<<say "Me">>Confusing. Like being a passenger in a car that's accelerating and you can't find the brake.<</say>>
+<<say "Paco">>Did you stop it?<</say>>
+<<say "Me">>I stopped it. Put my hand over his. Moved it. Said I needed a minute.<</say>>
+<<say "Paco">>In her voice?<</say>>
+<<say "Me">>In her voice.<</say>>
+
+Paco is quiet for three beats. I can hear background noise on his end, television maybe, the low murmur of a Spanish broadcast.
+
+<<say "Paco">>Manuel.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Paco">>Are you okay?<</say>>
+
+The question is different from James's. James asked about safety, logistics, the visa. Paco is asking about the thing underneath the safety. The thing that has no name yet.
+
+<<say "Me">>I don't know. Yeah. I think so. It's just, a lot.<</say>>
+<<say "Paco">>The body wanted him and you said no.<</say>>
+<<say "Me">>I said wait.<</say>>
+<<say "Paco">>Because it wasn't your body.<</say>>
+<<say "Me">>Because it wasn't my body.<</say>>
+<<say "Paco">>And if it was your body?<</say>>
+
+I stop walking. Just stand on the sidewalk under a streetlight with the orange glow turning my shadow long and thin.
+
+<<say "Me">>What?<</say>>
+<<say "Paco">>If that arousal, that reaction, that wanting, if you felt that in your own body. What would you do?<</say>>
+<<say "Me">>That's, that's not the same question.<</say>>
+<<say "Paco">>I know. I'm asking it anyway.<</say>>
+
+I don't answer. Paco doesn't push. He waits. The television on his end changes to a commercial, someone selling car insurance with too much enthusiasm.
+
+<<say "Me">>I think the training is working. I think I'm getting better at knowing the difference.<</say>>
+<<say "Paco">>Between what the body wants and what you choose.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Paco">>Good.<</say>>
+
+He pauses.
+
+<<say "Paco">>Listen, the Brazilian. She sent me another gym video. She's doing deadlifts now. Her form is perfect, Manuel. Perfect. I'm going to fly to São Paulo and propose in the squat rack.<</say>>
+<<say "Me">>You've never met her.<</say>>
+<<say "Paco">>Love doesn't require geography.<</say>>
+
+He's grinning, I can hear it.
+
+<<say "Paco">>Also she asked me for a photo and I sent the one from your birthday party last year where I'm wearing the Hawaiian shirt and she said I looked "simpático" which I THINK is a compliment?<</say>>
+<<say "Me">>It means nice.<</say>>
+<<say "Paco">>Nice! She thinks I'm nice!<</say>>
+
+The enthusiasm is back to full volume. The serious moment has passed. Paco lets serious moments pass the way a surfer lets waves pass, riding them just long enough and then letting the water take them.
+
+<<say "Paco">>Get some sleep, hermano. Day 5 tomorrow. New body?<</say>>
+<<say "Me">>New body.<</say>>
+<<say "Paco">>What's this one called?<</say>>
+<<say "Me">>Renata.<</say>>
+<<say "Paco">>Renata. That sounds like a woman who doesn't take shit from anyone.<</say>>
+<<say "Me">>I haven't met her yet.<</say>>
+<<say "Paco">>You'll tell me. You always tell me.<</say>>
+<<say "Me">>Buenas noches, Paco.<</say>>
+<<say "Paco">>Buenas noches, Manuel. Try not to think about the knee.<</say>>
+
+He hangs up. I pocket the phone and walk the last four blocks home with the cold air on my face and the orange streetlights painting the sidewalk in strips and the echo of Katya's arousal still sitting in my lower belly like a coal that won't go out.
+
+<<opt "t0_day04_home_late" "Home">>
+
+
+:: t0_day04_home_late [night]
+<<run SOY.Locations.travel('apartment')>>
+<<run SOY.Quests.complete('t0_day04', 'wind_down')>>
+<<scene "mood/apartment-night-couch" "The apartment at 10:40, the light above the stove, the cat on the couch armrest">>
+
+Home at 10:40. The apartment is dark except for the light above the stove that I always leave on because coming home to total darkness feels like walking into a place that forgot I exist.
+
+Chipi is on the couch armrest. She meows, one long sustained note, accusatory.
+
+<<say "Me">>I know.<</say>>
+
+I set my keys on the table. Hang the jacket on the hook. The jacket smells like Thai food now, lemongrass and peanut sauce baked into the collar from two hours of sitting in a restaurant that was too warm.
+
+<<say "Me">>I was out. I have a social life. Occasionally.<</say>>
+
+She jumps down and threads between my ankles while I walk to the kitchen. I open a can of her food, the expensive stuff, the one with actual chicken in it that costs $2.50 a can, which is more than I spend on my own dinner most nights. She eats with the focused intensity of a creature who has never once questioned whether she deserves to be fed.
+
+I lean on the counter and watch her eat and the apartment settles around me. The refrigerator hums. The radiator clicks. Outside, a car horn blares once and stops. New York at night, that specific frequency of distant noise that sounds like the city breathing in its sleep.
+
+<<opt "t0_day04_couch" "The couch">>
+
+
+:: t0_day04_couch [night]
+The couch swallows me. I sink into the cushions and close my eyes and the day replays in pieces.
+
+Elena's lecture. The case studies. The man who masturbated in a host's body. Eighteen months.
+
+The couch in the scenario room. The actor's hand on Katya's knee. //Hey. Missed you today.// The way the body opened toward him like a door swinging on well-oiled hinges.
+
+Rafael's question. //What did the body want?//
+
+//To let him.//
+
+I open my eyes. Stare at the ceiling. A crack runs from the light fixture to the corner, thin and dark, like someone drew a line in pencil and forgot to erase it.
+
+Chipi finishes eating and jumps up on my chest. She weighs nine pounds. Nine pounds of warm, vibrating cat settling onto my sternum, and for a second, just a second, the weight reminds me of something else. Something that sat on my chest differently, higher, distributed across two points instead of one concentrated lump.
+
+Phantom weight. Breast memory from Katya. My chest is flat and Chipi is a cat and the two facts should cancel each other out but they don't. The ghost lingers.
+
+I pick up my phone. Three more messages came in while I was at dinner.
+
+<<phone "James">>
+<<txt "James">>Really glad we hung out tonight man. The new gig sounds intense but I can tell it's good for you. Don't be a stranger.<</txt>>
+<</phone>>
+
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 0:43<</txt>>
+<</phone>>
+
+<<run SOY.Quests.completeSide('sq_004_mama', 'respond')>>
+
+I press play.
+
+<<say "Mamá">>Mijo, your cousin Daniela says she texted you. She's very nice, very pretty, she works at a bank. I told her you're busy with work but maybe on the weekend? She's in Queens, not far. Just coffee, mijo. Just coffee. Que Dios te bendiga.<</say>>
+
+I check. No text from cousin Daniela. Either Mamá gave her the wrong number or Daniela has better judgment than her aunt. I hope it's the second one.
+
+<<phone "Lyla">>
+<<txt "Lyla">>T-minus 18 hours until Friday Interrogation. Current theory evolution: you're a pharma test subject AND it's secretly a cult. Two theories can be true simultaneously. Sleep well, lab rat.<</txt>>
+<</phone>>
+
+I almost smile. Lyla's wrong, but only by about forty degrees. I am experimental. I am biometric. I am, currently, a man lying on his couch with a cat on his chest trying to figure out why he can still feel a hand on a knee that isn't his.
+
+<<phone "Lyla">>
+<<txt "Me">>Closer than you think. See you tomorrow.<</txt>>
+<<txt "Lyla">>WHAT DOES THAT MEAN<</txt>>
+<<txt "Lyla">>MANUEL<</txt>>
+<<txt "Lyla">>You cannot say "closer than you think" and then go to sleep. That is PSYCHOLOGICAL WARFARE.<</txt>>
+<<txt "Lyla">>Fine. I'm bringing the good wine tomorrow. You're going to need it.<</txt>>
+<</phone>>
+
+I put the phone face down on the coffee table. Chipi adjusts her position, turning once, twice, settling with her face tucked against my collarbone.
+
+<<opt "t0_day04_bed_transition" "Brush teeth. Bed.">>
+
+
+:: t0_day04_bed_transition [night intimate]
+I brush my teeth. The mint is sharp and clean and I watch myself in the mirror, foam at the corners of my mouth, and the face looking back is tired. Not Day 1 tired, where the tiredness was about fear. This is Day 4 tired, where the tiredness is about too much information crammed into a brain that was never designed to hold the experience of two different bodies at once.
+
+I spit. Rinse. Wipe my mouth.
+
+In the bedroom I strip to boxers. The sheets are cold. I pull the blanket up and Chipi materializes from nowhere to take the pillow next to mine, the one that's technically for a person, for a girlfriend, for someone who doesn't exist and hasn't existed in four years of American life.
+
+The cat gets the pillow. Story of my life.
+
+I stare at the ceiling. The crack is visible from here too, running into the shadow where the wall meets the corner. Everything is quiet. Not peaceful. The other kind.
+
+The arousal comes back.
+
+Not sudden. Not sharp. It seeps in from the edges, starting at my lower belly and spreading outward in slow warm waves. The kind that's less about my body and more about my brain replaying something it can't stop replaying.
+
+The hand on Katya's knee. The mint breath close to my face. The way the skin flushed, warm climbing up from the chest into the throat, and the tightening low in the belly that I know now is what female arousal feels like when it's starting. Not localized the way mine is. Not pointed. Spread out, diffuse, like someone turned the heat up in every room of a house at once.
+
+<<opt "t0_day04_solo" "Don't fight it">>
+
+
+:: t0_day04_solo [night intimate explicit-toggle]
+<<set $flags.first_solo_done = true>>
+<<set $body.arousal = 0>>
+<<scene "mood/bed-night" "The bedroom, one strip of streetlight across the ceiling, the cat on the pillow">>
+
+<<if $settings.showExplicit>>
+I don't fight it.
+
+My hand slides under the waistband of my boxers and I'm already hard, have been half-hard since the bus ride home, and the touch of my own hand on my own cock feels different tonight. Familiar and not. Like I know this body but I've been visiting another one and the comparison won't stop running.
+
+I wrap my fingers around myself. Close my eyes.
+
+The scenario room. The couch. Katya's body on the cushions, legs tucked under, the skirt riding up just enough that the knee was bare when the actor sat down. I felt the upholstery against the back of Katya's thighs. Rough fabric, almost scratchy, and Katya's skin registered every fiber like braille.
+
+Then his hand. The weight of it. Not heavy but warm, so warm, and the way the palm settled against the kneecap with a familiarity that meant this body remembered being touched by this hand. The clone's conditioning kicked in and everything accelerated. Heart rate doubling. Blood rushing to the surface. The blush climbing, God, the blush, from chest to throat to cheeks in a wave I could feel but couldn't stop.
+
+I stroke myself slowly. Not rushing. Processing.
+
+The hand moved up my thigh. His thigh. Katya's thigh. The possessive pronouns collapse when I try to remember it. Someone's thigh. A thigh I was inside of. The fingers pressed into the soft inner part where the skin is thinner and more sensitive and I felt the touch register in two places at once: at the point of contact and lower, deeper, between my legs where there was nothing I recognized but everything I could feel.
+
+Katya's body was getting wet. I know that now. I didn't know it in the moment, or I knew it and refused to name it, but lying here in my own bed with my hand on my own cock, I can name it. The body was aroused. She, it, whatever pronoun applies to a clone that breathes and blushes but isn't a person, was aroused. The warmth between the legs, the heaviness in the lower belly, the way the inner thighs pressed together automatically seeking pressure.
+
+I imagine what would have happened if I hadn't stopped it.
+
+The hand slides higher. Past the hem of the skirt. Fingers tracing the crease where thigh meets hip. The actor leaning in, mint breath on my neck, and saying something low, something like //I've been thinking about you all day//, and the body arching toward the voice. Arching. Chest lifting. Chin tilting back. Throat exposed. Every signal the female body knows how to send firing at once.
+
+I'd feel him hard against my hip. Through his pants. A pressure I recognize from the outside but have never experienced from this angle, from the receiving end, where the hardness isn't yours but someone else's and it's pressing into you and your body interprets it as want. As evidence. As //he wants this body and this body wants to be wanted.//
+
+I stroke faster. My back presses into the mattress. The fantasy isn't about the man. I need to be clear about that, even in the privacy of my own skull. It's not about the actor. Not about his face, his hands, his body. It's about the sensation. The female arousal that I felt for thirty seconds in Katya's body before I shut it down. The warm diffusion. The openness. The wanting that had no edges, no target, just a field of heat spreading in every direction at once and the body at the center of it saying //yes, more, here, please.//
+
+I imagine not stopping it. I imagine letting the body have what it wanted. Letting the hand find its destination. Letting the warmth build to wherever it was going before I put my hand over his and said //I need a minute.//
+
+What would the orgasm feel like? In that body? With that arousal pattern? Not sharp and pointed like mine, I'm guessing. Not concentrated in one nerve bundle that fires and empties. Something else. Something deeper. Something that lives in the belly and the thighs and the chest all at once, something that builds like a tide instead of a pressure, something that
+
+I come. Hard. My back arches off the mattress and my breath locks in my throat and the orgasm rips through me with a sharpness that almost hurts, like my body is overcompensating for what the fantasy was about, like my male orgasm is insisting on its own architecture in direct opposition to the phantom pattern I was imagining.
+
+<<say "Me">>Nnngh, fuck.<</say>>
+
+I gasp. Once. Twice. My hand is wet. My heart is slamming. Chipi meows from the pillow next to me, disgruntled by the sudden movement.
+
+I lie there.
+
+The ceiling. The crack. The distant hum of the refrigerator. A siren, blocks away, growing then fading.
+
+A man in his own bed, in his own body, getting off on the memory of what it felt like to be a woman who was wanted. Not the woman. Not the man who wanted her. The sensation itself. The architecture of desire as experienced by a body built differently from mine.
+
+I don't have a category for this. I don't have a name. I don't have a box to put it in or a shelf to put the box on. I have a wet hand and a racing pulse and a cat who's staring at me with an expression that says //are you done? can we sleep now?//
+
+<<say "Me">>Yeah. I'm done.<</say>>
+
+I clean up with the boxers because I'm too tired to get a towel. Pull the blanket up. Roll onto my side. Chipi resettles against the curve of my back, purring her rattling purr.
+<<else>>
+I don't fight it. My hand finds its way under the waistband and I let my body process what my mind can't. I think about the scenario. The hand on the knee. The warmth of female arousal, that diffuse, wide thing I felt for thirty seconds in someone else's body. I imagine not stopping it.
+
+What follows is sharp, fast, disorienting. When it's over I lie there and stare at the ceiling and I don't have a single category for what just happened. A man in his own bed, processing the memory of desire as felt by a body built nothing like his.
+
+Chipi meows. I pull the blanket up. Roll onto my side.
+<</if>>
+
+I close my eyes.
+
+Sleep doesn't come easily. It circles for a while, wary, waiting for my brain to stop running the comparison that won't stop running. My body. Katya's body. My arousal. Hers. The hand. The knee. The want.
+
+Rafael said //feel, note, choose.//
+
+I felt it. I'm noting it. I'm choosing to sleep.
+
+The last thought before I go under is not about the scenario or the arousal or the body. It's about the moment in the mirror yesterday, the fourth second, the one where I could have stayed looking. The wanting was the warning, I said.
+
+Tonight, the wanting was the whole sentence.
+
+<<opt "t0_day04_sleep" "Under">>
+
+
+:: t0_day04_sleep
+<<if $calendar.day is 4>>
+	<<run SOY.Time.ensureSlot(3)>>
+	<<run SOY.Time.advance()>>
+	<<run SOY.Body.decayPhantoms()>>
+<</if>>
+<<run SOY.Locations.travel('apartment')>>
+
+Sleep lands eventually. Not gently. It shows up and insists.
+
+<<opt "t0_day05_wake" "Day 5">>

@@ -194,3 +194,39 @@ geometric + small skulls right), asymmetric smile with one dimple.
 
 IMG1 Morning apartment (Day-3 black henley), IMG2 Bus ride, IMG10 Lulu's bodega
 (Day-3 framing) — the passages currently reuse the Day 1/2 shots.
+
+---
+
+# Day 4 image map
+
+Prompts: `story_files/day_4/day04_image_prompts.md`. Missing files collapse
+silently. Reused art: `locations/apartment-morning.png`,
+`locations/bus-ninth-street.png`, `locations/soy-lobby.png`,
+`locations/pod-room.png`, `locations/dannys-ramen.png`,
+`locations/lulus-bodega.png`, `mood/october-evening-walk-2.png`,
+`mood/transfer-warp.png`, `mood/apartment-night-couch.png`,
+`mood/bed-night.png`. Clone reused: Katya (`portraits/katya.png`,
+`full_body/katya.png`, `avatars/katya.png`).
+
+## new files
+
+| File | Prompt | Used in |
+|---|---|---|
+| `slides/legal-triangle.png` | IMG-D4-03 Facility Room 3, Legal Lecture (HOST / TRANSFEREE / COMPANY circles) | `t0_day04_lecture_legal` |
+| `slides/case-studies.png` | IMG-D4-04 Case Studies Screen (white text, dollar amounts, "18 months") | `t0_day04_lecture_cases` |
+| `scenarios/living-room.png` | IMG-D4-06 Scenario 4, The Living Room | `t0_day04_scenario4_couch` |
+| `scenarios/hand-on-knee.png` | IMG-D4-07 Scenario 4, The Hand on the Knee | `t0_day04_scenario4_partner` |
+| `locations/siam-corner.png` | IMG-D4-09 James at Siam Corner | `t0_day04_james_dinner` |
+| `mood/paco-night-walk.png` | IMG-D4-10 Paco Phone Call, Night Walk | `t0_day04_paco_call` |
+
+## spare Day 4 prompts (no passage wired yet)
+
+IMG-D4-01 Morning apartment (Day-4 navy crewneck), IMG-D4-02 Bus observation,
+IMG-D4-05 Katya in pod (Day-4 framing), IMG-D4-08 De-transfer disorientation,
+IMG-D4-11 Solo night bedroom, IMG-D4-12 Señora Vidal's note — passages reuse
+existing shots or render the note as a styled block.
+
+## character avatars still on initial-letter fallback
+
+`avatars/james.png` and `avatars/mama.png` exist. `avatars/partner.png` is not
+needed — the Scenario 4 actor's lines render as prose, not `<<say>>`.

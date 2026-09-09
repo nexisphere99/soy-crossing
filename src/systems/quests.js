@@ -177,6 +177,73 @@ SOY.Quests = {
 		});
 	},
 
+	/* Registers the Day 4 main quest + refreshes the daily side quests. */
+	registerDay4: function () {
+		this.addMain('t0_day04', {
+			id: 'module2_day4',
+			title: 'Module 2: The Partner',
+			status: 'active',
+			objectives: [
+				{ id: 'lecture',   text: 'Sit the legal-framework lecture',   where: 'Room 3',            done: false },
+				{ id: 'scenario',  text: 'Get through Scenario 4: The Partner', where: 'The scenario room', done: false },
+				{ id: 'debrief',   text: 'Debrief with Rafael',                where: "Rafael's office",   done: false },
+				{ id: 'dinner',    text: 'Make the dinner with James',         where: 'Siam Corner',       done: false },
+				{ id: 'wind_down', text: 'Get home, call Paco, let it close',  where: 'The apartment',     done: false }
+			]
+		});
+
+		// new day, fresh daily board
+		State.variables.quests.side = [];
+		this.addSide({
+			id: 'sq_001_feed', title: 'Feed the Machine',
+			description: 'No fast today. Eat something real between the toast and bed.',
+			status: 'active',
+			objectives: [{ id: 'eat', text: 'Eat something', done: false }]
+		});
+		this.addSide({
+			id: 'sq_002_lyla', title: 'Keeping Up Appearances',
+			description: 'Friday is tomorrow. Wine and interrogation. She has five theories now.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Answer Lyla', done: false }]
+		});
+		this.addSide({
+			id: 'sq_004_mama', title: "Mamá's Campaign",
+			description: 'Cousin Daniela in Queens. "Just one coffee, mijo."',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Hear the voice note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_005_vidal', title: "Señora Vidal's Watch",
+			description: 'Note #4. Platanos maduros missed. Answer it, or let Paco field the blame.',
+			status: 'active',
+			objectives: [{ id: 'handle', text: 'Deal with the note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_006_echo', title: 'Body Echo',
+			description: "Scenario 4 leaves a different kind of echo. Notice it.",
+			status: 'active',
+			objectives: [{ id: 'phantom', text: 'Notice the phantoms', done: false }]
+		});
+		this.addSide({
+			id: 'sq_007_tommy', title: "Tommy's Nerve",
+			description: "Two coffees and no sleep. Bond before the scenario.",
+			status: 'active',
+			objectives: [{ id: 'bond', text: 'Talk to Tommy', done: false }]
+		});
+		this.addSide({
+			id: 'sq_008_georgia', title: "Georgia's Read",
+			description: "Her scenario runs the male-body variant. Compare.",
+			status: 'active',
+			objectives: [{ id: 'talk', text: 'Hear Georgia out', done: false }]
+		});
+		this.addSide({
+			id: 'sq_011_brett', title: "Brett's Silence",
+			description: 'Back corner, arms crossed, shield up. Nobody has said a word to him.',
+			status: 'active',
+			objectives: [{ id: 'notice', text: 'Notice where Brett is', done: false }]
+		});
+	},
+
 	addMain: function (key, quest) {
 		State.variables.quests.main[key] = quest;
 	},

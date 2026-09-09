@@ -1,0 +1,277 @@
+:: t0_day04_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 24>>
+<<set $calendar.weekday = 4>>
+<<set $calendar.phase = "course">>
+<<run SOY.Body.resetExercises()>>
+<<set $body.todayTransferred = false>>
+<<if not $quests.main.t0_day04>><<run SOY.Quests.registerDay4()>><</if>>
+<<run SOY.Locations.travel('apartment')>>
+<<scene "locations/apartment-morning" "The bedroom before the alarm, grey October light through the gap in the curtain">>
+
+I open my eyes at 5:47. The alarm hasn't gone off yet.
+
+Something woke me. Not Chipi, who's curled in her usual spot against my right hip, purring in that rattling way that means she's deep under. Not the radiator, which clanks on around six. Not Señora Vidal moving furniture at strange hours downstairs.
+
+I'm hard. That woke me.
+
+Normal enough. Except the quality of it feels borrowed. Not the sharp, mechanical morning thing I've had every day since puberty. This is diffuse, warm, radiating from somewhere behind my navel up through my sternum and down through my cock in a slow pulse that doesn't match my heartbeat. Like the arousal belongs to a body running on a different frequency and mine is picking up the signal secondhand.
+
+Katya's frequency.
+
+I lie still and wait for it to pass. It doesn't pass. It sits there, low and buzzing, while October light creeps gray through the window gap where the curtain doesn't close all the way because I never fixed the rod.
+
+Chipi stretches against my hip. Her claws catch the fitted sheet and pull it slightly, that tiny scritching sound she makes when she's waking up. I scratch behind her ears and she tilts into my hand and the purr doubles in volume.
+
+<<say "Me">>Mañana, gata.<</say>>
+
+I sit up. The hardness follows, persistent, and I ignore it the way you ignore a car alarm three blocks away. Present but not actionable.
+
+The apartment is cold. October cold, the kind that lives in the floorboards. I pad barefoot to the bathroom and the tile shocks my soles and that wakes me up faster than coffee ever has.
+
+<<opt "t0_day04_shower" "Shower">>
+
+
+:: t0_day04_shower [home]
+The shower takes forty seconds to get warm. I stand outside the curtain with my arms crossed, watching steam curl up, and catch myself in the mirror above the sink.
+
+Same face. Brown skin, dark hair curling at the temples where it's gotten too long, jaw that needs a shave but won't get one today. The shadow under my eyes is permanent now. Not from lack of sleep. From lack of something else I can't name.
+
+I step under the water. Hot. Good. My shoulders unknot one vertebra at a time.
+
+Then my hand goes to my chest. Flat. The pectoral muscle shifts under my palm, dense and angular, no give, no softness. Two days ago I felt breasts shift with every breath. Yesterday I felt Katya's body register temperature through her nipples like radio antennae picking up a signal. Today my chest is a wall. Flat terrain.
+
+I catch myself pressing, feeling for something that isn't there. My hand lingers one second, two seconds, three.
+
+I pull it away. Turn the water to cold. The shock drives everything else out, every sensation, every comparison, every phantom memory of weight that doesn't exist on this body. I gasp, teeth clenching, and stand in the cold until my cock goes down and my skin goes tight and I'm just me again. Just Manuel. Just the one body.
+
+I get out. Towel. The mirror is fogged over. Small mercy.
+
+<<opt "t0_day04_dress" "Get dressed">>
+
+
+:: t0_day04_dress [home]
+I open the closet and stare at the same nine shirts I've been rotating since the layoff. Today needs something that doesn't feel like armor and doesn't feel like surrender.
+
+The navy blue crewneck. Soft cotton, fits close but not tight. Lyla bought it for my birthday last year and said it made me look "like someone who has his life together, which is aspirational at best." Dark jeans, same boots. The olive green jacket again because it's the only one that's warm enough and I haven't bought a new one because buying a new jacket feels like betting on a future I'm not sure I have.
+
+Chipi is on the kitchen counter when I come out. She's sitting next to the coffee maker like a supervisor overseeing production.
+
+<<say "Me">>Down.<</say>>
+
+She looks at me. She does not get down.
+
+I make coffee around her. She bats at the filter as I tear it from the pack. One claw catches the paper and rips a tiny hole. I use it anyway. The coffee will have grounds in it. This is my life.
+
+<<opt "t0_day04_breakfast" "Eat">>
+
+
+:: t0_day04_breakfast [home]
+Toast. I found the bread Lulu sold me, the good sourdough she keeps behind the counter for people she likes. Two slices, medium brown, butter that I rescued from the counter edge before Chipi could make her move. Small victory.
+
+I eat standing. The toast is good. The coffee has grounds in it. Chipi watches from the counter with the patient intensity of a creature waiting for me to look away so she can steal something.
+
+My phone buzzes. Three notifications.
+
+<<phone "Paco">>
+<<txt "Paco">>Day 4 hermano. Legal day. They're gonna tell you about the guy who jerked off in someone else's body and went to prison. Fun stuff. Chin up<</txt>>
+<<txt "Paco">>Also the Brazilian sent me a gym video. She's doing hip thrusts. I am going to marry this woman<</txt>>
+<</phone>>
+
+<<phone "Lyla">>
+<<txt "Lyla">>Morning sunshine ☀️ reminder that tomorrow is FRIDAY and we are getting DRINKS and you are telling me what the MYSTERIOUS JOB is or I'm waterboarding you with cheap wine. Non-negotiable.<</txt>>
+<</phone>>
+
+I reply to Paco first:
+
+<<phone "Paco">>
+<<txt "Me">>Prison for masturbation. Great start to the morning.<</txt>>
+<<txt "Paco">>At least you know the stakes now lmao<</txt>>
+<</phone>>
+
+<<opt "t0_day04_lyla_morning" "Answer Lyla">>
+<<opt "t0_day04_leave" "Leave her on read. Grab the bag and go.">>
+
+
+:: t0_day04_lyla_morning [phone]
+<<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
+<<set $npcs.lyla.flags.suspicion = Math.max($npcs.lyla.flags.suspicion, 5)>>
+<<run SOY.NPCs.adjustRelationship('lyla', 1)>>
+
+<<phone "Lyla">>
+<<txt "Me">>Good morning to you too. Friday works. I'll tell you what I can.<</txt>>
+<<txt "Lyla">>What you CAN tell me is everything. I have theories, Manuel. THEORIES.<</txt>>
+<<txt "Me">>How many theories?<</txt>>
+<<txt "Lyla">>Five. Updated from four. New theory: you're a test subject for experimental pharmaceuticals. The "biometric research" is TOO vague. No one says "biometric research" unless they're hiding something.<</txt>>
+<<txt "Me">>What were theories 1 through 4?<</txt>>
+<<txt "Lyla">>1. Cult. Still on the table. 2. Secret government contractor. 3. Rich person's personal IT guy which is basically a cult. 4. MLM but for tech bros. 5. Pharma guinea pig.<</txt>>
+<<txt "Me">>None of those are correct.<</txt>>
+<<txt "Lyla">>WHICH MEANS THE TRUTH IS WEIRDER.<</txt>>
+<<txt "Lyla">>I am going to find out tomorrow. I am going to drink wine and I am going to look you in the eye and you are going to tell me because you are a terrible liar Manuel González, you have the poker face of a golden retriever.<</txt>>
+<<txt "Me">>I'll tell you what I can.<</txt>>
+<<txt "Lyla">>Ugh. Fine. Love you, you secretive bastard. See you tomorrow.<</txt>>
+<</phone>>
+
+I put the phone down. Eat my toast. The grounds in the coffee are gritty between my teeth. Chipi knocks a spoon off the counter. It clatters on the tile and she stares at the spot where it fell with absolute fascination, like she's never seen gravity before.
+
+<<say "Me">>You do this every day.<</say>>
+
+She looks at me. Back at the spoon. Back at me. The experiment has concluded. The results are consistent.
+
+<<opt "t0_day04_leave" "Grab the bag and go">>
+
+
+:: t0_day04_leave [home]
+<<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
+
+I grab my bag. Keys. Phone. Badge, the amber one Yuki gave me yesterday that means Module 2, which means ethics, which means today is the day they teach me about boundaries by putting me in situations designed to make me cross them.
+
+At the door I stop. Señora Vidal has left another note. Yellow paper, same as always, tucked under the welcome mat I bought at Target three years ago that says HOLA in faded letters.
+
+I unfold it.
+
+<div class="note">MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary.<span>&mdash; V. Vidal</span></div>
+
+The note is longer today. The handwriting gets smaller toward the bottom where she ran out of space. There's a postscript crammed into the margin: //Eat something with vegetables.//
+
+I fold the note and put it in my jacket pocket with the others. Three notes in three days. Four now. She's tracking Chipi's crying schedule. She's monitoring my arrival times. She's leaving food and taking it back when I'm not there to receive it. This woman is running a one-person surveillance and welfare operation from the apartment below mine and she will never, under any circumstances, admit that she cares.
+
+<<opt "t0_day04_vidal_respond_note" "Leave a thank-you note on her door">>
+<<opt "t0_day04_vidal_ignore" "Text Paco: &ldquo;Did you give Señora Vidal my schedule?&rdquo;">>
+
+
+:: t0_day04_vidal_respond_note [home]
+<<set $flags.vidal_note_responded = true>>
+<<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
+<<run SOY.NPCs.adjustRelationship('senora_vidal', 1)>>
+
+I find a Post-It note in my kitchen drawer. Yellow, same shade as hers. I write:
+
+<div class="note">Señora Vidal, thank you for watching Chipi. I'm sorry I missed the platanos. I will try to be home earlier.<span>&mdash; M.</span></div>
+
+I stick it on her door on my way out. The door has a small crucifix nailed above the peephole and a doormat that says BIENVENIDOS in letters that are half worn away.
+
+I hear movement behind the door. She's there. She heard me. She doesn't open it.
+
+That's how this relationship works. Care at arm's length. Affection through notes and food and the specific passive aggression of a woman who will surveil your cat's crying schedule but won't say hello in the hallway.
+
+<<opt "t0_day04_bus" "Down to the bus">>
+
+
+:: t0_day04_vidal_ignore [phone]
+<<phone "Paco">>
+<<txt "Me">>Did you give Señora Vidal my work schedule?<</txt>>
+<<txt "Paco">>who<</txt>>
+<<txt "Me">>My downstairs neighbor. The one with the notes.<</txt>>
+<<txt "Paco">>the plantain lady? no. why would I have your schedule. I don't even have your schedule<</txt>>
+<<txt "Paco">>she probably just watches the building. old ladies are the original surveillance state<</txt>>
+<<txt "Me">>She knows what time my cat cries.<</txt>>
+<<txt "Paco">>respect honestly<</txt>>
+<</phone>>
+
+I put the phone away. The note goes in my pocket with the others.
+
+<<opt "t0_day04_bus" "Down to the bus">>
+
+
+:: t0_day04_bus
+<<scene "locations/bus-ninth-street" "The 9th Street bus at 7:15, a rain-streaked window, commuters inside their own heads">>
+<<run SOY.Economy.spend(2.75, 'transport')>>
+<<run SOY.Locations.travel('street')>>
+
+The 9th Street bus at 7:15 AM smells like diesel and wet wool and someone's breakfast burrito. I find a window seat toward the back and lean my head against the glass. The city is waking up in that gray October way where the light never fully commits.
+
+My leg bounces. It's been doing that every morning since Day 1. The bus rattles over a pothole and my bag slides off my lap and I catch it and the woman across the aisle looks at me and then looks away and I notice, for the first time, the way she holds her purse. Both hands. Strap looped around her wrist. Forearms forming a barrier across her lap.
+
+Two days ago I wouldn't have registered that. Today it's a sentence I can read. //I am here and I am aware of who else is here and I am holding my things close because the world has taught me to.//
+
+A man in a hoodie gets on at the next stop and takes the seat across from her and she shifts her purse to her far hip without looking at him. One fluid motion. Practiced. Automatic.
+
+I think about Katya's body in Scenario 3 yesterday. The knock at the door. The way the body softened toward the voice before I could stop it. Welcome as reflex. Accommodation as default setting.
+
+This woman on the bus has the opposite reflex. Distance as default. Protection as muscle memory.
+
+Both are responses to the same thing. The same world, pressing in.
+
+The bus lurches. My stop is next. I pull the cord and stand and my own body feels large in the aisle, shoulders brushing the overhead rail, boots heavy on the rubber floor. Two hundred pounds of male architecture moving through a space that accommodates me without asking me to negotiate.
+
+I step off the bus into cold air and walk four blocks to the facility and my legs carry me in a straight line because that's what my body does. It walks in straight lines. It doesn't curve around people. It doesn't adjust. It occupies and expects the world to make room.
+
+I didn't use to know that. Now I can't stop knowing it.
+
+<<opt "t0_day04_facility_arrive" "The grey door on Ninth">>
+
+
+:: t0_day04_facility_arrive [facility]
+<<run SOY.Locations.travel('facility')>>
+<<scene "locations/soy-lobby" "The lobby, Yuki with two screens and a pen between her teeth, a gavel pin and a skull pin">>
+
+Yuki is behind the desk with two screens open and a pen between her teeth. Today's pins: a tiny gavel and a skull with cartoon X-eyes. She looks up when I badge in, pulls the pen out.
+
+<<say "Yuki">>Room 3 again. Elena's already in there.<</say>>
+
+She pauses.
+
+<<say "Yuki">>New pins today. Noticed?<</say>>
+<<say "Me">>Gavel and skull.<</say>>
+<<say "Yuki">>Legal day. People die in this module.<</say>>
+
+She sees my face.
+
+<<say "Yuki">>Metaphorically. Careers die. Legally. Don't look at me like that.<</say>>
+
+She hands me a tablet.
+
+<<say "Yuki">>Today's materials are preloaded. Case studies. Don't read ahead, it ruins the pacing and Elena can tell.<</say>>
+<<say "Me">>She can tell if I read ahead?<</say>>
+<<say "Yuki">>She reads body language the way other people read email. Quickly and without mercy.<</say>>
+
+She's already looking at her screen again.
+
+<<say "Yuki">>Room 3. Coffee's fresh. You'll need it.<</say>>
+
+The hallway is quiet. That particular facility quiet, clean air and humming ventilation and the soft buzz of overhead lighting that never fully commits to being visible. I push through into Room 3.
+
+<<face "tommy" "Tommy Watts">>Tommy is already there. Front row, second seat from the left. He's got coffee in both hands, one from the facility machine and one he brought from outside in a bodega cup. Double fisting caffeine. His knee is bouncing under the desk.
+
+<<say "Me">>Morning.<</say>>
+
+He looks up.
+
+<<say "Tommy">>Morning. You sleep?<</say>>
+<<say "Me">>Some.<</say>>
+<<say "Tommy">>Me neither.<</say>>
+
+He takes a sip from the bodega cup.
+
+<<say "Tommy">>I kept, uh. The knock scenario. The voice through the door. I kept hearing it when I was trying to sleep. Not the words. The way the body reacted to the voice. That pull.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>Does that go away?<</say>>
+<<say "Me">>I don't know yet.<</say>>
+
+<<run SOY.Quests.completeSide('sq_007_tommy', 'bond')>>
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+
+Georgia arrives two minutes later. Hair in a tight braid, athletic leggings, oversized hoodie. She drops into the seat next to me and immediately steals Tommy's facility coffee.
+
+<<say "Tommy">>Hey! That's mine.<</say>>
+<<say "Georgia">>You have two. I have zero. This is communism.<</say>>
+
+She sips.
+
+<<say "Georgia">>Morning, Manuel. Did you process?<</say>>
+<<say "Me">>Process what?<</say>>
+<<say "Georgia">>The scenarios. Did you process them? In bed. Alone. In the shower. Wherever.<</say>>
+
+She waves the coffee cup.
+
+<<say "Georgia">>I processed. My boyfriend thinks I'm going through a phase because I spent forty minutes describing what it felt like to stand in a male body and not be afraid of anything.<</say>>
+
+<<run SOY.Quests.completeSide('sq_008_georgia', 'talk')>>
+
+Brett comes in last. Sits in the back corner. Doesn't talk. Doesn't look at anyone. His shoulders are up around his ears and he's holding the tablet like a shield.
+
+Tommy glances back. Catches my eye. Neither of us says anything.
+
+<<run SOY.Quests.completeSide('sq_011_brett', 'notice')>>
+<<opt "t0_day04_lecture_legal" "Elena walks in at exactly 8:00">>
