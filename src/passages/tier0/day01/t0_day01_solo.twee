@@ -1,0 +1,33 @@
+:: t0_day01_solo_night [home explicit]
+<<run SOY.Locations.travel('apartment')>>
+
+The apartment is dark. Chipi is in the living room, doing whatever cats do at midnight when they think you're asleep. I'm not asleep. I'm lying in the too-big bed on the left side, boxers and a t-shirt, staring at the ceiling.
+
+It starts the way it always starts. Not a thought. A feeling. Low heat in the gut, the body's way of saying it's been a while and it's tired of being ignored. I've been so consumed with the visa, the applications, the countdown, that I haven't touched myself in over a week. Maybe longer. The loneliness does something to the libido. Flattens it. Turns the volume down until you forget the station exists.
+
+But tonight it's there. Quiet. Insistent.
+
+<<opt "t0_day01_solo_night_b" "Reach down">>
+<<opt "t0_day01_sleep" "Leave it. Roll over and sleep.">>
+
+
+:: t0_day01_solo_night_b [home explicit]
+<<set $flags.solo_night_d1 = true>>
+
+I reach down. Palm flat on my stomach first, the warmth of my own skin under the t-shirt. Then lower. Under the waistband. I'm half-hard already, the body running ahead of the brain the way it does, blood pooling before permission is granted.
+
+I wrap my hand around myself. Familiar. My grip, my pressure, my rhythm. I've been doing this since I was thirteen in my bedroom in Guadalajara with the door locked and the radio on loud enough to cover any sound, though I never made much sound. I'm quiet. Always have been. The orgasm builds in silence like water rising in a glass.
+
+I think about a woman. No one specific. A shape in the dark. Hips. The curve of a waist turning into the flare of a hip. A mouth. Warm breath on my neck. The fantasy is generic because my life is generic right now, no one to remember, no one to imagine, just the body's need for friction and release and the brain filling in enough detail to get there.
+
+My hand moves. The heat builds. I think about hands on me, someone else's hands, smaller than mine, fingers trailing down my chest, over my stomach, wrapping around me. The fantasy doesn't have a face. It doesn't need one. The body doesn't care about faces at this stage. The body cares about pressure and speed and the tightening in my balls that means I'm close.
+
+I come with a grunt. Low, quiet, swallowed before it fills the room. The orgasm is sharp and brief, a spike that crests and drops, and the cum is warm on my hand and my stomach and I lie there breathing hard for about ten seconds before the clarity arrives.
+
+Post-orgasm clarity is the cruelest thing the male body does. One second you're in the heat and the next you're lying in a dark apartment alone with cum on your hand and the unmistakable understanding that you just jerked off to a woman who doesn't exist because there's no real woman in your life to think about instead.
+
+I clean up. Tissues. Shirt back down. Roll over. Chipi jumps onto the bed and settles at my hip and she doesn't know and doesn't care and the simplicity of her presence is the best part of this night.
+
+Sleep comes fast. It usually does after. The body takes what it needs and then shuts down. Simple. Mechanical. A man alone in a bed designed for two, servicing himself because no one else is here to, and trying not to think about how long it's been since someone else's hand was on him.
+
+<<opt "t0_day01_sleep" "Let the day close">>

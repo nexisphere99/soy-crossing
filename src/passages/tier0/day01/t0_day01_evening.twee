@@ -108,6 +108,9 @@ Back inside. The Modelo's gone warm on the counter. Chipi reclaims my lap withou
 <<opt "t0_day01_handbook_reading" "Open the handbook PDF" "Three hundred and forty pages. Chapter one.">>
 <</if>>
 <<opt "t0_day01_sleep" "Go to bed">>
+<<if $settings.showExplicit and not visited("t0_day01_solo_night")>>
+<<opt "t0_day01_solo_night" "Lie down &mdash; the body has other ideas" "Explicit. It's been over a week.">>
+<</if>>
 
 
 :: t0_day01_evening_cook [home]

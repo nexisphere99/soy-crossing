@@ -3,9 +3,7 @@
 <<run SOY.Locations.travel('street')>>
 <<scene "mood/october-evening-walk-2" "Ninth Street at dusk, amber streetlights, leaves on the concrete">>
 
-I walk.
-
-Not to the bus. Past the bus stop, past Seventh Street, past the Dominican barbershop where the old men are gone for the evening and the chairs are folded and stacked against the wall. I walk because I need to feel my own body moving. My body. These legs, this stride, this weight pressing into the pavement with each step.
+I walk. Not to the bus. Past the bus stop, past Seventh Street, past the Dominican barbershop where the old men are gone for the evening and the chairs are folded and stacked against the wall. I walk because I need to feel my own body moving. My body. These legs, this stride, this weight pressing into the pavement with each step.
 
 But the echoes are there.
 
@@ -222,6 +220,9 @@ Back inside. The Modelo's gone warm on the counter. Chipi reclaims my chest with
 <</if>>
 <<opt "t0_day02_shower_night" "Shower and get ready for bed">>
 <<opt "t0_day02_sleep" "Go straight to bed">>
+<<if $settings.showExplicit and not visited("t0_day02_solo_night")>>
+<<opt "t0_day02_solo_night" "Lie down, and your hand is already on your chest" "Explicit. The phantom weight, and what it turns into.">>
+<</if>>
 
 
 :: t0_day02_evening_couch_sit [home]
@@ -251,6 +252,9 @@ I take my hand off my chest. Finish the shower. Towel off. Stand in front of the
 I brush my teeth. Pull on boxers and the t-shirt I slept in last night. Crawl into bed. Chipi takes her spot at my hip.
 
 <<opt "t0_day02_sleep" "Sleep">>
+<<if $settings.showExplicit and not visited("t0_day02_solo_night")>>
+<<opt "t0_day02_solo_night" "Lie there. Your hand drifts to your chest." "Explicit. The phantom weight, and what it turns into.">>
+<</if>>
 <<if not visited("t0_day02_evening_phone")>>
 <<opt "t0_day02_evening_phone" "Check phone first">>
 <</if>>
