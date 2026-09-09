@@ -1,7 +1,7 @@
 :: t0_day02_evening_walk [home]
 <<run SOY.Time.ensureSlot(2)>>
 <<run SOY.Locations.travel('street')>>
-<<scene "mood/october-evening-walk" "Ninth Street at dusk, amber streetlights, leaves on the concrete">>
+<<scene "mood/october-evening-walk-2" "Ninth Street at dusk, amber streetlights, leaves on the concrete">>
 
 I walk.
 

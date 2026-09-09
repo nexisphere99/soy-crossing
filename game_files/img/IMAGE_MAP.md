@@ -70,7 +70,7 @@ Manuel's own lines render right-aligned with no avatar, so he needs none.
 | `backstory/layoff-parking-lot.png` | Manuel alone with a cardboard box in a sunlit corporate parking lot, badge dead | `backstory_layoff` |
 | `backstory/craftwork.png` | Coworking-space back corner at dusk, two paper coffee cups on a scuffed table | `backstory_craftwork` |
 
-## full_body/ — tall (≈2:3 or 9:16), transparent or dark background
+## full_body/   tall (≈2:3 or 9:16), transparent or dark background
 
 Shown in the fixed right-hand character panel (`charpanel.js`), visible only on
 windows ≥ 1340px wide and when images are on. The panel fades the bottom edge
@@ -78,7 +78,7 @@ into the page, so bleed the figure off the bottom of the frame.
 
 | File | Who |
 |---|---|
-| `full_body/manuel.png` | Manuel — navy henley, dark jeans, boots; tired, lean, unshaven |
+| `full_body/manuel.png` | Manuel   navy henley, dark jeans, boots; tired, lean, unshaven |
 
 A transfer body would use `full_body/<clone-slug>.png` (from its profile's `slug`/`id`).
 
@@ -104,44 +104,45 @@ Reused Day 1 art (no new file needed): `locations/apartment-morning.png`,
 
 | File | Prompt | Used in |
 |---|---|---|
-| `locations/transfer-room.png` | IMG-D2-001 Transfer Room | `t0_day02_transfer_room`, `t0_day02_transfer_begins` |
+| `locations/transfer-room.png` | IMG-D2-001 Transfer Room | `t0_day02_transfer_room` |
+| `locations/transfer-headset.png` | IMG-D2-002 The Headset (Type II) Close-Up | `t0_day02_lecture_pretransfer` |
 
 ## portraits/   3:4 (Flor's hands is a detail crop, still fine at 3:4)
 
 | File | Prompt | Used in |
 |---|---|---|
-| `portraits/flor.png` | IMG-D2-004 Clone 7-F "Flor", Resting / IMG-D2-005 Flor's Hands | `t0_day02_transfer_room` (`<<face "flor">>`), `t0_day02_exercise_hands` |
+| `portraits/flor.png` | IMG-D2-004 Clone 7-F "Flor", Resting / IMG-D2-005 Flor's Hands | `t0_day02_transfer_room` + `t0_day02_transfer_begins` (`<<face "flor">>`), `t0_day02_exercise_hands` (`<<scene>>`) |
 
 ## slides/   1:1 or 16:9, dark, glowing
 
 | File | Prompt | Used in |
 |---|---|---|
 | `slides/gender-differential.png` | IMG-D2-007 Gender Differential Diagram | `t0_day02_lecture_gender` |
+| `slides/four_prohibition.png` | IMG-D2-008 Four Prohibitions Icon Set | `t0_day02_lecture_gender` |
 
 ## mood/   16:9 (transfer-warp is an abstract interstitial)
 
 | File | Prompt | Used in |
 |---|---|---|
 | `mood/transfer-warp.png` | IMG-D2-009 The Transfer Moment (Abstract) | `t0_day02_transfer_begins`, `t0_day02_detransfer` |
+| `mood/october-evening-walk-2.png` | IMG-D2-003 Evening Walk, Amber Streetlights | `t0_day02_evening_walk` |
 
 ## avatars/   square
 
 | File | Who |
 |---|---|
-| `avatars/flor.png` | Clone 7-F — used for Manuel's own `<<say "Me">>` bubbles **while he is transferred into Flor** (`SOY.playerFigure()` swaps the player avatar). |
+| `avatars/flor.png` | Clone 7-F   used for Manuel's own `<<say "Me">>` bubbles **while he is transferred into Flor** (`SOY.playerFigure()` swaps the player avatar). |
 
 ## portraits/ + full_body/   while transferred
 
 | File | Where |
 |---|---|
 | `portraits/flor.png` | `<<face "flor">>` in `t0_day02_transfer_room` and `t0_day02_transfer_begins`; `<<scene "portraits/flor">>` in `t0_day02_exercise_hands` |
-| `full_body/flor.png` | right-hand character panel — auto-switches from `manuel` to `flor` on transfer, back on de-transfer |
+| `full_body/flor.png` | right-hand character panel   auto-switches from `manuel` to `flor` on transfer, back on de-transfer |
 
 Clone 7-F look: grey cotton training top and shorts, athletic-slim, B-cup,
 moles across the collarbones.
 
 ## spare Day 2 prompts (no passage wired yet)
 
-IMG-D2-002 Headset close-up, IMG-D2-003 Evening walk / amber streetlights,
-IMG-D2-006 Manuel's hands (contrast), IMG-D2-008 Four Prohibitions icon set,
-IMG-D2-010 Apartment at night / post-transfer.
+IMG-D2-006 Manuel's hands (contrast), IMG-D2-010 Apartment at night / post-transfer.

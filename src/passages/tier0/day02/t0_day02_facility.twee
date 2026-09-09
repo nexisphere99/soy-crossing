@@ -38,6 +38,7 @@ The room goes still. Even Brett's energy drink stops crinkling.
 
 
 :: t0_day02_lecture_pretransfer [facility]
+<<scene "locations/transfer-headset" "The Type II headset up close: matte black housing, four contact prongs">>
 <<say "Elena">>Before we begin, some of you will not complete today's transfer. That is acceptable. The failsafe returns you to your body within eleven seconds. Choosing to abort is not failure. Choosing to endure something your psychology cannot handle is.<</say>>
 
 She lets that settle. Then she touches the screen.
@@ -100,7 +101,9 @@ Elena's voice softens by a fraction, not warmer, just quieter.
 
 <<say "Elena">>Female bodies operate on a different hormonal profile. Estrogen and progesterone affect emotional responsiveness, pain sensitivity, temperature perception. You will feel colder. Sounds may seem louder. Your emotional reactions may be more immediate, more intense, more physical. You may cry more easily. You may feel a vague sense of tenderness or vulnerability that has no specific cause. This is not weakness. This is chemistry. The body is telling you how it processes the world, and your job is to listen without following.<</say>>
 
-She shuts the screen off.
+She shuts the screen off. Then, after a beat, one last slide: four icons, each with a red line through it.
+
+<<scene "slides/four_prohibition" "Four crossed-out icons: mirror, hand, speech bubble, running figure">>
 
 <div class="prohibit">
 <h2>What NOT to do. Four prohibitions.</h2>
