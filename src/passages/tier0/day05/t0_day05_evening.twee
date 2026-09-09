@@ -1,0 +1,392 @@
+:: t0_day05_leaving [evening]
+<<run SOY.Time.ensureSlot(2)>>
+<<run SOY.Locations.travel('street')>>
+<<scene "mood/october-evening-walk-2" "Ninth Street after rain, the sky the color of old aluminum, boots too loud on wet pavement">>
+
+I walk out of 814 Ninth Street into October.
+
+The air hits me like a correction. Cold, sharp, tasting like exhaust and wet concrete and the particular metallic bite of a city that's been raining while I was inside having a speculum inserted into a body that wasn't mine. The sky is the color of old aluminum. The sidewalk is dark with water. My boots make sounds on the pavement that feel too heavy, too loud, like my feet are disagreeing with the ground about how much space they should take.
+
+My body. My own body. Male. Angular. Heavy at the shoulders, narrow at the hips. I've been back in it for forty-two minutes since the de-transfer and it still feels like putting on a coat that's a size too small. Not wrong. Just specific in ways I keep being surprised by.
+
+The phantom is already building. Renata's breasts. Not the visual. The weight. The way they pulled forward when I leaned over the exam table. The way they responded to the cold air of the clinic room with a tightening that wasn't sexual, just thermodynamic. But I felt it from inside. That heavy, alert sensitivity. Gone now. My chest is flat cotton and muscle and nothing else, and the nothing else is a presence, not an absence. The nothing has a shape.
+
+The speculum. I can still feel it. Not the metal. The stretch. The intrusion. The sensation of being opened from inside, mechanically, without malice but without tenderness either. Clinical. The doctor's hands knowing exactly where to go because this terrain was mapped before I arrived.
+
+I think about calling Paco. I don't. There are some things that don't compress into phone calls. The speculum is one of them.
+
+I get on the bus. The gospel-humming driver nods. I sit in my spot. My hands are in my lap. They're shaking, a fine tremor, barely visible. I close them into fists and the tremor moves to my forearms instead.
+
+Twenty-three days on the visa clock. Diana is going to call today. That's what the schedule said.
+
+The bus rattles. My phone buzzes.
+
+<<opt "t0_day05_diana_call" "Diana's name on the screen">>
+
+
+:: t0_day05_diana_call [evening]
+<<run SOY.Quests.complete('t0_day05', 'diana')>>
+<<set $flags.diana_pathway_confirmed = true>>
+<div class="callbar">&#9742; Diana Restrepo &middot; connected</div>
+
+My hands are still shaking when I answer.
+
+<<say "Diana">>Manuel.<</say>>
+
+Colombian precision wrapped in something warmer today. Not warm exactly. Encouraged. Diana doesn't do warm. She does accurate.
+
+<<say "Me">>Diana.<</say>>
+<<say "Diana">>I have news. Are you sitting down?<</say>>
+<<say "Me">>I'm on a bus.<</say>>
+<<say "Diana">>Then you're sitting. Good.<</say>>
+
+Paper shuffling. She's at her desk.
+
+<<say "Diana">>I contacted Shape of You's legal department this morning. Spoke with their in-house immigration specialist. A woman named Patricia Kwan. She's competent. I mean genuinely competent, not the kind where I have to fix everything afterward.<</say>>
+<<say "Me">>Okay.<</say>>
+<<say "Diana">>The classification is legitimate. Biometric Research Consultant. It's a recognized specialty occupation. They've sponsored four H-1B transfers in the last three years. All approved. One of them was from an E-2 treaty investor transition, more complex than yours, and they still got it through.<</say>>
+<<say "Me">>So it could work.<</say>>
+<<say "Diana">>If you pass the assessment, the company's legal team initiates employment verification immediately. Patricia said the petition filing happens within five business days of contract signing. The receipt notice, which legally extends your status while the full petition processes, typically issues in two to three weeks.<</say>>
+
+Two to three weeks. The visa clock has twenty-three days on it. The math works. Barely. But it works.
+
+<<say "Me">>So it could work.<</say>>
+
+Because the first time wasn't enough.
+
+<<say "Diana">>It could work, Manuel.<</say>>
+
+A pause. Diana pauses the way Rafael pauses, not because she's uncertain but because she wants the silence to carry something.
+
+<<say "Diana">>I want to be clear. This is not guaranteed. Processing times fluctuate. USCIS has been unpredictable. But the pathway is real. The company's track record is real. If you pass, we file. If we file, we have a very strong chance.<</say>>
+
+Very strong chance. In immigration law, those three words are the equivalent of someone else saying "done deal." Diana doesn't use them lightly.
+
+<<say "Me">>Thank you, Diana.<</say>>
+<<say "Diana">>Don't thank me yet. Pass first.<</say>>
+
+A beat.
+
+<<say "Diana">>How is the training?<</say>>
+<<say "Me">>Intense.<</say>>
+<<say "Diana">>Define intense.<</say>>
+
+I look out the window. A woman in a red coat crosses the street, one hand on an umbrella, the other adjusting a purse strap over her shoulder. The strap-wrap.
+
+<<say "Me">>It's changing how I see things. Not just the work. Everything.<</say>>
+<<say "Diana">>Good changes?<</say>>
+<<say "Me">>I don't know yet. But they're real.<</say>>
+<<say "Diana">>Real is enough for now. Call me the moment you have the assessment result. Any hour. I mean it. And Manuel? You've come too far to fail. Remember that when it gets hard.<</say>>
+
+She hangs up. I hold the phone against my chest, screen down, and close my eyes. The bus vibrates. The gospel driver hums.
+
+It could work.
+
+I breathe out and the breath shakes and I don't care because no one on this bus knows that the man in the gray henley with the curling hair just got told his life might not fall apart, and the privacy of that relief is the sweetest thing I've tasted since Mrs. Okafor's casserole.
+
+<<opt "t0_day05_home_arrive" "Home">>
+
+
+:: t0_day05_home_arrive [evening]
+<<run SOY.Locations.travel('apartment')>>
+<<scene "mood/apartment-night-couch" "The apartment dim, gray October light, the crooked lamp shade throwing amber">>
+
+Chipi greets me at the door with the intensity of someone who has been rehearsing a speech about abandonment for nine hours. She meows twice, sharp and declarative. Then she head-butts my shin and walks away as if the greeting never happened.
+
+<<say "Me">>I know. I'm late.<</say>>
+
+I feed her. The premium stuff, the $2.50 can, because today feels like a day that deserves premium cat food. She eats with suspicious enthusiasm, glancing at me between bites like she's waiting for the catch.
+
+The apartment is dim. October light through the window, gray and thin. I turn on the lamp by the couch, the one with the shade that's slightly crooked because Chipi knocked it over in August and I never fixed it. The bulb gives everything a warm, amber glow that makes the apartment feel smaller but safer.
+
+I sit on the couch. Boots on. Jacket on. Just sitting. Processing.
+
+Renata's body. The weight of her. Not just the breasts, the D-cup gravity that I felt in my spine, but the whole of her. The hips that took up space. The thighs that touched. The way she sat and the chair adjusted to her, not the other way around. That body didn't apologize. That body didn't negotiate. It arrived and the room made room and that was that.
+
+The speculum. I sit on my couch and I think about cold metal and stretch and the sound I made, Renata's sound, the involuntary gasp when the speculum opened. The cervical swab. Pressure in a place I didn't know existed until today. The bimanual palpation, two fingers inside, a hand pressing the abdomen from outside, being checked from both directions simultaneously. Like being read. Like being translated from a language I didn't know I was written in.
+
+Every woman I know has done this.
+
+My mother. Lupita González, fifty-eight, rosary and gossip, who goes to a clinic in Guadalajara once a year and lies back on a table and opens her legs for a doctor and has that done to her. She's done it thirty times, maybe more. She's never mentioned it. Not once. Not in any of the eleven voice notes about her chilaquiles recipe or the seven lectures about finding a girlfriend.
+
+Lyla has done this. Lyla, who texts at two AM with memes and at two PM with job leads. She puts on a paper gown and puts her feet in stirrups and someone puts metal inside her and she gets dressed and goes back to work.
+
+I put my hand on my own stomach. Flat. Hard. No uterus underneath. No cervix. No architecture that receives. My body is designed to extend, not to open. I've never been checked from the inside. I've never had to be.
+
+The vulnerability of it. The institutional, routine, annual vulnerability. The way it's just Tuesday for them. Just an appointment between the dentist and the oil change.
+
+My eyes are wet. I don't wipe them. Chipi jumps onto the couch and walks across my thighs and settles in the crook of my arm. She purrs. The vibration is the only thing in the room that makes sense.
+
+<<opt "t0_day05_getting_ready" "Shower again. Get ready for Lyla.">>
+
+
+:: t0_day05_getting_ready [evening]
+I shower again. Faster this time. Wash off the facility, the transfer residue, the smell of recycled air and stress sweat and the faint clinical soap they use in the scenario rooms.
+
+Change into something that doesn't smell like an existential crisis. The navy crewneck, washed this afternoon in the sink and dried on the radiator. Slightly damp at the cuffs but it'll do. Same dark jeans. I swap the boots for the black sneakers because the wine bar has wooden floors and my boots sound like a horse on wooden floors and Lyla has commented on this before.
+
+I look in the mirror. The same face. But my eyes are different tonight. Not the color or the shape. The thing behind them. The guy who looked in this mirror on Monday had twenty-seven days and no job and no plan. The guy looking now has twenty-three days and a job that puts his brain into women's bodies and a lawyer who said "very strong chance" and a friend who made a chart.
+
+I push my hair back. Still needs a cut. Still curling. Getting worse. Add it to the list.
+
+Chipi watches me from the bed.
+
+<<say "Me">>Don't destroy anything while I'm gone. The grinder stays on the counter.<</say>>
+
+She blinks. The blink is non-committal.
+
+I check messages on the walk to the subway.
+
+<<phone "Tommy">>
+<<txt "Tommy">>Also, the speculum. What the actual fuck.<</txt>>
+<</phone>>
+
+Some things don't fit in text bubbles. I don't respond to that one.
+
+Almost seven. Lyla is on 23rd Street with wine and a laminated chart. Fifteen minutes if I walk straight there. Longer if I don't.
+
+<<opt "t0_day05_prelyla_lulu" "Stop at Lulu's for mints and composure" "She'll decide you're on a date and demand a name.">>
+<<opt "t0_day05_prelyla_direct" "Walk straight there. Arrive early. Order the first glass alone." "Calmer. Without the Lulu warmth.">>
+<<opt "t0_day05_prelyla_adriana" "Text Adriana. Something small. Just to test the orbit." "&ldquo;Working tonight?&rdquo;">>
+
+
+:: t0_day05_prelyla_lulu [evening]
+<<set $flags.prelyla_choice = 'lulu'>>
+<<run SOY.Quests.completeSide('sq_009_adriana', 'orbit')>>
+<<run SOY.Economy.spend(3, 'other')>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+<<scene "locations/lulus-bodega" "Lulu's on a Friday night, the OPEN sign buzzing, mints by the register">>
+
+The bell. Lulu looks up from the register, magnifying glass in hand.
+
+<<say "Lulu">>Mijo. It's Friday and you're wearing your good sweater. You have a date? Finally! What's her name?<</say>>
+<<say "Me">>It's not a date. It's Lyla. My friend from the old job.<</say>>
+<<say "Lulu">>Lyla. Is Lyla pretty?<</say>>
+<<say "Me">>Lyla would set the store on fire if she heard you ask that.<</say>>
+<<say "Lulu">>So, spirited. That's good. Spirited is good.<</say>>
+
+She rings up the mints. Two dollars, but she waves the third off, drops in a fourth pack for free.
+
+<<say "Lulu">>Fresh breath and God's patience. That's all you need for a woman with opinions. Go. Don't be late. Being late tells a woman you think her time is a suggestion.<</say>>
+
+I take the mints. She points the magnifying glass at me like a small sword.
+
+<<say "Lulu">>And get a haircut.<</say>>
+
+<<opt "t0_day05_lyla_bar" "The wine bar on 23rd">>
+
+
+:: t0_day05_prelyla_direct [evening]
+<<set $flags.prelyla_choice = 'direct'>>
+<<run SOY.Quests.completeSide('sq_009_adriana', 'orbit')>>
+
+I walk straight there. No detours. The wine bar is called Stave and I arrive five minutes early and Lyla, impossibly, is already at a corner table with a bottle open. I sit at the bar first. Order a glass of the tempranillo. Drink half of it standing before I go over. Fortification. She's going to have questions and a chart and I want the wine in me before the interrogation, not during.
+
+<<opt "t0_day05_lyla_bar" "Go join her">>
+
+
+:: t0_day05_prelyla_adriana [phone]
+<<set $flags.prelyla_choice = 'adriana'>>
+<<set $flags.adriana_text_initiated = true>>
+<<run SOY.Quests.completeSide('sq_009_adriana', 'orbit')>>
+<<run SOY.NPCs.adjustRelationship('adriana', 1)>>
+
+<<phone "Adriana">>
+<<txt "Me">>Working tonight?<</txt>>
+<</phone>>
+
+The text sits in the sent folder. Three words. Seven syllables. The weight of them is disproportionate. I check the phone four times on the walk.
+
+<<phone "Adriana">>
+<<txt "Adriana">>Every Friday. The mezcal doesn't pour itself. You coming in?<</txt>>
+<<txt "Me">>Not tonight. Friend obligations. Saturday?<</txt>>
+<<txt "Adriana">>Saturday works.<</txt>>
+<</phone>>
+
+There it is again. "Saturday works." Two words. The same two words as "tomorrow works too" but on a different day. She responds in twos.
+
+<<phone "Adriana">>
+<<txt "Me">>What kind of mezcal should I order?<</txt>>
+<</phone>>
+
+A risk. A question that has nothing to do with mezcal and everything to do with testing whether she'll play.
+
+<<phone "Adriana">>
+<<txt "Adriana">>The espadín is good. Smoky, a little sweet. Good for people who are carrying heavy things and pretending they're not.<</txt>>
+<<txt "Me">>How do you know I'm carrying something heavy?<</txt>>
+<<txt "Adriana">>Because you text like someone choosing each word carefully. People who aren't carrying anything just type. You compose.<</txt>>
+<</phone>>
+
+I put the phone in my pocket. I'm at Stave. Lyla is visible through the window, wine poured, chart ready.
+
+I don't reply. The response that text deserves needs a bar stool and her dark eyes and a voice heard through bar noise rather than read on glass. Saturday.
+
+<<opt "t0_day05_lyla_bar" "Inside">>
+
+
+:: t0_day05_walk_home [night]
+<<run SOY.Locations.travel('street')>>
+<<scene "mood/october-evening-walk-2" "23rd Street at 10:22, orange sodium light, puddles holding the streetlamps like scattered coins">>
+
+The wine bar door closes behind me and the October air is a slap after the indoor warmth. I zip the olive green jacket, shove my hands in the pockets, start walking.
+
+Three glasses of wine. Not drunk. Wine-warm. The specific temperature of a man who's spent three hours <<if $flags.lyla_knows>>finally telling his best friend the truth about his job while she recalibrated her entire understanding of what's possible<<else>>lying to his best friend about his job while she tried to figure out the truth with a laminated chart<</if>>.
+
+The chart was real. She actually laminated it.
+
+My sneakers make soft sounds on wet pavement. The streetlights are orange sodium, that old New York color that turns everything amber and slightly unreal. A couple walks past going the other direction, his arm around her waist, her head tilted toward his shoulder, the easy geometry of people who belong to each other.
+
+I watch them pass and think about Adriana. The way she said "tomorrow works too." The way she pours mezcal before I ask. The way she looks at me like she's reading a book she hasn't decided whether to finish.
+
+<<if $flags.adriana_text_initiated>>
+My phone buzzes.
+
+<<phone "Adriana">>
+<<txt "Adriana">>Yeah, I'm here. Slow night. The mezcal is lonely.<</txt>>
+<</phone>>
+
+I read it twice. //The mezcal is lonely.// That's not a sentence. That's a door left open with the light on.
+
+I don't go to Vega tonight. Not because I don't want to. Because I can't add another layer to today. Renata's body, the speculum, Diana's call, Lyla's chart. My bandwidth is at capacity. If I go to Vega, if I sit at that bar and Adriana leans across and asks "rough day?" I will either tell her everything or kiss her, and both of those are choices that need more sobriety and less speculum-residual than I currently have.
+
+<<phone "Adriana">>
+<<txt "Me">>Raincheck. Long day. Saturday?<</txt>>
+<<txt "Adriana">>Saturday works.<</txt>>
+<</phone>>
+
+Two words. Same two words as last time. The consistency is doing something to me that I'm not going to examine on a sidewalk at ten-thirty at night.
+<<else>>
+I could text her. I don't. Not tonight. Tonight has no room left in it.
+<</if>>
+
+<<opt "t0_day05_home_late" "Home">>
+
+
+:: t0_day05_home_late [night]
+<<run SOY.Locations.travel('apartment')>>
+<<run SOY.Quests.completeSide('sq_007_tommy', 'plan')>>
+
+Chipi is on the kitchen counter. The coffee grinder is two inches from the edge. She looks at me with the expression of a woman who has been interrupted mid-project.
+
+<<say "Me">>Don't.<</say>>
+
+She pushes it one more inch.
+
+<<say "Me">>Chipi.<</say>>
+
+She pushes it another. I pick up the grinder and put it in the cabinet. She stares at the cabinet door like it has personally betrayed her.
+
+I change. The navy crewneck goes on the chair. Boxer shorts, the worn gray t-shirt I sleep in. I brush my teeth and the face in the mirror is wine-flushed and tired and carrying something behind the eyes that wasn't there five days ago.
+
+I check messages one last time.
+
+<<phone "Paco">>
+<<txt "Paco">>HERMANO. Isabela video-called me. VIDEO. CALL. She was at the beach. In Florianópolis. In a BIKINI. I proposed.<</txt>>
+<<txt "Paco">>She laughed and said "eres loco." But she said it SMILING, Manuel. That's basically a yes in Brazilian.<</txt>>
+<<txt "Paco">>Also she has a friend. Single. Lives in Brooklyn. From São Paulo. Her name is Valentina. VA-LEN-TI-NA. She wants to meet you. I said you were busy doing classified body stuff and she said "that sounds interesting."<</txt>>
+<</phone>>
+
+Valentina from São Paulo. Paco is trying to set me up with his imaginary girlfriend's real friend. I'll deal with this tomorrow. Or never. Never also works.
+
+<<phone "James">>
+<<txt "James">>Hope Friday is treating you right! Casserole holding up? Mom wants to know. She's invested now.<</txt>>
+<<txt "Me">>Tell her it's incredible. I ate it cold for breakfast and it was still the best thing I've eaten this week.<</txt>>
+<<txt "James">>She will be THRILLED. You've made a friend for life. She's already planning round two. I think it's jollof rice.<</txt>>
+<</phone>>
+
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 0:29<</txt>>
+<</phone>>
+
+<<say "Mamá">>Mijo, I lit a candle for you today. San José, patron of workers. Your job is in God's hands. Also, Daniela says you haven't called. She's very patient but patience has limits, mijo. Good hips. Te quiero. Buenas noches.<</say>>
+
+Good hips. Again with the hips. Mamá, I spent four hours today in hips that could change your entire understanding of the concept.
+
+I don't reply. I'll call her Sunday. The guilt is thinner tonight, diluted by the wine and Diana's call and the fact that for the first time in twenty-eight days, "I'm fine, mamá" might actually become true.
+
+I get into bed. The sheets are cold. The bed is too big. It's always been too big. Chipi jumps up, circles twice, settles against my ribs.
+
+<<opt "t0_day05_bed" "Lie in the dark">>
+
+
+:: t0_day05_bed [night intimate]
+I lie in the dark and I don't plan to touch myself. I plan to sleep. I plan to close my eyes and let the wine and the exhaustion do their work and be unconscious in seven minutes.
+
+But the body doesn't listen to plans.
+
+The phantom is there. Renata's phantom, not Katya's. Different frequency entirely. Katya's echo was sharp, electric, the ghost of arousal aimed at you. Renata's echo is deeper. Heavier. Not about desire at all. About weight. About space. About the sensation of being inside a body that occupied the world without permission or apology.
+
+I feel my chest. Flat. My hand rests where Renata's breasts were. The D-cup. The weight that pulled forward when I leaned. Gone. My palm against my own pectoral, the muscle and bone underneath, the specific flatness of male anatomy.
+
+The speculum. That's what pulls me under. Not the cold of it. The moment after. Lying on the exam table in Renata's body with my legs apart and the fluorescent light buzzing and feeling, for the first time, what it means to be accessed. Not touched. Not entered the way sex enters. Accessed. Like a system. Like an archive. Someone opening you to verify the contents and you lying there and allowing it because this is what bodies like this are for, apparently. This is the maintenance. This is Tuesday.
+
+<<if $settings.showExplicit>>
+<<opt "t0_day05_solo" "Don't fight it" "Explicit. Grief and arousal on the same wiring.">>
+<</if>>
+<<opt "t0_day05_solo_skip" "Turn your face into the pillow. Just breathe.">>
+
+
+:: t0_day05_solo [night intimate explicit]
+<<set $flags.first_solo_done = true>>
+<<set $flags.solo_night_d5 = true>>
+<<set $body.arousal = 0>>
+<<scene "mood/bed-night-d4" "The ceiling crack, faintly lit, the cat curled at the edge of the frame">>
+
+<div class="scene-solo">
+My hand moves lower. My stomach. My hip. The narrow architecture. Where Renata's hips spread, mine taper. Where her thighs touched, mine leave space. I'm mapping the differences not from the outside but from the memory of the inside. I know what it feels like to be wide there. I know what it feels like to sit and have the chair adjust to you. I can't unknow it.
+
+I'm not hard. Not yet. This isn't that kind of touching. This is the kind where you're checking whether you're still the person you were this morning and the answer is no and you need to feel the shape of the new person to understand what changed.
+
+The tears come before the hardness does.
+
+I cry. Quietly. Face turned into the pillow. Not sobbing. Just the slow, heavy leak of something that's been building since I lay on that table and felt Renata's body opened by a stranger's instrument and the body's response wasn't fear or pain but resignation. The body knew this. The body had been programmed to know this. The stirrups, the gown, the cold. Routine. Annual. Nothing.
+
+Everything.
+
+The arousal comes mixed with the crying, which doesn't make sense and makes perfect sense. My body responds to intensity. It doesn't distinguish between kinds. Grief and desire run on the same wiring and right now both circuits are firing and my hand finds its way under the waistband not because I'm horny but because I need to process something and the body only has so many channels.
+
+I touch myself slowly. Eyes closed. Thinking about Renata's body, not the beauty of it but the lived-in quality, the way the body moved like it belonged to someone who had earned every curve. The way the hips sat in the chair. The way the breasts settled when she stopped moving, the heavy, warm, inevitable settling.
+
+The orgasm builds slowly. Not sharp like last night's. This one gathers. It collects from distant places, from the speculum and the weight and the vulnerability and the phone call from Diana and the fact that my life might not end in twenty-three days and the fact that every woman I've ever known has a speculum in her annual calendar and none of them told me, and why would they, because it's just Tuesday for them.
+
+I come with a sound I don't recognize. Low, long, pulled from somewhere below the ribs. Not a grunt, not a moan. Something closer to a sigh with weight behind it. The orgasm rolls through me in waves, not the sharp peak of male architecture but something borrowed, something that echoes a rhythm my body doesn't natively speak.
+
+Afterward. Ceiling. Dark. Chipi purring against my side. My hand on my chest. Flat. Wet eyes. Wine-dry mouth.
+</div>
+
+<<say "Me">>Mamá has done this. Every year. She's never told me.<</say>>
+
+Chipi purrs.
+
+I fall asleep with the phantom of Renata's weight on my chest and the taste of the wine bar still on my tongue and the specific gravity of a Friday where everything shifted by one degree and the degree was enough.
+
+<<opt "t0_day05_sleep" "Under">>
+
+
+:: t0_day05_solo_skip [night intimate]
+<<set $body.arousal = 0>>
+
+I turn my face into the pillow and breathe. Four counts in. Hold. Six counts out. The technique from Module 1, used now for something Module 1 didn't anticipate.
+
+I don't reach for it. The warmth is there, mixed up with the grief in a way I don't have the energy to untangle tonight. If I chase it I'm not sure which one I'm feeding. So I let it sit. Both of them. Unspent.
+
+The tears come anyway. Quiet. Face in the pillow. Not sobbing, just the slow leak of something that's been building since I felt Renata's body opened by a stranger's instrument and the body's response wasn't fear. It was resignation. Routine. Annual. Nothing. Everything.
+
+<<say "Me">>Mamá has done this. Every year. She's never told me.<</say>>
+
+Chipi purrs against my side. The vibration is the only thing in the room that makes sense.
+
+<<opt "t0_day05_sleep" "Under">>
+
+
+:: t0_day05_sleep
+<<if $calendar.day is 5>>
+	<<run SOY.Time.ensureSlot(3)>>
+	<<run SOY.Time.advance()>>
+	<<run SOY.Body.decayPhantoms()>>
+<</if>>
+<<run SOY.Locations.travel('apartment')>>
+
+I fall asleep with the phantom of Renata's weight on my chest and the specific gravity of a Friday where everything shifted by one degree, and the degree was enough.
+
+<<opt "t0_day06_wake" "Saturday">>

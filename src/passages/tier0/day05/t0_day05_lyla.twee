@@ -1,0 +1,202 @@
+:: t0_day05_lyla_bar [evening npc-lyla]
+<<run SOY.Locations.travel('cafe')>>
+<<run SOY.Economy.spend(24, 'drinks')>>
+<<scene "locations/stave-wine-bar" "A dim wood-panelled wine bar, jazz at privacy volume, a laminated chart face-down on a corner table">>
+
+<<face "lyla" "Lyla Chen">>She's already there. Of course she's already there. Lyla Chen does not arrive second to anything. She's at a corner table with a bottle of something red already open, two glasses already poured, and, I swear to God, a laminated piece of paper face-down on the table.
+
+The wine bar is called Stave. Dim, wood-panelled, the kind of place that plays jazz at a volume designed to create the illusion of privacy without actually providing it. The bartender is a tall man with a topknot and forearms covered in botanical tattoos.
+
+Lyla sees me come in and her entire face lights up with predatory joy. Leather jacket, messy bun, the face of a woman who has been preparing for this conversation the way generals prepare for campaigns.
+
+<<say "Lyla">>Manuel González. Sit down. You're four minutes late and I have visual aids.<</say>>
+
+I sit. I pick up my wine. I drink before speaking because I need the half-second advantage.
+
+<<say "Me">>Lyla.<</say>>
+<<say "Lyla">>Don't "Lyla" me like that. Don't give me the soft eyes. You've been dodging me for five days and tonight I collect.<</say>>
+
+She flips over the laminated page.
+
+It's a chart. An actual chart. Handwritten in four colors of marker, with arrows, boxes, and a scoring system. The title, in red Sharpie: <strong>WHAT DOES MANUEL ACTUALLY DO?</strong>
+
+Five theories down the side. Evidence for. Evidence against. A probability score.
+
+<div class="quote">1. Pharmaceutical test subject &mdash; 15%. 2. Government spy (can't hold a poker face) &mdash; 5%. 3. Underground fight club, nerd division (have you SEEN his arms) &mdash; 3%. 4. Porn (he'd be WAY less stressed if it was porn) &mdash; 8%. 5. Something genuinely weird that he's embarrassed about &mdash; 69% (nice).</div>
+
+<<say "Me">>You laminated this.<</say>>
+<<say "Lyla">>I used the laminator at work. My terrible startup has exactly one good piece of equipment and I used it for this.<</say>>
+<<say "Me">>The probability scores don't add up to 100.<</say>>
+<<say "Lyla">>Math is a social construct, Manuel. TALK.<</say>>
+
+I drink more wine. Tempranillo, maybe. Earthy, warm. Like drinking a sunset through a screen door.
+
+<<say "Lyla">>What do you actually do? Company name.<</say>>
+<<say "Me">>I can't tell you.<</say>>
+<<say "Lyla">>What do you wear?<</say>>
+<<say "Me">>Regular clothes. They have a work uniform for certain activities.<</say>>
+
+Her eyes narrow.
+
+<<say "Lyla">>A work uniform. For certain activities. Manuel. This is not helping your case against Theory 4.<</say>>
+<<say "Me">>It's not porn.<</say>>
+<<say "Lyla">>A man in a work uniform doing physical activities with bodies, who can't tell his friends what the job is. Do you see why Theory 4 exists?<</say>>
+<<say "Me">>I see why Theory 4 exists. It's wrong.<</say>>
+<<say "Lyla">>Then correct me.<</say>>
+
+I look at the wine. At the laminated chart. At Lyla, who flew to New York from San Francisco three years ago for a job she hates, who walked out of Brevity Labs holding a cardboard box the same day I did and said "well, that was dogshit" and became my friend in the space of one sentence. Lyla, who would walk into traffic for me and I for her, and who is sitting across a table with a laminated chart because she cares enough to investigate.
+
+What do I tell her?
+
+<<opt "t0_day05_lyla_deflect" "&ldquo;It's a biotech company. Neural interfaces. The NDA is real and I can't jeopardize the visa.&rdquo;">>
+<<opt "t0_day05_lyla_partial" "&ldquo;It's consciousness transfer. They put my brain in female clone bodies.&rdquo;">>
+<<opt "t0_day05_lyla_full" "Tell her everything. The bodies, the training, the scenarios, the speculum.">>
+
+
+:: t0_day05_lyla_deflect [evening npc-lyla]
+<<run SOY.Quests.complete('t0_day05', 'lyla')>>
+<<set $flags.lyla_disclosure = 'deflect'>>
+
+<<say "Me">>It's a biotech company. They do research on neural interfaces. I'm a consultant who helps test the equipment. It involves being hooked up to machines, which is why it's physical. The NDA is real and comprehensive. I literally cannot tell you more without jeopardizing the visa pathway.<</say>>
+<<say "Lyla">>An NDA. That's convenient.<</say>>
+<<say "Me">>It's not convenient. It's contractual.<</say>>
+<<say "Lyla">>You're hiding behind paperwork.<</say>>
+<<say "Me">>I'm protecting my job. My job is protecting my visa. My visa is protecting my life here.<</say>>
+
+She goes quiet. Drinks wine. Her jaw works. She's angry but she's also a person who understands systems, and "NDA protects visa" is a system she can't argue with without becoming the villain.
+
+<<say "Lyla">>Fine.<</say>>
+
+She refills both glasses.
+
+<<say "Lyla">>I'm parking this. Not dropping it. Parking it. When the visa clears, and it WILL clear, I am going to sit you down with tequila, not wine, tequila, and you are going to tell me everything. Deal?<</say>>
+<<say "Me">>Deal.<</say>>
+<<say "Lyla">>And if it turns out to be porn, I want residuals.<</say>>
+
+We stay another hour. The conversation moves to safer ground, her startup, the old team, a Brevity engineer who apparently now sells NFTs of his own knees. But there's a film over it now. The lie sits between us like a third glass nobody's drinking from.
+
+<<opt "t0_day05_walk_home" "Out into the cold">>
+
+
+:: t0_day05_lyla_partial [evening npc-lyla]
+<<run SOY.Quests.complete('t0_day05', 'lyla')>>
+<<set $flags.lyla_disclosure = 'partial'>>
+<<set $flags.lyla_knows = true>>
+<<run SOY.NPCs.adjustRelationship('lyla', 2)>>
+
+<<say "Me">>The company does consciousness transfer research.<</say>>
+
+Lyla puts her wine down.
+
+<<say "Me">>The technology exists to move a human consciousness from one body to another. Temporarily. Into lab-grown clone bodies. I'm testing the technology as a subject. They put my brain in a different body, I do tasks, they bring me back. The company classifies it as biometric research consulting and they can sponsor my visa.<</say>>
+
+Long silence. The jazz plays. The couple at the bar laughs at something.
+
+<<say "Lyla">>You're telling me your job is body-swapping.<</say>>
+<<say "Me">>I'm telling you my job involves consciousness transfer into clone bodies for research and assessment.<</say>>
+<<say "Lyla">>That's the same sentence with bigger words.<</say>>
+
+She leans forward.
+
+<<say "Lyla">>What kind of bodies?<</say>>
+<<say "Me">>Female bodies.<</say>>
+
+Her mouth opens. Closes. Opens again. Closes. She picks up her wine, drinks the entire glass in one pull, sets it down.
+
+<<say "Lyla">>You. Manuel González. Backend developer. The man who once spent twenty minutes explaining REST API architecture at a party. You are telling me that you, personally, put your brain into a woman's body.<</say>>
+<<say "Me">>Female clone bodies. Yes.<</say>>
+<<say "Lyla">>On PURPOSE.<</say>>
+<<say "Me">>For work. For the visa.<</say>>
+<<say "Lyla">>What does it feel like?<</say>>
+<<say "Me">>Different. Heavy, sometimes. Lighter, other times. The center of gravity shifts. Things respond differently.<</say>>
+
+She leans back. Her eyes are enormous. The chart on the table suddenly looks like a children's drawing next to the reality.
+
+<<say "Lyla">>Oh my God. Oh my GOD, Manuel. I had PORN. Porn was my fourth theory. Body-swapping wasn't even on the BOARD.<</say>>
+<<say "Me">>In fairness, nobody would put body-swapping on the board.<</say>>
+<<say "Lyla">>I need more wine.<</say>>
+
+She pours. Drinks. Pours again.
+
+<<say "Lyla">>Do you, and I need you to answer this, do you have BREASTS right now?<</say>>
+<<say "Me">>Right now? No. I'm in my own body.<</say>>
+<<say "Lyla">>But you HAVE HAD breasts.<</say>>
+<<say "Me">>During transfers, yes. The clone bodies are female.<</say>>
+<<say "Lyla">>What CUP SIZE?<</say>>
+<<say "Me">>Lyla.<</say>>
+<<say "Lyla">>I'm asking for SCIENCE, Manuel.<</say>>
+<<say "Me">>It's varied. By clone.<</say>>
+
+She puts her head on the table. The laminated chart crinkles under her forehead. She makes a sound that's halfway between laughter and screaming.
+
+<<say "Lyla">>I quit. I quit being your friend. I'm going home to lie in bed and think about the fact that my former coworker has had more experience with breasts this week than I've had in twenty-seven years and THEY'RE NOT EVEN HIS.<</say>>
+<<say "Me">>Are you okay?<</say>>
+
+She lifts her head. Her eyes are bright. Not with tears. Wonder, maybe.
+
+<<say "Lyla">>I'm incredible. I am having the best night of my entire life. Pour me more wine and tell me everything.<</say>>
+
+The conversation goes another two hours. She asks about the science, I explain what I can. The training, in general terms. The ethical framework, she's fascinated. The legal structure, she has opinions. I don't tell her about the scenarios. Not the mirror, not the shower, not the partner, not the speculum. Those are mine. Those are inside things.
+
+She doesn't push past what I offer. She's too smart to push someone who's finally talking.
+
+At ten she puts both hands flat on the table.
+
+<<say "Lyla">>This is the most insane thing I've ever heard. You are doing the most insane job in the history of employment. And you're doing it for a VISA. I am, and I say this with complete sincerity, in awe.<</say>>
+<<say "Me">>Don't be in awe. Be quiet about it. The NDA is real.<</say>>
+<<say "Lyla">>I'm a vault. You know I'm a vault.<</say>>
+
+She reaches across the table and takes my hand. Warm, firm, slightly drunk.
+
+<<say "Lyla">>But Manuel. Are you okay? With all of this? The bodies and the being a woman temporarily?<</say>>
+<<say "Me">>I'm processing.<</say>>
+<<say "Lyla">>That's not an answer.<</say>>
+<<say "Me">>It's the most honest one I have.<</say>>
+
+She squeezes my hand. Lets go. Pulls a marker from her jacket pocket, because of course she brought a marker, and crosses out all five theories and writes in large red letters across the bottom:
+
+<div class="quote">THEORY 6: BODY SWAPPER. 100%. THE TRUTH IS ALWAYS WEIRDER.</div>
+
+<<say "Lyla">>I'm keeping this. When they make a movie about your life, I'm going to sell this chart for millions.<</say>>
+
+She folds it carefully and puts it in her jacket.
+
+<<opt "t0_day05_walk_home" "Out into the cold">>
+
+
+:: t0_day05_lyla_full [evening npc-lyla]
+<<run SOY.Quests.complete('t0_day05', 'lyla')>>
+<<set $flags.lyla_disclosure = 'full'>>
+<<set $flags.lyla_knows = true>>
+<<set $flags.lyla_knows_details = true>>
+<<run SOY.NPCs.adjustRelationship('lyla', 3)>>
+
+I tell her all of it.
+
+Consciousness transfer. Clone bodies. Female clone bodies. The classification, the visa, the six working days of training. She goes through the same arc, mouth opening and closing, wine drunk in one pull, //what does it feel like//, //do you have breasts right now.// I let her have the science and the shape of it.
+
+And then I keep going. Past where I stopped with the partial version. The mirror on Day 3, four seconds, the face that was mine on a canvas that wasn't. The changing room, the shaking hands. The knock, the body's welcome signal firing without my permission. The partner on the couch, Scenario 4, the hand on the knee and the way the body said yes in a language I hadn't chosen to learn.
+
+And today. The contract. The speculum.
+
+Lyla stops drinking. She sits very still while I describe the exam table, the stirrups, the gasp that came out of Renata's throat. When I finish she's quiet for a long time.
+
+<<say "Lyla">>Every year, Manuel. I do that every year. I have an appointment in March.<</say>>
+<<say "Me">>I know. I didn't. Not really. Not from the inside.<</say>>
+<<say "Lyla">>And now you do.<</say>>
+<<say "Me">>Now I do.<</say>>
+
+She reaches across and grips my forearm, hard, the way you hold onto someone on a boat.
+
+<<say "Lyla">>You tell me if this breaks you. I mean it. I don't care about the NDA, I don't care about the visa, if this job starts taking pieces of you that don't come back, you tell me and we figure it out. That's the deal. That's always been the deal.<</say>>
+<<say "Me">>I remember.<</say>>
+<<say "Lyla">>Say it back.<</say>>
+<<say "Me">>If it starts taking pieces that don't come back, I tell you.<</say>>
+
+She lets go. Wipes her eyes with the back of her hand, fast, like she's annoyed at them. Then she pulls out the marker and writes across the bottom of the chart:
+
+<div class="quote">THEORY 6: BODY SWAPPER. 100%. AND HE'S NOT OKAY BUT HE WILL BE.</div>
+
+<<say "Lyla">>Folding this up. Keeping it forever. Now walk me to the train, it's late and I've had a bottle of wine and a worldview adjustment.<</say>>
+
+<<opt "t0_day05_walk_home" "Out into the cold">>

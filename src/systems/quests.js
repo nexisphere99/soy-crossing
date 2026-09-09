@@ -244,6 +244,75 @@ SOY.Quests = {
 		});
 	},
 
+	/* Registers the Day 5 main quest + refreshes the daily side quests. */
+	registerDay5: function () {
+		this.addMain('t0_day05', {
+			id: 'module3_day5',
+			title: 'Module 3: The Appointment',
+			status: 'active',
+			objectives: [
+				{ id: 'lecture',    text: 'Sit the contract-theory lecture',       where: 'Room 2',            done: false },
+				{ id: 'negotiate',  text: 'Negotiate the medical-appointment contract', where: 'Conference Room B', done: false },
+				{ id: 'transfer',   text: 'Transfer into Clone 7-R',               where: 'The pod room',      done: false },
+				{ id: 'scenario',   text: 'Get through Scenario 5: The Appointment', where: 'Exam Room 1',      done: false },
+				{ id: 'debrief',    text: 'Debrief with Rafael',                   where: "Rafael's office",   done: false },
+				{ id: 'diana',      text: "Take Diana's call about the visa",      where: 'The bus home',      done: false },
+				{ id: 'lyla',       text: 'Friday drinks with Lyla',              where: 'Stave, 23rd Street', done: false }
+			]
+		});
+
+		// new day, fresh daily board
+		State.variables.quests.side = [];
+		this.addSide({
+			id: 'sq_001_feed', title: 'Feed the Machine',
+			description: "Mrs. Okafor's casserole is in the fridge. That counts.",
+			status: 'active',
+			objectives: [{ id: 'eat', text: 'Eat something', done: false }]
+		});
+		this.addSide({
+			id: 'sq_004_mama', title: "Mamá's Campaign",
+			description: 'Daniela says she texted you. She has good hips, apparently.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Hear the voice note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_005_vidal', title: "Señora Vidal's Watch",
+			description: 'Note #5, and warm arroz con pollo on the doorstep at 6 AM.',
+			status: 'active',
+			objectives: [{ id: 'handle', text: 'Answer the note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_006_echo', title: 'Body Echo',
+			description: "Renata's echo is about weight and space, not desire.",
+			status: 'active',
+			objectives: [{ id: 'phantom', text: 'Notice the phantoms', done: false }]
+		});
+		this.addSide({
+			id: 'sq_007_tommy', title: "Tommy's Nerve",
+			description: 'He wants ramen and someone who gets it. Saturday.',
+			status: 'active',
+			objectives: [{ id: 'plan', text: "Make a plan with Tommy", done: false }]
+		});
+		this.addSide({
+			id: 'sq_008_georgia', title: "Georgia's Read",
+			description: 'Her male-body Scenario 4. Located, aggressive, directional.',
+			status: 'active',
+			objectives: [{ id: 'talk', text: 'Compare notes with Georgia', done: false }]
+		});
+		this.addSide({
+			id: 'sq_009_adriana', title: "Adriana's Orbit",
+			description: '"Saturday works." She responds in twos.',
+			status: 'active',
+			objectives: [{ id: 'orbit', text: 'Decide whether to reach out', done: false }]
+		});
+		this.addSide({
+			id: 'sq_011_brett', title: "Brett's Silence",
+			description: "Two days without a word. The composure is cracking.",
+			status: 'active',
+			objectives: [{ id: 'reach', text: 'Cross paths with Brett', done: false }]
+		});
+	},
+
 	addMain: function (key, quest) {
 		State.variables.quests.main[key] = quest;
 	},

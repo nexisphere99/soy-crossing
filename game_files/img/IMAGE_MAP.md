@@ -232,3 +232,37 @@ shot (`apartment-morning`, `bus-ninth-street`, `pod-room`, `bed-night`,
 
 `avatars/james.png` and `avatars/mama.png` exist. `avatars/partner.png` is not
 needed , the Scenario 4 actor's lines render as prose, not `<<say>>`.
+
+---
+
+# Day 5 image map
+
+Prompts: `story_files/day_5/day05_image_prompts (1).md`. Missing files collapse
+silently. Reused: `locations/soy-lobby.png`, `locations/cafeteria.png`,
+`locations/lulus-bodega.png`, `mood/october-evening-walk-2.png`,
+`mood/apartment-night-couch.png`, `mood/detransfer.png`, `mood/bed-night-d4.png`.
+Clone art already present: Renata (`portraits/renata.png`, `full_body/renata.png`,
+`avatars/renata.png`).
+
+## new files (drop PNGs at these paths)
+
+| File | Prompt | Used in |
+|---|---|---|
+| `locations/apartment-morning-d5.png` | IMG-D5-001 Morning kitchen, Chipi vs grinder | `t0_day05_wake` |
+| `locations/bus-ninth-street-d5.png` | IMG-D5-009 Diana's call / bus window (or a plain bus shot) | `t0_day05_bus` |
+| `slides/contract-whiteboard.png` | IMG-D5-003 Elena's contract whiteboard | `t0_day05_lecture` |
+| `locations/conference-room-b.png` | IMG-D5-004 Contract negotiation, Elena as Maria | `t0_day05_negotiation` |
+| `mood/transfer-renata.png` | IMG-D5-005 Transfer into Renata, the weight | `t0_day05_transfer_renata` |
+| `scenarios/exam-room.png` | IMG-D5-007 The exam room (empty) | `t0_day05_scenario5` |
+| `locations/stave-wine-bar.png` | IMG-D5-011 Stave wine bar, Lyla's table | `t0_day05_lyla_bar` |
+
+## avatars (optional, initial-letter fallback until added)
+
+`avatars/diana.png`, `avatars/maria.png` (Elena-as-Maria in the negotiation),
+`avatars/nakamura.png` (Dr. Nakamura in Scenario 5).
+
+## spare Day 5 prompts (no passage wired)
+
+IMG-D5-002 Yuki's pins, IMG-D5-006 Renata's hands, IMG-D5-008 the speculum moment
+(abstract), IMG-D5-010 Lyla's chart, IMG-D5-012 walk home, IMG-D5-013 solo ceiling,
+IMG-D5-014 Señora Vidal's note (rendered as a styled `.note` block).

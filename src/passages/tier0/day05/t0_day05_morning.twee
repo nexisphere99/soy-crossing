@@ -1,0 +1,301 @@
+:: t0_day05_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 23>>
+<<set $calendar.weekday = 5>>
+<<set $calendar.phase = "course">>
+<<run SOY.Body.resetExercises()>>
+<<set $body.todayTransferred = false>>
+<<if not $quests.main.t0_day05>><<run SOY.Quests.registerDay5()>><</if>>
+<<run SOY.Locations.travel('apartment')>>
+<<scene "locations/apartment-morning-d5" "5:52 AM, the ceiling crack, the cat draped across one shin like a tourniquet">>
+
+The alarm is set for six fifteen. My body decides five fifty-two is close enough.
+
+I'm on my back. Chipi is draped across my left shin like a furry tourniquet, her purr vibrating through the bone. The ceiling crack is exactly where I left it. The apartment is cold because I forgot to set the heat again, third night running, and the October air has crept in through the window I left cracked for "fresh air" like some optimist who doesn't live in a building where the radiator sounds like a dying accordion.
+
+I'm hard. Not the sharp, insistent kind from yesterday morning. This is slower. Lower. A residual warmth pooled in my pelvis like something left on a burner overnight. The phantom from Scenario 4 has decayed but not disappeared. The echo of the hand on the knee. The pull. I can still feel the ghost of it if I breathe in a specific way, this drawing sensation behind my navel that belongs to a body I returned sixteen hours ago.
+
+I don't touch myself. Not because I'm being disciplined. Because I jerked off last night and the orgasm was confusing enough without a sequel before coffee.
+
+I sit up. Chipi makes an affronted noise and relocates to the warm dent I left in the pillow.
+
+<<say "Me">>Morning, criminal.<</say>>
+
+She yawns. Her breath is terrible. I love her anyway.
+
+Bathroom. I piss standing up and the ordinariness of it feels like a statement, which is a weird thing to think at five fifty-three on a Friday morning. Two days ago I wouldn't have noticed the mechanics. Now I notice. The stance, the aim, the casual efficiency of male plumbing. I flush and catch my reflection in the mirror above the sink. Same face. Brown skin, dark eyes, jaw that needs a better razor, hair curling at the temples and behind the ears. Getting long. I push it back with both hands and hold it there for a second.
+
+My chest is flat under the white undershirt I slept in. Pectorals, not breasts. Yesterday in Katya I felt the fabric catch on nipples that responded to temperature without asking. This morning my own nipples are just there, doing nothing, reporting nothing. Two small facts on a flat plane.
+
+The phantom: my hand drifts toward my sternum. Not to touch. To check. The weight that was there yesterday in Katya, the day before in Katya, two days before that in Flor. Gone. My chest is just my chest. But I keep expecting the shift when I lean forward to turn on the shower. The forward pull of mass that needs managing. My spine braces for something that isn't there, and when it isn't, there's a half-second of wrongness before my posture recalibrates.
+
+<<say "Me">>Estás loco.<</say>>
+
+I tell the mirror. The mirror does not disagree.
+
+<<opt "t0_day05_shower" "Shower">>
+
+
+:: t0_day05_shower [home]
+Hot water. The pressure in this apartment is garbage, always has been, but the heat works and right now heat is what I need. I stand under it and let it hit the back of my neck and just breathe.
+
+My body in the steam. Mine. I run soap over my arms, my chest, my stomach. Angular. Flat where Katya was curved, narrow where she was wide. My hips are hinges, not cradles. My thighs don't touch when I stand straight. I can feel the difference now in a way I couldn't a week ago, not as deficit but as specificity. This body is a particular thing. Not the default. Not the baseline. One option.
+
+I wash my hair, which takes about nine seconds because I have roughly three inches of it and no curl pattern to negotiate. Renata's hair is past her shoulders, thick, black, voluminous. I read the brief yesterday. Today I go into a body with hair that has opinions.
+
+Today is Module 3. Contract theory. New clone.
+
+Renata. 7-R. Dynamic neural profile. D-cup on a strong curvy frame.
+
+My stomach tightens. Not fear exactly. Anticipation with teeth.
+
+I turn the water off. Towel. The mirror is fogged and I don't wipe it. I don't need to see myself right now. I know what I look like. I'm learning what I feel like, which is more complicated and less resolved.
+
+<<opt "t0_day05_kitchen" "Dress, and coffee">>
+
+
+:: t0_day05_kitchen [home]
+I stand in front of the closet and realize I've been staring at the navy crewneck from yesterday without moving for about ten seconds. It smells like pad thai from James's dinner. Siam Corner lingers.
+
+I pull out the gray henley instead. Three buttons at the collar. Soft cotton, slightly fitted. The kind of shirt that says "I'm a functional adult" without trying too hard. Dark jeans again, same boots, the olive green jacket because it's October and the temperature is doing that thing where mornings are cold and afternoons trick you into thinking it's still September.
+
+I button the henley and feel the fabric settle against my chest. Flat. The buttons sit flush. In Renata's body, buttons would gap. I've seen it on women on the bus, the strain between the third and fourth button where the chest pushes the fabric apart, that specific frustration designed into clothing by people who apparently believe all torsos are the same width.
+
+I'm noticing things. Elena would probably call this calibration. Rafael would call it awareness. I call it six-eighteen on a Friday morning and I'm thinking about button gaps and I haven't had coffee yet.
+
+Chipi is on the counter. She is always on the counter. She is specifically on the counter next to the coffee grinder, which she has been pushing toward the edge with her back foot in slow, deliberate increments.
+
+<<say "Me">>No.<</say>>
+
+I move the grinder. She looks at me like I've violated the Geneva Convention.
+
+Coffee. I bought a new pack of filters yesterday after Chipi's assault on the last batch, so today the grounds stay where they belong, in the filter, not in my mug. Small victories. I'll take them.
+
+While the coffee brews I eat standing at the counter. Mrs. Okafor's chicken casserole from the Tupperware James brought. Cold, straight from the fridge, because heating it up requires a plate and a microwave and those feel like too many steps between me and food. The casserole is incredible. Extra cheese, just like James said. Mrs. Okafor is a woman I've never met who sends me food through her son because he told her I have "kind eyes and a hungry face" and that was apparently enough to activate a Nigerian mother's feeding protocol from thirty miles away.
+
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+I eat three bites and then Chipi is on the counter again, whiskers forward, pupils huge, doing her "I have never been fed in my entire life" routine.
+
+<<say "Me">>You had premium chicken last night. Two-fifty a can.<</say>>
+
+She blinks slowly. The blink means nothing and everything.
+
+I give her a shred of chicken. She eats it with the delicacy of a surgeon and the entitlement of a dictator.
+
+<<opt "t0_day05_phone_morning" "Check the phone while the coffee cools">>
+
+
+:: t0_day05_phone_morning [phone]
+<<run SOY.Quests.completeSide('sq_004_mama', 'respond')>>
+
+<<phone "Paco">>
+<<txt "Paco">>Hermano. Can't sleep. Keep thinking about what you said about the hand on the knee. Wild. Also Isabela sent me a voice note and she LAUGHED at one of my jokes. I repeat. She LAUGHED. I'm buying a ring.<</txt>>
+<<txt "Me">>You've never met her.<</txt>>
+<<txt "Paco">>Love doesn't require geography. I've said this.<</txt>>
+<<txt "Me">>You've said it. It's still wrong.<</txt>>
+<<txt "Paco">>Wrong is a social construct. Big day today?<</txt>>
+<<txt "Me">>New module. New body.<</txt>>
+<<txt "Paco">>Bigger? Smaller?<</txt>>
+<<txt "Me">>Different.<</txt>>
+<<txt "Paco">>That's your answer for everything now. "Different." You sound like a philosophy major.<</txt>>
+<<txt "Me">>I sound like a guy who hasn't had coffee yet. Talk later.<</txt>>
+<<txt "Paco">>Go get 'em, body thief. 🔥🔥🔥🍑<</txt>>
+<</phone>>
+
+The peach is unnecessary. Paco's emoji vocabulary is a liability.
+
+<<phone "Lyla">>
+<<txt "Lyla">>TODAY IS THE DAY MANUEL. FRIDAY. WINE. NO ESCAPE. My theories have reached their final form. I have a CHART. 📊 See you at 7, wine bar on 23rd. Non-negotiable. Wear something that says "I'm ready to confess."<</txt>>
+<</phone>>
+
+I stare at this for a long time. Lyla has a chart. She has made a chart about my job. She is going to sit across from me tonight with wine and a chart and five theories and the specific investigative energy of a woman who writes code for a living and treats unsolved problems like personal insults.
+
+I type and delete three responses. Land on:
+
+<<phone "Lyla">>
+<<txt "Me">>7 works. No charts.<</txt>>
+<<txt "Lyla">>THE CHART IS ALREADY LAMINATED.<</txt>>
+<</phone>>
+
+<<say "Me">>Dios mío.<</say>>
+
+Chipi is licking the casserole Tupperware.
+
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 0:38<</txt>>
+<</phone>>
+
+Her voice fills the kitchen, warm and slightly breathless like she's walking while recording.
+
+<<say "Mamá">>Mijo, buenos días. Your cousin Daniela says she hasn't heard from you. I gave her your number last week. She's very nice, she works at a bank, she goes to church. She has good hips. Call her. Also, your tía Rosalba's dog had puppies, seven of them, the house is chaos. Dios los bendiga. Eat breakfast. Te quiero.<</say>>
+
+Good hips. My mother is evaluating women's hips on my behalf. The irony of this, given what I'm about to spend my day doing, is so precise it feels designed.
+
+I check my messages. No text from a Daniela. Either she didn't text, or she has the wrong number, or my mother gave her a number that isn't mine to manufacture a crisis that requires a phone call.
+
+<<opt "t0_day05_daniela_check" "&ldquo;Check the number you gave her, Mamá.&rdquo;">>
+<<opt "t0_day05_daniela_delay" "&ldquo;Busy with work. I'll reach out when things settle.&rdquo;">>
+<<opt "t0_day05_vidal_note" "Leave the voice note for now. There's a plate at the door.">>
+
+
+:: t0_day05_daniela_check [phone]
+<<set $flags.daniela_choice = 'check'>>
+<<phone "Mamá">>
+<<txt "Me">>I haven't received anything from Daniela. Check the number you gave her.<</txt>>
+<<txt "Mamá">>¿Estás seguro? Let me ask tía Rosalba. Maybe I wrote a 7 like a 1. My handwriting, mijo. Te quiero.<</txt>>
+<</phone>>
+
+The correction will be "discovered." A new number will appear. Daniela will text within a day. The campaign advances by pretending to retreat.
+
+<<opt "t0_day05_vidal_note" "There's a plate at the door">>
+
+
+:: t0_day05_daniela_delay [phone]
+<<set $flags.daniela_choice = 'delay'>>
+<<phone "Mamá">>
+<<txt "Me">>I've been very busy with work. I'll reach out when things settle.<</txt>>
+<<txt "Mamá">>Things do not settle, mijo. That is what your father said in 1994 and we are still waiting. But okay. This week. I am giving you this week.<</txt>>
+<</phone>>
+
+A week. She's giving me a week. The clemency has a timer on it.
+
+<<opt "t0_day05_vidal_note" "There's a plate at the door">>
+
+
+:: t0_day05_vidal_note [home]
+Under the door, a page torn from a yellow legal pad. Her handwriting is dense, slanted, angry cursive.
+
+<div class="note">Manuel. Your cat was vocal at 12, 2:15, and 4 AM. I know the schedule because GOD HAS TAKEN SLEEP FROM ME as punishment for living below a man who cannot manage one small animal. I left arroz con pollo at your door at 6. It is still there. Do you not eat? Do you want me to call your mother? I have her number. Don't test me. Also your mail is piling up again.<span>&mdash; Señora Vidal. PS: The arroz has sofrito. You're welcome.</span></div>
+
+I open the front door. There's a plate covered in foil. Still warm. She must have made it at five in the morning. The woman is a terror and a saint and I don't deserve her.
+
+<<opt "t0_day05_vidal_postit" "Leave a Post-It on her door" "&ldquo;Gracias, Señora. The sofrito is perfecto.&rdquo;">>
+<<opt "t0_day05_vidal_knock" "Knock and thank her in person" "She'll declare you too thin and close the door. But she'll remember you knocked.">>
+<<opt "t0_day05_vidal_ignore" "Take the plate. Leave nothing." "The notes will keep escalating.">>
+
+
+:: t0_day05_vidal_postit [home]
+<<set $flags.vidal_choice = 'postit'>>
+<<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
+<<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
+<<run SOY.NPCs.adjustRelationship('senora_vidal', 1)>>
+
+I find a Post-It in the kitchen drawer. Yellow, close enough to hers.
+
+<div class="note">Gracias, Señora. The sofrito is perfecto. I'll talk to Chipi about her schedule.<span>&mdash; M.</span></div>
+
+I stick it to her door on my way out. Movement behind the wood. She's awake. She heard the pen. She doesn't open the door. That's the arrangement.
+
+<<opt "t0_day05_bus" "Down to the 9 line">>
+
+
+:: t0_day05_vidal_knock [home]
+<<set $flags.vidal_choice = 'knock'>>
+<<set $flags.vidal_sunday = true>>
+<<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
+<<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
+<<run SOY.NPCs.adjustRelationship('senora_vidal', 2)>>
+<<face "vidal" "Señora Vidal">>
+
+I knock. Two soft raps. A long pause. Then the door opens on the chain, then off it. She's in a housecoat and slippers, hair in rollers, reading glasses on a chain, crucifix at her throat. The face of a woman who has been disappointed by the universe enough times to have a policy about it.
+
+She looks me up and down. The examination takes three seconds and covers everything.
+
+<<say "Vidal">>You're too thin.<</say>>
+<<say "Me">>Good morning, Señora. Thank you for the arroz. The sofrito, it tasted like my grandmother's kitchen.<</say>>
+
+Something shifts behind her eyes. Very small. The shift of a woman who has been cooking for one for a long time and just heard someone compare her food to a memory of love.
+
+<<say "Vidal">>My grandmother's recipe. From Santiago. She made it for my Ernesto every Friday for forty-three years. He said it tasted like coming home.<</say>>
+
+She adjusts her glasses.
+
+<<say "Vidal">>Come Sunday. Six o'clock. Bacalao. Don't bring wine, you'll bring the wrong kind. Bring bread.<</say>>
+<<say "Me">>Yes, Señora.<</say>>
+<<say "Vidal">>And tell that cat to be quiet at night. I have a heart condition.<</say>>
+
+She does not have a heart condition. The door closes.
+
+I stand in the hallway and something warm expands in my chest that has nothing to do with phantoms. Just a Dominican woman who cooks for ghosts and has added me to the guest list.
+
+<<opt "t0_day05_bus" "Down to the 9 line">>
+
+
+:: t0_day05_vidal_ignore [home]
+<<set $flags.vidal_choice = 'ignore'>>
+<<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
+
+I take the plate inside. Set it on the counter. Peel the foil. Arroz con pollo, sofrito, still steaming. I eat two forkfuls standing up and it's so good it's almost an accusation.
+
+I don't leave a note. I tell myself I'll do it tonight. I know I won't. The plate goes in the sink. The notes will keep getting longer.
+
+<<opt "t0_day05_bus" "Down to the 9 line">>
+
+
+:: t0_day05_bus
+<<scene "locations/bus-ninth-street-d5" "The 9 line, 7:12, a gospel-humming driver, a nurse across the aisle too tired to perform">>
+<<run SOY.Economy.spend(2.75, 'transport')>>
+<<run SOY.Locations.travel('street')>>
+
+The 9 line toward Ninth Street. Same route, fifth time. The driver is a heavy woman with braids pinned up in a crown who hums gospel under her breath. She's been my driver three mornings this week. She doesn't know my name but she nods when I board, the kind of nod that says "I see you, you're a regular now, don't make trouble."
+
+I sit in my usual spot, window side, third row back. The bus smells like diesel and someone's bodega breakfast sandwich and the faint sweetness of a perfume that's been in the air since before I boarded.
+
+A woman sits across the aisle. Thirties, in scrubs, night shift probably, exhaustion carved into her posture. She drops into the seat and her legs spread slightly, knees apart, the unconscious sprawl of someone who doesn't have the energy to perform anymore. Her purse is on her lap, straps wrapped around her wrist, even now, even this tired. Defense architecture. The strap-wrap. I noticed it yesterday on a different woman and now I see it everywhere.
+
+She catches me looking and I look away fast. Not because I was staring. Because I was reading her body like a case study and that's not something strangers on a bus have consented to.
+
+My phone buzzes.
+
+<<phone "Tommy">>
+<<txt "Tommy">>Morning. You read the Module 3 prep? Renata's profile is in the handbook. Did you see the cup size? I'm going to die.<</txt>>
+<<txt "Me">>You survived Katya. You'll survive Renata.<</txt>>
+<<txt "Tommy">>Katya was a C. This is a D. That's a whole letter, Manuel. A WHOLE LETTER.<</txt>>
+<<txt "Me">>Breathe.<</txt>>
+<<txt "Tommy">>Easy for you to say. Your calibration is dropping like a rock. Mine is stuck at 50 seconds. Elena looks at me like I'm defective.<</txt>>
+<<txt "Me">>You're not defective. You're cautious. Cautious is good.<</txt>>
+<<txt "Tommy">>Is it though? In this job?<</txt>>
+<<txt "Me">>It's better than reckless.<</txt>>
+<<txt "Tommy">>Georgia's calibration is 22 seconds. TWENTY-TWO.<</txt>>
+<<txt "Me">>Georgia transferred into a male body and called it "overrated." She's operating on a different frequency.<</txt>>
+<<txt "Tommy">>She's operating on a frequency I can't hear and it's making me feel like a slow computer.<</txt>>
+<<txt "Me">>See you inside, Tommy.<</txt>>
+<<txt "Tommy">>See you. If I don't come out of Renata's body, tell my mom I died doing something cool.<</txt>>
+<</phone>>
+
+I almost laugh. The nurse across the aisle glances at me. I put my phone away.
+
+<<opt "t0_day05_facility_arrive" "814 Ninth Street">>
+
+
+:: t0_day05_facility_arrive [facility]
+<<run SOY.Locations.travel('facility')>>
+<<scene "locations/soy-lobby" "The lobby, Yuki's pins today: an open book and a tiny speculum">>
+
+The building looks the same. Low, unmarked, that logo etched into the glass that makes your eyes do something uncomfortable. A face inside a face inside a face. Recursive. I've been here five days and it still doesn't sit right.
+
+The lobby is warm. Yuki is behind the desk, high ponytail with the silver streak, lenses glowing faint blue. Today's lapel pins: a book, open, pages fanned out, and a tiny speculum.
+
+She sees me looking at the speculum pin.
+
+<<say "Yuki">>Module 3. Contracts and cavities.<</say>>
+<<say "Me">>That's not the official name.<</say>>
+<<say "Yuki">>It should be.<</say>>
+
+She slides my badge across the counter. Blue stripe. Training candidate.
+
+<<say "Yuki">>Room 2 for lecture. Dr. Cordero is already set up. Don't be late. You know how she feels about late.<</say>>
+<<say "Me">>Has Brett checked in?<</say>>
+
+Yuki's expression doesn't change but something behind it does. A flicker.
+
+<<say "Yuki">>Mr. Daniels checked in at seven forty-one. He's in the cafeteria.<</say>>
+<<say "Me">>Is he okay?<</say>>
+<<say "Yuki">>I'm reception, González. Not a therapist. Room 2. Go.<</say>>
+
+I clip my badge and walk. The corridor smells like that specific institutional nothing, recycled air, filtered, temperature-controlled. My boots on the linoleum. The sound is flat and certain in a way that my heartbeat isn't.
+
+Today I meet Renata.
+
+<<opt "t0_day05_cafeteria" "The cafeteria first">>

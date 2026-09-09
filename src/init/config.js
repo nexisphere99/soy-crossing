@@ -10,7 +10,7 @@ Config.saves.maxSlotSaves = 8;
 try { document.documentElement.lang = document.documentElement.lang || 'en'; } catch (e) {}
 
 /* Build version   shown under the title in the sidebar and on the splash. */
-setup.version = '0.0.3';
+setup.version = '0.0.4';
 
 /* Namespace bootstrap (systems files each guard this too) */
 window.SOY = window.SOY || {};
@@ -24,7 +24,8 @@ setup.masterSchedule = {
 	1: { phase: 'course', tier: 0, courseDay: 1 },
 	2: { phase: 'course', tier: 0, courseDay: 2 },
 	3: { phase: 'course', tier: 0, courseDay: 3 },
-	4: { phase: 'course', tier: 0, courseDay: 4 }
+	4: { phase: 'course', tier: 0, courseDay: 4 },
+	5: { phase: 'course', tier: 0, courseDay: 5 }
 };
 
 /*
@@ -67,6 +68,28 @@ setup.clones = {
 			{ type: 'blush_memory',           label: 'the memory of blood climbing to the face',          intensity: 3 },
 			{ type: 'temperature_sensitivity', label: 'skin reading the air like weather',                intensity: 2 },
 			{ type: 'hip_sway',               label: 'the sway, louder now, two bodies deep',             intensity: 2 }
+		]
+	},
+	'7r': {
+		id: '7r',
+		slug: 'renata',
+		name: 'Renata',
+		designation: 'Clone 7-R',
+		height: "5'6\"",
+		skinTone: 'golden-brown',
+		hair: 'jet-black, curly, past the shoulders',
+		eyes: 'dark brown with amber flecks',
+		cupSize: 'D',
+		build: 'strong, curvy frame, wide hips',
+		details: 'a body that occupies space without apology',
+		neuralProfile: 'dynamic',
+		responses: ['blush', 'breath-pattern', 'temperature-nipple', 'proximity-arousal', 'hip-sway', 'auto-leg-cross'],
+		module: 3,
+		phantomSet: [
+			{ type: 'breast_weight_d',  label: 'heavy, forward-pulling weight on the chest, felt in the spine', intensity: 3 },
+			{ type: 'hip_authority',    label: 'a gait that expects hips that spread when it sits',             intensity: 3 },
+			{ type: 'speculum_stretch', label: 'an interior that was opened and is now closed',                 intensity: 3 },
+			{ type: 'thigh_pressure',   label: 'legs that expect to touch when crossed',                        intensity: 2 }
 		]
 	}
 };

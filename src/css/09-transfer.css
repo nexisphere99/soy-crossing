@@ -88,3 +88,19 @@
 	text-transform: uppercase;
 	max-width: none;
 }
+
+/* ---- Day 5: clinical + intimate scene tints ---- */
+.scene-medical {
+	margin: var(--s5) 0;
+	padding: var(--s4) var(--s5);
+	border-left: 2px solid var(--info);
+	border-radius: 0 var(--r2) var(--r2) 0;
+	background: rgba(107, 164, 216, 0.05);
+}
+.scene-solo {
+	margin: var(--s5) 0;
+	padding: var(--s4) var(--s5);
+	border-left: 2px solid var(--intimate);
+	border-radius: 0 var(--r2) var(--r2) 0;
+	background: rgba(192, 138, 224, 0.05);
+}

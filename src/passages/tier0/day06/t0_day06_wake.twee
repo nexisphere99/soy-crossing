@@ -1,0 +1,14 @@
+:: t0_day06_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 22>>
+<<set $calendar.weekday = 6>>
+<<run SOY.Locations.travel('apartment')>>
+<div class="card"><h1 class="passage-title">End of the Day 5 build</h1><p class="sub">Saturday. Twenty-two days. No training. Ramen with Tommy at seven, the mezcal Adriana said was for people carrying heavy things, and maybe a haircut &mdash; none of it written yet.</p></div>
+
+Here's where Day 5 landed.
+
+<div class="day-recap"><<questRender>></div>
+
+Day 6 picks up from this wake. When that content lands, this passage becomes the real Saturday morning.
+
+<<opt "Start" "Restart from the top">>
