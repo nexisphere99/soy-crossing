@@ -1,0 +1,14 @@
+:: t0_day04_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 24>>
+<<set $calendar.weekday = 4>>
+<<run SOY.Locations.travel('apartment')>>
+<div class="card"><h1 class="passage-title">End of the Day 3 build</h1><p class="sub">Thursday. Twenty-four days. Module 2 continues &mdash; the scenario Rafael wouldn't name, the Thai dinner with James, Lyla two days out &mdash; and it isn't written yet.</p></div>
+
+Here's where Day 3 landed.
+
+<div class="day-recap"><<questRender>></div>
+
+Day 4 picks up from this wake. When that content lands, this passage becomes the real Thursday morning.
+
+<<opt "Start" "Restart from the top">>

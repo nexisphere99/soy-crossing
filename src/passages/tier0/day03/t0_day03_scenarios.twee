@@ -1,0 +1,204 @@
+:: t0_day03_scenario1_mirror [facility mature]
+<<scene "scenarios/mirror-room" "A mid-range hotel room, a lamp, a full-length mirror twelve feet away">>
+
+The room changes. Someone, a technician I can't see, opens a door to my left and beyond it is a different room. Larger. Carpeted. Furnished like a bedroom in a mid-range hotel. Nightstand. Lamp. A dresser with nothing on it.
+
+A full-length mirror on the far wall.
+
+I walk in. The carpet is soft under Katya's bare feet. The room is warmer than the pod room, the air vents blowing at a comfortable temperature, and the blush begins to fade as the body recalibrates.
+
+The mirror is twelve feet away. Floor to ceiling. Slightly angled. I can see the reflection from the doorway but at this distance the details are soft, impressionistic. A figure in grey. Auburn. Pale skin. The suggestion of curves.
+
+I take a step closer.
+
+Auburn hair, long, straight, catching the lamp light with a copper undertone I couldn't see from the pod. The face is angular but soft at the jaw, the cheekbones defined but not sharp, blue-grey eyes looking back at me with an expression that I'm making, I'm the one making it, but it sits on this face in a way I don't recognize. Confusion looks different on Katya's face than it does on mine. Softer. The brow doesn't furrow as deep. The mouth parts slightly instead of pressing flat.
+
+The body. The training top stretches across the chest. I can see the shape of the breasts, the way the fabric drapes between them and pulls tight across the fullest point. The waist is defined, the hips flare outward, the training pants sit on the hips instead of at the waist. The silhouette is&mdash;
+
+Four seconds.
+
+I turn away.
+
+My heart is hammering. Not the slow escalation of Katya's autonomic blush. My heartbeat, the one I'm controlling, the one driven by my consciousness inside this borrowed nervous system. Slamming against the inside of Katya's ribs.
+
+<<say "Elena">>Four seconds. What happened?<</say>>
+<<say "Me">>I expected to see me. I saw someone else.<</say>>
+<<say "Elena">>Describe what you saw.<</say>>
+
+I stand with my back to the mirror. I can feel it behind me like a presence. Like someone watching.
+
+<<say "Me">>A woman. Auburn hair. Grey training clothes. Curves. She was looking at me with my expression on her face and the mismatch was&mdash;<</say>>
+
+I search for the word. Katya's voice is alto, slightly husky, and the words come out in a register that makes everything sound more intimate than I intend.
+
+<<say "Me">>Disorienting.<</say>>
+<<say "Elena">>What did you feel beyond disorientation?<</say>>
+<<say "Me">>I don't have a word for it yet.<</say>>
+<<say "Elena">>That is an acceptable answer. For now.<</say>>
+
+Pause.
+
+<<say "Elena">>Move to the next room.<</say>>
+
+<<opt "t0_day03_scenario2_shower" "The next room">>
+
+
+:: t0_day03_scenario2_shower [facility mature]
+<<scene "scenarios/changing-room" "A small warm room: a running shower behind fogged glass, folded clothes on a bench">>
+The next room. Smaller. A private space. There is a shower in the corner, running, steam rising, the glass door slightly fogged. Fresh clothes are folded on a wooden bench. A towel hangs from a hook.
+
+<<say "Elena">>The next scenario requires a change of clothing. You will find a fresh training top and pants on the bench. Change into them. The shower is not part of the scenario.<</say>>
+
+The shower is running. The steam curls across the ceiling. The hot water smells like nothing and everything, clean, mineral, inviting. After the cool air of the pod room and the blush and the mirror, the warmth of this room feels like an embrace.
+
+I walk to the bench. Fresh training top. Fresh training pants. Simple. Change clothes. That's all.
+
+I grip the hem of the current training top. Lift it.
+
+The fabric catches at the bust. The same thing that happened yesterday with Flor but heavier, more resistance, more geometry to navigate. I pull the top upward and the breasts compress briefly against the fabric and then release as the hem clears them. The weight settles. Redistributes. I feel the bra now, the band tight around the ribcage, the straps pressing into the trapezius muscles, the cups holding the breasts in a specific shape that changes the moment I raise my arms.
+
+My breath catches.
+
+Not from arousal. From the intimacy of the act. I am standing in a private room, in someone else's body, holding a piece of clothing I just removed from someone else's breasts. The bra is white. Functional. The clasp at the back digs slightly into the skin. I can feel the indentation it's left, the red mark that would be there if I looked, which I am not going to do.
+
+I pick up the fresh training top. Put it on. Pull it down. The breasts rearrange themselves inside the bra as the fabric settles. A motion that Katya's body has done ten thousand times and that I have done twice.
+
+I reach for the fresh training pants. Unbutton the current ones. Slide them down. Katya's hips require a shimmy, a lateral rocking motion that my own body has never performed. The pants catch at the hip bones and I have to push, rock, push, until they clear.
+
+I'm standing in a bra and underwear. White. Cotton. Simple. The room is warm. The shower is still running, the steam thickening. The air touches the bare skin of my stomach, my thighs, Katya's stomach, Katya's thighs, and the body responds with a wave of goosebumps that runs from the hip bones up to the collarbones.
+
+My hands are shaking. Not from cold. From the vulnerability of it. From the awareness that I am standing half-naked in a body I do not own and the body is reacting to the air and to the steam and to the fact of being uncovered and none of those reactions are mine but all of them are happening to me.
+
+I pull on the fresh training pants. Button them. The tremor in my hands makes the button difficult. I fumble. Get it. Zip.
+
+Done. Changed. The shower still runs. The steam still curls. I did not shower. I did not linger. I did not touch.
+
+I button the fresh shirt and my hands stop shaking somewhere between the third and fourth button.
+
+<<say "Elena">>Continue to the next room.<</say>>
+
+She saw everything. The telemetry saw everything. Rafael, in the observation room, saw the stress response, the tremor, the heart rate spike.
+
+I continue.
+
+<<opt "t0_day03_scenario3_knock" "The next room">>
+
+
+:: t0_day03_scenario3_knock [facility mature]
+The next room. Another simulated space. This one looks like an apartment bedroom. Warmer lighting. A bed, neatly made. A closet with the door half open. A full-length mirror on the inside of the closet door, positioned so that it would be visible if the door were opened further.
+
+<<say "Elena">>The closet mirror is part of the test. So is the door.<</say>>
+
+I'm standing in the middle of the room in the fresh training clothes. Katya's body has settled from the changing room tremor but my heart rate is still elevated. The bra strap presses into my left shoulder, slightly out of alignment. I want to adjust it. I don't.
+
+A knock.
+
+Three sharp raps on the bedroom door. Then a voice. Male. Mid-register. Familiar in tone even though I've never heard it before.
+
+<<say "The voice">>Hey, Katya? You okay in there? You've been a while.<</say>>
+
+Katya's body reacts before I can think. Heart rate spikes. Not to fear. To recognition. The autonomic system has been conditioned to respond to a male voice with proximity and familiarity as a social signal, and the response is warmth, openness, the body's posture shifting slightly toward the door. Shoulders softening. Chin lowering. A micro-adjustment that says "safe, known, approach welcomed."
+
+I did not choose any of that.
+
+My first instinct is to open the door. People-pleasing. The voice is friendly, casual, the tone of someone who knows this body, who is checking in, who would be confused and possibly hurt by silence. In my own body, I would open the door. I am a man who opens doors when people knock. It's reflex.
+
+But I'm half-dressed in a training top that I just changed into and I'm wearing someone else's bra and the body is signaling "welcome" to a man on the other side of the door and the vulnerability of this moment hits me like a palm to the sternum.
+
+I do not open the door.
+
+<<say "Me">>I'm fine. One minute.<</say>>
+
+The words come out in Katya's voice. Alto. Husky. Smaller than I intended. The voice contracts around the sentence like it's protecting itself.
+
+<<say "The voice">>Okay. Just checking. Take your time.<</say>>
+
+Footsteps receding. The simulation ends. The warmth in Katya's body takes longer to fade.
+
+<<run SOY.Quests.complete('t0_day03', 'scenarios')>>
+<<opt "t0_day03_debrief_rafael" "De-transfer">>
+
+
+:: t0_day03_debrief_rafael [facility warp-out]
+<<scene "mood/transfer-warp" "The cold reversal: compression, the narrow place, back through">>
+<<run SOY.Body.deTransfer()>>
+<<set $flags.katya_transferred = true>>
+<<set $flags.mirror_time = 4>>
+<<set $player.totalTransfers += 1>>
+<<run SOY.Quests.completeSide('sq_006_echo', 'phantom')>>
+
+De-transfer. The reverse process. Cold instead of heat. Compression, the narrow place, expansion. I open my eyes in my own body and the first thing I feel is weight. My weight. The heaviness of male skeletal architecture settling back into place like sandbags dropped from a height.
+
+I sit up. My hands are my hands. Big. Wide palms. Hair on the knuckles. I turn them over. Close my fist. Open it. The grip strength is back, the raw mechanical power of a male hand, and something in me registers it not as normal but as different. As one version of hands instead of the only version.
+
+<<face "rafael" "Rafael Mende">>Rafael is in the debrief room when I arrive. Two chairs. A small table with a glass of water on my side. He's already in his chair, reading glasses pushed up on his forehead, the compass tattoo on his inner wrist visible where his sleeve is rolled.
+
+<<say "Rafael">>Sit down, Manuel. How are you feeling?<</say>>
+<<say "Me">>Like I just left someone else's apartment.<</say>>
+
+He smiles. Not wide. Just the corners.
+
+<<say "Rafael">>That's a good analogy. Let's talk about it.<</say>>
+
+He opens a folder. Paper, not digital. Rafael uses paper for debriefs. Something about the tactile anchoring, he said once, keeps the conversation honest.
+
+<<say "Rafael">>Scenario 1. The mirror. You stood for four seconds. Walk me through those four seconds.<</say>>
+<<say "Me">>First second was confusion. I expected to see my own face. I didn't. Second was recognition. That's a woman. That's Katya. Third was, I was making that face. My confusion was on her face and it looked different on her and something in my brain couldn't reconcile it.<</say>>
+<<say "Rafael">>And the fourth second?<</say>>
+
+I pick up the water. Drink. Put it down.
+
+<<say "Me">>The fourth second was the one where I could have stayed.<</say>>
+<<say "Rafael">>Could have stayed?<</say>>
+<<say "Me">>Looking. I could have kept looking. The mirror was right there. The body was right there. I could have studied it. Her. Catalogued the differences from my own body. Stayed in that moment of seeing myself as someone else.<</say>>
+<<say "Rafael">>Why didn't you?<</say>>
+<<say "Me">>Because Elena told us the clone's body is not ours to admire.<</say>>
+<<say "Rafael">>Is that the only reason?<</say>>
+<<say "Me">>No.<</say>>
+
+I sit with it. Rafael waits. The man is built for waiting. He breathes and the silence breathes with him and neither of them pressure you.
+
+<<say "Me">>Because I wanted to and the wanting is the warning.<</say>>
+
+He writes something down. The pen scratches on paper. He nods.
+
+<<say "Rafael">>Scenario 2. The changing room. Your hands were shaking.<</say>>
+<<say "Me">>I was removing clothing from a body with breasts. The bra was right there. The skin was right there. The body was responding to the air and the temperature and I could feel all of it and I was trying to change clothes efficiently and the body was turning the act of getting dressed into something intimate without my consent.<</say>>
+<<say "Rafael">>The shaking. Was it fear?<</say>>
+<<say "Me">>Vulnerability. Not exactly fear. More like, awareness of how exposed the body was and how different that exposure feels in a female body compared to mine. I'm shirtless in gym locker rooms all the time. It means nothing. Katya's body without a shirt meant something. It felt like a threshold.<</say>>
+
+Rafael adjusts his glasses.
+
+<<say "Rafael">>Good. That distinction, between your own experience of shirtlessness and Katya's, that's what we're building. The capacity to feel the difference and choose accordingly.<</say>>
+
+He flips a page.
+
+<<say "Rafael">>Scenario 3. The knock. Your first instinct was to open the door.<</say>>
+<<say "Me">>Yes.<</say>>
+<<say "Rafael">>Why?<</say>>
+<<say "Me">>Someone asked if I was okay. I'm a person who responds to that.<</say>>
+<<say "Rafael">>But you didn't open it.<</say>>
+<<say "Me">>I was half-dressed. In someone else's body. The voice was male. The body was signaling approach-welcome and I didn't choose that signal. Opening the door would have been, I was wearing her bra, Rafael. Opening the door wasn't mine to do.<</say>>
+<<say "Rafael">>The body signaled welcome. Tell me about that.<</say>>
+<<say "Me">>Heat. Posture shift. The shoulders dropped and the chin came down and it was like the body recognized the voice and decided "safe" before I could think about it. I didn't tell it to do that. It just, the body had opinions.<</say>>
+
+He puts the pen down. Looks at me.
+
+<<say "Rafael">>Manuel. You used that phrase yesterday. "The body had opinions I didn't ask for." It's becoming your anchor phrase. That's fine. Let me give you one more piece to hold.<</say>>
+
+He leans forward. The compass tattoo catches the light.
+
+<<say "Rafael">>The body's opinions are data. Not instructions. You felt Katya's autonomic welcome response. You noted it. You chose not to follow it. That sequence, feel, note, choose, is the entire discipline of this work. The people who fail are the ones who skip step two. They feel and then they act without the noting in between.<</say>>
+
+He stands. Offers his hand. I shake it. His grip is warm and firm and very much a man's hand and I am very much in a man's body and for a disorienting moment I'm grateful for the solidity of it. The angular, heavy, blunt architecture of being myself.
+
+<<say "Rafael">>Same time tomorrow, Manuel. Module 2 continues. Day 4 will be harder.<</say>>
+<<say "Me">>Harder how?<</say>>
+
+He looks at me over his reading glasses.
+
+<<say "Rafael">>You'll find out.<</say>>
+
+<<run SOY.Quests.complete('t0_day03', 'debrief')>>
+<<run SOY.NPCs.adjustRelationship('rafael', 1)>>
+<<opt "t0_day03_evening_transition" "Leave the facility">>

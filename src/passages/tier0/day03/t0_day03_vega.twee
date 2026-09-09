@@ -1,0 +1,290 @@
+:: t0_day03_lulu_stop [home]
+<<scene "locations/lulus-bodega" "Lulu's at dusk: narrow aisles, a telenovela on mute, an empanada pushed across the counter">>
+<<run SOY.Locations.travel('lulus')>>
+<<run SOY.Economy.spend(3.50, 'food')>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+<<set $npcs.lulu.flags.empanada_count += 1>>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+
+I detour to Lulu's on the way to Vega. I need milk for tomorrow's coffee and an empanada for tonight's whatever.
+
+The bodega smells like Fabuloso and frying oil and the specific combination of packaged snacks and fresh produce that exists only in bodegas. The aisles are narrow. The ceiling is low. Every surface holds something, cans stacked on cans, bags of chips hung from clip strips, a rotating display of sunglasses that has been rotating since 2014.
+
+Lulu is behind the counter. Lourdes Medina. Fifty-five. The kind of Mexican-American woman who calls everyone under forty "mijo" and everyone over sixty "compadre" and the rest of the world "trouble." She's wearing her reading glasses on a chain around her neck and her crucifix over them and her apron over everything. Her hands smell like cumin. They always smell like cumin.
+
+<<say "Lulu">>Mijo! You look terrible.<</say>>
+<<say "Me">>Thanks, Lulu.<</say>>
+<<say "Lulu">>No, I mean it. The circles under your eyes. The hair.<</say>>
+
+She gestures at my head like it's offended her personally.
+
+<<say "Lulu">>When was the last time you got a cut?<</say>>
+<<say "Me">>I'm growing it out.<</say>>
+<<say "Lulu">>Growing it out means a plan. That is not a plan. That is neglect.<</say>>
+
+She reaches under the counter and produces a foil-wrapped package.
+
+<<say "Lulu">>Empanada. Beef. Fresh. You need it more than my other customers and that includes Señor Peralta who has diabetes and no judgment.<</say>>
+<<say "Me">>How much?<</say>>
+<<say "Lulu">>Don't insult me.<</say>>
+
+She pushes the empanada across the counter.
+
+<<say "Lulu">>You eat. I pray. God handles the rest.<</say>>
+
+I grab milk from the cooler. Bring it to the register. She rings it up, $3.50, and then pauses with my change in her hand.
+
+<<say "Lulu">>Mijo. You're coming in here more.<</say>>
+<<say "Me">>I like the empanadas.<</say>>
+<<say "Lulu">>You like not being alone.<</say>>
+
+She says it without judgment. Just observation. Like reporting the weather.
+
+<<say "Lulu">>That's not a bad thing. But eventually you need a person, not a bodega. God makes girlfriends, mijo. Free of charge. You just have to show up.<</say>>
+<<say "Me">>Lulu.<</say>>
+<<say "Lulu">>I'm just saying.<</say>>
+
+She hands me the change.
+
+<<say "Lulu">>The girl at the ramen place, Danny's daughter, she's single.<</say>>
+<<say "Me">>Danny doesn't have a daughter.<</say>>
+<<say "Lulu">>Fine. The girl at the bar, then. The one with the tattoos. Paco told me about her.<</say>>
+<<say "Me">>Paco told, how do you know Paco?<</say>>
+<<say "Lulu">>He comes in here. He buys plantain chips and talks. That man talks more than my sister during confession. He says there's a bartender you like.<</say>>
+
+I take the milk and the empanada.
+
+<<say "Me">>I'm leaving.<</say>>
+<<say "Lulu">>Friday! Bring her by! I'll make pozole!<</say>>
+<<say "Me">>Goodbye, Lulu.<</say>>
+<<say "Lulu">>POZOLE, MANUEL.<</say>>
+
+I walk out. The bell over the door jingles. Behind me, I hear Lulu say to no one:
+
+<<say "Lulu">>That boy. Ay.<</say>>
+
+<<opt "t0_day03_vega_enter" "Continue to Vega" "The bar is close. The night is young.">>
+<<opt "t0_day03_evening_home_direct" "Go home" "Enough socializing for one day.">>
+
+
+:: t0_day03_vega_enter [home]
+<<run SOY.Locations.travel('vega')>>
+<<run SOY.Time.advance()>>
+<<run SOY.Economy.spend(24, 'drinks')>>
+<<set $npcs.adriana.met = true>>
+<<set $npcs.adriana.relationship = 1>>
+<<set $flags.adriana_met = true>>
+<<run SOY.Quests.addSide({ id: 'sq_009_adriana', title: "Adriana's Orbit", description: 'The bartender at Vega. She clocked the secret in one night.', status: 'active', objectives: [{ id: 'meet', text: 'Meet Adriana', done: true }] })>>
+<<scene "locations/vega-bar" "Vega: red neon in the window, amber pendant lamps, a bartender with full sleeves">>
+
+Paco told me about Vega months ago. //Best mezcal in the neighborhood, worst jukebox, perfect ratio.// I've been twice, both times with him. Latin music, dim lighting, the kind of bar where the stools are worn smooth by decades of elbows and the bartender knows what you're drinking before you sit down.
+
+Tonight I go alone.
+
+The walk takes twelve minutes. Down Ninth to the avenue, left past Danny's (closed on Wednesdays, or maybe just closed early, the lights are off), past Lulu's bodega (still open, her grandson is behind the counter doing homework, he waves and I wave back), around the corner where the streetlights switch from white LED to amber sodium and the neighborhood shifts from commercial to residential to that in-between zone where bars and laundromats coexist.
+
+Vega's sign is a single word in red neon, the V slightly dimmer than the rest. The door is heavy, dark wood, and when I push it open the sound changes. Street silence replaced by music, low conversation, the clink of glasses, a cumbia track I half-recognize playing from speakers I can't see.
+
+The bar is half full. Wednesday night. Working crowd. Three guys at a table arguing about soccer. A couple in the corner sharing a plate of something fried. A woman alone at the far end of the bar reading a paperback with a cracked spine.
+
+<<face "adriana" "Adriana">>The bartender is behind the counter. Tall. Puerto Rican, or maybe Dominican, I can't tell yet. Tattoo sleeves on both arms, full coverage, the ink dark and intricate, flowers and skulls and geometric patterns that move when her muscles move. Dark hair pulled back. Dark eyes that find me as I sit down and hold for exactly the amount of time it takes to assess a new customer and decide he's harmless.
+
+She sets a napkin in front of me without looking away.
+
+<<say "Adriana">>What are you having?<</say>>
+<<say "Me">>Mezcal. Whatever you recommend.<</say>>
+
+She pours. Slides the glass.
+
+<<say "Adriana">>Del Maguey Vida. Smoky, not too sweet. Good starting point.<</say>>
+
+I drink. It's good. Smoke and earth and a slow burn that starts in the chest and spreads outward.
+
+<<say "Adriana">>Rough day?<</say>>
+
+I look at her. The question is bartender-standard but the delivery isn't. She's not making conversation. She's reading the room, and the room right now is me, and whatever she's reading she finds worth a second glance.
+
+<<say "Me">>Interesting day.<</say>>
+<<say "Adriana">>Interesting good or interesting bad?<</say>>
+<<say "Me">>Interesting I-don't-have-a-word-for-it-yet.<</say>>
+
+She laughs. Short, genuine, surprised out of her.
+
+<<say "Adriana">>Those are the best kind.<</say>>
+
+She picks up a rag, wipes a spot on the bar that doesn't need wiping.
+
+<<say "Adriana">>First time here alone?<</say>>
+<<say "Me">>I've been twice. With a friend. Loud Venezuelan guy.<</say>>
+<<say "Adriana">>Paco.<</say>>
+
+She says it flat, like a weather report.
+
+<<say "Adriana">>He tips well and talks too much. You're the quiet one he talks about.<</say>>
+<<say "Me">>He talks about me?<</say>>
+<<say "Adriana">>He talks about everything. But yeah. "My buddy Manuel, best developer in the city, getting fucked by the visa system." His words.<</say>>
+
+I take another drink. The mezcal warms the annoyance.
+
+<<say "Me">>That's accurate enough.<</say>>
+<<say "Adriana">>I'm Adriana.<</say>>
+
+She doesn't extend her hand. Just offers the name like she's putting it on the bar between us, next to the napkin and the glass.
+
+<<say "Me">>Manuel. But you already knew that.<</say>>
+<<say "Adriana">>I knew a name. Now I know a face.<</say>>
+
+She moves to the other end of the bar where someone is waving for a refill.
+
+<<opt "t0_day03_vega_adriana" "Stay a while">>
+
+
+:: t0_day03_vega_adriana [home]
+<<run SOY.Economy.spend(8, 'drinks')>>
+<<run SOY.NPCs.adjustRelationship('adriana', 1)>>
+
+Two hours at Vega. The cumbia gives way to a salsa track, then a bachata, then something modern with a reggaeton beat that the three soccer guys at the corner table approve of by turning up their argument.
+
+Between customers, Adriana and I trade words. Not a conversation, exactly. More like two people building a bridge from opposite banks, tossing planks across the water when neither of them is busy.
+
+Second exchange, maybe forty-five minutes in. I'm on my second mezcal. She's cutting limes. The knife moves fast, practiced, the segments dropping into a plastic container with mechanical precision.
+
+<<say "Adriana">>So. Research guy.<</say>>
+<<say "Me">>So. Bartender.<</say>>
+<<say "Adriana">>Adriana. Not "bartender." I don't call you "customer."<</say>>
+<<say "Me">>You called me "the quiet one."<</say>>
+<<say "Adriana">>That was Paco's word. I call you Manuel. Now that I know your name.<</say>>
+
+She finishes the limes. Washes the knife.
+
+<<say "Adriana">>How long have you been in the city?<</say>>
+<<say "Me">>Four years.<</say>>
+<<say "Adriana">>From?<</say>>
+<<say "Me">>Guadalajara.<</say>>
+<<say "Adriana">>Mmm.<</say>>
+
+She nods like she's filing it.
+
+<<say "Adriana">>I'm Bronx. Born and raised. Never left except for a semester in nursing school that I quit because I decided I liked people better when they're drunk and honest.<</say>>
+<<say "Me">>That's a specific career pivot.<</say>>
+<<say "Adriana">>Most pivots are. Nobody wakes up and says "I'm going to tend bar for seven years." You fall into it. The falling turns into a career once you realize you're good at it and the money isn't terrible and the hours let you paint during the day.<</say>>
+<<say "Me">>You paint?<</say>>
+<<say "Adriana">>I do things.<</say>>
+
+She smiles. Doesn't elaborate. Moves to serve a couple who just sat down at the end of the bar.
+
+Third exchange. Maybe ninety minutes in. The bar has thinned. The soccer guys left. The couple in the corner is kissing. The woman with the paperback is on her third glass of wine and her book is facedown on the bar, which means it's either very good and she's savoring it or very bad and she's given up.
+
+Adriana returns. Leans on the bar. Her forearms are flat on the wood and the tattoo sleeves are fully visible now. I can trace the designs. The left arm is botanical, flowers and vines and thorns, intricate, almost Japanese in the precision of the linework. The right arm is geometric, mandalas and sacred geometry patterns interspersed with skulls, small ones, tucked into the negative space like Easter eggs.
+
+<<say "Adriana">>Can I ask you something?<</say>>
+<<say "Me">>You just did.<</say>>
+<<say "Adriana">>Comedian. Here's the real question.<</say>>
+
+She tilts her head. Studies me.
+
+<<say "Adriana">>You come in here alone on a Wednesday night. You order mezcal, which is not a casual drink. You sit at the bar, not at a table. You don't check your phone. You don't watch the TV. You just sit and drink and think. What are you thinking about?<</say>>
+
+I turn the glass. The mezcal catches the dim light, amber.
+
+<<say "Me">>Today I learned that consent is an architecture, not a feeling.<</say>>
+
+She blinks. Wasn't expecting that.
+
+<<say "Adriana">>Okay. That's not what people usually think about at bars.<</say>>
+<<say "Me">>I'm not usual.<</say>>
+<<say "Adriana">>Getting that.<</say>>
+
+She pours herself a water. Drinks.
+
+<<say "Adriana">>Consent is an architecture. What does that mean?<</say>>
+<<say "Me">>It means that saying yes isn't enough. You have to build the yes. Document it. Define it. Make it specific and time-limited and scope-limited so that everyone involved knows exactly what was agreed to and nobody can pretend they didn't.<</say>>
+
+She sets the water down. Looks at me differently. Not the bartender-customer look. Something with more weight behind it.
+
+<<say "Adriana">>That sounds like something a person learns the hard way.<</say>>
+<<say "Me">>It's something I learned today. At work.<</say>>
+<<say "Adriana">>Your mysterious biometric job teaches you about consent.<</say>>
+<<say "Me">>Among other things.<</say>>
+<<say "Adriana">>Manuel.<</say>>
+
+She leans closer. Not far. Just enough that I can smell something, smoke and vanilla, light, not perfume exactly, more like the scent of a person who exists in a bar where mezcal smoke hangs in the air.
+
+<<say "Adriana">>You're carrying the world's most interesting secret. I can see it. It's sitting right behind your eyes.<</say>>
+<<say "Me">>If I told you, it wouldn't be a secret.<</say>>
+<<say "Adriana">>Fair.<</say>>
+
+She straightens. Pours herself a shot. Holds it up toward me.
+
+<<say "Adriana">>To secrets.<</say>>
+<<say "Me">>To secrets.<</say>>
+
+We drink. She goes back to work. The paperback woman pays and leaves. The kissing couple separates long enough to order another round.
+
+At ten-thirty the bar empties enough that the music fills the gaps between people instead of competing with them. A bolero plays, the singer's voice husky and unhurried, and the bass line walks through the room like someone who knows where they're going but isn't in a rush to get there.
+
+Adriana wipes down the bar in front of me. Not because it needs wiping. Because the motion gives her hands something to do while her eyes do the real work.
+
+<<say "Adriana">>You haven't checked your phone once.<</say>>
+<<say "Me">>Should I?<</say>>
+<<say "Adriana">>Most people check every ten minutes. Reflex. Like blinking but with dopamine.<</say>>
+
+She folds the rag.
+
+<<say "Adriana">>You've been here two hours and your phone has stayed in your pocket. That's either discipline or you don't have anyone to check for.<</say>>
+
+The observation sits between us like a card dealt face-up.
+
+<<say "Me">>Bit of both.<</say>>
+
+She nods. Doesn't push. She pours herself another and holds it up.
+
+<<say "Adriana">>To interesting days.<</say>>
+<<say "Me">>To interesting days.<</say>>
+
+We drink.
+
+<<say "Adriana">>Last call is at eleven. But you can stay until I close if you want. Midnight.<</say>>
+<<say "Me">>I should go. Early morning.<</say>>
+<<say "Adriana">>The biometric body research.<</say>>
+<<say "Me">>That's the one.<</say>>
+
+She smiles. Not wide. Just the left corner of her mouth lifting, an asymmetrical smile that makes one dimple appear and gives her face a quality of knowing something you don't and being amused by the gap.
+
+<<say "Adriana">>Go home, Manuel. Big day tomorrow.<</say>>
+<<say "Me">>How do you know it's a big day?<</say>>
+<<say "Adriana">>Every day is a big day for a man carrying a secret that interesting.<</say>>
+
+She takes my glass. Washes it. Puts it upside down on the rack with a precision that mirrors the way she cut the limes, the way she pours, the way she does everything behind this bar, with the competence of someone who has turned a craft into an extension of her body.
+
+I leave money on the bar. She looks at the tip and raises an eyebrow.
+
+<<say "Adriana">>Paco tips well. You tip better.<</say>>
+<<say "Me">>I'm investing in being welcome.<</say>>
+<<say "Adriana">>You're already welcome. The tip is just proving you were raised right.<</say>>
+
+I stand. Put on the olive green jacket. She watches me zip it, a casual observation, the kind of inventory a person takes when they're deciding whether someone will come back.
+
+<<say "Adriana">>Same time next week?<</say>>
+<<say "Me">>Maybe tomorrow.<</say>>
+<<say "Adriana">>Tomorrow works too.<</say>>
+<<say "Me">>Goodnight, Adriana.<</say>>
+<<say "Adriana">>Goodnight, research guy.<</say>>
+
+<<opt "t0_day03_evening_home_from_vega" "Out into the cold">>
+
+
+:: t0_day03_evening_home_from_vega [home]
+<<run SOY.Locations.travel('apartment')>>
+
+I leave. The door closes behind me. The red neon V reflects off the wet sidewalk, it rained while I was inside, and the puddles hold the letter like a secret kept in water. I walk home in the cold with mezcal warm in my stomach and the echo of her voice calling me "research guy" instead of Manuel, which somehow feels more intimate, like a nickname she invented in real time and decided to keep.
+
+The rain has stopped but the city smells like wet concrete and fallen leaves and somewhere, faintly, like someone's window is open, garlic frying in a pan. My boots leave prints on the wet sidewalk. My hands are in my pockets. My reflection appears in the window of a closed barbershop, and for one disorienting fraction of a second I expect to see auburn hair and pale skin. I see my own face. Dark hair. Brown skin. The shadow under the eyes. Mine.
+
+I keep walking.
+
+The walk home is fourteen minutes. My hands are in my pockets. The mezcal sits warm in my stomach. The night air smells like autumn, that specific combination of dry leaves and exhaust and the ghost of someone's dinner through an open window.
+
+Home. Chipi is on the kitchen counter sitting in the exact center of a dish towel she pulled off the oven handle and arranged into a nest. She looks at me like I interrupted something important. I feed her. Open a Modelo. The apartment is quiet. Processing quiet.
+
+<<opt "t0_day03_phone_evening" "Check the phone">>

@@ -1,0 +1,167 @@
+:: t0_day03_phone_lyla [phone]
+<<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
+<<set $flags.lyla_friday_declared = true>>
+<<set $npcs.lyla.flags.suspicion = Math.max($npcs.lyla.flags.suspicion, 4)>>
+<<run SOY.NPCs.adjustRelationship('lyla', 1)>>
+
+<<phone "Lyla">>
+<<txt "Lyla">>Wednesday check-in. Are you alive?<</txt>>
+<<txt "Me">>Alive.<</txt>>
+<<txt "Lyla">>Descriptive. How's the mystery job?<</txt>>
+<<txt "Me">>Still mysterious. Still a job.<</txt>>
+<<txt "Lyla">>Manuel, I'm going to crack this code. I have theories.<</txt>>
+<<txt "Me">>How many?<</txt>>
+<<txt "Lyla">>Four. Theory 1: you joined the CIA. Theory 2: you're a male escort. Theory 3: you're doing clinical drug trials. Theory 4: you're building a secret app and don't want me to steal your idea.<</txt>>
+<<txt "Me">>None of those.<</txt>>
+<<txt "Lyla">>WHICH MEANS IT'S WEIRDER THAN ALL FOUR. I'm narrowing the possibility space and it's getting EXTREMELY INTERESTING in here.<</txt>>
+<<txt "Me">>Your possibility space is not my problem.<</txt>>
+<<txt "Lyla">>Friday. I'm coming to your apartment. I'm bringing wine. You're going to tell me everything.<</txt>>
+<<txt "Me">>I can't tell you everything.<</txt>>
+<<txt "Lyla">>Then you'll tell me something. Because right now I know nothing and that's making me insane. Friday. 7 PM. Wine. Non-negotiable.<</txt>>
+<<txt "Me">>Lyla.<</txt>>
+<<txt "Lyla">>FRIDAY, MANUEL.<</txt>>
+<</phone>>
+
+I pocket the phone. Lyla is going to figure it out. Not the details, not the transfer technology, not SoY. But she's going to figure out that whatever I'm doing is bigger than "biometric research," and she's going to push, and at some point the cover story either holds or it doesn't.
+
+I don't want to lie to her. I don't know how to tell her the truth.
+
+Friday. Two days.
+
+<<opt "t0_day03_phone_evening" "Back to the phone">>
+
+
+:: t0_day03_phone_james [phone]
+<<run SOY.Quests.completeSide('sq_003_james', 'respond')>>
+<<set $flags.james_dinner_thursday = true>>
+<<set $npcs.james.flags.guilt_dinners += 1>>
+<<run SOY.NPCs.adjustRelationship('james', 1)>>
+
+<<phone "James">>
+<<txt "James">>Hey Manuel. Quick question, still on for tomorrow night? I'm excited about the Thai place. Also I told my mom about your new job and she says congratulations and also she wants to know if you eat enough.<</txt>>
+<<txt "Me">>Tomorrow at 7. Tell your mom I eat enough.<</txt>>
+<<txt "James">>She says she doesn't believe you. She says men who live alone never eat enough. She might send you a casserole.<</txt>>
+<<txt "Me">>Tell her not to send a casserole.<</txt>>
+<<txt "James">>Too late. She's already looking up your address. Sleep well, brother.<</txt>>
+<</phone>>
+
+I put the phone down. James Okafor. Twenty-nine years old. Still at Brevity Labs. Survived the cuts that ended my career. Buys me dinner every time we meet because the guilt of surviving runs deeper than his paycheck.
+
+Tomorrow. Thai food and the specific warmth of a man who cares too much and apologizes for things that aren't his fault.
+
+<<opt "t0_day03_phone_evening" "Back to the phone">>
+
+
+:: t0_day03_phone_paco [phone]
+<div class="callbar">&#9742; Paco Herrera &middot; connected</div>
+<<set $flags.paco_called_d3 = true>>
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+He picks up on the second ring. Background noise, keyboard clacking, music, what sounds like a blender.
+
+<<say "Paco">>Hermano. Day 3 report. Go.<</say>>
+<<say "Me">>Are you making a smoothie?<</say>>
+<<say "Paco">>Protein shake. Post-gym. I'm bulking. The Brazilian girl likes big arms. Talk to me.<</say>>
+<<say "Me">>Ethics module. The body is not yours. Consent architecture. Then they put me in a different clone.<</say>>
+
+The blender stops.
+
+<<say "Paco">>Different how?<</say>>
+<<say "Me">>More, everything. Taller. More curves. C-cup and the body reacts. Blushes. Temperature response. Nipples.<</say>>
+<<say "Paco">>Nipples.<</say>>
+
+He says it like he's tasting the word.
+
+<<say "Paco">>You said nipples.<</say>>
+<<say "Me">>The body's nipples responded to cold air. It's autonomic. Not, I didn't.<</say>>
+<<say "Paco">>Bro, you don't have to explain nipple science to me. I know how nipples work. I just didn't expect to hear you describe experiencing them from the inside like a nature documentary narrator.<</say>>
+<<say "Me">>That's approximately what it felt like.<</say>>
+<<say "Paco">>¿Y qué más? The scenarios?<</say>>
+
+I tell him. The mirror. Four seconds. The shower. The trembling hands. The knock. The voice. The way the body softened toward the sound of a man's voice without my permission.
+
+Paco is quiet for a moment. That flat-ocean silence.
+
+<<say "Paco">>So the body wanted to open the door.<</say>>
+<<say "Me">>The body signaled welcome.<</say>>
+<<say "Paco">>And you didn't.<</say>>
+<<say "Me">>I didn't.<</say>>
+<<say "Paco">>Because it wasn't your body to welcome anyone into.<</say>>
+<<say "Me">>Yes.<</say>>
+<<say "Paco">>Hijueputa.<</say>>
+
+Long exhale.
+
+<<say "Paco">>That's, hermano, that's heavy. You're wearing a woman's body and it's telling you to let a man in and you have to override it. That's not just ethics training. That's&mdash;<</say>>
+<<say "Me">>I know.<</say>>
+<<say "Paco">>You're okay?<</say>>
+<<say "Me">>I'm processing.<</say>>
+<<say "Paco">>Process with mezcal?<</say>>
+
+<<if $flags.adriana_met>>
+<<say "Me">>Already did. Went to Vega.<</say>>
+
+The silence changes texture. I can hear Paco leaning forward.
+
+<<say "Paco">>You went to Vega. Alone.<</say>>
+<<say "Me">>Yes.<</say>>
+<<say "Paco">>And?<</say>>
+<<say "Me">>I met the bartender.<</say>>
+<<say "Paco">>Adriana.<</say>>
+
+He says it like he's been waiting.
+
+<<say "Paco">>You met Adriana.<</say>>
+<<say "Me">>You told her about me.<</say>>
+<<say "Paco">>I mentioned you. Casually. In passing. Several times.<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>What? She's cute. You're single. I'm a facilitator of human connection.<</say>>
+<<say "Me">>You're a menace.<</say>>
+<<say "Paco">>A menace with excellent taste. So? What happened? Did she pour you the good mezcal?<</say>>
+<<say "Me">>She poured mezcal. We talked. She called me the quiet one.<</say>>
+<<say "Paco">>That's a compliment from Adriana. She only talks to people she finds interesting. Everyone else gets served and ignored.<</say>>
+<<say "Me">>She asked about the secret.<</say>>
+<<say "Paco">>What secret?<</say>>
+<<say "Me">>The one I'm apparently carrying. She said she can see it behind my eyes.<</say>>
+<<say "Paco">>Hermano. That woman is perceptive. Be careful.<</say>>
+<<say "Me">>I'm always careful.<</say>>
+<<say "Paco">>No, you're not. You're careful about work and visas and ethics modules. You are not careful about women who pour your drinks and see through you. Those are different skills.<</say>>
+<<else>>
+<<say "Me">>Not tonight. Went home.<</say>>
+<<say "Paco">>You should have gone to Vega. Adriana works Wednesdays. I keep telling you.<</say>>
+<<say "Me">>Another time.<</say>>
+<<say "Paco">>"Another time." You've been saying that for a month. One day the bartender's going to be off the market and you'll have processed your feelings about it alone on that couch.<</say>>
+<</if>>
+
+<<say "Me">>Goodnight, Paco.<</say>>
+<<say "Paco">>Tell me everything tomorrow. EVERYTHING.<</say>>
+
+Paco is quiet for a second. Then, softer:
+
+<<say "Paco">>But for real. Are you okay? Not "I'm processing" okay. Actually okay.<</say>>
+
+I lie back on the couch. Chipi jumps onto my chest. Her weight is solid, concentrated, nothing like the distributed weight of breasts but my nervous system tries to map the comparison anyway and fails.
+
+<<say "Me">>I'm okay. It's a lot. But I'm learning things I didn't know I needed to learn.<</say>>
+<<say "Paco">>Like what?<</say>>
+<<say "Me">>Like what vulnerability feels like when you can't turn it off. When the body just, decides you're exposed and there's no override button.<</say>>
+<<say "Paco">>Hermano.<</say>>
+
+His voice is serious now. The blender-gym-smoothie Paco is gone. This is the Paco who walked out of Venezuela at twenty and rebuilt his life in a language he was still learning and knows what it means to be in a country that wasn't built for you.
+
+<<say "Paco">>That sounds like something worth knowing.<</say>>
+<<say "Me">>It is.<</say>>
+<<say "Paco">>Then keep going. Just don't forget to come back. To yourself, I mean. Paco misses Manuel. The original.<</say>>
+<<say "Me">>Paco sees Manuel every week.<</say>>
+<<say "Paco">>Paco sees Manuel's body every week. I want to make sure Manuel is still in it.<</say>>
+
+That lands. It shouldn't, because Paco is being dramatic, because Paco is always dramatic, but after a day of inhabiting someone else's body and leaving pieces of my nervous system in her borrowed skin, the idea of someone checking whether I'm still inside my own body hits differently.
+
+<<say "Me">>I'm still in it.<</say>>
+<<say "Paco">>Good. Love you, hermano. No homo. Some homo. The appropriate amount of homo for two straight men navigating a conversation about borrowed nipples.<</say>>
+<<say "Me">>Goodnight, Paco.<</say>>
+<<say "Paco">>TELL ME ABOUT THE BARTENDER TOMORROW. EVERY DETAIL. HAIR. EYES. MEZCAL BRAND. ALL OF IT.<</say>>
+
+I hang up. Put the phone on the nightstand. Chipi has migrated from my chest to the bed and is now occupying the exact center of the pillow, her body a small warm circle of entitlement.
+
+<<opt "t0_day03_phone_evening" "Set the phone down">>

@@ -146,3 +146,51 @@ moles across the collarbones.
 ## spare Day 2 prompts (no passage wired yet)
 
 IMG-D2-006 Manuel's hands (contrast), IMG-D2-010 Apartment at night / post-transfer.
+
+---
+
+# Day 3 image map
+
+Prompts: `story_files/day_3/soy_day03_image_prompts.md`. Missing files collapse
+silently. Reused Day 1/2 art: `locations/apartment-morning.png`,
+`locations/bus-ninth-street.png`, `locations/soy-lobby.png`,
+`locations/lulus-bodega.png`, `mood/october-evening-walk-2.png`,
+`mood/apartment-night-couch.png`, `mood/transfer-warp.png`.
+
+## new files
+
+| File | Prompt | Used in |
+|---|---|---|
+| `slides/ethics-body-not-yours.png` | IMG3 Elena's Ethics Lecture ("THE BODY IS NOT YOURS" on screen) | `t0_day03_lecture_ethics` |
+| `locations/cafeteria.png` | IMG7 Cafeteria (Tommy / Manuel / Georgia laughing) | `t0_day03_lunch_cafeteria` |
+| `locations/pod-room.png` | IMG4 Katya in the Transfer Pod | `t0_day03_transfer_katya` |
+| `scenarios/mirror-room.png` | IMG5 Scenario 1 — The Mirror | `t0_day03_scenario1_mirror` |
+| `scenarios/changing-room.png` | IMG6 Scenario 2 — The Changing Room | `t0_day03_scenario2_shower` |
+| `locations/vega-bar.png` | IMG8 Vega Bar — First Adriana Meeting | `t0_day03_vega_enter` |
+| `mood/bed-night.png` | IMG9 Night — Bed Processing | `t0_day03_night_processing` |
+
+## portraits/ + full_body/ + avatars/ — Katya (Clone 7-K)
+
+| File | Where |
+|---|---|
+| `portraits/katya.png` | `<<face "katya">>` in `t0_day03_transfer_katya` and `t0_day03_katya_calibration` |
+| `full_body/katya.png` | character panel — auto-switches to `katya` on transfer, back on de-transfer |
+| `avatars/katya.png` | Manuel's own `<<say "Me">>` bubbles while transferred into Katya |
+
+Clone 7-K look: auburn hair (long, straight, past the shoulders), pale skin with
+warm undertones, blue-grey eyes, C-cup, grey training top.
+
+## Adriana (Vega bartender)
+
+| File | Where |
+|---|---|
+| `portraits/adriana.png` | `<<face "adriana">>` in `t0_day03_vega_enter` |
+| `avatars/adriana.png` | her `<<say "Adriana">>` bubbles |
+
+Adriana look: dark hair pulled back, full tattoo sleeves (botanical left,
+geometric + small skulls right), asymmetric smile with one dimple.
+
+## spare Day 3 prompts (no passage wired yet)
+
+IMG1 Morning apartment (Day-3 black henley), IMG2 Bus ride, IMG10 Lulu's bodega
+(Day-3 framing) — the passages currently reuse the Day 1/2 shots.

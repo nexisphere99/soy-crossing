@@ -10,7 +10,7 @@ Config.saves.maxSlotSaves = 8;
 try { document.documentElement.lang = document.documentElement.lang || 'en'; } catch (e) {}
 
 /* Build version   shown under the title in the sidebar and on the splash. */
-setup.version = '0.0.1';
+setup.version = '0.0.2';
 
 /* Namespace bootstrap (systems files each guard this too) */
 window.SOY = window.SOY || {};
@@ -22,7 +22,8 @@ window.SOY = window.SOY || {};
  */
 setup.masterSchedule = {
 	1: { phase: 'course', tier: 0, courseDay: 1 },
-	2: { phase: 'course', tier: 0, courseDay: 2 }
+	2: { phase: 'course', tier: 0, courseDay: 2 },
+	3: { phase: 'course', tier: 0, courseDay: 3 }
 };
 
 /*
@@ -44,6 +45,28 @@ setup.clones = {
 		details: 'moles across the collarbones',
 		neuralProfile: 'passive',
 		module: 1
+	},
+	'7k': {
+		id: '7k',
+		slug: 'katya',
+		name: 'Katya',
+		designation: 'Clone 7-K',
+		height: "5'7\"",
+		skinTone: 'pale, warm undertones',
+		hair: 'auburn, long, straight, past the shoulders',
+		eyes: 'blue-grey',
+		cupSize: 'C',
+		build: 'wider hips, fuller thighs, defined waist',
+		details: 'skin that shows blood easily',
+		neuralProfile: 'semi-active',
+		responses: ['blush', 'temperature', 'flinch', 'heart-rate'],
+		module: 2,
+		phantomSet: [
+			{ type: 'chest_weight',           label: 'phantom weight at the chest, heavier than Flor',   intensity: 3 },
+			{ type: 'blush_memory',           label: 'the memory of blood climbing to the face',          intensity: 3 },
+			{ type: 'temperature_sensitivity', label: 'skin reading the air like weather',                intensity: 2 },
+			{ type: 'hip_sway',               label: 'the sway, louder now, two bodies deep',             intensity: 2 }
+		]
 	}
 };
 

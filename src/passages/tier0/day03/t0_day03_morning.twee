@@ -1,0 +1,260 @@
+:: t0_day03_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 25>>
+<<set $calendar.weekday = 3>>
+<<set $calendar.phase = "course">>
+<<run SOY.Body.resetExercises()>>
+<<set $body.todayTransferred = false>>
+<<if not $quests.main.t0_day03>><<run SOY.Quests.registerDay3()>><</if>>
+<<run SOY.Locations.travel('apartment')>>
+
+The ceiling fan ticks. One rotation every four seconds. I know because I've been counting since 4:47 AM and it is now, according to the phone pressed against my thigh under the sheets, 5:02.
+
+My body is half-hard. That part I expected. Morning biology, routine plumbing. But the quality of it sits wrong, like the signal is coming through a frequency I don't usually receive. There's warmth pooled low in my belly that doesn't match the erection. Diffuse. Spread wide instead of centered. Like my nervous system spent the night replaying sensations it doesn't have the hardware to reproduce and this is the closest translation it could manage.
+
+I lie still. Chipi is curled against my left knee, a warm fur comma. The October dark presses against the window. Somewhere below, a garbage truck beeps its way down the block.
+
+Yesterday I was inside a woman's body for two hours.
+
+The thought arrives like that. Clean. Declarative. No judgment attached. Just the fact sitting in the middle of my skull waiting for me to do something with it.
+
+I don't do anything with it. I get up.
+
+<<opt "t0_day03_morning_apartment" "Shower. Coffee. Move.">>
+
+
+:: t0_day03_morning_apartment [home]
+<<scene "locations/apartment-morning" "The kitchen counter before dawn, dry toast, the cat by the butter dish">>
+
+The shower is too hot and then too cold and I stand under it adjusting the handle with the kind of obsessive precision that means I'm avoiding thinking about something. Water runs down my chest. Flat. The pectorals I've never really thought about before yesterday now feel like a statement. A topography I'm suddenly reading instead of just wearing.
+
+My hand goes to my sternum. Reflex. Checking for weight that isn't there. The phantom from Flor's body passed through here last night while I slept and left fingerprints in my nervous system.
+
+I pull my hand away. Turn off the water.
+
+Clothes. The grey t-shirt from yesterday is in the hamper. I pull out a black henley, the one with the slightly stretched collar that Lyla once said made me look like "a sad poet, but in a hot way." Dark jeans. Same boots. I look at myself in the bathroom mirror while I brush my teeth. Brown skin, dark hair curling at the temples because I still haven't gotten it cut, the permanent shadow under my eyes that's been there since the layoff. Same face.
+
+But I keep looking. Which is new. Usually the mirror is just a checkpoint, a place to confirm toothpaste isn't on my chin. Today I'm studying. The jaw, the brow ridge, the way the Adam's apple moves when I swallow. Masculine architecture. I never catalogued it before. Never had a reason to.
+
+Flor's face was rounder. Softer at the cheekbones. No Adam's apple. When I swallowed in her body, the throat just moved, smooth, without the knob of cartilage interrupting the line.
+
+I spit. Rinse. Stop looking.
+
+Kitchen. Coffee. The machine gurgles and Chipi appears on the counter like she materialized from the sound itself. She walks directly to the butter dish, which I left out last night because I am a man in decline, and pushes it toward the edge with one deliberate paw.
+
+<<say "Me">>Don't.<</say>>
+
+She looks at me. Pushes it another centimeter.
+
+<<say "Me">>Chipi.<</say>>
+
+The butter dish stops at the precipice. She sits behind it like a hostage negotiator making her demands clear. I pick her up, put her on the floor, put the butter in the fridge. She jumps back on the counter and sits where the butter was. Stares at me.
+
+<<say "Me">>You win nothing.<</say>>
+
+She purrs.
+
+Toast. The last two slices of the bread I bought at Lulu's on Monday. I eat standing at the counter because the table feels like a place where a person with a functioning life sits down, and I am a person who is twenty-five days from deportation eating toast at 5:30 AM before going to a facility where they will put his brain inside a woman's body for the second time.
+
+The toast is dry. I forgot to buy butter. The butter Chipi pushed to the edge yesterday was the last of it, and I scraped what survived off the counter and into the trash because even I have limits. So it's dry toast and black coffee and the specific resignation of a Wednesday morning when you know the day is going to be harder than the last one and the last one was already the hardest of your life.
+
+Twenty-five days. I do the math while I chew. Rent is due in nineteen. That's $1,400 out of roughly $2,050. After rent I'll have $650. Bus fare, groceries, phone bill. If SoY comes through, if I pass, if Diana can file the petition, the clock stops. If not, $650 is approximately enough for a one-way ticket to Guadalajara and the look on my father's face when I walk through the door with nothing but a suitcase and a failure.
+
+I wash the plate. One plate. The solitary dish of a solitary man. The sink is clean because there's never enough mess to warrant letting it pile up. One plate, one mug, one fork. The mathematics of eating alone.
+
+Chipi watches from the counter. She has relocated to the spot next to the coffee machine and is sitting with the particular uprightness of a cat who has decided she is supervising.
+
+My phone buzzes.
+
+<<opt "t0_day03_morning_phone" "Check the phone" "Mamá, on her way to church. And Paco, being Paco.">>
+<<opt "t0_day03_morning_depart" "Leave it. Grab the jacket and go.">>
+
+
+:: t0_day03_morning_phone [phone]
+<<run SOY.Quests.completeSide('sq_004_mama', 'respond')>>
+
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 0:47<</txt>>
+<</phone>>
+
+I press play. Her voice fills the kitchen, warm and slightly too loud because she holds the phone like a walkie-talkie.
+
+<<say "Mamá">>Manueeeel, buenos días mijo. Es miércoles, estoy saliendo para la iglesia. Tu tía Carmen dice que su sobrina la de Zapopan se acaba de mudar a Los Angeles, es bonita, trabaja en un banco. Le di tu número. No me grites. Te quiero. Come bien. Adiós.<</say>>
+
+She gave my number to someone's cousin. Bonita. Works at a bank. In Los Angeles, which is a different coast, but geography has never been an obstacle to my mother's matchmaking ambitions.
+
+I close my eyes.
+
+<<say "Me">>Mamá.<</say>>
+
+I type back a text because calling her before church is asking for a twenty-minute conversation and I have a train to catch:
+
+<<phone "Mamá">>
+<<txt "Me">>Buenos días mamá. No le des mi número a nadie por favor. Te quiero.<</txt>>
+<</phone>>
+
+She'll ignore the request. She has been ignoring this specific request since I turned twenty-two.
+
+The phone buzzes again immediately. But it's not her.
+
+<<phone "Paco">>
+<<txt "Paco">>Day 3. Ethics day. Don't let anyone touch your borrowed tits hermano 🫡<</txt>>
+<</phone>>
+
+I almost choke on my coffee. Type back:
+
+<<phone "Paco">>
+<<txt "Me">>You're disgusting.<</txt>>
+<<txt "Paco">>You love me. Also I told the Brazilian girl about you. She wants to know if you're single.<</txt>>
+<<txt "Me">>I'm leaving.<</txt>>
+<<txt "Paco">>That's what all the single guys say 😘<</txt>>
+<</phone>>
+
+<<opt "t0_day03_morning_depart" "Pocket the phone. Go.">>
+
+
+:: t0_day03_morning_depart [home]
+<<run SOY.Quests.completeSide('sq_005_vidal', 'read')>>
+
+I pocket the phone. Grab my jacket, the olive green one with the torn lining I keep meaning to fix. Keys. Badge. Out the door.
+
+Señora Vidal's door is closed but there's a new note taped to my doorframe. Yellow paper this time, folded once. I take it.
+
+<div class="note">Manuel. Your cat was crying at 2 PM yesterday AND 4 PM. Two separate crying sessions. This is escalation. Also you came home late. I heard the stairs. You should sleep more. The bags under your eyes are visible from my peephole. I left arroz con pollo outside your door at 7 but you were not home so I took it back. Next time be home.<span>&mdash; V. Vidal (your neighbor, ground floor, in case you forgot)</span></div>
+
+I fold the note into my pocket. The arroz con pollo I missed stings more than the surveillance.
+
+<<opt "t0_day03_bus" "Down to the 9th Street bus">>
+
+
+:: t0_day03_bus
+<<scene "locations/bus-ninth-street" "The 9th Street bus at 6:15, rain-spotted windows, the city grey and undecided">>
+<<run SOY.Economy.spend(2.75, 'transport')>>
+<<run SOY.Locations.travel('street')>>
+
+The 9th Street bus at 6:15 AM is a specific ecosystem. The night shift workers going home, eyes glazed, headphones in. The early risers heading downtown with thermoses and purpose. Me, somewhere in between, a man with neither a real schedule nor the luxury of sleeping in.
+
+I find a seat near the back. The vinyl is cold through my jeans. October has started meaning business, the mornings have that bite now, the kind that makes your nose run and your hands curl inside your jacket pockets.
+
+A woman sits two rows ahead. Thirties, business casual, hair in a tight bun. She adjusts the collar of her blazer, tugs it forward, a motion so practiced it's invisible. But I see it. The slight repositioning of fabric over the chest. The way the blazer was riding up because the bust pushed it out of alignment. She corrected without looking, without thinking. Muscle memory. A negotiation between body and clothing that happens a thousand times a day and nobody talks about.
+
+Yesterday, in Flor's body, the t-shirt caught on the breasts when I tried to pull it off. The fabric stuck and then released and the weight shifted and settled. Elena said "Continue" like it was a vocabulary exercise. Like the fact that I had just felt gravity pull on parts of a body I didn't own was no more remarkable than conjugating a verb.
+
+The woman ahead of me uncrosses and recrosses her legs. The thigh-on-thigh contact, the way the knee slots. I watched my own legs cross in Flor's body yesterday. The angle was different. The thighs touched higher up, with more surface area, more warmth between them.
+
+I look out the window. Buildings slide past. My leg bounces.
+
+Today they're putting me in Katya. Auburn hair, pale skin, C-cup. More body than Flor. More reactivity, they said. Conditioned autonomic responses. The body will blush without my permission. The body will respond to temperature. The body will flinch at sudden touch.
+
+The bus lurches to a stop. More people get on. I close my eyes and for one disorienting second, when a woman brushes past my knee getting to her seat, I expect to feel the contact differently. Softer skin. More nerve endings. The sensation pathways Flor's body taught me in two hours.
+
+My knee feels exactly like my knee. Angular. Bony. Mine.
+
+I open my eyes. Grip the handrail. The metal is cold and my hand wraps around it with the full mechanical confidence of a male grip, the squeeze that comes from broad palms and thick fingers and forearms that were built for torque. Yesterday I held a tennis ball in Flor's hand and couldn't compress it the same way. The grip was different, more precise, less raw force, like the hand had been designed for a different set of tasks.
+
+The bus lurches. A man gets on at Seventh Street, big, construction boots, high-vis vest, coffee in one hand, phone in the other. He moves through the aisle and every body adjusts for him. The seated woman pulls her bag closer. The standing teenager shifts left. The man doesn't notice any of it. He takes up the space his body requires and the world makes room and no negotiation is involved.
+
+Georgia's voice in my head: //The male body doesn't apologize for existing.//
+
+I watch him settle into a seat, legs spread, knees wide, coffee balanced on one thigh. Pure entitlement of space. Not malicious. Just default. The firmware of masculinity running its standard program.
+
+I check my phone. Nothing new. Four more stops.
+
+The city slides past the window. Bodegas with their awnings rolled tight against the cold. A woman walking a pit bull in a sweater, the dog, not the woman. A man smoking outside a laundromat, the smoke rising in the still October air like a question mark made of grey. The specific texture of a New York morning in autumn, the light thin and hesitant, the shadows long, the city not quite committed to the day yet.
+
+My stop. I stand. The bus doors open. The cold hits.
+
+<<opt "t0_day03_arrival" "Ninth Street">>
+
+
+:: t0_day03_arrival [facility]
+<<run SOY.Locations.travel('facility')>>
+<<scene "locations/soy-lobby" "The SoY lobby, Yuki at the counter, an amber badge waiting">>
+
+Ninth Street. The facility's entrance is the same unremarkable grey door it was Monday, the same it was yesterday. No sign. No logo. Just the address in small brass numbers and a card reader that blinks green when I hold up my badge.
+
+The lobby smells like recycled air and floor cleaner and something faintly chemical underneath, the ozone tang of transfer technology that never quite gets scrubbed out. Yuki is behind the reception counter. Today's pins: a tiny enamel sword and what appears to be a slice of pizza. Her ponytail is higher than yesterday, the silver streak catching the fluorescent light.
+
+<<say "Yuki">>González. Module 2 starts at eight. Room 3, not Room 4. Different room. Don't go to Room 4.<</say>>
+<<say "Me">>What's in Room 4?<</say>>
+<<say "Yuki">>A different cohort having a different bad day. Room 3. Eight sharp. Elena's already in there.<</say>>
+
+She slides a different colored badge across the counter. Red stripe yesterday. Today it's amber. I clip it to my henley.
+
+<<say "Yuki">>Also, no food restriction today. The transfer window is afternoon. Eat lunch.<</say>>
+<<say "Me">>Thanks.<</say>>
+<<say "Yuki">>Don't thank me, thank the schedule and&mdash; González?<</say>>
+
+I pause.
+
+<<say "Yuki">>Module 2 is harder than Module 1. Not physically. Just&mdash;<</say>>
+
+She taps her temple.
+
+<<say "Yuki">>In here. Bring water.<</say>>
+
+She goes back to her screen. I walk down the corridor toward Room 3. My boots echo on the linoleum. The corridor is long, lit by those flat panel LEDs that make everything look like it exists slightly outside of time. Doors with numbers. Doors with card readers. One door with a small window through which I can see the transfer pods, three of them, sleek grey capsules that look like someone crossed a dentist's chair with a coffin.
+
+Flor is in one of them. Or her body is. Breathing softly, chest rising and falling, no one home. A body waiting to be occupied.
+
+I keep walking.
+
+<<opt "t0_day03_pre_lecture" "Room 3">>
+
+
+:: t0_day03_pre_lecture [facility]
+Room 3 is smaller than Room 4. Round table instead of rectangular. Five chairs but only three are occupied when I walk in. Tommy is already seated, his big hands wrapped around a paper coffee cup, compressing it slightly with each nervous squeeze. Georgia is beside him, legs crossed, foot bouncing, chewing on the end of a pen. Two empty chairs where the candidates who won't make it past Day 4 used to sit. Brett is in the far corner, arms crossed, looking at the wall.
+
+<<say "Me">>Morning.<</say>>
+
+I take the chair next to Tommy.
+
+Tommy looks at me. Dark circles. His jaw is working like he's chewing something that isn't food.
+
+<<say "Tommy">>Sleep?<</say>>
+<<say "Me">>Some.<</say>>
+<<say "Tommy">>Me neither.<</say>>
+
+He crushes the cup a little more.
+
+<<say "Tommy">>I kept dreaming I was walking but my hips were wrong. Not wrong. Just, different. I kept adjusting.<</say>>
+<<say "Me">>Same. Except hands.<</say>>
+
+Georgia clicks her pen.
+
+<<say "Georgia">>I slept fine. But I woke up and scratched my balls and they weren't there. So that was a moment.<</say>>
+
+Tommy and I both look at her.
+
+<<say "Georgia">>What? I was in a male body for two hours yesterday. Things linger.<</say>>
+
+She grins but it doesn't quite reach her eyes.
+
+<<say "Georgia">>At least you guys got the training body everybody expects. I got to discover that erections are both simpler and more annoying than advertised.<</say>>
+<<say "Tommy">>More annoying how?<</say>>
+<<say "Georgia">>It's just there. Insistent. Like a notification you can't swipe away. My body, my actual body, doesn't do that. Arousal is, I don't know, distributed. Internal. This was like someone taped a flag to my pelvis.<</say>>
+
+Brett grunts from the corner.
+
+<<say "Brett">>Can we not?<</say>>
+<<say "Georgia">>Brett. Did the transfer make you uncomfortable?<</say>>
+<<say "Brett">>The transfer was fine. The way you talk about it makes me uncomfortable.<</say>>
+<<say "Georgia">>Then you're going to love Module 2.<</say>>
+
+The door opens. Elena walks in.
+
+The room rearranges. Not physically, but the air changes. Elena Cordero has the kind of presence that makes furniture feel temporary. Charcoal blazer. Black turtleneck. The silver thumb ring catching light as she sets her tablet on the table. Her hair is tucked behind her left ear. She looks at each of us individually, a three-second assessment per person, like a surgeon deciding where to cut.
+
+<<say "Elena">>Good morning. Welcome to Module 2. Today's subject is the ethical and legal framework governing consciousness transfer.<</say>>
+
+She pauses.
+
+<<say "Elena">>Module 1 taught you what it feels like to be inside another body. Module 2 will teach you what it means.<</say>>
+
+She lets that land.
+
+<<say "Elena">>Sit up, Mr. Haywood.<</say>>
+
+Brett sits up.
+
+<<opt "t0_day03_lecture_ethics" "Module 2 begins">>

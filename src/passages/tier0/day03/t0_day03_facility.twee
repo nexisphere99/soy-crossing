@@ -1,0 +1,374 @@
+:: t0_day03_lecture_ethics [facility]
+<<scene "slides/ethics-body-not-yours" "Room 3: five words on the wall screen, black on white">>
+
+Elena stands at the front of the room. No podium. No projector. Just her, the tablet flat on the table, and the four of us arranged in a semicircle that makes hiding impossible.
+
+<<say "Elena">>Module 1 answered the question "what does it feel like." Module 2 answers a harder question. "What does it mean."<</say>>
+
+She picks up the tablet. Swipes. A single sentence appears on the wall screen behind her, black text on white:
+
+<div class="tenet">The body is not yours.</div>
+
+Five words. She lets them hang in the air for a full ten seconds. Nobody moves. The ventilation hums.
+
+<<say "Elena">>This is the foundational principle of consciousness transfer ethics. Every rule, every protocol, every clause in every contract you will ever negotiate descends from this sentence. You are a guest in someone else's architecture. You did not build it. You do not own it. Your presence is a privilege extended through documented, verified, time-limited consent, and that privilege is revocable at any moment for any reason.<</say>>
+
+She walks to the side of the table. Slow, precise. The silver thumb ring catches light.
+
+<<say "Elena">>Yesterday you inhabited Flor. Flor is a clone. She has no consciousness, no memories, no legal personhood. She is a training vessel. You could argue, and some of you are already arguing it in your heads, that because Flor isn't a person, the ethical stakes were low.<</say>>
+
+She stops. Looks at each of us.
+
+<<say "Elena">>You would be wrong. The ethical stakes of training are identical to the ethical stakes of a live assignment. The habits you build in a clone body are the habits you carry into a real person's body. If you learn to linger in a mirror with a clone, you will linger in a mirror with a host. If you learn to explore in a safe environment, you will explore in an unsafe one. The clone is not the point. You are the point. Your reflexes are the point.<</say>>
+
+Tommy's paper cup creaks.
+
+<<say "Elena">>Let me define terms.<</say>>
+
+She swipes. The screen populates. Boxes connected by lines, each box labeled.
+
+<<say "Elena">>Consent in consciousness transfer is not a feeling. It is not a vibe. It is not "she seemed okay with it." Consent is an architecture.<</say>>
+
+She taps through the diagram.
+
+<<say "Elena">>Biometric verification of both parties. Government-issued ID plus neural signature match. Time-locked duration with hard cutoffs enforced by the system, not by willpower. Scope limitation, meaning the contract specifies exactly what the transferee may do and everything not specified is prohibited. Witness verification. Legal notarization in jurisdictions that require it. Cooling-off period, the host has seventy-two hours to revoke consent after signing and before transfer begins.<</say>>
+
+She pauses.
+
+<<say "Elena">>Does anyone know what the most common violation in the first year of commercial consciousness transfer was?<</say>>
+<<say "Georgia">>Sexual?<</say>>
+<<say "Elena">>Sexual violations were fourth. The most common was informational. Transferees reading the host's text messages. Checking their email. Opening browser history. Looking at photos on their phone. It seems harmless. It isn't. A person's digital life is their interior life made visible. Accessing it without consent is the equivalent of reading someone's diary while wearing their face.<</say>>
+
+She swipes to a new slide. A list.
+
+<<say "Elena">>Categories of ethical violation. I want you to understand these before we go into the practicals.<</say>>
+
+<<opt "t0_day03_lecture_violations" "Continue">>
+
+
+:: t0_day03_lecture_violations [facility]
+<<say "Elena">>Physical violations. Unauthorized touch, exposure, mirror lingering beyond incidental acknowledgment, genital exploration, sexual stimulation of any kind. Note the phrase "of any kind." A transferee who touches the host's breasts through clothing while "adjusting a bra strap" is committing a physical violation. The intent does not modify the act.<</say>>
+
+Brett shifts in his chair.
+
+<<say "Elena">>Emotional violations. Manipulating the host's relationships. Engaging in intimate conversation with the host's partner, friends, or family in a way that creates emotional bonds, expectations, or obligations the host did not consent to. Impersonating intimacy. Saying "I love you" to someone who loves the host. Crying in front of someone who cares about the host in a way that creates emotional debt.<</say>>
+
+She lets that one sit.
+
+<<say "Elena">>Social violations. Damaging the host's reputation through behavior, speech, or appearance. Creating obligations. Making promises in the host's name. Agreeing to a dinner party the host didn't authorize. Telling the host's sister she looks thin. These seem minor. They are not. They are rewriting the host's social contract without permission.<</say>>
+<<say "Elena">>Financial violations. Self-explanatory. No unauthorized purchases, contracts, subscriptions, donations. You may not spend the host's money. You may not use the host's credit. You may not order anything online, even if you intend to cancel it.<</say>>
+<<say "Elena">>Informational violations. Already covered. Do not access the host's phone, computer, journals, medical records, legal documents, or any private communication beyond the scope specified in the contract.<</say>>
+
+She puts the tablet down. Folds her hands.
+
+<<say "Elena">>Questions before we move to the Mirror Test.<</say>>
+
+Tommy raises his hand.
+
+<<say "Tommy">>What about accidental violations? You said the body reacts on its own. What if the body does something you didn't choose?<</say>>
+<<say "Elena">>Excellent question. This is the distinction between autonomic response and volitional behavior.<</say>>
+
+She walks back to the center.
+
+<<opt "t0_day03_lecture_autonomic" "Autonomic versus volitional">>
+
+
+:: t0_day03_lecture_autonomic [facility]
+<<say "Elena">>The body will react independently of your intentions. This is physiology, not ethics. A host's body that blushes when a colleague compliments her, a body whose heart rate spikes when a stranger stands too close, a body whose nipples harden in cold air, these are autonomic responses. They are the body's firmware. You did not choose them. You cannot control them. They are not violations.<</say>>
+
+She holds up one finger.
+
+<<say "Elena">>Following an autonomic response is a violation. The body blushes. Fine. You then lean into the compliment, play along, enjoy the attention, that is a choice made in someone else's skin. The body's heart rate spikes. Fine. You then make eye contact with the stranger, assess whether you find them attractive, catalogue the body's response to their proximity, that is participation, not observation.<</say>>
+
+She pauses. Looks directly at me.
+
+<<say "Elena">>The body responds to touch with arousal. This will happen. Some of you experienced the edges of it yesterday.<</say>>
+
+She does not elaborate on who or how.
+
+<<say "Elena">>When it happens, you have exactly one obligation: contain, do not follow. If you cannot contain it, you trigger your safeword and disconnect. There is no shame in disconnection. There is significant shame, and significant legal consequence, in following arousal in a body that did not consent to your pleasure.<</say>>
+
+The room is very quiet.
+
+<<say "Elena">>The shorthand we use here is this: the body reacting is weather. You following the reaction is a decision. We do not punish weather. We punish decisions.<</say>>
+
+She writes on the screen with her finger. Handwriting, not typed. Precise, surgical letters:
+
+<div class="tenet sm">The Mirror Test</div>
+
+<<say "Elena">>After every transfer, ask yourself this: could I look my host in the eye and tell them everything I did? Every glance. Every touch. Every moment of hesitation. Every thought I lingered on. If the answer is yes, you did your job. If the answer is no, you violated something, and you need to report it.<</say>>
+
+She turns back to us.
+
+<<say "Elena">>The Mirror Test is not about whether you got caught. The telemetry will catch you anyway. The system monitors eye-focus duration, touch pressure and location, arousal levels, hormonal fluctuation, micro-expressions. We know what you did. We know what you wanted to do. The Mirror Test is about whether you know. It is about whether you have built the internal architecture to be honest with yourself about what you are doing in someone else's body.<</say>>
+
+She picks up her tablet.
+
+<<say "Elena">>Module 1 taught you what transfer feels like. Module 2 will teach you what discipline feels like. They are not the same sensation. One is wonder. The other is restraint. You need both.<</say>>
+
+She checks the time.
+
+<<say "Elena">>Lunch is at noon. Practicals begin at one-thirty. You will be transferring into Clone 7-K, designation Katya. She is different from Flor in ways that matter. I suggest you eat light.<</say>>
+
+<<run SOY.Time.ensureSlot(1)>>
+<<opt "t0_day03_lunch_cafeteria" "Lunch">>
+
+
+:: t0_day03_lunch_cafeteria [facility]
+<<scene "locations/cafeteria" "The break room: vending machines, burned-popcorn microwave, one window onto a dumpster">>
+<<run SOY.Quests.completeSide('sq_001_feed', 'eat')>>
+<<run SOY.Quests.completeSide('sq_007_tommy', 'lunch')>>
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+
+The cafeteria at Shape of You is a room that wants to be a break room and almost makes it. Vending machines along one wall, a microwave that smells permanently of burned popcorn, four round tables with plastic chairs, a counter with a coffee machine that produces something technically classified as coffee. The fluorescents buzz at a frequency designed to remind you that relaxation is temporary.
+
+I carry my tray to the table nearest the window. The window overlooks an alley and a dumpster, which is not inspiring, but the light is real and after two hours in transfer rooms with controlled environments, real light feels like a gift.
+
+Turkey sandwich. Apple. Water. I eat mechanically. My hands feel too big for the sandwich. An hour ago, in, wait, yesterday, in Flor's body, my fingers were longer, thinner, the grip different. I'm holding a turkey sandwich with hands that feel borrowed from a different species and the bread keeps slipping.
+
+Tommy drops into the chair across from me. His tray has three sandwiches and two apples and a chocolate milk. He eats like a man who was once told food might run out and decided never to test the theory.
+
+<<say "Tommy">>The mirror.<</say>>
+<<say "Me">>Yeah.<</say>>
+<<say "Tommy">>How long?<</say>>
+<<say "Me">>Four. Elena told me.<</say>>
+<<say "Tommy">>Seven.<</say>>
+
+He tears into the second sandwich.
+
+<<say "Tommy">>She looked at me like I'd committed a crime. Seven seconds. I just stood there. The face in the mirror wasn't mine, obviously, but it was making my face, you know? Like, the expression was mine but the canvas was wrong and my brain just&mdash;<</say>>
+
+He makes a sound like a computer powering down.
+
+<<say "Me">>What was yours like? The clone.<</say>>
+<<say "Tommy">>Same. Katya. Auburn hair, curves, the whole thing. I think we all got Katya today.<</say>>
+<<say "Me">>The blush.<</say>>
+<<say "Tommy">>Mierda, yes. The blush.<</say>>
+
+He puts the sandwich down.
+
+<<say "Tommy">>I'm standing there and the room is a little cold and the body just, my face, her face, started getting warm. Pink. I could feel the blood doing it. Like watching paint dry except the paint was inside me and I didn't have a brush.<</say>>
+<<say "Me">>The nipple thing.<</say>>
+<<say "Tommy">>Bro.<</say>>
+<<say "Me">>The temperature response. Elena mentioned it in the briefing.<</say>>
+<<say "Tommy">>Yeah. Yeah, I know what you mean. Just, hearing you say "the nipple thing" in a cafeteria with fluorescent lighting and a turkey sandwich is a specific experience I was not prepared for.<</say>>
+
+A tray slams down on the table. Georgia. She drops into the chair between us without invitation, the way she does everything, like an entrance fee was paid somewhere and we just missed the transaction.
+
+<<say "Georgia">>Boys.<</say>>
+
+She grins. Wide. Dangerous.
+
+<<say "Georgia">>How are we feeling about our bodies today?<</say>>
+
+Tommy puts his face in his hands.
+
+<<say "Georgia">>That good, huh.<</say>>
+
+She picks up her apple. Bites it. Chews while looking between us.
+
+<<say "Georgia">>I had a dick for two hours yesterday. Two hours, gentlemen. You know what I learned?<</say>>
+<<say "Tommy">>Do I want to know?<</say>>
+<<say "Georgia">>You absolutely do. I learned that erections have the emotional range of a smoke detector. They go off for everything. Cold air. Warm air. Thinking about food. Not thinking about anything. The body just decides "hey, you know what this moment needs? A boner." No context. No warning.<</say>>
+
+Tommy chokes on his chocolate milk. I laugh. Full, surprised, involuntary. The first time I've laughed inside this building. The sound comes out of my own throat in my own voice and it feels like cracking a window open in a room that's been sealed for days.
+
+Georgia points her apple at me.
+
+<<say "Georgia">>There it is. I've been watching you for three days, Manuel. That's the first time your face has done something besides "stoic concern." I was starting to think it was structural.<</say>>
+<<say "Me">>My face does other things.<</say>>
+<<say "Georgia">>Name one.<</say>>
+<<say "Me">>Confusion. I do confusion well.<</say>>
+<<say "Georgia">>Fair. Tommy?<</say>>
+<<say "Tommy">>I do panic. I'm told it's very expressive.<</say>>
+
+Georgia leans back. She's compact, muscular, mid-twenties, Black, with close-cropped hair and eyebrows that do more acting than most people's entire faces. She was a firefighter in Queens before SoY. She told us on Day 1 and then didn't explain why she left and nobody asked because Georgia has the kind of energy that suggests certain questions will be answered when she's ready and not before.
+
+<<say "Georgia">>The mirror got me too, by the way.<</say>>
+
+Quieter.
+
+<<say "Georgia">>Different reasons. I looked in the mirror and saw a man's body and my first thought was "huh, this is what they see." Not what I see. What men see when they look in the mirror. The posture. The shoulders. The way the body fills space without apologizing for it.<</say>>
+<<say "Tommy">>You apologize for filling space?<</say>>
+<<say "Georgia">>Not me personally. But the female body does. The default posture is, smaller. Legs together. Arms close. Make room. The male body doesn't do that. I stood in that mirror and the body was just, there. Taking up exactly the space it took up. No negotiation.<</say>>
+
+We sit with that. The cafeteria buzzes. Someone heats soup in the microwave and the smell is aggressively tomato.
+
+<<say "Me">>So we all got the mirror.<</say>>
+<<say "Georgia">>We all got the mirror.<</say>>
+
+Tommy finishes his third sandwich.
+
+<<say "Tommy">>Did either of you get the knock?<</say>>
+<<say "Georgia">>Male voice outside the door while I was half-dressed. As a man.<</say>>
+<<say "Tommy">>Different test for you?<</say>>
+<<say "Georgia">>Different. The voice was female. Someone calling the male clone's name. Asking if he was coming to dinner and the body, the male body, the response was, confidence. Not warmth, not welcome. Just, she can wait. He's busy. The default was "my time is more important than her concern." I almost didn't open the door because the body didn't want to bother.<</say>>
+
+She looks at her apple. Takes another bite.
+
+<<say "Georgia">>I opened it. Partially dressed. The male body didn't care about being seen. Zero modesty reflex. The female voice outside could see my chest, my stomach, and the body's response was "so what." That was the lesson. The asymmetry. My body, my real body, the door stays closed until I'm covered. The male body couldn't even understand why the door would stay closed.<</say>>
+<<say "Tommy">>Mierda.<</say>>
+<<say "Georgia">>Yeah.<</say>>
+
+Georgia tosses the apple core into the trash from her chair. Perfect arc. Nothing but bin.
+
+<<say "Georgia">>Mierda indeed.<</say>>
+
+Brett walks past without sitting down. Tray, sandwich, water, straight to the far table. He sits alone with his back to us.
+
+Georgia watches him go.
+
+<<say "Georgia">>He froze in the knock scenario. I heard Elena on the intercom. Eight seconds of nothing. Just stood there.<</say>>
+<<say "Tommy">>Is he going to make it?<</say>>
+<<say "Georgia">>Not my call.<</say>>
+
+She stands.
+
+<<say "Georgia">>But if he does, it won't be because he figured out what the body was doing. It'll be because he figured out what he was doing.<</say>>
+
+She carries her tray to the return window. Pauses. Looks back at us.
+
+<<say "Georgia">>You two are alright. For straight men in a body-swapping program, you're alright.<</say>>
+
+She leaves. Tommy and I sit in the cafeteria with our empty trays and the ghost of her insight and the fluorescent buzz.
+
+<<say "Tommy">>Are we friends now? Is this what's happening?<</say>>
+<<say "Me">>I think so.<</say>>
+<<say "Tommy">>Good.<</say>>
+
+He crushes his chocolate milk carton.
+
+<<say "Tommy">>I could use one of those.<</say>>
+
+<<run SOY.Quests.completeSide('sq_008_georgia', 'talk')>>
+<<run SOY.NPCs.adjustRelationship('georgia', 1)>>
+<<opt "t0_day03_lecture_reporting" "Back to Room 3 for the afternoon addendum">>
+
+
+:: t0_day03_lecture_reporting [facility]
+After lunch. Elena stands again. Shorter segment.
+
+<<say "Elena">>One more principle before we transfer. Reporting.<</say>>
+
+She holds up two fingers.
+
+<<say "Elena">>If you breach, even accidentally, even slightly, you report immediately. Self-reporting triggers a Level 1 review, a conversation, often remedial training, rarely punitive. Concealment triggers a Level 2 minimum. If the concealed breach involved physical or sexual contact, Level 3. Termination. Prosecution.<</say>>
+
+She lowers her hand.
+
+<<say "Elena">>Some of you will feel arousal during today's practicals. Some of you felt it yesterday and did not mention it in debrief.<</say>>
+
+Nobody moves.
+
+<<say "Elena">>I am not asking you to confess. I am telling you that the system already knows, and that Rafael already noted it, and that the only person you are protecting by not reporting is the version of yourself that wants to pretend this work does not affect you physically. That version is a liability.<</say>>
+
+She picks up her tablet.
+
+<<say "Elena">>Room 7. Transfer gowns in the changing area. Be in the pod room by one-fifteen.<</say>>
+
+<<run SOY.Quests.complete('t0_day03', 'lecture')>>
+<<opt "t0_day03_katya_pre_transfer" "Change and go to the pod room">>
+
+
+:: t0_day03_katya_pre_transfer [facility]
+The changing area is small. Locker room energy without the lockers. A bench, a row of hooks, a stack of folded grey transfer gowns. I strip out of my henley, jeans, boots. Fold them onto the bench. The gown ties at the back and leaves my arms bare and I feel ridiculous and clinical and exposed in equal measure.
+
+Tommy is in the stall next to me. I can hear him breathing through the thin partition.
+
+<<say "Me">>Tommy.<</say>>
+<<say "Tommy">>Yeah.<</say>>
+<<say "Me">>You good?<</say>>
+<<say "Tommy">>No. But I'm here.<</say>>
+
+Pause.
+
+<<say "Tommy">>You?<</say>>
+<<say "Me">>Same.<</say>>
+
+We walk to the pod room together. The corridor is cold. The gown is thin. My feet are bare on linoleum and every step makes a small sucking sound that I will remember later as the sound of before.
+
+<<opt "t0_day03_transfer_katya" "The pod room">>
+
+
+:: t0_day03_transfer_katya [facility warp]
+<<scene "locations/pod-room" "Three grey pods: Flor breathing in one, the middle prepped, Katya in the third">>
+
+The pod room. Three capsules. The one on the left is occupied, Flor's body breathing quietly, the steady rise and fall of an empty house. The middle one is empty, prepped, the headset mounted above it like a mechanical crown. The right one holds Katya.
+
+I look at her.
+
+<<face "katya" "Clone 7-K">>Taller than Flor. I can see it even lying down. Pale skin with a warmth underneath, not paper-white but cream, the kind that shows blood easily. Auburn hair spread across the pod's headrest, long, straight, past the shoulders. Even from here I can see the body is different from Flor in the way that a cello is different from a violin. More curve. More weight in the hips and chest. The C-cup breasts rise with each autonomous breath, larger than Flor's, filling the grey training top with a presence that Flor's body whispered and Katya's body states.
+
+Blue-grey eyes. Closed. Long lashes. Lips slightly parted.
+
+Nobody is inside. The body breathes because the autonomic nervous system is functional. The chest rises because the lungs expand because the brainstem fires because the clone's biology does what biology does. But the face has no expression. Not peaceful. Not anything. Just, running. Hardware without software.
+
+Elena's voice through the intercom.
+
+<<say "Elena">>González. Pod two. Lie back. Hands at your sides.<</say>>
+
+I climb into the middle pod. The surface is padded, body-temperature, conforming. The headset descends. Contact pads settle against my temples, the crown of my skull, the vertebra at the base of my neck. The same points as yesterday but today my body recognizes them and my heart rate spikes before the machine even activates.
+
+<<say "Elena">>Breathe normally. The thermal shift will be stronger this time. Katya's neural substrate has higher autonomic resistance than Flor's. You may feel a secondary compression at the sternum. Do not fight it.<</say>>
+
+Breathe. I breathe.
+
+The heat comes first. Not gentle this time. Aggressive. A wave that starts at the contact points and crashes inward, compressing my awareness into a corridor that narrows, narrows, the sensation of being pulled through something that has no dimensions, no width, no shape, just directionality, forward, through, into...
+
+Second compression. Elena warned about it. My sternum, or the memory of my sternum, seized by invisible hands. Pressure. Not pain but the immediate precursor to pain, the moment where the body shouts a warning that the mind cannot process fast enough.
+
+Then expansion.
+
+Fast this time. Faster than Flor. The narrowness shatters outward and I'm somewhere else.
+
+<<run SOY.Body.transfer('7k', setup.clones['7k'])>>
+<<run SOY.Quests.complete('t0_day03', 'transfer')>>
+<<opt "t0_day03_katya_calibration" "Open your eyes">>
+
+
+:: t0_day03_katya_calibration [facility]
+<<face "katya" "Clone 7-K &mdash; the body you're wearing">>I open my eyes and the ceiling is different. The same room but the angle has changed because my head is positioned differently in the pod and also because the eyes processing the image are not my eyes.
+
+Katya's eyes. Blue-grey. The world through them is sharper in a way I didn't expect. Not better vision, exactly. But the color temperature is different. Warmer. Like someone adjusted a filter I didn't know existed.
+
+I sit up.
+
+Weight.
+
+That's the first thing. Flor had weight, yes, the B-cup breasts, the shifted center of gravity. Katya is more. The C-cup breasts are immediately present, a heaviness on the chest that moves when I move, not dramatically but undeniably. When I swing my legs over the edge of the pod, the breast weight shifts laterally, follows the torso's rotation with a half-second delay, then settles.
+
+I look down. The training top is grey, same as Flor's, but it fits differently. The fabric is stretched across the bust, pulled taut, and where it contacts the skin I can feel the texture of the cotton against, things are more sensitive. The training top's seam sits directly across the nipple line and I can feel it. Thread against skin. A friction that Flor's body registered as background noise and Katya's body registers as information.
+
+<<say "Elena">>Stand please.<</say>>
+
+Elena, through the earpiece now. I'm wearing a small in-ear monitor. Her voice is calm, clinical, close.
+
+I stand. The center of gravity is lower than my own body but higher than Flor's. The hips are wider, the distribution of weight across the pelvis is broader, and when I find my balance, my legs are slightly farther apart than I'd stand in my own body. Katya's body defaults to a stance that makes room for itself.
+
+Calibration time. I feel the room stop swaying at, I don't count. I'm too busy processing.
+
+<<say "Elena">>Calibration at thirty-eight seconds. Faster than Flor.<</say>>
+
+Elena notes it. I hear the scratch of a stylus on a tablet through the earpiece.
+
+Walking. I take four steps. The hip sway is more pronounced than Flor's. More dramatic. Flor's body suggested the sway. Katya's body insists on it. Each step sends a small cascade of motion through the thighs, the buttocks, the lower back. I feel my, her, ass shift with each stride in a way that would be impossible to ignore in public. This body moves like it knows it's being watched.
+
+The temperature in the room is cool. Not cold, but cool enough that the air touches the bare skin of my, her, arms and the body responds. Goosebumps rise. The nipples tighten. I feel them tighten against the training top, the tissue contracting, the sensation sharp and specific and completely involuntary.
+
+I stop walking.
+
+<<say "Elena">>Continue.<</say>>
+
+I continue.
+
+<<say "Elena">>Stand in the center of the room. Face the east wall.<</say>>
+
+I face the east wall. The east wall has a door. Above the door is a vent blowing cool air downward. The air hits my face, Katya's face, and the skin there is thinner, more responsive. I feel temperature like weather. Like the air is touching me with intention.
+
+The body blushes. Not from embarrassment. From the temperature differential. Warm blood rising to cool skin. I feel the heat crawl up from the collarbones, across the neck, into the cheeks. I didn't summon it. I can't stop it. The blush just happens, a wave of warmth that turns the skin pink from the inside out, and I'm standing in someone else's body watching her cheeks color without my consent and there is nothing, nothing, I can do about it.
+
+<<say "Elena">>Note your physical state. What is the body doing?<</say>>
+<<say "Me">>Blushing. Nipples are, the temperature. The cool air.<</say>>
+<<say "Elena">>Good. Note it. Do not follow it. We begin Scenario 1 in three minutes.<</say>>
+
+<<opt "t0_day03_scenario1_mirror" "Scenario 1">>

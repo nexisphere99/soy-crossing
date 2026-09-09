@@ -67,3 +67,24 @@
 .prohibit ol { margin: 0; padding-left: 1.4em; }
 .prohibit li { margin: var(--s2) 0; color: var(--ink-2); }
 .prohibit li strong { color: var(--ink); }
+
+/* ---- lecture tenet: a single sentence on the wall screen ---- */
+.tenet {
+	margin: var(--s6) auto;
+	max-width: 24ch;
+	padding: var(--s5) var(--s4);
+	background: var(--ink);
+	color: var(--bg-0);
+	text-align: center;
+	font-family: var(--serif);
+	font-size: var(--fs-2xl);
+	line-height: var(--lh-tight);
+	letter-spacing: 0.01em;
+	border-radius: var(--r2);
+}
+.tenet.sm {
+	font-size: var(--fs-xl);
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	max-width: none;
+}

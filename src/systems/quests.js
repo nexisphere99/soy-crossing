@@ -110,6 +110,73 @@ SOY.Quests = {
 		});
 	},
 
+	/* Registers the Day 3 main quest + refreshes the daily side quests. */
+	registerDay3: function () {
+		this.addMain('t0_day03', {
+			id: 'module2_ethics',
+			title: 'Module 2: Ethics',
+			status: 'active',
+			objectives: [
+				{ id: 'lecture',   text: 'Sit the ethics lecture',            where: 'Room 3',           done: false },
+				{ id: 'transfer',  text: 'Transfer into Clone 7-K',           where: 'The pod room',     done: false },
+				{ id: 'scenarios', text: 'Work the three ethics scenarios',   where: 'The scenario rooms', done: false },
+				{ id: 'debrief',   text: 'Debrief with Rafael',               where: "Rafael's office",  done: false },
+				{ id: 'wind_down', text: 'Get home and clear the phone',      where: 'The apartment',    done: false }
+			]
+		});
+
+		// new day, fresh daily board
+		State.variables.quests.side = [];
+		this.addSide({
+			id: 'sq_001_feed', title: 'Feed the Machine',
+			description: 'No fast today. Eat lunch. Eat something at night.',
+			status: 'active',
+			objectives: [{ id: 'eat', text: 'Eat something', done: false }]
+		});
+		this.addSide({
+			id: 'sq_002_lyla', title: 'Keeping Up Appearances',
+			description: 'Wednesday check-in. Four theories, all wrong. Friday is coming.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Answer Lyla', done: false }]
+		});
+		this.addSide({
+			id: 'sq_003_james', title: 'Guilt Dinner',
+			description: 'Lock in tomorrow night. Thai place. His treat.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Reply to James', done: false }]
+		});
+		this.addSide({
+			id: 'sq_004_mama', title: "Mamá's Campaign",
+			description: 'The Wednesday voice note. A cousin in LA, apparently.',
+			status: 'active',
+			objectives: [{ id: 'respond', text: 'Hear the voice note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_005_vidal', title: "Señora Vidal's Watch",
+			description: 'Note #3 on the doorframe. The surveillance is escalating.',
+			status: 'active',
+			objectives: [{ id: 'read', text: 'Read the note', done: false }]
+		});
+		this.addSide({
+			id: 'sq_006_echo', title: 'Body Echo',
+			description: "Two bodies now. Katya's echo lands louder than Flor's.",
+			status: 'active',
+			objectives: [{ id: 'phantom', text: 'Notice the phantoms', done: false }]
+		});
+		this.addSide({
+			id: 'sq_007_tommy', title: "Tommy's Nerve",
+			description: 'Compare notes with Tommy at lunch.',
+			status: 'active',
+			objectives: [{ id: 'lunch', text: 'Sit with Tommy at lunch', done: false }]
+		});
+		this.addSide({
+			id: 'sq_008_georgia', title: "Georgia's Read",
+			description: 'The other side of the mirror: female-to-male, and what it shows.',
+			status: 'active',
+			objectives: [{ id: 'talk', text: 'Hear Georgia out', done: false }]
+		});
+	},
+
 	addMain: function (key, quest) {
 		State.variables.quests.main[key] = quest;
 	},

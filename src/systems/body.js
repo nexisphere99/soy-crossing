@@ -51,7 +51,7 @@ SOY.Body = {
 		var phantoms = State.variables.body.phantoms;
 		var day = State.variables.calendar.day;
 		var src = bodyData.name;
-		var set = [
+		var set = bodyData.phantomSet || [
 			{ type: 'chest_weight',  label: 'phantom weight at the chest',   intensity: 3 },
 			{ type: 'hip_sway',      label: 'gait adjusting for wider hips', intensity: 2 },
 			{ type: 'hand_size',     label: 'hands feel too large',          intensity: 2 },

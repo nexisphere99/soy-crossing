@@ -24,6 +24,8 @@ setup.speakers = {
 	flor:      { name: 'Flor',           hue: 340, slug: 'flor' },
 	georgia:   { name: 'Georgia',        hue: 288 },
 	brett:     { name: 'Brett',          hue: 96  },
+	adriana:   { name: 'Adriana',        hue: 350, slug: 'adriana' },
+	katya:     { name: 'Katya',          hue: 18,  slug: 'katya' },
 	danny:     { name: 'Danny',          hue: 6   },
 	paco:      { name: 'Paco',           hue: 44  },
 	lyla:      { name: 'Lyla',           hue: 330 },
