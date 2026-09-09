@@ -95,11 +95,13 @@
 
 		var fig = currentFigure();
 		var src = 'game_files/img/full_body/' + fig.slug + '.png';
+		var alt = 'game_files/img/full_body/' + fig.slug + '.jpeg';
 		if (src !== lastSrc) {
 			lastSrc = src;
 			el.classList.remove('no-img');
 			el.querySelector('.char-figure').innerHTML =
-				'<img src="' + src + '" alt="" onerror="' +
+				'<img src="' + src + '" data-fallback="' + alt + '" alt="" onerror="' +
+					"if(this.dataset.fallback){this.src=this.dataset.fallback;this.removeAttribute('data-fallback');return;}" +
 					"var p=document.getElementById('char-panel');" +
 					"p.classList.add('no-img');" +
 					"document.documentElement.classList.remove('charpanel-reserve')" +
