@@ -167,7 +167,7 @@ I button the jeans. Look away. Get on with Saturday.
 <<run SOY.Economy.spend(27.40, 'food')>>
 <<run SOY.Quests.complete('t0_day06', 'groceries')>>
 <<run SOY.NPCs.adjustRelationship('lulu', 1)>>
-<<scene "locations/lulus-bodega" "Lulu's on Saturday: housecoat with flowers, a novela on a propped tablet, the crucifix over the register">>
+<<scene "locations/lulus-bodega-d6" "Lulu's on Saturday: housecoat with flowers, a novela on a propped tablet, the crucifix over the register">>
 
 Lulu's bodega sits on the corner of my block and the corner of my life. The bell on the door has one note, a tired ding that says "you again" and also "welcome." The refrigerator hums a constant B-flat.
 

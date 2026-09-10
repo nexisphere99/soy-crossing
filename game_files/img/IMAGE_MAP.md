@@ -272,11 +272,10 @@ Reused: `locations/cafeteria.png`, `locations/lulus-bodega.png`,
 # Day 6 image map
 
 Prompts: `story_files/day_6/day06_image_prompts.md`. A rest day, no facility.
-Missing files collapse silently. Reused: `mood/october-evening-walk-2.png`,
-`locations/lulus-bodega.png`, `locations/dannys-ramen.png`,
-`locations/vega-bar.png`, `mood/walk-home-night.png`, `mood/bed-night-d5.png`.
+All Day 6 art is now in the repo. Missing files still collapse silently.
+Reused unchanged: `mood/october-evening-walk-2.png`, `mood/bed-night-d5.png`.
 
-## new files (drop PNGs at these paths)
+## delivered — new scene art
 
 | File | Prompt | Used in |
 |---|---|---|
@@ -285,11 +284,24 @@ Missing files collapse silently. Reused: `mood/october-evening-walk-2.png`,
 | `mood/park-october-bench.png` | IMG-D6-004 Park bench | `t0_day06_park_afternoon` |
 | `mood/adriana-bar-late.png` | IMG-D6-007 Adriana at the bar (late, near-empty) | `t0_day06_vega_adriana` |
 
-## reused-shot notes
+## delivered — Day 6 re-shoots of shared locations (`-d6` suffix)
 
-`locations/lulus-bodega` (IMG-D6-002), `locations/dannys-ramen` (IMG-D6-005),
-`locations/vega-bar` (IMG-D6-006), `mood/walk-home-night` (IMG-D6-008),
-`mood/bed-night-d5` (IMG-D6-009) already exist from earlier days.
+These are Saturday-specific versions of locations that also exist as plain
+shots for earlier days; the Day 6 passages point at the `-d6` files.
+
+| File | Prompt | Used in |
+|---|---|---|
+| `locations/lulus-bodega-d6.png` | IMG-D6-002 Lulu's on Saturday (Lulu mid-lecture) | `t0_day06_lulus` |
+| `locations/dannys-ramen-d6.png` | IMG-D6-005 Danny's counter, Tommy + habanero tears | `t0_day06_dannys_tommy` |
+| `locations/vega-bar-d6.png` | IMG-D6-006 Vega corner booth, Paco's phone | `t0_day06_vega_paco` |
+| `mood/walk-home-night-d6.png` | IMG-D6-008 1 AM streets, long shadow | `t0_day06_walk_home` |
+
+## delivered — reference art (not wired to a passage)
+
+| File | Prompt |
+|---|---|
+| `locations/dannys-ramen-exterior.png` | IMG-D6-LOC-002 Danny's exterior, broken R |
+| `locations/vega-bar-exterior.png` | IMG-D6-LOC-001 Vega exterior, gold sign |
 
 ## still on initial-letter fallback (optional)
 

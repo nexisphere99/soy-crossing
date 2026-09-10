@@ -24,7 +24,7 @@ I turn left on Fifth. Danny's neon sign blinks in the window, the R in RAMEN per
 <<run SOY.Quests.complete('t0_day06', 'dannys')>>
 <<run SOY.NPCs.adjustRelationship('tommy', 1)>>
 <<run SOY.NPCs.adjustRelationship('danny', 1)>>
-<<scene "locations/dannys-ramen" "Danny's on Saturday: BTS on the speakers, steam off the bowls, two stools at the counter">>
+<<scene "locations/dannys-ramen-d6" "Danny's on Saturday: BTS on the speakers, steam off the bowls, two stools at the counter">>
 
 <<face "tommy" "Tommy Watts">>Tommy is three bites into the habanero ramen when I sit down. His eyes are watering. His nose is running. He looks like a man who's lost a fight with a pepper and refuses to concede.
 
@@ -104,7 +104,7 @@ He walks to his bus stop, shoulders up against the cold. I head toward Vega.
 <<run SOY.Economy.spend(24, 'drinks')>>
 <<run SOY.Quests.complete('t0_day06', 'vega')>>
 <<run SOY.NPCs.adjustRelationship('paco', 1)>>
-<<scene "locations/vega-bar" "Vega on a Saturday: Latin house, bodies at the bar, the corner booth, a half-empty bottle of Diplomático">>
+<<scene "locations/vega-bar-d6" "Vega on a Saturday: Latin house, bodies at the bar, the corner booth, a half-empty bottle of Diplomático">>
 
 Vega on a Saturday is a different animal than Vega on a weeknight. The music is louder, Latin house instead of the usual soft salsa. The crowd is thicker. The lighting is dim enough to hide flaws and bright enough to find beauty, which is a bartender's trick that Adriana probably engineered herself.
 
@@ -344,7 +344,7 @@ She's already wiping down the bar as I stand, a casual inventory, the kind a per
 :: t0_day06_walk_home [night phantom]
 <<run SOY.Locations.travel('street')>>
 <<run SOY.Quests.complete('t0_day06', 'home')>>
-<<scene "mood/walk-home-night" "1 AM Brooklyn, sodium light in orange pools on wet pavement, a long shadow stretching behind">>
+<<scene "mood/walk-home-night-d6" "1 AM Brooklyn, sodium light in orange pools on wet pavement, a long shadow stretching behind">>
 
 The walk home. 1 AM streets in Brooklyn. Cold enough now that the jacket isn't quite sufficient. My breath makes shapes. The sodium streetlights throw orange pools on wet pavement, and my shadow stretches long behind me.
 
