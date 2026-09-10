@@ -266,3 +266,33 @@ Reused: `locations/cafeteria.png`, `locations/lulus-bodega.png`,
 
 `avatars/diana.png`, `avatars/maria.png`, `avatars/nakamura.png`,
 `portraits/vidal.png` (for the `<<face "vidal">>` in the knock branch).
+
+---
+
+# Day 6 image map
+
+Prompts: `story_files/day_6/day06_image_prompts.md`. A rest day, no facility.
+Missing files collapse silently. Reused: `mood/october-evening-walk-2.png`,
+`locations/lulus-bodega.png`, `locations/dannys-ramen.png`,
+`locations/vega-bar.png`, `mood/walk-home-night.png`, `mood/bed-night-d5.png`.
+
+## new files (drop PNGs at these paths)
+
+| File | Prompt | Used in |
+|---|---|---|
+| `mood/apartment-saturday-morning.png` | IMG-D6-001 Morning apartment (cleaning) | `t0_day06_wake` |
+| `mood/apartment-saturday-afternoon.png` | IMG-D6-003 Clean apartment afternoon | `t0_day06_apartment_afternoon`, `t0_day06_nap` |
+| `mood/park-october-bench.png` | IMG-D6-004 Park bench | `t0_day06_park_afternoon` |
+| `mood/adriana-bar-late.png` | IMG-D6-007 Adriana at the bar (late, near-empty) | `t0_day06_vega_adriana` |
+
+## reused-shot notes
+
+`locations/lulus-bodega` (IMG-D6-002), `locations/dannys-ramen` (IMG-D6-005),
+`locations/vega-bar` (IMG-D6-006), `mood/walk-home-night` (IMG-D6-008),
+`mood/bed-night-d5` (IMG-D6-009) already exist from earlier days.
+
+## still on initial-letter fallback (optional)
+
+`avatars/vidal.png` / `portraits/vidal.png` (the `<<face "vidal">>` in the
+plate-return scene), plus the Day-5 carryovers `avatars/diana.png`,
+`avatars/maria.png`, `avatars/nakamura.png`.

@@ -10,7 +10,7 @@ Config.saves.maxSlotSaves = 8;
 try { document.documentElement.lang = document.documentElement.lang || 'en'; } catch (e) {}
 
 /* Build version   shown under the title in the sidebar and on the splash. */
-setup.version = '0.0.4';
+setup.version = '0.0.5';
 
 /* Namespace bootstrap (systems files each guard this too) */
 window.SOY = window.SOY || {};
@@ -25,7 +25,8 @@ setup.masterSchedule = {
 	2: { phase: 'course', tier: 0, courseDay: 2 },
 	3: { phase: 'course', tier: 0, courseDay: 3 },
 	4: { phase: 'course', tier: 0, courseDay: 4 },
-	5: { phase: 'course', tier: 0, courseDay: 5 }
+	5: { phase: 'course', tier: 0, courseDay: 5 },
+	6: { phase: 'weekend', tier: 0, courseDay: null }
 };
 
 /*

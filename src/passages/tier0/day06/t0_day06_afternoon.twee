@@ -1,0 +1,322 @@
+:: t0_day06_apartment_afternoon [choice-hub]
+<<run SOY.Time.ensureSlot(1)>>
+<<run SOY.Locations.travel('apartment')>>
+<<if visited("t0_day06_apartment_afternoon") lte 1>>
+<<scene "mood/apartment-saturday-afternoon" "The apartment clean, lemon cleaner and fresh sheets, empanadas warming in the oven">>
+
+Home. Groceries away. The apartment smells like lemon cleaner and fresh sheets and the empanadas warming in the oven. Chipi sits on the kitchen counter, which she's not supposed to do, watching me unpack bags with the intensity of someone reviewing footage.
+
+I eat two empanadas at the table. At the table. Not standing at the counter, not on the couch. A radical act of domesticity.
+
+Then I cook, because this is what Saturday afternoon is for. Onions, garlic, cilantro. Chorizo into the pan and the apartment fills with the smell of paprika and rendered fat and home. Chorizo with scrambled eggs and beans, the kind of food that takes thirty minutes and tastes like someone loves you.
+
+Somewhere in the middle of it my hand goes to my chest. Just rests there. Fingers spread, pressing lightly, and the phantom is a whisper now, barely there, but it says "weight" and my hand listens. I stand in my kitchen with my palm on my chest and the chorizo sizzling and I think about Renata's breasts, not sexually, not admiringly, but architecturally. The way they changed posture. The way the spine compensated.
+
+My hand drops. I stir the chorizo.
+
+I eat at the table again. Two meals at the table in one day. Personal record. Chipi jumps up and sits in the second chair and watches me eat with the expression of a dinner companion who finds the conversation lacking.
+
+<<say "Me">>I had a speculum inside me yesterday. Inside a clone body. The body knew what to do. I didn't.<</say>>
+
+Chipi licks her paw.
+
+<<say "Me">>Good talk.<</say>>
+
+The afternoon stretches out. Unhurried. No schedule, no facility, no bodies to inhabit but my own.
+<<else>>
+Back inside. The empanada smell has faded. Chipi has claimed the clean bed. The afternoon still has some light left in it.
+<</if>>
+
+<<if not visited("t0_day06_mama_call")>>
+<<opt "t0_day06_mama_call" "Call Mamá back" "She left a voice note. The candle. San José.">>
+<</if>>
+<<if not visited("t0_day06_park_afternoon")>>
+<<opt "t0_day06_park_afternoon" "Walk to the park" "Fresh air. October leaves. People to watch.">>
+<</if>>
+<<if not visited("t0_day06_nap")>>
+<<opt "t0_day06_nap" "Nap on the couch" "Chipi. The blue blanket. Two hours.">>
+<</if>>
+<<if not visited("t0_day06_handbook_study")>>
+<<opt "t0_day06_handbook_study" "Read the Handbook, chapters 4-6" "Monday prep. Identity drift. Case law.">>
+<</if>>
+<<opt "t0_day06_getting_ready" "Start getting ready for tonight" "Danny's at 7. Vega at 9.">>
+
+
+:: t0_day06_mama_call [npc-mama]
+<<run SOY.Quests.completeSide('sq_004_mama', 'call')>>
+<<run SOY.NPCs.adjustRelationship('lyla', 0)>>
+<div class="callbar">&#9742; Mamá &middot; connected</div>
+
+Three rings. She picks up like she was holding the phone.
+
+<<say "Mamá">>¡Mijo!<</say>>
+<<say "Me">>Hola, Mamá.<</say>>
+<<say "Mamá">>You're alive. I was starting to wonder. Saturday and you call? What happened?<</say>>
+<<say "Me">>Nothing happened. I just wanted to talk.<</say>>
+
+Silence. Then, suspiciously:
+
+<<say "Mamá">>You never just want to talk. Are you sick? Are you in trouble? Did you lose the apartment?<</say>>
+<<say "Me">>Mamá. I have a job now. I told you.<</say>>
+<<say "Mamá">>The biometric thing. I told your father and he said "what does that mean" and I said "science" and he made that face.<</say>>
+<<say "Me">>What face?<</say>>
+<<say "Mamá">>The face he makes when he doesn't understand something but doesn't want to admit it. The same face he made when you told him you were moving to New York. Like he's doing math in his head and the numbers aren't adding up.<</say>>
+
+I sit on the couch. Chipi immediately climbs onto my chest.
+
+<<say "Me">>How's Papá?<</say>>
+<<say "Mamá">>The same. He fixed the neighbor's truck yesterday. Three hours in the sun. I told him, Ricardo, you're retired, stop fixing things, and he said, Lupita, if I stop fixing things I'll die. So. He fixes things.<</say>>
+<<say "Me">>Héctor?<</say>>
+<<say "Mamá">>Your brother called Tuesday. Fifteen seconds. "Todo bien." "Sí." "Bueno." I gave birth to a man who speaks in subtitles.<</say>>
+
+I laugh loud enough that Chipi lifts her head, annoyed.
+
+<<say "Mamá">>Mijo.<</say>>
+
+Her voice changes. The warmth is still there but something else moves underneath it.
+
+<<say "Mamá">>I lit the candle. San José. For the job. I lit it and I prayed and I said, God, my son is far away and he's doing something I don't understand but he's a good boy and he works hard and please let this job be the one. Let him stay.<</say>>
+
+She pauses.
+
+<<say "Mamá">>I need you to stay.<</say>>
+
+My throat closes. I press my palm flat against Chipi's back and her purr vibrates through my hand, into my chest, into the hollow place where the words are stuck.
+
+<<say "Me">>I'm going to stay, Mamá.<</say>>
+<<say "Mamá">>Promise me.<</say>>
+<<say "Me">>Te lo prometo.<</say>>
+<<say "Mamá">>Bueno.<</say>>
+
+She sniffs. Business mode.
+
+<<say "Mamá">>Now. Daniela. She's a nurse, mijo. Nurses are practical. Practical women make good wives. At least call her. One phone call. Five minutes. I promised her mother.<</say>>
+
+<<opt "t0_day06_daniela_agree" "&ldquo;Fine. I'll call her this week.&rdquo;">>
+<<opt "t0_day06_daniela_delay" "&ldquo;Mamá, I'm not ready for that right now.&rdquo;">>
+<<opt "t0_day06_daniela_adriana" "&ldquo;Actually, there's someone. I've been going to a bar and there's someone.&rdquo;">>
+
+
+:: t0_day06_daniela_agree [npc-mama]
+<<set $flags.daniela_response = 'agree'>>
+<<say "Me">>Fine. I'll call her this week.<</say>>
+<<say "Mamá">>¿De verdad? You promise?<</say>>
+<<say "Me">>I promise I'll call. I don't promise anything after that.<</say>>
+<<say "Mamá">>Nobody's asking for after. Just the call. I'll text you her number. The real one this time. Te quiero, mijo. Come bien.<</say>>
+
+She hangs up. The number arrives thirty seconds later, with a heart emoji and, inexplicably, a sticker of a cartoon chicken.
+
+<<opt "t0_day06_apartment_afternoon" "Back to the afternoon">>
+
+
+:: t0_day06_daniela_delay [npc-mama]
+<<set $flags.daniela_response = 'delay'>>
+<<set $player.guilt += 1>>
+<<say "Me">>Mamá, I'm not ready for that right now. There's a lot going on. The job, the visa. I can't add a stranger to it.<</say>>
+
+A pause. When she speaks again the disappointment is sanded smooth, which is worse than if she'd sharpened it.
+
+<<say "Mamá">>Okay, mijo. Okay. When you're ready. I'll tell tía Rosalba you're very busy with important science. She'll be impressed. Daniela will be, patient.<</say>>
+<<say "Me">>Thank you, Mamá.<</say>>
+<<say "Mamá">>Te quiero. Eat vegetables. Not just the tomatoes on the tacos. Real ones.<</say>>
+
+She hangs up. The guilt sits in my chest, thin and familiar, right next to the phantom.
+
+<<opt "t0_day06_apartment_afternoon" "Back to the afternoon">>
+
+
+:: t0_day06_daniela_adriana [npc-mama]
+<<set $flags.daniela_response = 'adriana'>>
+<<set $flags.mama_knows_adriana = true>>
+<<say "Me">>Actually, there's someone. I've been going to a bar and there's someone.<</say>>
+<<say "Mamá">>A bar?<</say>>
+
+Her voice hits a register normally reserved for natural disasters.
+
+<<say "Mamá">>You're meeting women in bars? Mijo. Bars are where men go to make mistakes. What kind of woman works in a bar?<</say>>
+<<say "Me">>She's a bartender. She's smart. She reads people.<</say>>
+<<say "Mamá">>A bartender who reads people. This is supposed to reassure me? Is she Mexican?<</say>>
+<<say "Me">>Puerto Rican.<</say>>
+<<say "Mamá">>Hmm.<</say>>
+
+The most loaded syllable in the Spanish language when deployed by a Mexican mother. It contains multitudes.
+
+<<say "Mamá">>Puerto Rican. Okay. Does she go to church?<</say>>
+<<say "Me">>I don't know, Mamá.<</say>>
+<<say "Mamá">>Find out. Te quiero, mijo. Call Daniela anyway. Having options is not a sin.<</say>>
+
+She hangs up. I lie on the couch with Chipi on my chest and the distant realization that I mentioned Adriana to my mother before I've had a single real conversation with her, which is either premature or instinctive, and I can't tell which.
+
+<<opt "t0_day06_apartment_afternoon" "Back to the afternoon">>
+
+
+:: t0_day06_park_afternoon [random-encounter phantom]
+<<run SOY.Locations.travel('park')>>
+<<scene "mood/park-october-bench" "A strip of green between buildings, wet copper leaves, one ancient oak, a purple-orange autumn sky">>
+
+The park is three blocks west. Small, a strip of green wedged between apartment buildings, with a few benches, a sad fountain that works in summer and doesn't in October, and one ancient oak tree that has survived this neighborhood longer than any building on the block.
+
+October air. The kind that smells like the absence of summer. I walk the gravel path with my hands in my jacket pockets and my breath making small clouds.
+
+People-watching. This is different now.
+
+A woman on a bench, mid-thirties, reading a paperback. She crosses her legs and I notice it. The automatic motion, the way the top leg settles against the bottom one, the slight shift of the hips to accommodate the new geometry. Three days ago I wouldn't have noticed. Now I see the mechanics. The physics. The small, constant calculations a female body makes without being asked.
+
+She shifts the bag on her shoulder. The strap sits in a groove between her shoulder and her breast, a groove that exists because the breast creates it. I know that groove now. From the inside.
+
+A jogger passes. Male, my age, earbuds in. He runs with that loose-limbed confidence of a man whose body has never been anyone else's. No hip compensation. No breast stabilization. No consideration of where the gaze lands. He runs like the air belongs to him and the ground is his co-conspirator.
+
+I used to run like that. Before Monday.
+
+A mom with a stroller stops at the fountain, adjusts the blanket over the kid with one hand while holding a coffee in the other while checking her phone with, I swear, a third hand that doesn't exist. She's doing three things simultaneously and her body knows how to do all of them because it has rehearsed this choreography a thousand times.
+
+I sit on a bench. The oak tree drops a leaf on my shoulder. I brush it off.
+
+My phone buzzes.
+
+<<phone "Paco">>
+<<txt "Paco">>vega at 9? i'll be there at 8 but that's because i have no self-control. bring your good attitude<</txt>>
+<<txt "Tommy">>definitely 7 at danny's. i'm ordering the habanero ramen because if i survived renata's body i can survive anything<</txt>>
+<</phone>>
+
+A pigeon lands on the bench next to me. Looks at me. Decides I'm not worth the energy. Flies away. Fair assessment.
+
+<<opt "t0_day06_apartment_afternoon" "Walk back">>
+
+
+:: t0_day06_nap [phantom]
+<<scene "mood/apartment-saturday-afternoon" "The couch, the blue blanket Mamá crocheted, the light shifting from warm to amber">>
+
+The couch. Chipi. The blue blanket my mother crocheted that's too small for a bed but perfect for a couch nap. I lie down with the intention of resting my eyes for fifteen minutes and I'm gone for two hours.
+
+The dream is body-shaped.
+
+I'm in a grocery store. Normal, fluorescent, too many options. I'm shopping. But my hands are smaller. My hips bump the cart at a different angle. I'm wearing a sundress and the air-conditioning hits my legs and my arms and the space between my collarbones where the dress opens. I look down. Breasts. The cart is full of fruit.
+
+A man in the produce section says "Excuse me" and I step aside and the motion is fluid, hip-first, the way Katya's body moved when I was in her during Scenario 3. He smiles. I smile back. The body smiles before I decide to, an automatic response wired into the muscles of someone else's face.
+
+Then I'm at the register and the cashier says "Paper or plastic?" and I open my mouth to answer and the voice that comes out is mine. Manuel's voice, deep, accented, coming from a body in a sundress with breasts and hips and painted nails.
+
+The cashier looks at me. I look at me. The dream cracks and I wake up on the couch with Chipi on my stomach and my heart going fast for no reason.
+
+3:48 PM. The afternoon light has moved from warm to amber. I sit up. Drink water. The dream is already fading at the edges but the center holds: the grocery store, the sundress, the smile that happened without permission, the voice that didn't match.
+
+I file it next to everything else. The phantom shelf is getting full.
+
+<<opt "t0_day06_apartment_afternoon" "Shake it off">>
+
+
+:: t0_day06_handbook_study [phantom]
+<<run SOY.Quests.completeSide('sq_012_handbook', 'read')>>
+<<set $player.knowledgeBonus = ($player.knowledgeBonus || 0) + 1>>
+
+The Transfer Worker's Handbook lives on my phone as a PDF that's 847 pages long and formatted with the visual charm of a tax document. I open it on the couch with Chipi on my lap and a coffee going cold on the table.
+
+Chapters 4 through 6. Monday's material.
+
+<h2>Chapter 4: Long-Term Identity Management</h2>
+
+<div class="quote">Identity drift: the gradual, often imperceptible shift in a transferee's self-concept resulting from sustained or repeated inhabitation of bodies other than their own.</div>
+
+The word "imperceptible" does a lot of work in that sentence.
+
+The stages. One: Novelty. Everything is new, the body is an experience. Two: Familiarity. The body becomes comfortable, the transferee begins to anticipate rather than react. Three: Preference. The transferee begins to compare bodies, to rank experiences, to develop favorites. Four: Need. The transferee seeks transfer not for work but for the experience itself. Five: Crisis. The transferee's own body feels wrong, foreign, insufficient.
+
+There's a self-assessment checklist. //Do you find your own body less comfortable after repeated transfers?// I think about the shower this morning. //Do you catch yourself comparing your body unfavorably to bodies you've inhabited?// My hands, this morning, measuring knuckles against Flor's. //Do you experience phantom sensations for more than 24 hours post-transfer?// The hip sway is becoming persistent.
+
+I close the checklist. Not because the answers scare me. Because the answers are honest and I need to sit with them before I analyze them.
+
+<h2>Chapter 5: Gender-Specific Transfer Considerations</h2>
+
+<div class="quote">Male arousal tends to be localized, directional, and mechanically oriented toward climax. Female arousal tends to be diffuse, contextual, and multi-centered. Transferees describe the difference as "the whole body becomes the organ" versus "one organ becomes the whole body."</div>
+
+Georgia said something similar. "Everywhere and nowhere."
+
+The gray zone: arousal in your own body, afterward, that's clearly a response to transfer experiences. The handbook acknowledges this with careful language. //Post-transfer sexual processing is a normal and expected part of the adaptation cycle. Transferees are encouraged to engage with their own bodies honestly and without shame while maintaining clear boundaries between experience-processing and fixation.//
+
+The handbook says this is normal. It's the most awkwardly written permission slip in history.
+
+<h2>Chapter 6: Contractual Edge Cases</h2>
+
+Two cases stick. Case 14: a female transferee in a male body produced an erection in response to a client's perfume, couldn't suppress it, the client noticed, the host sued. The court reduced damages because the contract lacked a "physiological response management" clause.
+
+Case 22: a male transferee in a female body, a man grabbed the host's body without consent, hand on the waist, pulling close. The transferee froze. Allowed the contact for seven seconds before extracting. The host was furious. Not about the grab, which she acknowledged was the man's fault, but about the freeze. //You let him touch my body for seven seconds. I would have broken his wrist in one.//
+
+Seven seconds. I think about Scenario 4. The hand on the knee. Two seconds? Three? The body was already leaning in before my brain caught up. The difference between two and seven is the difference between a reflex and a choice.
+
+I close the PDF. Chipi has fallen asleep on my lap. The coffee is stone cold. I've been reading for ninety minutes and my brain feels lightly sautéed.
+
+<<opt "t0_day06_apartment_afternoon" "Put the phone down">>
+
+
+:: t0_day06_getting_ready [choice-hub]
+<<run SOY.Locations.travel('apartment')>>
+
+Six PM. Laundry done, folded, put away. The apartment is the cleanest it's been since I moved in. Chipi has taken ownership of the freshly made bed and shows no signs of relinquishing it.
+
+I eat the remaining empanadas and some of the chorizo-egg from earlier, reheated. Two more actual meals. I can feel Lulu's approval from a block away, like a benevolent radar.
+
+Getting ready. Clean black t-shirt under the green flannel. Same jeans, same sneakers. The olive jacket. The cologne Paco gave me last Christmas, cedarwood and citrus, which he swears is the reason Isabela answered his first DM.
+
+<<say "Me">>Back by midnight. Don't push anything off the counter.<</say>>
+
+Chipi pushes a pen off the nightstand. Eye contact maintained throughout.
+
+<<say "Me">>Noted.<</say>>
+
+<<opt "t0_day06_adriana_text" "Text Adriana: &ldquo;Working tonight?&rdquo;">>
+<<opt "t0_day06_vidal_plate" "Stop by Señora Vidal to return the plate">>
+<<opt "t0_day06_transition_evening" "Head straight to Danny's">>
+
+
+:: t0_day06_adriana_text [phone romantic]
+<<set $flags.d6_adriana_texted = true>>
+<<run SOY.NPCs.adjustRelationship('adriana', 1)>>
+
+<<phone "Adriana">>
+<<txt "Me">>Working tonight?<</txt>>
+<<txt "Adriana">>Every Saturday. It's a madhouse until eleven, then it's the good kind of empty. You coming in?<</txt>>
+<<txt "Me">>Later. Ramen first, then Paco. So, ten-ish.<</txt>>
+<<txt "Adriana">>The mezcal will still be here. Probably. Depends how the madhouse goes.<</txt>>
+<</phone>>
+
+<<opt "t0_day06_transition_evening" "Out into the evening">>
+
+
+:: t0_day06_vidal_plate [npc-vidal]
+<<set $flags.d6_vidal_plate = true>>
+<<set $flags.vidal_sunday = true>>
+<<run SOY.Quests.completeSide('sq_005_vidal', 'plate')>>
+<<run SOY.NPCs.adjustRelationship('senora_vidal', 1)>>
+<<face "vidal" "Señora Vidal">>
+
+I grab the cleaned plate from the kitchen. Señora Vidal's apartment is directly below mine, 4B. I knock.
+
+Footsteps. The door opens exactly four inches. One eye appears. Dark, suspicious, framed by the chain.
+
+<<say "Vidal">>González.<</say>>
+<<say "Me">>Señora Vidal. Your plate. From the arroz con pollo.<</say>>
+
+The door closes. Chain rattles. Opens fully. Aggressive floral housecoat. Slippers. Hair in rollers. She takes the plate, inspects it for cleanliness, finds it acceptable.
+
+<<say "Vidal">>You washed it. With soap.<</say>>
+<<say "Me">>Yes, Señora.<</say>>
+<<say "Vidal">>Good. The last time someone returned a plate to me it had, residue.<</say>>
+
+She looks at me. Up and down. Quick but thorough.
+
+<<say "Vidal">>You look better. Less like a ghost. Are you eating?<</say>>
+<<say "Me">>Yes.<</say>>
+<<say "Vidal">>Your cat woke me up at two AM. She was singing. An opera. I considered calling the police.<</say>>
+<<say "Me">>I'm sorry about Chipi.<</say>>
+<<say "Vidal">>Don't apologize for the cat. Apologize that you're not home at two AM to stop her.<</say>>
+
+She adjusts a roller.
+
+<<say "Vidal">>Tomorrow. I'm making bacalao. If you want some, knock at one. Bring bread. Good bread, not the cheap kind from the bodega that tastes like packing material.<</say>>
+<<say "Me">>I'll bring bread.<</say>>
+<<say "Vidal">>You better. And cut your hair. You look like a delinquent.<</say>>
+
+She closes the door. The chain rattles. I stand in the hallway smiling for no good reason.
+
+<<opt "t0_day06_transition_evening" "Out into the evening">>

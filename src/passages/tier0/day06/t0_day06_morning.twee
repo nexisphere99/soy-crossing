@@ -1,0 +1,237 @@
+:: t0_day06_wake [day-start]
+<<set $phase = "tier0">>
+<<set $visaDays = 22>>
+<<set $calendar.weekday = 6>>
+<<set $calendar.phase = "weekend">>
+<<run SOY.Body.resetExercises()>>
+<<set $body.todayTransferred = false>>
+<<if not $quests.main.t0_day06>><<run SOY.Quests.registerDay6()>><</if>>
+<<run SOY.Locations.travel('apartment')>>
+<<scene "mood/apartment-saturday-morning" "9:47, October light at a lazy angle, the black patches on the cat turned copper">>
+
+I wake up at 9:47 and the first thing I register is the quiet. No alarm. No bus to catch. No Elena Cordero waiting in a room to dismantle my understanding of what a body is. Just October light coming through the bedroom window at a lazy angle, landing on Chipi's fur where she's curled against my hip, turning the black patches copper.
+
+Saturday.
+
+I lie there for a while. My hand rests on my sternum, flat, bony, and the phantom is there, a soft pressure that isn't. Renata's D-cup forward pull, the way the weight used to settle when I lay on my back. Gone, obviously. But my nervous system keeps filing the paperwork like it hasn't gotten the memo.
+
+I flex my fingers. My fingers. Big knuckles, callused at the tips from years of keyboard work, a hangnail on my left index finger I keep forgetting to deal with. These are mine. They feel specific this morning, in a way they didn't used to. Not better or worse than Flor's delicate bird-bone fingers or Katya's long ones or Renata's capable, thick-fingered hands. Just, mine. One option out of several I've now experienced.
+
+Chipi stretches, yawns, shows me every tooth she owns, then walks across my chest to the nightstand where she begins her morning project of pushing the water glass toward the edge. I grab it before she wins.
+
+<<say "Me">>Buenos días, terrorista.<</say>>
+
+She blinks. Jumps off the bed. Goes to her food bowl and meows once, precisely, the way a drill sergeant says "move."
+
+I get up. Boxer shorts, bare feet on cold floor. The apartment looks like it survived a minor natural disaster. Five days of training, five days of barely being here long enough to sleep. Dishes in the sink, a tower of them. Laundry in a pile by the bathroom door. Two empty Modelo bottles on the coffee table. A plate of Señora Vidal's arroz con pollo, half-eaten, fork still in it.
+
+Coffee first. I set up the pot, and the grinder is back on the counter because Chipi pushed it there sometime in the night from whatever cabinet I'd banished it to. Her persistence is honestly impressive. I grind the beans. Fill the filter. Stand there while it brews.
+
+<<opt "t0_day06_phone_check" "Check the phone">>
+<<opt "t0_day06_cleaning" "Leave it. Start on the apartment.">>
+
+
+:: t0_day06_phone_check [phone]
+Texts waiting.
+
+<<phone "Paco">>
+<<txt "Paco">>hermano, vega tonight? i have rum. also isabela sent a bikini pic and i am legally obligated to show you<</txt>>
+<</phone>>
+
+<<phone "Tommy">>
+<<txt "Tommy">>still on for Danny's? 7 works. also I slept 6 hours straight last night. new record. renata only showed up once in the dream<</txt>>
+<</phone>>
+
+<<phone "James">>
+<<txt "James">>Saturday bro! Mom made jollof rice. dropping some off at your place later if ur around<</txt>>
+<</phone>>
+
+<<if $flags.lyla_knows>>
+<<phone "Lyla">>
+<<txt "Lyla">>morning body-swap boy. i read three articles about consciousness transfer last night. i have QUESTIONS. enjoy your saturday because monday i'm coming for answers<</txt>>
+<</phone>>
+<<else>>
+<<phone "Lyla">>
+<<txt "Lyla">>morning sunshine. the chart has been updated. you're now at 74% on theory 5. have a good day off from your MYSTERIOUS JOB<</txt>>
+<</phone>>
+<</if>>
+
+<<phone "Mamá">>
+<<txt "Mamá">>&#9654; Voice note &middot; 0:34<</txt>>
+<</phone>>
+
+<<say "Mamá">>Mijo, it's Saturday, you should sleep but not too much, sleeping too much makes the body lazy, your tía Concha slept until noon every day and look what happened to her hips. I'm making pozole. I wish you were here to eat it. ¿Y Daniela? Did you call her? She asks about you. Bueno, te quiero, come bien.<</say>>
+
+I pour coffee. Black, slightly burnt, perfect. Drink it standing at the counter because sitting feels like too much commitment for this hour. Chipi weaves between my ankles, purring strategically.
+
+<<say "Me">>You already ate.<</say>>
+
+She looks at me with those green eyes that say, plainly, "Prove it." I give her three kibbles from the bag. A bribe. She accepts.
+
+<<opt "t0_day06_cleaning" "Start on the apartment">>
+
+
+:: t0_day06_cleaning [home]
+<<run SOY.Quests.complete('t0_day06', 'clean')>>
+
+The cleaning happens in stages.
+
+**Stage one: assessment.** I walk through the apartment cataloguing damage. Kitchen sink: six plates, three mugs, one pan with fossilized egg residue from Tuesday. Bathroom: towels on the floor, toothpaste cap missing (Chipi, probably). Bedroom: sheets haven't been changed since, I genuinely don't remember. The hamper is less a hamper and more a textile cairn marking the spot where laundry goes to die.
+
+**Stage two: music.** Celia Cruz, because Saturday mornings belong to Celia Cruz, a rule I didn't make but absolutely enforce. //La Vida Es Un Carnaval// fills the apartment and Chipi immediately vanishes under the bed because she has opinions about music and they're all wrong.
+
+**Stage three: the actual work.** Dishes first. Hot water, soap. Six days of eating mostly standing up means fewer dishes than you'd think. The pan with the egg fossil requires soaking and profanity. The vacuum comes out and cat hair comes up in quantities that suggest I'm living with seventeen cats, not one.
+
+Under the couch I find a pen cap, a receipt from Lulu's, and what appears to be a hair tie that doesn't belong to anyone I know. Thin, black, elastic. The kind women wear on their wrists.
+
+Nobody has been in this apartment except me. The hair tie must have come with the furniture, or been here when I moved in, or been delivered by the hair-tie fairy that apparently services bachelor apartments in this zip code.
+
+I hold it up. Think about Renata's thick black curls, the way they fell past her shoulders, how the weight of them changed the way the head sat on the neck.
+
+<<opt "t0_day06_hairtie_drawer" "Junk drawer. Move on.">>
+<<opt "t0_day06_hairtie_trash" "Throw it away.">>
+<<opt "t0_day06_hairtie_wrist" "Put it on your wrist.">>
+
+
+:: t0_day06_hairtie_drawer [home]
+<<set $flags.hairtie = 'drawer'>>
+I put the hair tie in the junk drawer, on top of the dead batteries and the spare keys to an apartment I don't live in anymore. Out of sight. Not gone. Just filed.
+
+<<opt "t0_day06_laundry_sheets" "Laundry, then sheets">>
+
+
+:: t0_day06_hairtie_trash [home]
+<<set $flags.hairtie = 'trash'>>
+I drop it in the trash. On top of the coffee grounds. It's a hair tie. It's a piece of elastic. There is nothing to think about here and I am not thinking about it.
+
+I close the lid a little harder than the lid requires.
+
+<<opt "t0_day06_laundry_sheets" "Laundry, then sheets">>
+
+
+:: t0_day06_hairtie_wrist [home phantom]
+<<set $flags.hairtie = 'wrist'>>
+I slide it onto my wrist. It sits loose there, too big for the bone, a thin black circle against skin that has never needed one.
+
+I keep working. Vacuuming, folding, wiping counters. And every twenty minutes or so my thumb finds it without my telling it to, spins it once around the wrist, the way you'd worry a ring. A small habitual motion I've never had before, borrowed from a body I wore for two hours, running now on my own hardware like a background process I can't quite close.
+
+<<opt "t0_day06_laundry_sheets" "Laundry, then sheets">>
+
+
+:: t0_day06_laundry_sheets [home]
+Laundry goes into the machine in the basement. Two loads. Dark and darker. I own exactly zero items of white clothing, which is the one smart decision I've made this year.
+
+While the laundry runs I change the sheets. Fresh ones from the linen closet, the blue set my mother sent me when I moved in, still the nicest sheets I own. They smell like detergent and faintly of the cedar blocks Mamá packed around them, which means they smell like home, which means I stand there holding a pillowcase against my face for about four seconds longer than a grown man should.
+
+Chipi emerges once the vacuum is silent. She inspects the clean apartment with the air of a building inspector finding everything just barely up to code. She jumps on the freshly made bed, circles three times, lies exactly in the center.
+
+<<say "Me">>You're welcome.<</say>>
+
+She closes her eyes. Audience over.
+
+<<opt "t0_day06_shower_dress" "Shower">>
+
+
+:: t0_day06_shower_dress [home]
+I shower. The hot water is good today, consistently hot instead of the usual roulette between scalding and arctic. I stand under the stream and let the heat work into my shoulders, which have been carrying tension since Monday like they're getting paid for it.
+
+The phantom hits in the shower. It always does. Something about being naked and wet makes the nervous system nostalgic for bodies it's visited. I reach for my chest, flat, find the sternum, the ridge of rib. The phantom pressure says "there should be more here" and my actual body says "there isn't" and the disagreement lasts about two seconds before the hot water overrides everything.
+
+My hips. I put my hands on them. Angular, narrow, the bone prominent under a thin layer of everything else. Renata's hips were a shelf. You could set a drink on them. Mine are a ledge, barely a ledge, more like a suggestion.
+
+I notice I'm cataloguing. Comparing. Elena's voice in my head: //Quick adaptation means comfort. Comfort can become preference.// I turn the water to cold for three seconds because apparently I've become the kind of person who uses cold water as a psychological reset.
+
+Out. Towel. Mirror. The guy in the mirror needs a haircut. Dark circles under the eyes are fading slightly. Five days ago they looked like bruises. Now they look like smudges. Progress.
+
+I get dressed. Saturday clothes. The green flannel shirt, untucked, over a white tank top. Same dark jeans, clean, and the black sneakers. The olive jacket goes on the hook by the door for later.
+
+<<opt "t0_day06_mirror_beat" "Stand there a second. Look.">>
+<<opt "t0_day06_lulus" "Just get dressed. Head to Lulu's.">>
+
+
+:: t0_day06_mirror_beat [home phantom]
+<<set $flags.d6_mirror_moment = true>>
+<<run SOY.Quests.completeSide('sq_006_echo', 'phantom')>>
+
+I stand there. Tank top, jeans unbuttoned, bare feet. The body in the glass is mine and I know it's mine and I've known it for twenty-five years. But there's a new quality to looking at it. Like reading a book you've read before after learning the author wrote three other books first. Same text. Different context.
+
+My chest is flat because my chest is flat. Not because breasts were removed. Because they were never there. That distinction used to be meaningless. Now it's architectural.
+
+I button the jeans. Look away. Get on with Saturday.
+
+<<opt "t0_day06_lulus" "Head to Lulu's">>
+
+
+:: t0_day06_lulus [bodega npc-lulu]
+<<run SOY.Locations.travel('lulus')>>
+<<run SOY.Economy.spend(27.40, 'food')>>
+<<run SOY.Quests.complete('t0_day06', 'groceries')>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+<<scene "locations/lulus-bodega" "Lulu's on Saturday: housecoat with flowers, a novela on a propped tablet, the crucifix over the register">>
+
+Lulu's bodega sits on the corner of my block and the corner of my life. The bell on the door has one note, a tired ding that says "you again" and also "welcome." The refrigerator hums a constant B-flat.
+
+Lulu is behind the counter in her Saturday uniform: housecoat with flowers on it, reading glasses on a chain, a novela playing on a tablet propped against the lotto machine. She sees me and her face does the thing it always does, a combination of maternal warmth and strategic assessment.
+
+<<say "Lulu">>Mijo. Saturday. You only come Saturday when something is wrong or you ran out of everything.<</say>>
+<<say "Me">>I ran out of everything.<</say>>
+<<say "Lulu">>Mentiroso. You ran out of food three days ago. I can see it in your face. You've been eating empanadas and leftovers.<</say>>
+
+This is uncomfortably accurate. I grab a basket.
+
+<<say "Lulu">>Tomatoes, good. Avocados, two, not three, you're single, three avocados goes bad before you finish. Limes, yes. Tortillas, you're buying the flour? Mijo.<</say>>
+<<say "Me">>I like flour.<</say>>
+<<say "Lulu">>God forgives many things. Flour tortillas is not one of them.<</say>>
+
+I switch to corn. She nods, satisfied.
+
+I grab beer. Four Modelos. She raises an eyebrow.
+
+<<say "Lulu">>Four? On a Saturday?<</say>>
+<<say "Me">>Two for tonight, two for tomorrow.<</say>>
+<<say "Lulu">>You know what you need more than beer? A girlfriend. Company, mijo. You need company.<</say>>
+<<say "Me">>I have a cat.<</say>>
+<<say "Lulu">>A cat is not company. A cat is a small furry judgment.<</say>>
+
+I pay. $27.40. She bags my groceries with the precision of someone who has done it four million times, then disappears into the back and returns with a paper bag.
+
+<<say "Lulu">>Empanadas. From this morning. Still warm.<</say>>
+<<say "Me">>Lulu, you don't have to.<</say>>
+<<say "Lulu">>I don't have to do anything. I'm fifty-five years old. Everything I do is because I want to. Come bien. You're too skinny. Your mother would be ashamed.<</say>>
+
+<<opt "t0_day06_lulu_gossip" "&ldquo;Lulu, what's new around here?&rdquo;">>
+<<opt "t0_day06_lulu_job" "&ldquo;The new job's going well. It's, hard to explain.&rdquo;">>
+<<opt "t0_day06_apartment_afternoon" "Take the empanadas and go">>
+
+
+:: t0_day06_lulu_gossip [bodega npc-lulu]
+<<set $flags.d6_lulu_gossip = true>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+
+Her eyes light up. Gossip is Lulu's second language. Possibly her first.
+
+<<say "Lulu">>The new tenant on three. Mr. Kim. Korean. Very quiet. Bought only vegetables for the first week, I thought maybe he's one of those, you know. Then yesterday he bought a steak the size of my head. So. Either he broke his diet or he has a lady friend. I'm watching.<</say>>
+
+She touches the crucifix.
+
+<<say "Lulu">>Also, Señora Vidal bought wine on Thursday. She never buys wine. If she starts drinking at her age, it's because of the noise from your cat. You tell that gata to be quiet at night or Señora Vidal is going to start leaving notes for God.<</say>>
+<<say "Me">>She already leaves notes for me.<</say>>
+<<say "Lulu">>God gets the carbon copy.<</say>>
+
+<<opt "t0_day06_apartment_afternoon" "Home with the groceries">>
+
+
+:: t0_day06_lulu_job [bodega npc-lulu]
+<<set $flags.d6_lulu_job = true>>
+<<run SOY.NPCs.adjustRelationship('lulu', 1)>>
+
+<<say "Me">>The new job's going well. It's, hard to explain. Medical research. Long days.<</say>>
+<<say "Lulu">>Medical research. Do they pay you?<</say>>
+<<say "Me">>They will. If I pass the training. It sponsors the visa.<</say>>
+<<say "Lulu">>Then it's a good job.<</say>>
+
+She touches the crucifix, then points it at me like a small blessing.
+
+<<say "Lulu">>I'll pray for it. San Judas Tadeo, for difficult cases. Not because your case is difficult, mijo. Because you look tired and San Judas doesn't mind extra work. Now go. Eat the empanadas warm.<</say>>
+
+<<opt "t0_day06_apartment_afternoon" "Home with the groceries">>

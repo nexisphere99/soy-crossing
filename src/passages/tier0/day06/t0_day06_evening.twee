@@ -1,0 +1,484 @@
+:: t0_day06_transition_evening [evening]
+<<run SOY.Time.ensureSlot(2)>>
+<<run SOY.Locations.travel('street')>>
+<<scene "mood/october-evening-walk-2" "Ninth Street to Fifth, the deep purple-orange autumn sky, breath in small clouds">>
+
+The walk to Danny's is twelve minutes. October evening, the sun already low, the sky that deep purple-orange that only happens in autumn and only in cities where the light pollution argues with the sunset. The jacket is enough for now but by midnight it won't be.
+
+I walk and the phantoms walk with me. Renata's hip sway in my stride, faded to a suggestion, a slight lateral looseness that wasn't there before Monday. My hand brushes my own thigh and feels the flat, muscular plane of my own leg and knows, from recent experience, that other configurations exist.
+
+These are my streets. Ninth Street to Third Ave, past the laundromat that's never open when you need it, past the Dominican hair salon with the music always spilling out. My neighborhood. Six blocks of New York that feel like mine in a way the rest of the city doesn't.
+
+Twenty-two days on the visa clock. But Diana said "very strong chance." If I pass the assessment on Thursday, the petition gets filed. The receipt notice comes in two to three weeks. The clock stops.
+
+For the first time in a month, the countdown feels less like a fuse and more like a timer. The same mechanism, pointed toward a different outcome.
+
+I turn left on Fifth. Danny's neon sign blinks in the window, the R in RAMEN permanently dark. The K-pop is audible from the sidewalk.
+
+<<opt "t0_day06_dannys_tommy" "Push through the door">>
+
+
+:: t0_day06_dannys_tommy [restaurant npc-tommy]
+<<run SOY.Locations.travel('dannys')>>
+<<run SOY.Economy.spend(18, 'food')>>
+<<run SOY.Quests.complete('t0_day06', 'dannys')>>
+<<run SOY.NPCs.adjustRelationship('tommy', 1)>>
+<<run SOY.NPCs.adjustRelationship('danny', 1)>>
+<<scene "locations/dannys-ramen" "Danny's on Saturday: BTS on the speakers, steam off the bowls, two stools at the counter">>
+
+<<face "tommy" "Tommy Watts">>Tommy is three bites into the habanero ramen when I sit down. His eyes are watering. His nose is running. He looks like a man who's lost a fight with a pepper and refuses to concede.
+
+<<say "Me">>How is it?<</say>>
+
+He holds up a finger. Chews. Swallows. Breathes through his mouth like a woman in labor.
+
+<<say "Tommy">>It's good.<</say>>
+<<say "Me">>You're crying.<</say>>
+<<say "Tommy">>These are flavor tears. Danny, can I get water?<</say>>
+
+Danny appears with water and a grin that suggests he increased the heat level without being asked. He slides a menu at me.
+
+<<say "Danny">>Spicy miso for Manuel? Extra chashu?<</say>>
+<<say "Me">>Always.<</say>>
+
+The K-pop tonight is BTS, something upbeat and relentless, the bass vibrating through the counter.
+
+<<say "Tommy">>So. Saturday. First one off. I woke up at six because my body forgot weekends exist. Went for a run. Sat on the couch for two hours staring at the wall.<</say>>
+<<say "Me">>I cleaned my apartment.<</say>>
+<<say "Tommy">>Big day for both of us.<</say>>
+
+Danny puts my miso down, steam rising off the surface like the broth is thinking.
+
+<<say "Tommy">>Can I ask you something? The speculum. How long did it take you to stop thinking about it?<</say>>
+<<say "Me">>I'll let you know when it happens.<</say>>
+
+He nods. Not relieved. Validated.
+
+<<say "Tommy">>It's not the pain. It's the openness. Being opened. Having someone look inside you. My girlfriend got a pap smear last month. She mentioned it like she was mentioning a haircut. "Got a pap smear, stopped at Target, bought shampoo." Like it was nothing.<</say>>
+<<say "Me">>Because for her it is nothing. It's Tuesday.<</say>>
+<<say "Tommy">>It's every Tuesday. I watched my girlfriend shrug off something that kept me awake last night, and she doesn't even know I did it, and she'll never know, and I can't tell her.<</say>>
+
+Danny refills Tommy's water without being asked. Good instincts.
+
+<<say "Me">>Georgia said something. Day 5. She said understanding someone better isn't the same as being understood back.<</say>>
+
+Tommy lets that sit. He eats. I eat. The ramen is perfect, rich, salty, the chashu soft enough to dissolve.
+
+<<say "Tommy">>Can I tell you something else? When I was in Renata. When I stood up and felt the weight. The hips, the chest, the way the body just occupies space differently. I liked it. Not sexually. Not like that. I liked the authority of it. The way that body owned a room just by standing in it.<</say>>
+<<say "Me">>Renata's body is built like confidence took a physical form.<</say>>
+<<say "Tommy">>Exactly. So I'm lying in bed last night thinking about liking it. About what it means that I liked being in a woman's body that felt powerful. Does it mean I want to be a woman? No. I don't think so. Does it mean I'm, I don't know, something?<</say>>
+<<say "Me">>Something.<</say>>
+<<say "Tommy">>Yeah. Something.<</say>>
+
+He finishes the habanero ramen. Every drop. Sets the bowl down with the quiet triumph of a man who has survived.
+
+<<say "Me">>Tommy. I think we're all "something" after this week. I don't think the word for it exists yet.<</say>>
+
+He laughs. First real laugh I've heard from him. Short, surprised, like a dog that didn't know it could bark.
+
+<<say "Tommy">>Manuel? I'm glad you're in the cohort. Georgia's great but she's already ahead of us. You and me, we're figuring it out at the same speed. That helps.<</say>>
+<<say "Me">>Me too.<</say>>
+
+Danny comes by. Dessert: mochi ice cream, green tea flavor. On the house because "Saturday customers are my favorites." Tommy tells me about his daughter. Three years old. Calls everything "big." Big dog. Big car. Big moon. He shows me a photo, her face round and grinning, holding a stuffed elephant larger than she is.
+
+<<say "Tommy">>She's why I'm doing this. The money. Day care costs more than my rent.<</say>>
+<<say "Me">>My visa is why I'm doing this. But I'd be lying if I said the work hasn't changed me.<</say>>
+<<say "Tommy">>Yeah. Yeah, it has.<</say>>
+
+We split the check. Tommy reaches for his wallet. I let him, because he said "I'm buying" in the text, and sometimes letting someone pay is a way of accepting what they're offering, which is more than dinner.
+
+Outside. The cold hits. We stand under Danny's broken neon, the R still dark, our breath making clouds.
+
+<<say "Tommy">>Monday. Elena's going to destroy us.<</say>>
+<<say "Me">>That's her job.<</say>>
+<<say "Tommy">>Hey. Thanks for this. I needed, you know.<</say>>
+<<say "Me">>I know.<</say>>
+
+He walks to his bus stop, shoulders up against the cold. I head toward Vega.
+
+<<opt "t0_day06_vega_paco" "Vega">>
+
+
+:: t0_day06_vega_paco [bar npc-paco]
+<<run SOY.Locations.travel('vega')>>
+<<run SOY.Economy.spend(24, 'drinks')>>
+<<run SOY.Quests.complete('t0_day06', 'vega')>>
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+<<scene "locations/vega-bar" "Vega on a Saturday: Latin house, bodies at the bar, the corner booth, a half-empty bottle of Diplomático">>
+
+Vega on a Saturday is a different animal than Vega on a weeknight. The music is louder, Latin house instead of the usual soft salsa. The crowd is thicker. The lighting is dim enough to hide flaws and bright enough to find beauty, which is a bartender's trick that Adriana probably engineered herself.
+
+<<face "paco" "Paco Herrera">>Paco is in our usual corner. Rum and Coke already half-done, the look on his face that means he's either in love or he's had an idea, which for Paco are usually the same thing.
+
+<<say "Paco">>Hermano!<</say>>
+
+He stands, hugs me, the kind of back-slapping embrace that Venezuelans deploy like punctuation. Rum and Coke appears, Diplomático, the bottle half-empty because he started at home.
+
+<<say "Paco">>So, I have a question. When you're in the woman body. The boobs. What's that like?<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>I'm asking scientifically.<</say>>
+<<say "Me">>You are not asking scientifically.<</say>>
+<<say "Paco">>I'm asking with scientific curiosity and personal interest. You can't do what you're doing and not tell your best friend about the boobs.<</say>>
+
+I drink. Sigh.
+
+<<say "Me">>It's weight. Constant weight. Like wearing a backpack on your front. The body adjusts, the spine curves, the shoulders roll. You don't notice it until you de-transfer. Then your chest is flat and it feels like something's missing.<</say>>
+<<say "Paco">>Missing. You miss the boobs?<</say>>
+<<say "Me">>The body misses them. My body. There's a phantom. Like when they cut off someone's arm and they still feel it.<</say>>
+<<say "Paco">>You have phantom boobs.<</say>>
+<<say "Me">>I hate you.<</say>>
+<<say "Paco">>Okay. The phantom boobs. What size are we talking?<</say>>
+<<say "Me">>The last one was a D-cup.<</say>>
+<<say "Paco">>Dios mío.<</say>>
+
+He crosses himself, insincerely.
+
+<<say "Paco">>My friend is walking around New York with phantom D-cup boobs. This is the best thing that's ever happened to me.<</say>>
+
+I can't help it. I laugh. The week collapses into this moment, all the weight and the ethics and the speculums, and what it distills into is Paco saying "phantom boobs" with the sincere delight of a child learning a new word.
+
+<<say "Paco">>Okay, okay. Isabela.<</say>>
+
+He pulls out his phone. The photo. The bikini. The gym. Dark skin, Brazilian, laughing at the camera, muscles built by discipline and genetics in roughly equal proportions.
+
+<<say "Paco">>She squats 185. And she laughs like, have you ever heard a laugh that makes you want to buy a plane ticket? That laugh. We video-called three times this week. Last night she was eating açaí and singing badly and I sat there watching her on my phone in my underwear and I thought, this. This is what I want.<</say>>
+
+I drink. Paco in love is like a hurricane in love. The same force, the same trajectory, the same inability to change direction once committed.
+
+<<say "Paco">>Which brings me to my proposal. Valentina.<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>She lives in Bay Ridge. Isabela's friend from university. Graphic designer, speaks three languages, likes cooking, and she asked about you.<</say>>
+<<say "Me">>How can she ask about me? She's never met me.<</say>>
+<<say "Paco">>Isabela told her about you. I may have provided supplementary information. That you're tall, Mexican, smart, employed, and recently started a mysterious job that involves women's bodies, which I presented as "biotech research" because I'm not a complete idiot.<</say>>
+<<say "Me">>Paco.<</say>>
+<<say "Paco">>One drink. At a bar. In public. With Isabela and me there so it's not even a date, it's just friends meeting friends. What's the worst that happens?<</say>>
+
+<<opt "t0_day06_valentina_agree" "&ldquo;Fine. One drink. If it's weird, I'm blaming you.&rdquo;">>
+<<opt "t0_day06_valentina_delay" "&ldquo;Not right now. Too much going on.&rdquo;">>
+<<opt "t0_day06_valentina_adriana" "&ldquo;I think I'm interested in someone already.&rdquo;">>
+
+
+:: t0_day06_valentina_agree [bar npc-paco]
+<<set $flags.valentina = 'agree'>>
+<<set $flags.valentina_date_scheduled = true>>
+<<run SOY.Quests.completeSide('sq_010_paco', 'valentina')>>
+<<run SOY.NPCs.adjustRelationship('paco', 1)>>
+
+<<say "Me">>Fine. One drink. But if it's weird, I'm blaming you.<</say>>
+<<say "Paco">>It won't be weird. I'll be there. I'm a professional social lubricant.<</say>>
+<<say "Me">>That's a disgusting way to describe yourself.<</say>>
+<<say "Paco">>Next Saturday. A place in the Slope, Isabela picks it because Valentina trusts her taste. Wear the flannel. It works on you.<</say>>
+
+<<opt "t0_day06_vega_adriana" "Paco eventually leaves, still texting">>
+
+
+:: t0_day06_valentina_delay [bar npc-paco]
+<<set $flags.valentina = 'delay'>>
+<<run SOY.Quests.completeSide('sq_010_paco', 'valentina')>>
+
+<<say "Me">>Not right now, Paco. Too much going on. The assessment is Thursday. Everything rides on it. I can't be charming at a stranger while my whole life is a coin flip.<</say>>
+<<say "Paco">>Okay. Fair. After the assessment, then. You pass, we celebrate, and part of the celebration is one drink with Valentina.<</say>>
+<<say "Me">>You're not letting this go.<</say>>
+<<say "Paco">>I never let anything go. It's my defining feature. Ask my ex-landlord.<</say>>
+
+<<opt "t0_day06_vega_adriana" "Paco eventually leaves, still texting">>
+
+
+:: t0_day06_valentina_adriana [bar npc-paco romantic]
+<<set $flags.valentina = 'adriana'>>
+<<set $npcs.paco.flags = $npcs.paco.flags || {}>>
+<<set $npcs.paco.flags.knows_adriana_interest = true>>
+<<run SOY.Quests.completeSide('sq_010_paco', 'valentina')>>
+
+<<say "Me">>I think I'm interested in someone already.<</say>>
+
+Paco's face goes through five emotions in two seconds: surprise, recognition, delight, calculation, and the specific expression of a man about to become insufferable.
+
+<<say "Paco">>The bartender.<</say>>
+<<say "Me">>I didn't say that.<</say>>
+<<say "Paco">>You didn't have to. I've watched you watch her for three visits. I notice everything. I'm Venezuelan. We invented noticing.<</say>>
+<<say "Me">>You did not invent noticing.<</say>>
+<<say "Paco">>We perfected it. Same thing. Adriana. Tattoos. Pours your mezcal before you sit down. Looks at you like she's reading a book and she's on a really good chapter.<</say>>
+
+I drink. Don't confirm. Don't deny.
+
+<<say "Paco">>Hermano.<</say>>
+
+He gets serious. Which is rare. Which means he means it.
+
+<<say "Paco">>You've been alone since you got to this city. Four years. Because of the visa, because of the job, because of whatever story you've been telling yourself. That story is changing. You've got a job. Diana says the visa looks good. The clock is ticking toward something instead of away from it. So maybe this is the part where you let someone in. Whether it's Valentina or Adriana or some woman on the subway, I don't care. But stop eating dinner alone.<</say>>
+<<say "Me">>Te quiero, hermano.<</say>>
+<<say "Paco">>Cállate. Don't get emotional. Order another round.<</say>>
+
+I order another round.
+
+<<opt "t0_day06_vega_adriana" "Paco leaves at eleven, texting Isabela before he's out the door">>
+
+
+:: t0_day06_vega_adriana [bar npc-adriana romantic]
+<<run SOY.Quests.completeSide('sq_009_adriana', 'talk')>>
+<<run SOY.NPCs.adjustRelationship('adriana', 1)>>
+<<scene "mood/adriana-bar-late" "Nearly empty now, a single pendant light between the two of you, a small glass of mezcal in her hand">>
+
+Paco leaves at eleven. It's late. Chipi is home alone, probably orchestrating a heist involving the butter dish. But the bar is warm and the music has shifted to a cumbia that moves through the room like smoke, and the mezcal is sitting in my stomach like a small, comfortable fire.
+
+<<face "adriana" "Adriana">>Adriana is working the bar. Saturday night means she's busy, moving between customers with the efficiency of someone whose body works on a different operating system than her brain. She sees me looking. Not watching. Looking. There's a difference.
+
+She comes over when the rush thins. Pours mezcal without asking. The espadín.
+
+<<say "Adriana">>Saturday regular. Paco left?<</say>>
+<<say "Me">>Paco left.<</say>>
+<<say "Adriana">>He's loud. I like him. He makes the bar feel full even when it's empty.<</say>>
+
+She leans on the bar. The tattoo sleeves catch the dim light, geometric on the right, flowers and vines on the left. Up close I can see a hummingbird hiding in the flowers on the left forearm, so small you'd miss it if you weren't looking.
+
+<<say "Me">>Is that a hummingbird?<</say>>
+
+She looks down. Turns her arm.
+
+<<say "Adriana">>You're the first person who's noticed without me pointing it out.<</say>>
+<<say "Me">>It's hiding.<</say>>
+<<say "Adriana">>That's the point. My abuela used to say the hummingbird is the only bird that can fly backward. She said it meant you can always go back to where you started. I got it when I dropped out of nursing school. Reminder that going backward isn't the same as failing.<</say>>
+<<say "Me">>Why'd you drop out?<</say>>
+<<say "Adriana">>Because I was good at the science and terrible at the distance. You're supposed to maintain professional detachment. Patient in room four has stage four pancreatic cancer, and you chart it, and you check the drip, and you move to room five. I couldn't do room five. I kept staying in room four.<</say>>
+<<say "Me">>So you became a bartender.<</say>>
+<<say "Adriana">>Bartending is nursing for people who aren't dying. Same skills. Listen, diagnose, prescribe. The prescription is just more fun.<</say>>
+
+I drink. The mezcal is warm. She's warm. The bar is warm. I want to tell her everything. I don't.
+
+<<say "Me">>When you read people. At the bar. What do you see when you look at me?<</say>>
+
+She studies me. Not quickly. Dark eyes moving across my face the way a doctor reads a chart.
+
+<<say "Adriana">>I see someone who's carrying something heavy that he chose to carry. Not dumped on him. Chosen. People who got dumped on look angry. People who chose it look careful. Like every sentence is load-bearing. Like if you say the wrong thing, something collapses.<</say>>
+
+She tilts her head.
+
+<<say "Adriana">>But you also look like someone who just figured out the load is getting lighter. The last few times you've been in here, your shoulders have been lower. You're breathing deeper. Whatever you're carrying, you're getting better at carrying it.<</say>>
+
+My chest tightens. Not the phantom. The specific tightness of being seen by someone who isn't trying to fix you, just read you.
+
+<<say "Me">>You're good at this.<</say>>
+<<say "Adriana">>I've had practice.<</say>>
+
+She pours herself a small measure of the espadín. A working-shift allowance.
+
+<<say "Adriana">>To Saturday regulars.<</say>>
+<<say "Me">>To bartenders who stayed in room four.<</say>>
+
+We drink. The eye contact lasts three seconds. Four. Enough.
+
+<<opt "t0_day06_adriana_name" "&ldquo;What's your last name?&rdquo;">>
+<<opt "t0_day06_adriana_nightoff" "&ldquo;When's your next night off?&rdquo;">>
+<<opt "t0_day06_adriana_exit" "&ldquo;I should go. Chipi's probably committing crimes.&rdquo;">>
+
+
+:: t0_day06_adriana_name [bar npc-adriana romantic]
+<<set $flags.adriana_convo = 'name'>>
+<<set $npcs.adriana.flags = $npcs.adriana.flags || {}>>
+<<set $npcs.adriana.flags.name_exchanged = true>>
+
+<<say "Adriana">>Reyes.<</say>>
+
+She says it like it's a fact she doesn't mind sharing.
+
+<<say "Adriana">>Adriana Reyes. Born in the Bronx, raised in Hunts Point, left when I was twenty-two, been in this neighborhood for five years. Your turn.<</say>>
+<<say "Me">>González. Manuel González. Born in Guadalajara, came to New York four years ago, been in this neighborhood since I arrived.<</say>>
+<<say "Adriana">>Guadalajara.<</say>>
+
+Good pronunciation. The soft J, the stress in the right place.
+
+<<say "Adriana">>I've never been. Is it beautiful?<</say>>
+<<say "Me">>Beautiful and complicated. Like most places that made you.<</say>>
+
+She smiles. Not the bartender smile. Smaller. Private. The one that says "okay, I see you."
+
+<<say "Adriana">>Manuel González from Guadalajara. Mezcal regular. Secret carrier. I'm going to figure you out eventually.<</say>>
+<<say "Me">>I'm counting on it.<</say>>
+
+<<opt "t0_day06_walk_home" "Out into the cold">>
+
+
+:: t0_day06_adriana_nightoff [bar npc-adriana romantic]
+<<set $flags.adriana_convo = 'nightoff'>>
+<<set $flags.adriana_date_scheduled = true>>
+<<set $npcs.adriana.flags = $npcs.adriana.flags || {}>>
+<<set $npcs.adriana.flags.monday_date = true>>
+<<run SOY.NPCs.adjustRelationship('adriana', 1)>>
+
+She pauses. Sets down the glass she's polishing. Looks at me straight.
+
+<<say "Adriana">>Monday. Why?<</say>>
+<<say "Me">>Because I'd like to talk to you somewhere you're not working. Somewhere the conversation doesn't stop every time someone orders a margarita.<</say>>
+
+She doesn't say yes immediately. She doesn't say no. She does something in between, a small tilt of the head, the quick calculation of someone deciding whether a risk is worth taking.
+
+<<say "Adriana">>There's a place on Atlantic. Mariscos. Tiny, no sign, you'd walk past it if you didn't know. They do octopus tacos that would make a grown man cry.<</say>>
+<<say "Me">>Is that a yes?<</say>>
+<<say "Adriana">>That's a recommendation. If you happen to show up Monday at eight, and I happen to be there, that's just coincidence.<</say>>
+
+She picks the glass back up.
+
+<<say "Adriana">>Bring your appetite.<</say>>
+
+<<opt "t0_day06_walk_home" "Out into the cold, lighter than you came in">>
+
+
+:: t0_day06_adriana_exit [bar npc-adriana romantic]
+<<set $flags.adriana_convo = 'exit'>>
+
+<<say "Me">>I should go. Chipi's probably committing crimes.<</say>>
+<<say "Adriana">>The cat you talk about like a roommate you're afraid of.<</say>>
+<<say "Me">>She has leverage. She knows where I sleep.<</say>>
+
+She laughs. Short, genuine.
+
+<<say "Adriana">>Go home, Manuel. Same time next week?<</say>>
+<<say "Me">>Same time next week.<</say>>
+
+She's already wiping down the bar as I stand, a casual inventory, the kind a person takes when they're deciding whether someone will come back. She's decided. So have I.
+
+<<opt "t0_day06_walk_home" "Out into the cold">>
+
+
+:: t0_day06_walk_home [night phantom]
+<<run SOY.Locations.travel('street')>>
+<<run SOY.Quests.complete('t0_day06', 'home')>>
+<<scene "mood/walk-home-night" "1 AM Brooklyn, sodium light in orange pools on wet pavement, a long shadow stretching behind">>
+
+The walk home. 1 AM streets in Brooklyn. Cold enough now that the jacket isn't quite sufficient. My breath makes shapes. The sodium streetlights throw orange pools on wet pavement, and my shadow stretches long behind me.
+
+Mezcal warm. Rum warm. The good kind of drunk, where the world softens at the edges but the center stays sharp. The phantoms are quiet, for once. Not gone. Just resting, like Chipi, curled in some corner of my nervous system, waiting.
+
+I think about Adriana's hummingbird. The bird that flies backward. Going back isn't failing. I wonder what tattoo I'd get for leaving Brevity Labs, for walking out with a cardboard box, for sitting in my car and calling a mother who didn't answer. Something with a clock, probably. Something with hands that move in the wrong direction.
+
+My phone buzzes as I turn onto my block.
+
+<<phone "James">>
+<<txt "James">>hey bro, I came by to drop off jollof rice but you weren't home. left it with the lady downstairs. she said "the building is not a restaurant" and took the container anyway. sorry about that<</txt>>
+<</phone>>
+
+Señora Vidal has intercepted the jollof rice. James has no idea what forces he's tangled with.
+
+<<opt "t0_day06_james_reply" "Answer James">>
+<<opt "t0_day06_lyla_reply" "Skip to Lyla">>
+
+
+:: t0_day06_james_reply [phone]
+<<run SOY.NPCs.adjustRelationship('james', 1)>>
+<<phone "James">>
+<<txt "Me">>You met Señora Vidal. Congratulations, you've survived. She's my downstairs neighbor. She runs a one-woman surveillance and welfare operation and now your mom's cooking is part of it.<</txt>>
+<<txt "James">>should I be worried about the container? my mom really likes that container<</txt>>
+<<txt "Me">>The container is gone. Consider it a donation to a good cause.<</txt>>
+<<txt "James">>brutal. tell mrs okafor the casserole was incredible btw, she keeps asking<</txt>>
+<<txt "Me">>Already did. She's planning jollof rice round two. I'll try to actually be home.<</txt>>
+<</phone>>
+
+<<opt "t0_day06_lyla_reply" "Lyla's texting too">>
+
+
+:: t0_day06_lyla_reply [phone]
+<<if $flags.lyla_knows>>
+<<phone "Lyla">>
+<<txt "Lyla">>are you out? i read an article about consciousness transfer and long-term psychological effects and i have concerns, Manuel. CONCERNS. drink water.<</txt>>
+<<txt "Me">>Drinking water. Walking home. Chipi awaits.<</txt>>
+<<txt "Lyla">>good. we're doing a real talk soon. not an interrogation. a talk. bring your feelings.<</txt>>
+<<txt "Me">>Goodnight, Lyla.<</txt>>
+<<txt "Lyla">>goodnight body-swap boy 💜<</txt>>
+<</phone>>
+<<else>>
+<<phone "Lyla">>
+<<txt "Lyla">>you're up late for a saturday. are you at the mysterious body bar?<</txt>>
+<<txt "Lyla">>wait that came out wrong<</txt>>
+<<txt "Lyla">>or did it<</txt>>
+<<txt "Me">>Going home. Chipi awaits.<</txt>>
+<<txt "Lyla">>fine. monday. i'm updating the chart. goodnight sunshine.<</txt>>
+<</phone>>
+<</if>>
+
+Home. The apartment is dark. Chipi is on the kitchen counter, naturally, sitting next to the butter dish, which has been moved six inches from its original position but remains intact. Partial victory for both parties.
+
+<<say "Me">>Hey, terrorista.<</say>>
+
+She jumps down. Winds through my legs. Purr engine at full throttle.
+
+I check the door. No jollof rice. Señora Vidal has claimed it. I'll knock tomorrow. Or she'll leave a note. Either way, James's cooking has entered the Vidal ecosystem.
+
+I drink a glass of water. Brush my teeth. The face in the mirror is drunk-soft and October-cold and Saturday-tired and, okay. Better than it's been. Something around the eyes has eased. Like a guard who's realized the shift might end on time for once.
+
+<<opt "t0_day06_sleep" "Bed">>
+
+
+:: t0_day06_sleep [sleep phantom]
+<<run SOY.Locations.travel('apartment')>>
+<<scene "mood/bed-night-d5" "Fresh blue sheets that smell like cedar and Guadalajara, the cat on the left side nobody's slept on in four years">>
+
+Bed. Fresh sheets. The blue ones that smell like cedar and detergent and Guadalajara. Chipi claims the left side of the bed, the side nobody else has slept in for four years.
+
+The drunk is fading to drowsy. The mezcal sits in my blood like a low hum. The day replays in fragments. Lulu's empanadas. The hair tie<<if $flags.hairtie is "wrist">> still on my wrist<<elseif $flags.hairtie is "drawer">> in the junk drawer<</if>>. Tommy's flavor tears. Paco's phantom boobs commentary. Adriana's hummingbird.
+
+My hand rests on my chest. Flat. Bony. Mine.
+
+The phantom is barely there tonight. A ghost of a ghost. Renata's weight, a suggestion rather than a presence, like someone humming a song in the next room and you can't quite catch the melody.
+
+No arousal. Not tonight. The week has been heavy enough. Tonight the body doesn't need processing. It needs sleep.
+
+<<opt "t0_day06_sleep_monday" "Think about Monday. Scenario 6. Protecting a body.">>
+<<opt "t0_day06_sleep_adriana" "Think about Adriana. The bird that flies backward.">>
+<<opt "t0_day06_sleep_mama" "Think about Mamá. The candle. San José.">>
+<<opt "t0_day06_sleep_nothing" "Think about nothing. Let the day end.">>
+
+
+:: t0_day06_sleep_monday
+<<set $flags.d6_sleep_thought = 'monday'>>
+Monday. Module 3, Day 6. Renata's body again, but this time I'm the host, not the transferee. A simulated transferee will ask for access, for mirror time, for "sensory exploration." Every push denied. Not with anger. With precision. The body is not mine to give away.
+
+I've spent five days learning to be a good guest. Monday I learn to be a locked door.
+
+I close my eyes on that. It's a useful thing to fall asleep holding.
+
+<<opt "t0_day06_sleep_end" "Sunday">>
+
+
+:: t0_day06_sleep_adriana
+<<set $flags.d6_sleep_thought = 'adriana'>>
+The hummingbird. Small enough to miss. Hidden in the flowers. Going backward isn't failing. She said it like she'd lived inside that sentence for years, like she'd tested its weight daily and found it reliable. The kind of truth that only works when you've earned it.
+
+<<if $flags.adriana_date_scheduled>>Monday. Mariscos on Atlantic. Octopus tacos. If I show up and she shows up and it's just coincidence.<</if>>
+
+I smile into the pillow. Chipi's purr vibrates against my ribs. The cedar sheets hold me. The city hums its 1 AM hum outside.
+
+<<opt "t0_day06_sleep_end" "Sunday">>
+
+
+:: t0_day06_sleep_mama
+<<set $flags.d6_sleep_thought = 'mama'>>
+The candle. San José, patron of workers. My mother in a church four thousand miles away, lighting a twenty-peso candle and telling God my whole situation like He hadn't been keeping notes.
+
+//I need you to stay.// She said it plain, no drama, which is how I knew she meant it more than anything else she said on the call.
+
+I'm going to stay, Mamá. I said it back and I meant it and for the first time it might not be a lie.
+
+<<opt "t0_day06_sleep_end" "Sunday">>
+
+
+:: t0_day06_sleep_nothing
+<<set $flags.d6_sleep_thought = 'nothing'>>
+I don't think about anything. I let the day be over. The mezcal helps. Chipi helps. The cedar sheets and the amber bars of streetlight on the ceiling and the specific frequency of a neighborhood settling into sleep, distant traffic, a siren far away.
+
+The last thing I see is the orange sodium light striping the room. Then nothing, in the good way.
+
+<<opt "t0_day06_sleep_end" "Sunday">>
+
+
+:: t0_day06_sleep_end
+<<if $calendar.day is 6>>
+	<<run SOY.Time.ensureSlot(3)>>
+	<<run SOY.Time.advance()>>
+	<<run SOY.Body.decayPhantoms()>>
+<</if>>
+<<run SOY.Locations.travel('apartment')>>
+
+Sleep, when it comes, is deep and dreamless and long. Sunday can wait until it's ready.
+
+<<opt "t0_day07_wake" "Sunday morning">>

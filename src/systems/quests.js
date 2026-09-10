@@ -313,6 +313,61 @@ SOY.Quests = {
 		});
 	},
 
+	/* Registers the Day 6 rest-day quest + its weekend side quests. */
+	registerDay6: function () {
+		this.addMain('t0_day06', {
+			id: 'day6_saturday',
+			title: 'Saturday',
+			status: 'active',
+			objectives: [
+				{ id: 'clean',     text: 'Dig the apartment out',              where: 'The apartment',   done: false },
+				{ id: 'groceries', text: 'Restock at Lulu\'s',                 where: "Lulu's bodega",   done: false },
+				{ id: 'dannys',    text: 'Meet Tommy at Danny\'s, 7 PM',        where: "Danny's Ramen",   done: false },
+				{ id: 'vega',      text: 'Drinks with Paco at Vega',           where: 'Vega Bar',        done: false },
+				{ id: 'home',      text: 'Get home and let the week close',    where: 'The apartment',   done: false }
+			]
+		});
+
+		// new day, fresh weekend board
+		State.variables.quests.side = [];
+		this.addSide({
+			id: 'sq_004_mama', title: "Mamá's Campaign",
+			description: 'The Saturday voice note. Pozole, San José, and "¿Y Daniela?"',
+			status: 'active',
+			objectives: [{ id: 'call', text: 'Call Mamá back', done: false }]
+		});
+		this.addSide({
+			id: 'sq_005_vidal', title: "Señora Vidal's Watch",
+			description: 'A plate to return and, apparently, bacalao on Sunday.',
+			status: 'active',
+			objectives: [{ id: 'plate', text: 'Return the plate', done: false }]
+		});
+		this.addSide({
+			id: 'sq_006_echo', title: 'Body Echo',
+			description: "A day off from other bodies. The phantoms fade a little.",
+			status: 'active',
+			objectives: [{ id: 'phantom', text: 'Notice the phantoms', done: false }]
+		});
+		this.addSide({
+			id: 'sq_009_adriana', title: "Adriana's Orbit",
+			description: 'She works Saturdays. The hummingbird flies backward.',
+			status: 'active',
+			objectives: [{ id: 'talk', text: 'Talk to Adriana at Vega', done: false }]
+		});
+		this.addSide({
+			id: 'sq_010_paco', title: "Paco's Brazilian",
+			description: 'Isabela, a bikini pic, and a friend named Valentina.',
+			status: 'active',
+			objectives: [{ id: 'valentina', text: 'Field the Valentina pitch', done: false }]
+		});
+		this.addSide({
+			id: 'sq_012_handbook', title: 'Monday Prep',
+			description: "The handbook, chapters 4-6. Identity drift. Case 22.",
+			status: 'active',
+			objectives: [{ id: 'read', text: 'Read the handbook', done: false }]
+		});
+	},
+
 	addMain: function (key, quest) {
 		State.variables.quests.main[key] = quest;
 	},
