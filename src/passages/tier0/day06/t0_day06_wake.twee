@@ -3,7 +3,7 @@
 <<set $visaDays = 22>>
 <<set $calendar.weekday = 6>>
 <<run SOY.Locations.travel('apartment')>>
-<div class="card"><h1 class="passage-title">End of the Day 5 build</h1><p class="sub">Saturday. Twenty-two days. No training. Ramen with Tommy at seven, the mezcal Adriana said was for people carrying heavy things, and maybe a haircut &mdash; none of it written yet.</p></div>
+<div class="card"><h1 class="passage-title">End of the Day 5 build</h1><p class="sub">Saturday. Twenty-two days. No training. Ramen with Tommy at seven, the mezcal Adriana said was for people carrying heavy things, and maybe a haircut, none of it written yet.</p></div>
 
 Here's where Day 5 landed.
 
