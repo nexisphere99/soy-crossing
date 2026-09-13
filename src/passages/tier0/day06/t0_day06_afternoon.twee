@@ -4,7 +4,7 @@
 <<if visited("t0_day06_apartment_afternoon") lte 1>>
 <<scene "mood/apartment-saturday-afternoon" "The apartment clean, lemon cleaner and fresh sheets, empanadas warming in the oven">>
 
-Home. Groceries away. The apartment smells like lemon cleaner and fresh sheets and the empanadas warming in the oven. Chipi sits on the kitchen counter, which she's not supposed to do, watching me unpack bags with the intensity of someone reviewing footage.
+Home, groceries away. The apartment smells like lemon cleaner and fresh sheets and the empanadas warming in the oven. Chipi sits on the kitchen counter, which she's not supposed to do, watching me unpack bags with the intensity of someone reviewing footage.
 
 I eat two empanadas at the table. At the table. Not standing at the counter, not on the couch. A radical act of domesticity.
 
@@ -22,7 +22,7 @@ Chipi licks her paw.
 
 <<say "Me">>Good talk.<</say>>
 
-The afternoon stretches out. Unhurried. No schedule, no facility, no bodies to inhabit but my own.
+The afternoon stretches out, unhurried. No schedule, no facility, no bodies to inhabit but my own.
 <<else>>
 Back inside. The empanada smell has faded. Chipi has claimed the clean bed. The afternoon still has some light left in it.
 <</if>>
@@ -54,7 +54,7 @@ Three rings. She picks up like she was holding the phone.
 <<say "Mamá">>You're alive. I was starting to wonder. Saturday and you call? What happened?<</say>>
 <<say "Me">>Nothing happened. I just wanted to talk.<</say>>
 
-Silence. Then, suspiciously:
+Silence, then her voice turns suspicious.
 
 <<say "Mamá">>You never just want to talk. Are you sick? Are you in trouble? Did you lose the apartment?<</say>>
 <<say "Me">>Mamá. I have a job now. I told you.<</say>>
@@ -158,7 +158,7 @@ The park is three blocks west. Small, a strip of green wedged between apartment 
 
 October air. The kind that smells like the absence of summer. I walk the gravel path with my hands in my jacket pockets and my breath making small clouds.
 
-People-watching. This is different now.
+People-watching is different now.
 
 A woman on a bench, mid-thirties, reading a paperback. She crosses her legs and I notice it. The automatic motion, the way the top leg settles against the bottom one, the slight shift of the hips to accommodate the new geometry. Three days ago I wouldn't have noticed. Now I see the mechanics. The physics. The small, constant calculations a female body makes without being asked.
 
@@ -187,11 +187,11 @@ A pigeon lands on the bench next to me. Looks at me. Decides I'm not worth the e
 :: t0_day06_nap [phantom]
 <<scene "mood/apartment-saturday-afternoon" "The couch, the blue blanket Mamá crocheted, the light shifting from warm to amber">>
 
-The couch. Chipi. The blue blanket my mother crocheted that's too small for a bed but perfect for a couch nap. I lie down with the intention of resting my eyes for fifteen minutes and I'm gone for two hours.
+The couch, Chipi curled beside me, the blue blanket my mother crocheted that's too small for a bed but perfect for a couch nap. I lie down with the intention of resting my eyes for fifteen minutes and I'm gone for two hours.
 
 The dream is body-shaped.
 
-I'm in a grocery store. Normal, fluorescent, too many options. I'm shopping. But my hands are smaller. My hips bump the cart at a different angle. I'm wearing a sundress and the air-conditioning hits my legs and my arms and the space between my collarbones where the dress opens. I look down. Breasts. The cart is full of fruit.
+I'm in a grocery store. Normal, fluorescent, too many options. I'm shopping. But my hands are smaller. My hips bump the cart at a different angle. I'm wearing a sundress and the air-conditioning hits my legs and my arms and the space between my collarbones where the dress opens. I look down and find breasts. The cart is full of fruit.
 
 A man in the produce section says "Excuse me" and I step aside and the motion is fluid, hip-first, the way Katya's body moved when I was in her during Scenario 3. He smiles. I smile back. The body smiles before I decide to, an automatic response wired into the muscles of someone else's face.
 
@@ -199,7 +199,7 @@ Then I'm at the register and the cashier says "Paper or plastic?" and I open my 
 
 The cashier looks at me. I look at me. The dream cracks and I wake up on the couch with Chipi on my stomach and my heart going fast for no reason.
 
-3:48 PM. The afternoon light has moved from warm to amber. I sit up. Drink water. The dream is already fading at the edges but the center holds: the grocery store, the sundress, the smile that happened without permission, the voice that didn't match.
+3:48 PM. The afternoon light has moved from warm to amber. I sit up. Drink water. The dream is already fading at the edges, but the center holds, and it's the grocery store, the sundress, the smile that happened without permission, the voice that didn't match.
 
 I file it next to everything else. The phantom shelf is getting full.
 
@@ -220,7 +220,7 @@ Chapters 4 through 6. Monday's material.
 
 The word "imperceptible" does a lot of work in that sentence.
 
-The stages. One: Novelty. Everything is new, the body is an experience. Two: Familiarity. The body becomes comfortable, the transferee begins to anticipate rather than react. Three: Preference. The transferee begins to compare bodies, to rank experiences, to develop favorites. Four: Need. The transferee seeks transfer not for work but for the experience itself. Five: Crisis. The transferee's own body feels wrong, foreign, insufficient.
+The stages. First, novelty, everything is new, the body is an experience. Second, familiarity, the body becomes comfortable, the transferee begins to anticipate rather than react. Third, preference, the transferee begins to compare bodies, to rank experiences, to develop favorites. Fourth, need, the transferee seeks transfer not for work but for the experience itself. Fifth, crisis, the transferee's own body feels wrong, foreign, insufficient.
 
 There's a self-assessment checklist. //Do you find your own body less comfortable after repeated transfers?// I think about the shower this morning. //Do you catch yourself comparing your body unfavorably to bodies you've inhabited?// My hands, this morning, measuring knuckles against Flor's. //Do you experience phantom sensations for more than 24 hours post-transfer?// The hip sway is becoming persistent.
 
@@ -232,15 +232,15 @@ I close the checklist. Not because the answers scare me. Because the answers are
 
 Georgia said something similar. "Everywhere and nowhere."
 
-The gray zone: arousal in your own body, afterward, that's clearly a response to transfer experiences. The handbook acknowledges this with careful language. //Post-transfer sexual processing is a normal and expected part of the adaptation cycle. Transferees are encouraged to engage with their own bodies honestly and without shame while maintaining clear boundaries between experience-processing and fixation.//
+The gray zone is arousal in your own body, afterward, that's clearly a response to transfer experiences. The handbook acknowledges this with careful language. //Post-transfer sexual processing is a normal and expected part of the adaptation cycle. Transferees are encouraged to engage with their own bodies honestly and without shame while maintaining clear boundaries between experience-processing and fixation.//
 
 The handbook says this is normal. It's the most awkwardly written permission slip in history.
 
 <h2>Chapter 6: Contractual Edge Cases</h2>
 
-Two cases stick. Case 14: a female transferee in a male body produced an erection in response to a client's perfume, couldn't suppress it, the client noticed, the host sued. The court reduced damages because the contract lacked a "physiological response management" clause.
+Two cases stick. In case 14, a female transferee in a male body produced an erection in response to a client's perfume, couldn't suppress it, the client noticed, the host sued. The court reduced damages because the contract lacked a "physiological response management" clause.
 
-Case 22: a male transferee in a female body, a man grabbed the host's body without consent, hand on the waist, pulling close. The transferee froze. Allowed the contact for seven seconds before extracting. The host was furious. Not about the grab, which she acknowledged was the man's fault, but about the freeze. //You let him touch my body for seven seconds. I would have broken his wrist in one.//
+In case 22, a male transferee in a female body, a man grabbed the host's body without consent, hand on the waist, pulling close. The transferee froze. Allowed the contact for seven seconds before extracting. The host was furious. Not about the grab, which she acknowledged was the man's fault, but about the freeze. //You let him touch my body for seven seconds. I would have broken his wrist in one.//
 
 Seven seconds. I think about Scenario 4. The hand on the knee. Two seconds? Three? The body was already leaning in before my brain caught up. The difference between two and seven is the difference between a reflex and a choice.
 
@@ -292,12 +292,12 @@ Chipi pushes a pen off the nightstand. Eye contact maintained throughout.
 
 I grab the cleaned plate from the kitchen. Señora Vidal's apartment is directly below mine, 4B. I knock.
 
-Footsteps. The door opens exactly four inches. One eye appears. Dark, suspicious, framed by the chain.
+Footsteps, then the door opens exactly four inches. One eye appears. Dark, suspicious, framed by the chain.
 
 <<say "Vidal">>González.<</say>>
 <<say "Me">>Señora Vidal. Your plate. From the arroz con pollo.<</say>>
 
-The door closes. Chain rattles. Opens fully. Aggressive floral housecoat. Slippers. Hair in rollers. She takes the plate, inspects it for cleanliness, finds it acceptable.
+The door closes. Chain rattles. Opens fully. Aggressive floral housecoat, slippers. Hair in rollers. She takes the plate, inspects it for cleanliness, finds it acceptable.
 
 <<say "Vidal">>You washed it. With soap.<</say>>
 <<say "Me">>Yes, Señora.<</say>>

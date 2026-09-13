@@ -9,9 +9,7 @@
 <<run SOY.Locations.travel('apartment')>>
 <<scene "mood/apartment-saturday-morning" "9:47, October light at a lazy angle, the black patches on the cat turned copper">>
 
-I wake up at 9:47 and the first thing I register is the quiet. No alarm. No bus to catch. No Elena Cordero waiting in a room to dismantle my understanding of what a body is. Just October light coming through the bedroom window at a lazy angle, landing on Chipi's fur where she's curled against my hip, turning the black patches copper.
-
-Saturday.
+I wake up at 9:47 and the first thing I register is the quiet. No alarm. No bus to catch. No Elena Cordero waiting in a room to dismantle my understanding of what a body is. Just October light coming through the bedroom window at a lazy angle, landing on Chipi's fur where she's curled against my hip, turning the black patches copper. It's Saturday.
 
 I lie there for a while. My hand rests on my sternum, flat, bony, and the phantom is there, a soft pressure that isn't. Renata's D-cup forward pull, the way the weight used to settle when I lay on my back. Gone, obviously. But my nervous system keeps filing the paperwork like it hasn't gotten the memo.
 
@@ -76,11 +74,11 @@ She looks at me with those green eyes that say, plainly, "Prove it." I give her 
 
 The cleaning happens in stages.
 
-**Stage one: assessment.** I walk through the apartment cataloguing damage. Kitchen sink: six plates, three mugs, one pan with fossilized egg residue from Tuesday. Bathroom: towels on the floor, toothpaste cap missing (Chipi, probably). Bedroom: sheets haven't been changed since, I genuinely don't remember. The hamper is less a hamper and more a textile cairn marking the spot where laundry goes to die.
+**Stage one, assessment.** I walk through the apartment cataloguing damage. The kitchen sink holds six plates, three mugs, one pan with fossilized egg residue from Tuesday. The bathroom has towels on the floor and a missing toothpaste cap (Chipi, probably). The bedroom has sheets that haven't been changed since, I genuinely don't remember. The hamper is less a hamper and more a textile cairn marking the spot where laundry goes to die.
 
-**Stage two: music.** Celia Cruz, because Saturday mornings belong to Celia Cruz, a rule I didn't make but absolutely enforce. //La Vida Es Un Carnaval// fills the apartment and Chipi immediately vanishes under the bed because she has opinions about music and they're all wrong.
+**Stage two, music.** Celia Cruz, because Saturday mornings belong to Celia Cruz, a rule I didn't make but absolutely enforce. //La Vida Es Un Carnaval// fills the apartment and Chipi immediately vanishes under the bed because she has opinions about music and they're all wrong.
 
-**Stage three: the actual work.** Dishes first. Hot water, soap. Six days of eating mostly standing up means fewer dishes than you'd think. The pan with the egg fossil requires soaking and profanity. The vacuum comes out and cat hair comes up in quantities that suggest I'm living with seventeen cats, not one.
+**Stage three, the actual work.** Dishes first. Hot water, soap. Six days of eating mostly standing up means fewer dishes than you'd think. The pan with the egg fossil requires soaking and profanity. The vacuum comes out and cat hair comes up in quantities that suggest I'm living with seventeen cats, not one.
 
 Under the couch I find a pen cap, a receipt from Lulu's, and what appears to be a hair tie that doesn't belong to anyone I know. Thin, black, elastic. The kind women wear on their wrists.
 
@@ -113,7 +111,7 @@ I close the lid a little harder than the lid requires.
 <<set $flags.hairtie = 'wrist'>>
 I slide it onto my wrist. It sits loose there, too big for the bone, a thin black circle against skin that has never needed one.
 
-I keep working. Vacuuming, folding, wiping counters. And every twenty minutes or so my thumb finds it without my telling it to, spins it once around the wrist, the way you'd worry a ring. A small habitual motion I've never had before, borrowed from a body I wore for two hours, running now on my own hardware like a background process I can't quite close.
+I keep working. Vacuuming, folding, wiping counters, and every twenty minutes or so my thumb finds it without my telling it to, spins it once around the wrist, the way you'd worry a ring. A small habitual motion I've never had before, borrowed from a body I wore for two hours, running now on my own hardware like a background process I can't quite close.
 
 <<opt "t0_day06_laundry_sheets" "Laundry, then sheets">>
 
@@ -139,9 +137,9 @@ The phantom hits in the shower. It always does. Something about being naked and 
 
 My hips. I put my hands on them. Angular, narrow, the bone prominent under a thin layer of everything else. Renata's hips were a shelf. You could set a drink on them. Mine are a ledge, barely a ledge, more like a suggestion.
 
-I notice I'm cataloguing. Comparing. Elena's voice in my head: //Quick adaptation means comfort. Comfort can become preference.// I turn the water to cold for three seconds because apparently I've become the kind of person who uses cold water as a psychological reset.
+I notice I'm cataloguing, comparing. Elena's voice moves through my head, //Quick adaptation means comfort. Comfort can become preference.// I turn the water to cold for three seconds because apparently I've become the kind of person who uses cold water as a psychological reset.
 
-Out. Towel. Mirror. The guy in the mirror needs a haircut. Dark circles under the eyes are fading slightly. Five days ago they looked like bruises. Now they look like smudges. Progress.
+I step out, grab a towel, catch the mirror. The guy in the mirror needs a haircut. Dark circles under the eyes are fading slightly. Five days ago they looked like bruises. Now they look like smudges, progress.
 
 I get dressed. Saturday clothes. The green flannel shirt, untucked, over a white tank top. Same dark jeans, clean, and the black sneakers. The olive jacket goes on the hook by the door for later.
 
@@ -171,7 +169,7 @@ I button the jeans. Look away. Get on with Saturday.
 
 Lulu's bodega sits on the corner of my block and the corner of my life. The bell on the door has one note, a tired ding that says "you again" and also "welcome." The refrigerator hums a constant B-flat.
 
-Lulu is behind the counter in her Saturday uniform: housecoat with flowers on it, reading glasses on a chain, a novela playing on a tablet propped against the lotto machine. She sees me and her face does the thing it always does, a combination of maternal warmth and strategic assessment.
+Lulu is behind the counter in her Saturday uniform, housecoat with flowers on it, reading glasses on a chain, a novela playing on a tablet propped against the lotto machine. She sees me and her face does the thing it always does, a combination of maternal warmth and strategic assessment.
 
 <<say "Lulu">>Mijo. Saturday. You only come Saturday when something is wrong or you ran out of everything.<</say>>
 <<say "Me">>I ran out of everything.<</say>>

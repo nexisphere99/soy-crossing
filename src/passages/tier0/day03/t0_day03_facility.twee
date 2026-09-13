@@ -5,7 +5,7 @@ Elena stands at the front of the room. No podium. No projector. Just her, the ta
 
 <<say "Elena">>Module 1 answered the question "what does it feel like." Module 2 answers a harder question. "What does it mean."<</say>>
 
-She picks up the tablet. Swipes. A single sentence appears on the wall screen behind her, black text on white:
+She picks up the tablet and swipes. A single sentence appears on the wall screen behind her, black text on white.
 
 <div class="tenet">The body is not yours.</div>
 
@@ -92,7 +92,7 @@ The room is very quiet.
 
 <<say "Elena">>The shorthand we use here is this: the body reacting is weather. You following the reaction is a decision. We do not punish weather. We punish decisions.<</say>>
 
-She writes on the screen with her finger. Handwriting, not typed. Precise, surgical letters:
+She writes on the screen with her finger. Handwriting, not typed. Precise, surgical letters.
 
 <div class="tenet sm">The Mirror Test</div>
 
@@ -124,7 +124,7 @@ The cafeteria at Shape of You is a room that wants to be a break room and almost
 
 I carry my tray to the table nearest the window. The window overlooks an alley and a dumpster, which is not inspiring, but the light is real and after two hours in transfer rooms with controlled environments, real light feels like a gift.
 
-Turkey sandwich. Apple. Water. I eat mechanically. My hands feel too big for the sandwich. An hour ago, in, wait, yesterday, in Flor's body, my fingers were longer, thinner, the grip different. I'm holding a turkey sandwich with hands that feel borrowed from a different species and the bread keeps slipping.
+Turkey sandwich, apple, water. I eat mechanically. My hands feel too big for the sandwich. An hour ago, in, wait, yesterday, in Flor's body, my fingers were longer, thinner, the grip different. I'm holding a turkey sandwich with hands that feel borrowed from a different species and the bread keeps slipping.
 
 Tommy drops into the chair across from me. His tray has three sandwiches and two apples and a chocolate milk. He eats like a man who was once told food might run out and decided never to test the theory.
 
@@ -153,11 +153,11 @@ He puts the sandwich down.
 <<say "Me">>The temperature response. Elena mentioned it in the briefing.<</say>>
 <<say "Tommy">>Yeah. Yeah, I know what you mean. Just, hearing you say "the nipple thing" in a cafeteria with fluorescent lighting and a turkey sandwich is a specific experience I was not prepared for.<</say>>
 
-A tray slams down on the table. Georgia. She drops into the chair between us without invitation, the way she does everything, like an entrance fee was paid somewhere and we just missed the transaction.
+A tray slams down on the table. It's Georgia. She drops into the chair between us without invitation, the way she does everything, like an entrance fee was paid somewhere and we just missed the transaction.
 
 <<say "Georgia">>Boys.<</say>>
 
-She grins. Wide. Dangerous.
+She grins, wide, dangerous.
 
 <<say "Georgia">>How are we feeling about our bodies today?<</say>>
 
@@ -186,7 +186,7 @@ Georgia leans back. She's compact, muscular, mid-twenties, Black, with close-cro
 
 <<say "Georgia">>The mirror got me too, by the way.<</say>>
 
-Quieter.
+Her voice drops, quieter.
 
 <<say "Georgia">>Different reasons. I looked in the mirror and saw a man's body and my first thought was "huh, this is what they see." Not what I see. What men see when they look in the mirror. The posture. The shoulders. The way the body fills space without apologizing for it.<</say>>
 <<say "Tommy">>You apologize for filling space?<</say>>
@@ -226,7 +226,7 @@ She stands.
 
 <<say "Georgia">>But if he does, it won't be because he figured out what the body was doing. It'll be because he figured out what he was doing.<</say>>
 
-She carries her tray to the return window. Pauses. Looks back at us.
+She carries her tray to the return window, pauses, looks back at us.
 
 <<say "Georgia">>You two are alright. For straight men in a body-swapping program, you're alright.<</say>>
 
@@ -280,7 +280,7 @@ Tommy is in the stall next to me. I can hear him breathing through the thin part
 <<say "Me">>You good?<</say>>
 <<say "Tommy">>No. But I'm here.<</say>>
 
-Pause.
+A pause.
 
 <<say "Tommy">>You?<</say>>
 <<say "Me">>Same.<</say>>
@@ -299,7 +299,7 @@ The pod room. Three capsules. The one on the left is occupied, Flor's body breat
 
 I look at her. Taller than Flor. I can see it even lying down. Pale skin with a warmth underneath, not paper-white but cream, the kind that shows blood easily. Auburn hair spread across the pod's headrest, long, straight, past the shoulders. Even from here I can see the body is different from Flor in the way that a cello is different from a violin. More curve. More weight in the hips and chest. The C-cup breasts rise with each autonomous breath, larger than Flor's, filling the grey training top with a presence that Flor's body whispered and Katya's body states.
 
-Blue-grey eyes. Closed. Long lashes. Lips slightly parted.
+Blue-grey eyes, closed. Long lashes. Lips slightly parted.
 
 Nobody is inside. The body breathes because the autonomic nervous system is functional. The chest rises because the lungs expand because the brainstem fires because the clone's biology does what biology does. But the face has no expression. Not peaceful. Not anything. Just, running. Hardware without software.
 
@@ -311,11 +311,11 @@ I climb into the middle pod. The surface is padded, body-temperature, conforming
 
 <<say "Elena">>Breathe normally. The thermal shift will be stronger this time. Katya's neural substrate has higher autonomic resistance than Flor's. You may feel a secondary compression at the sternum. Do not fight it.<</say>>
 
-Breathe. I breathe.
+I breathe, just breathe.
 
-The heat comes first. Not gentle this time. Aggressive. A wave that starts at the contact points and crashes inward, compressing my awareness into a corridor that narrows, narrows, the sensation of being pulled through something that has no dimensions, no width, no shape, just directionality, forward, through, into...
+The heat comes first. Not gentle this time, aggressive. A wave that starts at the contact points and crashes inward, compressing my awareness into a corridor that narrows, narrows, the sensation of being pulled through something that has no dimensions, no width, no shape, just directionality, forward, through, into...
 
-Second compression. Elena warned about it. My sternum, or the memory of my sternum, seized by invisible hands. Pressure. Not pain but the immediate precursor to pain, the moment where the body shouts a warning that the mind cannot process fast enough.
+Second compression. Elena warned about it. My sternum, or the memory of my sternum, seized by invisible hands, pressure, not pain but the immediate precursor to pain, the moment where the body shouts a warning that the mind cannot process fast enough.
 
 Then expansion.
 
@@ -329,9 +329,9 @@ Fast this time. Faster than Flor. The narrowness shatters outward and I'm somewh
 :: t0_day03_katya_calibration [facility]
 <<face "katya" "Clone 7-K , the body you're wearing">>I open my eyes and the ceiling is different. The same room but the angle has changed because my head is positioned differently in the pod and also because the eyes processing the image are not my eyes.
 
-Katya's eyes. Blue-grey. The world through them is sharper in a way I didn't expect. Not better vision, exactly. But the color temperature is different. Warmer. Like someone adjusted a filter I didn't know existed.
+Katya's eyes, blue-grey. The world through them is sharper in a way I didn't expect. Not better vision, exactly. But the color temperature is different, warmer, like someone adjusted a filter I didn't know existed.
 
-I sit up. Weight. That's the first thing. Flor had weight, yes, the B-cup breasts, the shifted center of gravity. Katya is more. The C-cup breasts are immediately present, a heaviness on the chest that moves when I move, not dramatically but undeniably. When I swing my legs over the edge of the pod, the breast weight shifts laterally, follows the torso's rotation with a half-second delay, then settles.
+I sit up. Weight is the first thing. Flor had weight, yes, the B-cup breasts, the shifted center of gravity. Katya is more. The C-cup breasts are immediately present, a heaviness on the chest that moves when I move, not dramatically but undeniably. When I swing my legs over the edge of the pod, the breast weight shifts laterally, follows the torso's rotation with a half-second delay, then settles.
 
 I look down. The training top is grey, same as Flor's, but it fits differently. The fabric is stretched across the bust, pulled taut, and where it contacts the skin I can feel the texture of the cotton against, things are more sensitive. The training top's seam sits directly across the nipple line and I can feel it. Thread against skin. A friction that Flor's body registered as background noise and Katya's body registers as information.
 
@@ -347,7 +347,7 @@ Calibration time. I feel the room stop swaying at, I don't count. I'm too busy p
 
 Elena notes it. I hear the scratch of a stylus on a tablet through the earpiece.
 
-Walking. I take four steps. The hip sway is more pronounced than Flor's. More dramatic. Flor's body suggested the sway. Katya's body insists on it. Each step sends a small cascade of motion through the thighs, the buttocks, the lower back. I feel my, her, ass shift with each stride in a way that would be impossible to ignore in public. This body moves like it knows it's being watched.
+Walking, I take four steps. The hip sway is more pronounced than Flor's. More dramatic. Flor's body suggested the sway. Katya's body insists on it. Each step sends a small cascade of motion through the thighs, the buttocks, the lower back. I feel my, her, ass shift with each stride in a way that would be impossible to ignore in public. This body moves like it knows it's being watched.
 
 The temperature in the room is cool. Not cold, but cool enough that the air touches the bare skin of my, her, arms and the body responds. Goosebumps rise. The nipples tighten. I feel them tighten against the training top, the tissue contracting, the sensation sharp and specific and completely involuntary.
 

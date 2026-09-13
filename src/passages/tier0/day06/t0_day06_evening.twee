@@ -30,7 +30,7 @@ I turn left on Fifth. Danny's neon sign blinks in the window, the R in RAMEN per
 
 <<say "Me">>How is it?<</say>>
 
-He holds up a finger. Chews. Swallows. Breathes through his mouth like a woman in labor.
+He holds up a finger, chews, swallows, breathes through his mouth like a woman in labor.
 
 <<say "Tommy">>It's good.<</say>>
 <<say "Me">>You're crying.<</say>>
@@ -52,7 +52,7 @@ Danny puts my miso down, steam rising off the surface like the broth is thinking
 <<say "Tommy">>Can I ask you something? The speculum. How long did it take you to stop thinking about it?<</say>>
 <<say "Me">>I'll let you know when it happens.<</say>>
 
-He nods. Not relieved. Validated.
+He nods. Not relieved, but validated.
 
 <<say "Tommy">>It's not the pain. It's the openness. Being opened. Having someone look inside you. My girlfriend got a pap smear last month. She mentioned it like she was mentioning a haircut. "Got a pap smear, stopped at Target, bought shampoo." Like it was nothing.<</say>>
 <<say "Me">>Because for her it is nothing. It's Tuesday.<</say>>
@@ -79,7 +79,7 @@ He laughs. First real laugh I've heard from him. Short, surprised, like a dog th
 <<say "Tommy">>Manuel? I'm glad you're in the cohort. Georgia's great but she's already ahead of us. You and me, we're figuring it out at the same speed. That helps.<</say>>
 <<say "Me">>Me too.<</say>>
 
-Danny comes by. Dessert: mochi ice cream, green tea flavor. On the house because "Saturday customers are my favorites." Tommy tells me about his daughter. Three years old. Calls everything "big." Big dog. Big car. Big moon. He shows me a photo, her face round and grinning, holding a stuffed elephant larger than she is.
+Danny comes by with dessert, mochi ice cream, green tea flavor. On the house because "Saturday customers are my favorites." Tommy tells me about his daughter. Three years old. Calls everything "big." Big dog. Big car. Big moon. He shows me a photo, her face round and grinning, holding a stuffed elephant larger than she is.
 
 <<say "Tommy">>She's why I'm doing this. The money. Day care costs more than my rent.<</say>>
 <<say "Me">>My visa is why I'm doing this. But I'd be lying if I said the work hasn't changed me.<</say>>
@@ -87,7 +87,7 @@ Danny comes by. Dessert: mochi ice cream, green tea flavor. On the house because
 
 We split the check. Tommy reaches for his wallet. I let him, because he said "I'm buying" in the text, and sometimes letting someone pay is a way of accepting what they're offering, which is more than dinner.
 
-Outside. The cold hits. We stand under Danny's broken neon, the R still dark, our breath making clouds.
+Outside, the cold hits. We stand under Danny's broken neon, the R still dark, our breath making clouds.
 
 <<say "Tommy">>Monday. Elena's going to destroy us.<</say>>
 <<say "Me">>That's her job.<</say>>
@@ -120,7 +120,7 @@ He stands, hugs me, the kind of back-slapping embrace that Venezuelans deploy li
 <<say "Me">>You are not asking scientifically.<</say>>
 <<say "Paco">>I'm asking with scientific curiosity and personal interest. You can't do what you're doing and not tell your best friend about the boobs.<</say>>
 
-I drink. Sigh.
+I drink, sigh.
 
 <<say "Me">>It's weight. Constant weight. Like wearing a backpack on your front. The body adjusts, the spine curves, the shoulders roll. You don't notice it until you de-transfer. Then your chest is flat and it feels like something's missing.<</say>>
 <<say "Paco">>Missing. You miss the boobs?<</say>>
@@ -192,7 +192,7 @@ I drink. Paco in love is like a hurricane in love. The same force, the same traj
 
 <<say "Me">>I think I'm interested in someone already.<</say>>
 
-Paco's face goes through five emotions in two seconds: surprise, recognition, delight, calculation, and the specific expression of a man about to become insufferable.
+Paco's face goes through five emotions in two seconds, surprise, recognition, delight, calculation, and the specific expression of a man about to become insufferable.
 
 <<say "Paco">>The bartender.<</say>>
 <<say "Me">>I didn't say that.<</say>>
@@ -266,7 +266,7 @@ She pours herself a small measure of the espadín. A working-shift allowance.
 <<say "Adriana">>To Saturday regulars.<</say>>
 <<say "Me">>To bartenders who stayed in room four.<</say>>
 
-We drink. The eye contact lasts three seconds. Four. Enough.
+We drink. The eye contact lasts three seconds, four, enough.
 
 <<opt "t0_day06_adriana_name" "&ldquo;What's your last name?&rdquo;">>
 <<opt "t0_day06_adriana_nightoff" "&ldquo;When's your next night off?&rdquo;">>
@@ -291,7 +291,7 @@ Good pronunciation. The soft J, the stress in the right place.
 <<say "Adriana">>I've never been. Is it beautiful?<</say>>
 <<say "Me">>Beautiful and complicated. Like most places that made you.<</say>>
 
-She smiles. Not the bartender smile. Smaller. Private. The one that says "okay, I see you."
+She smiles, not the bartender smile, smaller, private, the one that says "okay, I see you."
 
 <<say "Adriana">>Manuel González from Guadalajara. Mezcal regular. Secret carrier. I'm going to figure you out eventually.<</say>>
 <<say "Me">>I'm counting on it.<</say>>
@@ -396,7 +396,7 @@ Señora Vidal has intercepted the jollof rice. James has no idea what forces he'
 <</phone>>
 <</if>>
 
-Home. The apartment is dark. Chipi is on the kitchen counter, naturally, sitting next to the butter dish, which has been moved six inches from its original position but remains intact. Partial victory for both parties.
+Home, and the apartment is dark. Chipi is on the kitchen counter, naturally, sitting next to the butter dish, which has been moved six inches from its original position but remains intact. Partial victory for both parties.
 
 <<say "Me">>Hey, terrorista.<</say>>
 
@@ -413,11 +413,11 @@ I drink a glass of water. Brush my teeth. The face in the mirror is drunk-soft a
 <<run SOY.Locations.travel('apartment')>>
 <<scene "mood/bed-night-d5" "Fresh blue sheets that smell like cedar and Guadalajara, the cat on the left side nobody's slept on in four years">>
 
-Bed. Fresh sheets. The blue ones that smell like cedar and detergent and Guadalajara. Chipi claims the left side of the bed, the side nobody else has slept in for four years.
+Bed, fresh sheets. The blue ones that smell like cedar and detergent and Guadalajara. Chipi claims the left side of the bed, the side nobody else has slept in for four years.
 
 The drunk is fading to drowsy. The mezcal sits in my blood like a low hum. The day replays in fragments. Lulu's empanadas. The hair tie<<if $flags.hairtie is "wrist">> still on my wrist<<elseif $flags.hairtie is "drawer">> in the junk drawer<</if>>. Tommy's flavor tears. Paco's phantom boobs commentary. Adriana's hummingbird.
 
-My hand rests on my chest. Flat. Bony. Mine.
+My hand rests on my chest, flat, bony, mine.
 
 The phantom is barely there tonight. A ghost of a ghost. Renata's weight, a suggestion rather than a presence, like someone humming a song in the next room and you can't quite catch the melody.
 
@@ -431,7 +431,7 @@ No arousal. Not tonight. The week has been heavy enough. Tonight the body doesn'
 
 :: t0_day06_sleep_monday
 <<set $flags.d6_sleep_thought = 'monday'>>
-Monday. Module 3, Day 6. Renata's body again, but this time I'm the host, not the transferee. A simulated transferee will ask for access, for mirror time, for "sensory exploration." Every push denied. Not with anger. With precision. The body is not mine to give away.
+Monday, Module 3, Day 6. Renata's body again, but this time I'm the host, not the transferee. A simulated transferee will ask for access, for mirror time, for "sensory exploration." Every push denied. Not with anger. With precision. The body is not mine to give away.
 
 I've spent five days learning to be a good guest. Monday I learn to be a locked door.
 
