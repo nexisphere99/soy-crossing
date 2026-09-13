@@ -3,7 +3,7 @@
 <<run SOY.Locations.travel('street')>>
 <<scene "mood/october-evening-walk-2" "Ninth Street after dark, amber sodium light, a woman ahead with keys between her fingers">>
 
-The facility door closes behind me and I'm back on Ninth Street and the cold hits my face like a correction. Like the world saying: you're back, this is real air, real October, real noise.
+The facility door closes behind me and I'm back on Ninth Street and the cold hits my face like a correction. Like the world saying, you're back, this is real air, real October, real noise.
 
 I stand on the sidewalk for a moment. Hands in my jacket pockets. The olive green jacket with the torn lining. My body feels, I keep coming back to this word but it's the only one that fits, specific. Angular where Katya was curved. Flat where she was full. My hands are too big. My stride is too wide. When I walked in her body, the hips dictated the gait, the sway wasn't a choice, it was architecture. Now my hips are narrow and my legs swing forward like pendulums and the gait is efficient, purposeful, completely without music.
 
@@ -11,11 +11,11 @@ The bus stop is right there. I could go home. Chipi is waiting. The couch is wai
 
 I don't want quiet. Not tonight. After the mirror and the shower and the knock, after Katya's body blushed without my permission and her heart rate spiked when the actor knocked on the door, I need noise. I need a room full of people who have never had their consciousness extracted and compressed and installed in someone else's nervous system. I need the specific banality of a bar where people are drunk and arguing about soccer and nobody is thinking about what it means to inhabit a stranger's skin.
 
-My body is doing that thing again. The phantom sway. Walking down the sidewalk in my own boots with my own narrow hips and my gait keeps trying to adjust, the brain sending instructions calibrated for a pelvis that's no longer there. Flor's echo was subtle. Katya's is louder. Two transfers now, two different female bodies, and my motor cortex is starting to treat the sway as a setting instead of an anomaly. Like it's building a library. Male gait. Female gait. Toggle.
+My body is doing that thing again. The phantom sway. Walking down the sidewalk in my own boots with my own narrow hips and my gait keeps trying to adjust, the brain sending instructions calibrated for a pelvis that's no longer there. Flor's echo was subtle. Katya's is louder. Two transfers now, two different female bodies, and my motor cortex is starting to treat the sway as a setting instead of an anomaly. Like it's building a library. Male gait. Female gait, a toggle.
 
 I pass a woman walking her dog. Small terrier, rhinestone collar, the woman in a puffy jacket and yoga pants. She walks with her keys threaded between her fingers, the jagged edges poking outward like improvised brass knuckles. I notice because I wouldn't have noticed a week ago. Before Flor. Before Katya. Before the knock on the door and the way the body froze in its vulnerability and my first instinct was to cover up and protect modesty I didn't own.
 
-The woman glances at me as I pass. Quick assessment. Threat evaluation. A calculation performed in less than a second, processed and discarded, the keys staying between her fingers regardless. She's not afraid of me specifically. She's afraid of the category I belong to. Male. Night. Sidewalk. Alone.
+The woman glances at me as I pass. Quick assessment. Threat evaluation. A calculation performed in less than a second, processed and discarded, the keys staying between her fingers regardless. She's not afraid of me specifically. She's afraid of the category I belong to, male, night, sidewalk, alone.
 
 I want to tell her she's right to be cautious. I also want to tell her I understand now, or at least I'm starting to, what it costs to walk through the world with that calculation running in the background every single time.
 
@@ -29,7 +29,7 @@ I don't tell her anything. I keep walking. She keeps walking. The dog sniffs a f
 The phantom sway is still there. Hip memory from a body I left an hour ago. My gait keeps adjusting for a pelvis that isn't there.
 <</if>>
 
-I could go home. Chipi. The couch. A beer. Quiet.
+I could go home to Chipi, the couch, a beer, quiet.
 
 But quiet is the last thing I need tonight.
 
@@ -60,7 +60,7 @@ By the time my feet decide I'm done, I've walked a loop and I'm four blocks from
 <<run SOY.Economy.spend(2, 'food')>>
 <</if>>
 
-Home. Chipi is on the kitchen counter sitting in the exact center of a dish towel she pulled off the oven handle and arranged into a nest. She looks at me like I interrupted something important.
+I'm home. Chipi is on the kitchen counter sitting in the exact center of a dish towel she pulled off the oven handle and arranged into a nest. She looks at me like I interrupted something important.
 
 I feed her. Open a Modelo. Sit on the couch. The apartment is quiet. Not the bad quiet from the first weeks after the layoff. A different kind. Processing quiet. The quiet of a mind working through too much data with too few categories.
 
@@ -111,17 +111,17 @@ The phone again.
 <<run SOY.Quests.complete('t0_day03', 'wind_down')>>
 <<scene "mood/bed-night" "The bedroom at 11 PM: amber blind-lines across the bed, one hand on a flat chest, the cat at the hip">>
 
-Shower. Hot water. Steam.
+Shower, hot water, steam.
 
 <<if $settings.showExplicit>>
-I stand under the spray and press both palms flat against my chest. Flat. The pectorals are there, firm, ordinary. No weight. No softness. No give. Katya's body had breasts that shifted when she, when I, unbuttoned the shirt. The bra held them in place like a structure, an architecture of wire and fabric, and when the training top came off and I felt them move inside the bra, the body blushed. I didn't tell it to blush. It just did. Heat rising from the collarbones to the cheeks in a wave I couldn't control.
+I stand under the spray and press both palms flat against my chest. The pectorals are there, flat, firm, ordinary. No weight. No softness. No give. Katya's body had breasts that shifted when she, when I, unbuttoned the shirt. The bra held them in place like a structure, an architecture of wire and fabric, and when the training top came off and I felt them move inside the bra, the body blushed. I didn't tell it to blush. It just did. Heat rising from the collarbones to the cheeks in a wave I couldn't control.
 
 My own face doesn't blush. I don't think it's ever blushed. Mexican skin, thick enough to keep the blood from advertising itself.
 <<else>>
 I stand under the spray with both hands flat on my chest. Flat, ordinary, no weight to it. Katya's body did not feel like this. I turn the water hotter and let the thought dissolve in the steam.
 <</if>>
 
-I turn off the water. Dry off. Boxers. The bed.
+I turn off the water. Dry off. Pull on boxers. The bed.
 
 Chipi arrives within thirty seconds of my head hitting the pillow. She curls against my hip, her purr a low mechanical thrum that vibrates through the mattress.
 
@@ -134,9 +134,9 @@ But underneath, lower, there's warmth. Not an erection. Not yet. More diffuse. T
 
 I don't act on it. Not tonight. The warmth sits there, unfocused, and I let it sit. I'm too tired to decode it and too honest to pretend it isn't there.
 
-My hand moves to my hip. The bone juts under the skin, sharp, angular, a shelf of pelvis that holds nothing up. Katya's hips were wider. The bone sat deeper, padded by muscle and fat in a way that made sitting feel different, lying feel different, everything below the waist constructed on a broader foundation. My pelvis is narrow. Utilitarian. Built for forward motion, not for the lateral sway that Katya's body insisted on.
+My hand moves to my hip. The bone juts under the skin, sharp, angular, a shelf of pelvis that holds nothing up. Katya's hips were wider. The bone sat deeper, padded by muscle and fat in a way that made sitting feel different, lying feel different, everything below the waist constructed on a broader foundation. My pelvis is narrow, utilitarian, built for forward motion, not for the lateral sway that Katya's body insisted on.
 
-I press my thumb into the hip bone. Hard surface under thin skin. Mine.
+I press my thumb into the hip bone. Hard surface under thin skin, mine.
 <<else>>
 The transfer echoes follow me to bed. Katya's body left fingerprints in my nervous system that my own body tries to read and can't quite translate. I lie in the dark, full of data I don't have categories for, and I don't reach for any of it. Not tonight.
 <</if>>

@@ -1,5 +1,5 @@
 :: Start
-<div class="card"><h1 class="passage-title">Shape of You: Crossing</h1><p class="sub">Twenty-five years old. Guadalajara. Sixty days on the clock.</p><p class="card-ver">v<<= setup.version>></p></div>
+<div class="card"><h1 class="passage-title">Shape of You: Crossing</h1><p class="sub">Twenty-five years old, Guadalajara. Sixty days on the clock.</p><p class="card-ver">v<<= setup.version>></p></div>
 
 This story contains explicit sexual content, consciousness transfer, body swapping, and male-to-female transformation throughout. It is for adults only.
 
@@ -38,7 +38,7 @@ I was sitting in the all-hands at Brevity Labs on a Tuesday morning, coffee goin
 
 He said "strategic pivot" and "difficult decisions" and "streamlining our operational focus" and my stomach dropped three floors before my brain even started translating the corporate into human.
 
-Six people on my team. All of backend. Gone.
+Six people on my team, all of backend, gone.
 
 HR walked me to my desk. Fifteen minutes to pack. I had a succulent my mother mailed me when I started (she somehow got a cactus through customs, don't ask), a mug that said WORLD'S OKAYEST DEVELOPER that my friend Paco gave me as a joke, and a photo of my family in Guadalajara that I kept taped to the monitor. Fifteen minutes was generous. I could have done it in four.
 
@@ -48,7 +48,7 @@ I sat in my car for twenty minutes. Called my mother. She didn't pick up. It was
 
 I drove home. Put the box on the kitchen table. Chipi jumped up and knocked the cactus off the edge immediately because that's what Chipi does. I cleaned up the dirt and the broken pot and sat on the floor with my back against the cabinet and that's where the math started.
 
-H-1B visa. Employer-sponsored. No employer, no visa. Sixty-day grace period to find a new sponsor or leave the country.
+H-1B visa, employer-sponsored. No employer, no visa. Sixty-day grace period to find a new sponsor or leave the country.
 
 Leaving means,
 
@@ -96,7 +96,7 @@ The temperature change was instant. Every time. Like opening a freezer door. One
 
 Just that. A single syllable carrying the weight of an entire bureaucracy. She said they'd love to but they didn't have the infrastructure for H-1B transfers right now. The other two used almost identical language, which made me wonder if there was a template somewhere, a shared Google Doc titled "How to Reject Qualified Candidates Who Had the Audacity to Be Born in the Wrong Country."
 
-Week two I adjusted my approach. Cast a wider net. Applied to seven more companies, including two I was overqualified for and one that was technically a downgrade in every way except the one that mattered, which was "willing to sponsor." Two interviews materialized. The first one, a fintech startup in the payments space, went beautifully. Three rounds. I crushed the technical assessment. The hiring manager and I talked for forty minutes about event-driven architecture and he was practically finishing my sentences. I walked out of that building feeling something I hadn't felt in two weeks. Hope. Stupid, dangerous, oxygen-tank-in-a-fire kind of hope.
+Week two I adjusted my approach. Cast a wider net. Applied to seven more companies, including two I was overqualified for and one that was technically a downgrade in every way except the one that mattered, which was "willing to sponsor." Two interviews materialized. The first one, a fintech startup in the payments space, went beautifully. Three rounds. I crushed the technical assessment. The hiring manager and I talked for forty minutes about event-driven architecture and he was practically finishing my sentences. I walked out of that building feeling something I hadn't felt in two weeks, hope, stupid, dangerous, oxygen-tank-in-a-fire kind of hope.
 
 He Googled the sponsorship costs that night. I know because his LinkedIn profile visited mine at 11:47 PM and his email the next morning started with "After careful consideration" which is corporate for "I looked up how much you'd cost me in legal fees and nearly choked on my dinner."
 
@@ -130,7 +130,7 @@ Diana is Colombian-American, mid-thirties, sharp in the way that good lawyers ar
 <<say "Me">>You always are.<</say>>
 <<say "Diana">>You have thirty-seven days. I can file for an extension based on extraordinary circumstances but the approval rate on those is about twelve percent and the processing time would eat your runway anyway. I cannot manufacture a sponsor for you. You need to find employment with a qualifying company or we need to start discussing voluntary departure.<</say>>
 
-Voluntary departure. Two words that sound administrative and mean, go home. Give up. Lose.
+Voluntary departure. Two words that sound administrative and mean, go home. Give up, lose.
 
 <<say "Me">>Diana.<</say>>
 <<say "Diana">>I know.<</say>>
@@ -166,7 +166,7 @@ I thought about dating apps. About swiping. About the specific cruelty of trying
 :: backstory_threeinterviews [backstory]
 Day thirty-two on the clock. A Thursday. I had been twenty-nine days without a paycheck, without a sponsor, without a single concrete reason to believe things were going to work out.
 
-I had three interviews that day. Three. I'd never managed to stack that many at once before. It felt like the universe was either giving me one last chance or setting me up for a triple knockout, and I wasn't sure which possibility frightened me more.
+I had three interviews that day, more than I'd ever managed to stack at once before. It felt like the universe was either giving me one last chance or setting me up for a triple knockout, and I wasn't sure which possibility frightened me more.
 
 The first was at nine in the morning. A data infrastructure company downtown. The interviewer was a woman named Rachel who had kind eyes and a firm handshake and who told me within twelve minutes that they'd just filled the position internally but wanted to meet me anyway "for future opportunities." Future opportunities. The most American phrase in the English language. It means nothing.
 
@@ -182,7 +182,7 @@ I did. The manager nodded and said "let me take this back to leadership" and I k
 :: backstory_dataforge [backstory]
 The third interview was the one that mattered.
 
-DataForge. A cloud security company I'd been in process with for three weeks. First round phone screen, aced it. Technical assessment, top marks. Second round with the engineering director, went great, real chemistry. She'd asked me about distributed systems and I'd drawn diagrams on the whiteboard and she'd nodded and said "this is exactly what we need."
+DataForge, a cloud security company I'd been in process with for three weeks. First round phone screen, aced it. Technical assessment, top marks. Second round with the engineering director, went great, real chemistry. She'd asked me about distributed systems and I'd drawn diagrams on the whiteboard and she'd nodded and said "this is exactly what we need."
 
 They knew about the visa from the start. They said it wasn't a problem. The engineering director, Valerie, had specifically said  
 
@@ -239,7 +239,7 @@ I found a spot in the back corner. Opened my laptop. Stared at a job board. The 
 
 <<say "Paco">>Hermano. You look like you're trying to dig a hole with a spoon.<</say>>
 
-Paco Herrera. Twenty-eight. Venezuelan. Fellow developer, fellow immigrant, fellow member of the "people whose lives depend on paperwork filed by strangers" club. I'd met him here three weeks ago. He had one of those faces that's always on the edge of a joke, dark eyes that stayed amused even when he was serious, and a voice that carried whether he wanted it to or not. He was holding two coffees.
+Paco Herrera, twenty-eight, Venezuelan, fellow developer, fellow immigrant, fellow member of the "people whose lives depend on paperwork filed by strangers" club. I'd met him here three weeks ago. He had one of those faces that's always on the edge of a joke, dark eyes that stayed amused even when he was serious, and a voice that carried whether he wanted it to or not. He was holding two coffees.
 
 <<say "Paco">>You look like you need this more than I do.<</say>>
 

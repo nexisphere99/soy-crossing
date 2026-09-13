@@ -88,7 +88,7 @@ Three messages. Each one more accommodating than the last. James's guilt operate
 
 
 :: t0_day01_mama_voicenote [phone]
-I look at the notification. Her face in the tiny circle. Smiling. She's always smiling in photos.
+I look at the notification. Her face in the tiny circle, smiling. She's always smiling in photos.
 
 <<opt "t0_day01_mama_play" "Play the voice note">>
 <<opt "t0_day01_mama_skip" "Save it for later">>
@@ -115,7 +115,7 @@ She laughs at her own joke. She always laughs at her own jokes.
 
 <<say "Mamá">>Tía Rosa was there. She says hello. She looks terrible, mijo. She's gained weight since the thing with her gallbladder but don't tell her I said that either. I said it in love. Everything I say is in love. Your father is fine, he's fixing the neighbor's truck again, the Hernández boy, the one with the earring. I told him to charge more but Ricardo González has never charged what he's worth and I've been telling him that for thirty years.<</say>>
 
-Pause. Breath. When she breathes on the voice notes I can hear the kitchen in Guadalajara behind her. The hum of the fridge, the ticking of the clock she's had since I was a baby, the faint sound of the street outside.
+A pause, a breath. When she breathes on the voice notes I can hear the kitchen in Guadalajara behind her. The hum of the fridge, the ticking of the clock she's had since I was a baby, the faint sound of the street outside.
 
 <<say "Mamá">>I made pozole yesterday. I thought of you. I'll send you the recipe but you won't make it because you never make what I send you. That's okay. When you come home I'll make it for you.<</say>>
 
@@ -129,7 +129,7 @@ The voice note ends. The kitchen is quiet. I listen to it twice. Her voice fills
 
 Chipi is on the counter, watching me with the calm attention of a creature who has never heard a mother's voice on a phone and felt the distance between herself and home collapse into a thing so small it fits in your chest and so heavy it makes breathing hard.
 
-I don't call back. Not tonight. I can't say "research, biometric" to my mother. She'd see through it in three words and then I'd have to explain and the explaining would unravel me. Tomorrow. I'll call her tomorrow. Or Wednesday. Wednesday is her usual day. I'll call Wednesday and say "research, biometric" and she'll ask about a girlfriend and I'll say "pronto, mamá" and we'll both pretend.
+I don't call back. Not tonight. I can't say "research, biometric" to my mother. She'd see through it in three words and then I'd have to explain and the explaining would unravel me, so I'll call her tomorrow. Or Wednesday. Wednesday is her usual day. I'll call Wednesday and say "research, biometric" and she'll ask about a girlfriend and I'll say "pronto, mamá" and we'll both pretend.
 
 <<opt "t0_day01_evening_phone" "Back to the phone">>
 
@@ -139,7 +139,7 @@ I don't call back. Not tonight. I can't say "research, biometric" to my mother. 
 <<set $player.guilt += 1>>
 <<run SOY.Quests.completeSide('sq_005_mama', 'respond')>>
 
-I look at the notification. Her face in the tiny circle. Smiling. She's always smiling in photos.
+I look at the notification. Her face in the tiny circle, smiling. She's always smiling in photos.
 
 Not tonight. I can't hold her voice in my head right now along with everything else. There's no room. The apartment is full of Elena's lecture and Rafael's questions and the number twenty-seven and the Transfer Worker's Handbook PDF sitting in my inbox like a bomb with a reading list.
 
@@ -246,7 +246,7 @@ Paco picks up on the first ring.
 <<say "Paco">>Are there, like, pods? Tell me there are pods.<</say>>
 <<say "Me">>Paco. Breathe.<</say>>
 
-He breathes. Audibly. I can hear him adjusting, probably sitting up from whatever couch he was melted into. There's music in the background, reggaeton, because Paco's apartment is a permanent reggaeton zone.
+He breathes, audibly. I can hear him adjusting, probably sitting up from whatever couch he was melted into. There's music in the background, reggaeton, because Paco's apartment is a permanent reggaeton zone.
 
 <<say "Paco">>Okay. I'm breathing. Talk to me.<</say>>
 
@@ -277,7 +277,7 @@ Long pause. Paco goes quiet and when Paco goes quiet you pay attention because t
 <<say "Paco">>Tits, Manuel. I'm talking about tits and the other stuff. The whole situation.<</say>>
 <<say "Me">>Yes. The whole situation.<</say>>
 
-Another pause. Shorter. Then,
+Another pause, shorter. Then,
 
 <<say "Paco">>This is either the wildest thing you've ever done or the smartest.<</say>>
 <<say "Me">>Can it be both?<</say>>

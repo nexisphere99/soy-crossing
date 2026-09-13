@@ -80,7 +80,7 @@ The door opens.
 
 That's the only way I can describe it. Elena Cordero walks through the door and the air pressure changes, or the lighting shifts, or something molecular happens that makes every person in every chair sit up straighter without deciding to.
 
-She's tall. Lean. Angular in a way that's less fashion and more architecture. Everything about her is load-bearing, nothing decorative. Black hair cut short at the jaw, tucked behind one ear. Brown skin, sharp cheekbones, dark eyes that sweep the room the way a scalpel sweeps tissue, with purpose and without hesitation. She wears a fitted charcoal blazer over a black turtleneck. No jewelry except a single silver ring on her left thumb. She moves like her hands still remember surgery, precise, economical, every gesture deliberate.
+She's tall, lean, angular in a way that's less fashion and more architecture. Everything about her is load-bearing, nothing decorative. Black hair cut short at the jaw, tucked behind one ear. Brown skin, sharp cheekbones, dark eyes that sweep the room the way a scalpel sweeps tissue, with purpose and without hesitation. She wears a fitted charcoal blazer over a black turtleneck. No jewelry except a single silver ring on her left thumb. She moves like her hands still remember surgery, precise, economical, every gesture deliberate.
 
 She stops at the center of the semicircle. Doesn't introduce herself yet. Just stands there and looks at each of us, one by one, for long enough that it's uncomfortable. Her eyes land on me. Stay there for one second, two, three. Then move on.
 
@@ -174,7 +174,7 @@ I write that down. Seventy - eighty percent. The number sits on my phone screen 
 
 <<say "Tommy">>Will we be transferring into female bodies?<</say>>
 
-His voice is tight. Controlled. A man trying hard to sound casual about something that is not casual at all.
+His voice is tight, controlled. A man trying hard to sound casual about something that is not casual at all.
 
 <<say "Elena">>All of you will experience cross-gender transfer during this training. It is not optional. The market requires it and your employment depends on competency in it.<</say>>
 
@@ -302,9 +302,9 @@ Georgia passes us on her way back to Room 4. She doesn't stop. Doesn't need to. 
 
 
 :: t0_day01_cafeteria_wait [facility]
-<<face "georgia" "Georgia Hayes">>The cafeteria is on the second floor. Small. Four tables, a counter with a coffee machine that looks like it was designed by someone who takes coffee personally, and a refrigerator with pre-made sandwiches in clear wrap.
+<<face "georgia" "Georgia Hayes">>The cafeteria is on the second floor, small, four tables, a counter with a coffee machine that looks like it was designed by someone who takes coffee personally, and a refrigerator with pre-made sandwiches in clear wrap.
 
-I get coffee. Black. Sit at a table near the window. The window looks out onto a courtyard I didn't know existed, a patch of concrete with a single tree, some kind of maple, going orange at the edges. October is dismantling it leaf by leaf.
+I get coffee, black, and sit at a table near the window. The window looks out onto a courtyard I didn't know existed, a patch of concrete with a single tree, some kind of maple, going orange at the edges. October is dismantling it leaf by leaf.
 
 Georgia sits down across from me. No preamble. No "is this seat taken?" She sets her tray down, sandwich, water, an apple, and starts eating with the focus of someone refueling.
 
@@ -404,14 +404,14 @@ Rafael almost smiles.
 
 <<say "Rafael">>I doubt that.<</say>>
 
-He shifts in his chair. Crosses his ankle over his knee. Casual. Deliberate.
+He shifts in his chair, crosses his ankle over his knee, casual, deliberate.
 
 <<say "Rafael">>Relationship status?<</say>>
 <<say "Me">>Single.<</say>>
 <<say "Rafael">>How long?<</say>>
 <<say "Me">>Since I moved here. Four years.<</say>>
 
-He writes something down. First thing he's written. I try to read it upside down. Can't.
+He writes something down. First thing he's written. I try to read it upside down, but can't.
 
 <<say "Rafael">>Dating?<</say>>
 <<say "Me">>Hard to date when your residence in the country is conditional.<</say>>
@@ -471,7 +471,7 @@ Then he sets his tablet on the table. Leans forward. The casual posture drops an
 
 <<say "Rafael">>Manuel. I'm going to be direct. In approximately sixteen hours you're going to sit in a chair and someone is going to put your consciousness into the body of a woman. A clone, not a person, but the body will be female in every physiological sense. Breasts. Hips. Genitalia configured differently from yours. A hormonal environment you have never experienced. You will feel things you have never felt. The body will have responses you did not choose and cannot fully control. This is not hypothetical. This is tomorrow.<</say>>
 
-The water glass on the table trembles slightly. It takes me a second to realize I'm the one shaking the table. My knee. Bouncing.
+The water glass on the table trembles slightly. It takes me a second to realize I'm the one shaking the table, my knee, bouncing.
 
 <<say "Me">>I know.<</say>>
 <<say "Rafael">>Do you have any questions for me? About any of it?<</say>>

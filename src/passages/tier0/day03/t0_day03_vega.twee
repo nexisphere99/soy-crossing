@@ -10,7 +10,7 @@ I detour to Lulu's on the way to Vega. I need milk for tomorrow's coffee and an 
 
 The bodega smells like Fabuloso and frying oil and the specific combination of packaged snacks and fresh produce that exists only in bodegas. The aisles are narrow. The ceiling is low. Every surface holds something, cans stacked on cans, bags of chips hung from clip strips, a rotating display of sunglasses that has been rotating since 2014.
 
-Lulu is behind the counter. Lourdes Medina. Fifty-five. The kind of Mexican-American woman who calls everyone under forty "mijo" and everyone over sixty "compadre" and the rest of the world "trouble." She's wearing her reading glasses on a chain around her neck and her crucifix over them and her apron over everything. Her hands smell like cumin. They always smell like cumin.
+Lulu is behind the counter. Lourdes Medina, fifty-five. The kind of Mexican-American woman who calls everyone under forty "mijo" and everyone over sixty "compadre" and the rest of the world "trouble." She's wearing her reading glasses on a chain around her neck and her crucifix over them and her apron over everything. Her hands smell like cumin. They always smell like cumin.
 
 <<say "Lulu">>Mijo! You look terrible.<</say>>
 <<say "Me">>Thanks, Lulu.<</say>>
@@ -59,7 +59,7 @@ I take the milk and the empanada.
 <<say "Me">>Goodbye, Lulu.<</say>>
 <<say "Lulu">>POZOLE, MANUEL.<</say>>
 
-I walk out. The bell over the door jingles. Behind me, I hear Lulu say to no one:
+I walk out. The bell over the door jingles. Behind me, I hear Lulu say to no one.
 
 <<say "Lulu">>That boy. Ay.<</say>>
 
@@ -195,7 +195,7 @@ She blinks. Wasn't expecting that.
 <<say "Me">>I'm not usual.<</say>>
 <<say "Adriana">>Getting that.<</say>>
 
-She pours herself a water. Drinks.
+She pours herself a water and drinks.
 
 <<say "Adriana">>Consent is an architecture. What does that mean?<</say>>
 <<say "Me">>It means that saying yes isn't enough. You have to build the yes. Document it. Define it. Make it specific and time-limited and scope-limited so that everyone involved knows exactly what was agreed to and nobody can pretend they didn't.<</say>>
@@ -279,12 +279,12 @@ I stand. Put on the olive green jacket. She watches me zip it, a casual observat
 
 I leave. The door closes behind me. The red neon V reflects off the wet sidewalk, it rained while I was inside, and the puddles hold the letter like a secret kept in water. I walk home in the cold with mezcal warm in my stomach and the echo of her voice calling me "research guy" instead of Manuel, which somehow feels more intimate, like a nickname she invented in real time and decided to keep.
 
-The rain has stopped but the city smells like wet concrete and fallen leaves and somewhere, faintly, like someone's window is open, garlic frying in a pan. My boots leave prints on the wet sidewalk. My hands are in my pockets. My reflection appears in the window of a closed barbershop, and for one disorienting fraction of a second I expect to see auburn hair and pale skin. I see my own face. Dark hair. Brown skin. The shadow under the eyes. Mine.
+The rain has stopped but the city smells like wet concrete and fallen leaves and somewhere, faintly, like someone's window is open, garlic frying in a pan. My boots leave prints on the wet sidewalk. My hands are in my pockets. My reflection appears in the window of a closed barbershop, and for one disorienting fraction of a second I expect to see auburn hair and pale skin. I see my own face, dark hair, brown skin, the shadow under the eyes, mine.
 
 I keep walking.
 
 The walk home is fourteen minutes. My hands are in my pockets. The mezcal sits warm in my stomach. The night air smells like autumn, that specific combination of dry leaves and exhaust and the ghost of someone's dinner through an open window.
 
-Home. Chipi is on the kitchen counter sitting in the exact center of a dish towel she pulled off the oven handle and arranged into a nest. She looks at me like I interrupted something important. I feed her. Open a Modelo. The apartment is quiet. Processing quiet.
+I'm home. Chipi is on the kitchen counter sitting in the exact center of a dish towel she pulled off the oven handle and arranged into a nest. She looks at me like I interrupted something important. I feed her. Open a Modelo. The apartment is quiet. Processing quiet.
 
 <<opt "t0_day03_phone_evening" "Check the phone">>
