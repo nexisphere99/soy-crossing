@@ -13,17 +13,17 @@ The alarm doesn't wake me. Chipi doesn't wake me. I'm already awake at 5:51, thi
 
 The alarm goes off at 6:15. I kill it. Chipi, who was sleeping on the pillow next to my head like a furry surveillance unit, opens one eye, decides I'm not interesting, and closes it again.
 
-Kitchen. Coffee. The routine helps. Grind, filter, kettle, pour. My hands shake slightly when I hold the mug but the coffee is hot and good and I drink it standing at the counter in boxer shorts the same way I drank it yesterday and the day before and every day since I moved into this apartment. The sameness of it is a small anchor.
+Kitchen, coffee. The routine helps. Grind, filter, kettle, pour. My hands shake slightly when I hold the mug but the coffee is hot and good and I drink it standing at the counter in boxer shorts the same way I drank it yesterday and the day before and every day since I moved into this apartment. The sameness of it is a small anchor.
 
-Toast. Butter. Chipi knocks the butter knife off the counter with one deliberate paw, watches it clatter to the floor, then looks at me with the expression of an animal who has never once in her life been responsible for anything.
+Toast, butter. Chipi knocks the butter knife off the counter with one deliberate paw, watches it clatter to the floor, then looks at me with the expression of an animal who has never once in her life been responsible for anything.
 
 <<say "Me">>Really.<</say>>
 
-She blinks. Slowly. The blink of the innocent.
+She blinks slowly. The blink of the innocent.
 
 I pick up the knife. Wash it. Butter the toast. Eat it over the sink. The handbook says fasting is required before a transfer, nothing but water for four hours prior. My slot is afternoon, so morning food is fine. But the toast sits in my stomach like a brick. Nerves have a way of turning everything to concrete.
 
-I shower. The water is hot and I stand under it too long again and Chipi sits on the toilet lid again and the mirror is fogged when I get out. I wipe it with my palm. Same face. Same body. Brown skin, dark hair curling over my ears, circles under my eyes darker than yesterday. The navy henley is in the hamper. I pull out a grey t-shirt and the same dark jeans. Boots.
+I shower. The water is hot and I stand under it too long again and Chipi sits on the toilet lid again and the mirror is fogged when I get out. I wipe it with my palm. Same face. Same body. Brown skin, dark hair curling over my ears, circles under my eyes darker than yesterday. The navy henley is in the hamper. I pull out a grey t-shirt and the same dark jeans, then boots.
 
 I look at myself. This body. These shoulders, this flat chest, these hands with their knuckles and their veins and their specific way of gripping things. In a few hours I'm going to leave all of it behind, temporarily, and step into something completely different. Something with breasts and narrower shoulders and hips that change the way gravity works. Then I'm going to come back to this, to these hands and this chest and this jaw, and it's supposed to feel normal.
 
@@ -87,19 +87,19 @@ She stares at me the way she stared at me yesterday, that long searching look, b
 <<say "Me">>You said that yesterday.<</say>>
 <<say "Lulu">>God is consistent. You should try it.<</say>>
 
-I eat one empanada on the walk to the bus. Beef and cheese. Perfect. Greasy. The cheese burns my mouth. Some things don't change.
+I eat one empanada on the walk to the bus. Beef and cheese, perfect, greasy. The cheese burns my mouth. Some things don't change.
 
 <<opt "t0_day02_bus" "Head to the bus">>
 
 
 :: t0_day02_paco_morning_text [phone]
-My thumb hovers over Paco's name. I want to type something. Something like: //Today they put my brain in a woman's body and I'm scared in a way I don't have vocabulary for.// Instead I type:
+My thumb hovers over Paco's name. I want to type something like //Today they put my brain in a woman's body and I'm scared in a way I don't have vocabulary for.// Instead I type this.
 
 <<phone "Paco">>
 <<txt "Me">>Transfer day.<</txt>>
 <</phone>>
 
-Three dots. Then nothing. Then three dots again. Then:
+Three dots. Then nothing. Then three dots again. Then, finally, his reply.
 
 <<phone "Paco">>
 <<txt "Paco">>hermano<</txt>>
@@ -124,9 +124,9 @@ I almost laugh. Not quite. But the muscles try.
 
 The 34 bus. Same smell, diesel and breakfast sandwiches and metal. Different seat today, second row from the back, because the middle seats were taken by a group of high school kids with backpacks the size of body bags.
 
-My leg bounces. I press my knee down. It bounces anyway. The kid next to me glances at my leg, then at his phone, then back at my leg. He's maybe sixteen, wearing earbuds that leak a tinny bass line. He doesn't say anything. Good.
+My leg bounces. I press my knee down. It bounces anyway. The kid next to me glances at my leg, then at his phone, then back at my leg. He's maybe sixteen, wearing earbuds that leak a tinny bass line. He doesn't say anything, good.
 
-The bus lurches through a yellow light. I grab the rail. My hand wraps around the metal and I'm conscious of the grip in a way I wasn't yesterday. These knuckles. This palm. The calluses on my fingertips from four years of typing at Brevity Labs, four years of code flowing through these specific fingers. In three hours these fingers will be different. Smaller. Smoother. Moles instead of calluses.
+The bus lurches through a yellow light. I grab the rail. My hand wraps around the metal and I'm conscious of the grip in a way I wasn't yesterday. These knuckles. This palm. The calluses on my fingertips from four years of typing at Brevity Labs, four years of code flowing through these specific fingers. In three hours these fingers will be different, smaller, smoother. Moles instead of calluses.
 
 My phone vibrates. Mamá, sending a photo to the family group chat. Tía Rosa's new dog, small and white and angry-looking. My mother has typed "¡QUE LINDO!" with seven exclamation marks. Héctor has responded with a single thumbs up, which in Héctor-language is equivalent to a four-paragraph love letter.
 
@@ -134,7 +134,7 @@ I close the chat. Open the handbook instead. Chapter 3, section on pre-transfer 
 
 <div class="quote">Anxiety prior to first transfer is universal and does not correlate with transfer success. Candidates who report high pre-transfer anxiety frequently outperform candidates who report confidence. The reason: anxiety indicates accurate risk assessment. Confidence, in a candidate who has never transferred, indicates either insufficient understanding or psychological suppression. Neither is useful.</div>
 
-Great. My anxiety is a feature, not a bug. Very reassuring.
+Great, my anxiety is a feature, not a bug. Very reassuring.
 
 Outside, October continues its slow demolition of the city's trees. The maples on Seventh Street are half-bare, their leaves scattered across sidewalks in orange and brown. A woman at the bus stop is adjusting her bra strap through her shirt, that quick two-finger pull at the shoulder, and I notice it the way I've started noticing things since yesterday's lecture. The mechanics of a body I'm about to inhabit. The small negotiations women make with their own clothing every ten minutes that I never registered before.
 
