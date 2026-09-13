@@ -2,7 +2,7 @@
 <<run SOY.Locations.travel('facility')>>
 <<scene "locations/soy-lobby" "The SoY lobby, Yuki at the desk, new pins on her lapel">>
 
-Yuki is at the desk. Different enamel pins today: a mushroom and a tiny wrench. She doesn't look up.
+Yuki is at the desk. Different enamel pins today, a mushroom and a tiny wrench. She doesn't look up.
 
 <<say "Yuki">>Room 4. She's already in there.<</say>>
 
@@ -38,14 +38,14 @@ The room goes still. Even Brett's energy drink stops crinkling.
 
 
 :: t0_day02_lecture_pretransfer [facility]
-<<scene "locations/transfer-headset" "The Type II headset up close: matte black housing, four contact prongs">>
+<<scene "locations/transfer-headset" "The Type II headset up close, matte black housing, four contact prongs">>
 <<say "Elena">>Before we begin, some of you will not complete today's transfer. That is acceptable. The failsafe returns you to your body within eleven seconds. Choosing to abort is not failure. Choosing to endure something your psychology cannot handle is.<</say>>
 
 She lets that settle. Then she touches the screen.
 
 <<say "Elena">>Pre-transfer protocols. Three elements.<</say>>
 
-The screen shows a numbered list. Simple. Clinical.
+The screen shows a numbered list, simple, clinical.
 
 <<say "Elena">>One. Fasting. Your body must be in a metabolically neutral state. No food for four hours prior to transfer. Water is permitted. Caffeine is not. The reason: consciousness compression is sensitive to metabolic activity. Active digestion creates neural noise. Caffeine elevates baseline stress markers. Both reduce transfer fidelity.<</say>>
 
@@ -67,7 +67,7 @@ She kills the numbered list. The screen changes to a human body diagram, female,
 
 
 :: t0_day02_lecture_gender [facility]
-<<scene "slides/gender-differential" "A split anatomical diagram: male body in blue, female body in rose, differential areas labelled">>
+<<scene "slides/gender-differential" "A split anatomical diagram, male body in blue, female body in rose, differential areas labelled">>
 
 <<say "Elena">>The gender differential briefing. Pay attention. This information will save you.<</say>>
 
@@ -101,9 +101,9 @@ Elena's voice softens by a fraction, not warmer, just quieter.
 
 <<say "Elena">>Female bodies operate on a different hormonal profile. Estrogen and progesterone affect emotional responsiveness, pain sensitivity, temperature perception. You will feel colder. Sounds may seem louder. Your emotional reactions may be more immediate, more intense, more physical. You may cry more easily. You may feel a vague sense of tenderness or vulnerability that has no specific cause. This is not weakness. This is chemistry. The body is telling you how it processes the world, and your job is to listen without following.<</say>>
 
-She shuts the screen off. Then, after a beat, one last slide: four icons, each with a red line through it.
+She shuts the screen off. Then, after a beat, one last slide, four icons, each with a red line through it.
 
-<<scene "slides/four_prohibition" "Four crossed-out icons: mirror, hand, speech bubble, running figure">>
+<<scene "slides/four_prohibition" "Four crossed-out icons, mirror, hand, speech bubble, running figure">>
 
 <div class="prohibit">
 <h2>What NOT to do. Four prohibitions.</h2>
@@ -132,7 +132,7 @@ The room exhales.
 
 The hours between the lecture and my transfer slot are the longest of my life. Not the longest in a dramatic sense. The longest in the specific, grinding, clock-watching sense of a man who knows exactly what's coming and can do nothing to speed it up or slow it down.
 
-I sit in the cafeteria. Water. No coffee, Elena said no caffeine. The water tastes like nothing. I drink three cups of nothing and try to read the handbook on my phone but the words slide off my brain like oil.
+I sit in the cafeteria with water. No coffee, Elena said no caffeine. The water tastes like nothing. I drink three cups of nothing and try to read the handbook on my phone but the words slide off my brain like oil.
 
 <<if not visited("t0_day02_tommy_cafeteria")>>
 <<opt "t0_day02_tommy_cafeteria" "Tommy drops into the chair across from you" "Four crushed paper cups on the table already.">>
@@ -150,7 +150,7 @@ I sit in the cafeteria. Water. No coffee, Elena said no caffeine. The water tast
 <<say "Me">>Yuki told me.<</say>>
 <<say "Tommy">>I'm second.<</say>>
 
-Crush.
+He crushes another cup.
 
 <<say "Tommy">>So I get to sit here for another hour and think about it while you go do it.<</say>>
 <<say "Me">>Lucky you.<</say>>
@@ -170,7 +170,7 @@ He looks at me. The tower falls again. He leaves it.
 <<say "Tommy">>That's either zen or insane.<</say>>
 <<say "Me">>Probably both.<</say>>
 
-Quiet. The cafeteria hum. The coffee machine doing its thing in the corner. Georgia at the next table, reading something on her phone, eating an apple core and all.
+Quiet, just the cafeteria hum, the coffee machine doing its thing in the corner. Georgia at the next table, reading something on her phone, eating an apple core and all.
 
 Tommy lowers his voice.
 
@@ -210,11 +210,11 @@ He crushes the cup one final time.
 <<say "Tommy">>You don't know that.<</say>>
 <<say "Me">>Tommy. You're an EMT. You've pulled people out of car wrecks. You can survive sitting in a chair with a headset on.<</say>>
 
-He considers this. Nods. The nod that says he wants to believe it and is working on it.
+He considers this and nods, the nod that says he wants to believe it and is working on it.
 
 <<say "Tommy">>Fair point.<</say>>
 
-Pause.
+He pauses.
 
 <<say "Tommy">>Still scared though.<</say>>
 <<say "Me">>Same.<</say>>
@@ -247,13 +247,13 @@ He fills another cup.
 
 <<say "Tommy">>Right. You don't know. I don't know. Nobody knows until they do it.<</say>>
 
-He drinks. Crushes.
+He drinks and crushes the cup.
 
 <<say "Tommy">>Shit.<</say>>
 <<say "Me">>Yeah.<</say>>
 <<say "Tommy">>Shit.<</say>>
 
-Georgia passes through. Gets water. Sits at the next table. Opens her phone. Says nothing. Her presence is calming in the way a wall is calming: solid, unmoving, requiring nothing from you.
+Georgia passes through. Gets water. Sits at the next table. Opens her phone. Says nothing. Her presence is calming in the way a wall is calming, solid, unmoving, requiring nothing from you.
 
 <<run SOY.NPCs.adjustRelationship('tommy', 1)>>
 <<set $npcs.tommy.flags.shared_transfers = 1>>
@@ -266,7 +266,7 @@ At 1:25, Yuki appears in the cafeteria doorway.
 
 <<say "Yuki">>González. Transfer room. Now.<</say>>
 
-My legs stand me up before my brain gives permission. Tommy looks at me. Nods. The nod of a man watching someone walk off a cliff and knowing he's next.
+My legs stand me up before my brain gives permission. Tommy looks at me and nods, the nod of a man watching someone walk off a cliff and knowing he's next.
 
 <<say "Tommy">>See you on the other side.<</say>>
 <<say "Me">>Don't say it like that.<</say>>

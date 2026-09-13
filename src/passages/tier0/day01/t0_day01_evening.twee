@@ -6,7 +6,7 @@
 
 The sky is the color of a bruise when I come out of 814 Ninth Street. Purple and yellow at the edges, going dark. October evenings arrive sudden and non-negotiable.
 
-My head is full. Overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifying and Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
+My head is full, overfull. Transfer methods. Clone designations. The 72-hour window. Elena Cordero's voice cutting through the information like a scalpel through gauze, clean and deliberate and slightly terrifying and Rafael's ninety minutes of questions, peeling me open layer by layer like he was looking for a specific organ and he'd know it when he found it.
 
 I need food. I need beer. I need Chipi on my chest. But first I need to walk past something normal.
 
@@ -30,7 +30,7 @@ The bells on the door. She looks up from her newspaper, different section now, s
 <<say "Lulu">>Was the science good?<</say>>
 <<say "Me">>The science was... a lot.<</say>>
 
-She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked. Rice. Beans. Two Modelos and the empanadas, different ones from this morning, chicken and green chile.
+She studies me the way she studies the newspaper, like she's going to find meaning if she looks hard enough. Then she puts down her magnifying glass and starts filling a bag without being asked, rice, beans, two Modelos and the empanadas, different ones from this morning, chicken and green chile.
 
 <<say "Me">>How much?<</say>>
 <<say "Lulu">>Twelve dollars and you eat all of it, you hear me? You're too skinny. Your mother would be ashamed.<</say>>
@@ -166,7 +166,7 @@ I open the PDF on my phone. Lie on the bed. Chipi sits on my chest, which means 
 
 I read three pages. Chipi falls asleep on my chest. Her weight is warm and small and specific, maybe three kilograms of cat pressing me into the mattress. In a few hours she'll be the only thing pressing me into anything because I'll be in a transfer pod getting my consciousness pulled through a needle's eye into a body that weighs more than Chipi but less than me.
 
-I close the PDF. Battery at 23%. Tomorrow.
+I close the PDF. Battery at 23%. Tomorrow, ready or not.
 
 I set the phone on the nightstand and lie there in the dark with the cat on my chest and the handbook half-read and the day sitting on top of me like a second blanket, heavy, warm, and impossible to kick off.
 
@@ -182,7 +182,7 @@ I set the phone on the nightstand and lie there in the dark with the cat on my c
 <</if>>
 <<run SOY.Locations.travel('apartment')>>
 
-Teeth. Face. Lights off.
+Teeth, face, lights off.
 
 The bed. Queen-size, bought on sale at a furniture outlet three and a half years ago because it was cheap and I was optimistic and I thought maybe, at some point, someone would be in it besides me and a cat. That hasn't happened. The bed is too big. It's always too big. I sleep on the left side because the right side has Chipi and a pillow I don't use and the ghost of a person I haven't met yet.
 

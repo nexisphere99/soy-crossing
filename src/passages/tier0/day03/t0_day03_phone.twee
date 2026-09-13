@@ -26,7 +26,7 @@ I pocket the phone. Lyla is going to figure it out. Not the details, not the tra
 
 I don't want to lie to her. I don't know how to tell her the truth.
 
-Friday. Two days.
+Two days until Friday.
 
 <<opt "t0_day03_phone_evening" "Back to the phone">>
 
@@ -47,7 +47,7 @@ Friday. Two days.
 
 I put the phone down. James Okafor. Twenty-nine years old. Still at Brevity Labs. Survived the cuts that ended my career. Buys me dinner every time we meet because the guilt of surviving runs deeper than his paycheck.
 
-Tomorrow. Thai food and the specific warmth of a man who cares too much and apologizes for things that aren't his fault.
+Tomorrow brings Thai food and the specific warmth of a man who cares too much and apologizes for things that aren't his fault.
 
 <<opt "t0_day03_phone_evening" "Back to the phone">>
 
@@ -136,7 +136,7 @@ He says it like he's been waiting.
 <<say "Me">>Goodnight, Paco.<</say>>
 <<say "Paco">>Tell me everything tomorrow. EVERYTHING.<</say>>
 
-Paco is quiet for a second. Then, softer:
+Paco is quiet for a second. Then, softer.
 
 <<say "Paco">>But for real. Are you okay? Not "I'm processing" okay. Actually okay.<</say>>
 

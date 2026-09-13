@@ -88,7 +88,7 @@ The phone again.
 <<txt "James">>Perfect. My treat obviously.<</txt>>
 <</phone>>
 
-Obviously.
+Of course it is.
 <<else>>
 <<phone "James">>
 <<txt "James">>Thursday still good? Found this Thai place on 12th.<</txt>>
@@ -111,7 +111,7 @@ She's at the market. I can hear the noise behind her, vendors calling, music fro
 
 <<say "Mamá">>Mijo, just thinking of you. I bought chayotes, your favorite. Call me, okay? Besos.<</say>>
 
-Chayotes are not my favorite. They've never been my favorite. She says they are because she likes them and has decided I do too. I love her for this. I don't call back. Wednesday. I'll call Wednesday.
+Chayotes are not my favorite. They've never been my favorite. She says they are because she likes them and has decided I do too. I love her for this. I don't call back. I'll call Wednesday instead.
 
 <<opt "t0_day02_evening_phone" "Back to the phone">>
 
@@ -163,7 +163,7 @@ Long breath.
 <<say "Me">>They have a rule about everything.<</say>>
 <<say "Paco">>Makes sense.<</say>>
 
-Pause.
+He pauses.
 
 <<say "Paco">>Makes terrifying sense.<</say>>
 
@@ -197,7 +197,7 @@ He laughs. Short, surprised.
 <<say "Me">>That's the job.<</say>>
 <<say "Paco">>That's insane. That's absolutely, completely, totally insane.<</say>>
 
-Beat.
+A beat passes.
 
 <<say "Paco">>But you're staying, right? This is working? The visa?<</say>>
 <<say "Me">>If I pass.<</say>>
@@ -254,7 +254,7 @@ I'm on the couch. Chipi is on my lap. The apartment is dark except for the kitch
 <<if $npcs.lyla.flags.suspicion gte 2>>
 <<say "Lyla">>Manuel González.<</say>>
 
-Her voice drops. Serious Lyla. Rare.
+Her voice drops, serious Lyla, rare.
 
 <<say "Lyla">>Are you in trouble?<</say>>
 <<say "Me">>No.<</say>>
@@ -282,7 +282,7 @@ Long pause. I can hear her breathing. I can hear her thinking, which with Lyla i
 <<say "Me">>I promise.<</say>>
 <<say "Lyla">>Fine. But soon has an expiration date, Manuel. My patience is not unlimited.<</say>>
 
-Pause.
+She pauses.
 
 <<say "Lyla">>How are you though? For real. Not job stuff. Just you.<</say>>
 <<say "Me">>Tired. Long day.<</say>>
@@ -307,9 +307,9 @@ She yawns.
 <<run SOY.Quests.completeSide('sq_002_lyla', 'respond')>>
 <<set $npcs.lyla.flags.suspicion += 2>>
 
-I let it ring. Five rings. Six. Voicemail.
+I let it ring. Five rings, six, then voicemail.
 
-I text instead:
+I text instead.
 
 <<phone "Lyla">>
 <<txt "Me">>Hey, in bed already. Early day tomorrow. Talk soon?<</txt>>

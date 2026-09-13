@@ -37,15 +37,15 @@ The shower takes forty seconds to get warm. I stand outside the curtain with my 
 
 Same face. Brown skin, dark hair curling at the temples where it's gotten too long, jaw that needs a shave but won't get one today. The shadow under my eyes is permanent now. Not from lack of sleep. From lack of something else I can't name.
 
-I step under the water. Hot. Good. My shoulders unknot one vertebra at a time.
+I step under the water, hot, good. My shoulders unknot one vertebra at a time.
 
-Then my hand goes to my chest. Flat. The pectoral muscle shifts under my palm, dense and angular, no give, no softness. Two days ago I felt breasts shift with every breath. Yesterday I felt Katya's body register temperature through her nipples like radio antennae picking up a signal. Today my chest is a wall. Flat terrain.
+Then my hand goes to my chest, flat. The pectoral muscle shifts under my palm, dense and angular, no give, no softness. Two days ago I felt breasts shift with every breath. Yesterday I felt Katya's body register temperature through her nipples like radio antennae picking up a signal. Today my chest is a wall. Flat terrain.
 
 I catch myself pressing, feeling for something that isn't there. My hand lingers one second, two seconds, three.
 
 I pull it away. Turn the water to cold. The shock drives everything else out, every sensation, every comparison, every phantom memory of weight that doesn't exist on this body. I gasp, teeth clenching, and stand in the cold until my cock goes down and my skin goes tight and I'm just me again. Just Manuel. Just the one body.
 
-I get out. Towel. The mirror is fogged over. Small mercy.
+I get out, towel off. The mirror is fogged over. Small mercy.
 
 <<opt "t0_day04_dress" "Get dressed">>
 
@@ -67,7 +67,7 @@ I make coffee around her. She bats at the filter as I tear it from the pack. One
 
 
 :: t0_day04_breakfast [home]
-Toast. I found the bread Lulu sold me, the good sourdough she keeps behind the counter for people she likes. Two slices, medium brown, butter that I rescued from the counter edge before Chipi could make her move. Small victory.
+It's toast. I found the bread Lulu sold me, the good sourdough she keeps behind the counter for people she likes. Two slices, medium brown, butter that I rescued from the counter edge before Chipi could make her move. Small victory.
 
 I eat standing. The toast is good. The coffee has grounds in it. Chipi watches from the counter with the patient intensity of a creature waiting for me to look away so she can steal something.
 
@@ -82,7 +82,7 @@ My phone buzzes. Three notifications.
 <<txt "Lyla">>Morning sunshine ☀️ reminder that tomorrow is FRIDAY and we are getting DRINKS and you are telling me what the MYSTERIOUS JOB is or I'm waterboarding you with cheap wine. Non-negotiable.<</txt>>
 <</phone>>
 
-I reply to Paco first:
+I reply to Paco first.
 
 <<phone "Paco">>
 <<txt "Me">>Prison for masturbation. Great start to the morning.<</txt>>
@@ -125,15 +125,15 @@ She looks at me. Back at the spoon. Back at me. The experiment has concluded. Th
 <<run SOY.Quests.completeSide('sq_005_vidal', 'handle')>>
 <<scene "mood/vidal-note" "A folded yellow note on the HOLA doormat, cramped handwriting, a crucifix drawn in the margin">>
 
-I grab my bag. Keys. Phone. Badge, the amber one Yuki gave me yesterday that means Module 2, which means ethics, which means today is the day they teach me about boundaries by putting me in situations designed to make me cross them.
+I grab my bag. Keys, phone, badge, the amber one Yuki gave me yesterday that means Module 2, which means ethics, which means today is the day they teach me about boundaries by putting me in situations designed to make me cross them.
 
 At the door I stop. Señora Vidal has left another note. Yellow paper, same as always, tucked under the welcome mat I bought at Target three years ago that says HOLA in faded letters.
 
 I unfold it.
 
-<div class="note">MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary.<span>&mdash; V. Vidal</span></div>
+<div class="note">MANUEL. Your cat cried at 1 PM, 3 PM, and 4:30 PM. This is a PATTERN. I left platanos maduros at 6 PM. You were not home. I took them back. They were perfect. You missed them. Also your mail is piling up. I am not your secretary.<span>V. Vidal</span></div>
 
-The note is longer today. The handwriting gets smaller toward the bottom where she ran out of space. There's a postscript crammed into the margin: //Eat something with vegetables.//
+The note is longer today. The handwriting gets smaller toward the bottom where she ran out of space. There's a postscript crammed into the margin. //Eat something with vegetables.//
 
 I fold the note and put it in my jacket pocket with the others. Three notes in three days. Four now. She's tracking Chipi's crying schedule. She's monitoring my arrival times. She's leaving food and taking it back when I'm not there to receive it. This woman is running a one-person surveillance and welfare operation from the apartment below mine and she will never, under any circumstances, admit that she cares.
 
@@ -146,9 +146,9 @@ I fold the note and put it in my jacket pocket with the others. Three notes in t
 <<set $npcs.senora_vidal = $npcs.senora_vidal || { name: "Señora Vidal", relationship: 1, notes_received: 0, plates_received: 0 }>>
 <<run SOY.NPCs.adjustRelationship('senora_vidal', 1)>>
 
-I find a Post-It note in my kitchen drawer. Yellow, same shade as hers. I write:
+I find a Post-It note in my kitchen drawer. Yellow, same shade as hers. I write.
 
-<div class="note">Señora Vidal, thank you for watching Chipi. I'm sorry I missed the platanos. I will try to be home earlier.<span>&mdash; M.</span></div>
+<div class="note">Señora Vidal, thank you for watching Chipi. I'm sorry I missed the platanos. I will try to be home earlier.<span>M.</span></div>
 
 I stick it on her door on my way out. The door has a small crucifix nailed above the peephole and a doormat that says BIENVENIDOS in letters that are half worn away.
 
@@ -186,7 +186,7 @@ My leg bounces. It's been doing that every morning since Day 1. The bus rattles 
 
 Two days ago I wouldn't have registered that. Today it's a sentence I can read. //I am here and I am aware of who else is here and I am holding my things close because the world has taught me to.//
 
-A man in a hoodie gets on at the next stop and takes the seat across from her and she shifts her purse to her far hip without looking at him. One fluid motion. Practiced. Automatic.
+A man in a hoodie gets on at the next stop and takes the seat across from her and she shifts her purse to her far hip without looking at him. One fluid motion, practiced, automatic.
 
 I think about Katya's body in Scenario 3 yesterday. The knock at the door. The way the body softened toward the voice before I could stop it. Welcome as reflex. Accommodation as default setting.
 
@@ -207,7 +207,7 @@ I didn't use to know that. Now I can't stop knowing it.
 <<run SOY.Locations.travel('facility')>>
 <<scene "locations/soy-lobby" "The lobby, Yuki with two screens and a pen between her teeth, a gavel pin and a skull pin">>
 
-Yuki is behind the desk with two screens open and a pen between her teeth. Today's pins: a tiny gavel and a skull with cartoon X-eyes. She looks up when I badge in, pulls the pen out.
+Yuki is behind the desk with two screens open and a pen between her teeth. Today's pins are a tiny gavel and a skull with cartoon X-eyes. She looks up when I badge in, pulls the pen out.
 
 <<say "Yuki">>Room 3 again. Elena's already in there.<</say>>
 
