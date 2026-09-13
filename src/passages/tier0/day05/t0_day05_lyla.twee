@@ -20,11 +20,11 @@ She flips over the laminated page.
 
 <<scene "mood/lyla-chart" "A laminated page, four colours of marker, arrows and probability scores, wine-glass ring in the corner">>
 
-It's a chart. An actual chart. Handwritten in four colors of marker, with arrows, boxes, and a scoring system. The title, in red Sharpie: <strong>WHAT DOES MANUEL ACTUALLY DO?</strong>
+It's a chart. An actual chart. Handwritten in four colors of marker, with arrows, boxes, and a scoring system. The title, in red Sharpie, reads <strong>WHAT DOES MANUEL ACTUALLY DO?</strong>
 
 Five theories down the side. Evidence for. Evidence against. A probability score.
 
-<div class="quote">1. Pharmaceutical test subject &mdash; 15%. 2. Government spy (can't hold a poker face) &mdash; 5%. 3. Underground fight club, nerd division (have you SEEN his arms) &mdash; 3%. 4. Porn (he'd be WAY less stressed if it was porn) &mdash; 8%. 5. Something genuinely weird that he's embarrassed about &mdash; 69% (nice).</div>
+<div class="quote">1. Pharmaceutical test subject, 15%. 2. Government spy (can't hold a poker face), 5%. 3. Underground fight club, nerd division (have you SEEN his arms), 3%. 4. Porn (he'd be WAY less stressed if it was porn), 8%. 5. Something genuinely weird that he's embarrassed about, 69% (nice).</div>
 
 <<say "Me">>You laminated this.<</say>>
 <<say "Lyla">>I used the laminator at work. My terrible startup has exactly one good piece of equipment and I used it for this.<</say>>
@@ -103,7 +103,7 @@ She leans forward.
 <<say "Lyla">>What kind of bodies?<</say>>
 <<say "Me">>Female bodies.<</say>>
 
-Her mouth opens. Closes. Opens again. Closes. She picks up her wine, drinks the entire glass in one pull, sets it down.
+Her mouth opens, closes, opens again, closes. She picks up her wine, drinks the entire glass in one pull, sets it down.
 
 <<say "Lyla">>You. Manuel González. Backend developer. The man who once spent twenty minutes explaining REST API architecture at a party. You are telling me that you, personally, put your brain into a woman's body.<</say>>
 <<say "Me">>Female clone bodies. Yes.<</say>>
@@ -118,7 +118,7 @@ She leans back. Her eyes are enormous. The chart on the table suddenly looks lik
 <<say "Me">>In fairness, nobody would put body-swapping on the board.<</say>>
 <<say "Lyla">>I need more wine.<</say>>
 
-She pours. Drinks. Pours again.
+She pours, drinks, pours again.
 
 <<say "Lyla">>Do you, and I need you to answer this, do you have BREASTS right now?<</say>>
 <<say "Me">>Right now? No. I'm in my own body.<</say>>
@@ -155,7 +155,7 @@ She reaches across the table and takes my hand. Warm, firm, slightly drunk.
 <<say "Lyla">>That's not an answer.<</say>>
 <<say "Me">>It's the most honest one I have.<</say>>
 
-She squeezes my hand. Lets go. Pulls a marker from her jacket pocket, because of course she brought a marker, and crosses out all five theories and writes in large red letters across the bottom:
+She squeezes my hand, lets go, and pulls a marker from her jacket pocket, because of course she brought a marker, crossing out all five theories and writing in large red letters across the bottom of the chart.
 
 <div class="quote">THEORY 6: BODY SWAPPER. 100%. THE TRUTH IS ALWAYS WEIRDER.</div>
 
@@ -177,9 +177,9 @@ I tell her all of it.
 
 Consciousness transfer. Clone bodies. Female clone bodies. The classification, the visa, the six working days of training. She goes through the same arc, mouth opening and closing, wine drunk in one pull, //what does it feel like//, //do you have breasts right now.// I let her have the science and the shape of it.
 
-And then I keep going. Past where I stopped with the partial version. The mirror on Day 3, four seconds, the face that was mine on a canvas that wasn't. The changing room, the shaking hands. The knock, the body's welcome signal firing without my permission. The partner on the couch, Scenario 4, the hand on the knee and the way the body said yes in a language I hadn't chosen to learn.
+Then I keep going. Past where I stopped with the partial version. The mirror on Day 3, four seconds, the face that was mine on a canvas that wasn't. The changing room, the shaking hands. The knock, the body's welcome signal firing without my permission. The partner on the couch, Scenario 4, the hand on the knee and the way the body said yes in a language I hadn't chosen to learn.
 
-And today. The contract. The speculum.
+Then today. The contract. The speculum.
 
 Lyla stops drinking. She sits very still while I describe the exam table, the stirrups, the gasp that came out of Renata's throat. When I finish she's quiet for a long time.
 
@@ -195,7 +195,7 @@ She reaches across and grips my forearm, hard, the way you hold onto someone on 
 <<say "Lyla">>Say it back.<</say>>
 <<say "Me">>If it starts taking pieces that don't come back, I tell you.<</say>>
 
-She lets go. Wipes her eyes with the back of her hand, fast, like she's annoyed at them. Then she pulls out the marker and writes across the bottom of the chart:
+She lets go. Wipes her eyes with the back of her hand, fast, like she's annoyed at them. Then she pulls out the marker and writes across the bottom of the chart.
 
 <div class="quote">THEORY 6: BODY SWAPPER. 100%. AND HE'S NOT OKAY BUT HE WILL BE.</div>
 

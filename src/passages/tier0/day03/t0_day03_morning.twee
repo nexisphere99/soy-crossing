@@ -10,13 +10,13 @@
 
 The ceiling fan ticks. One rotation every four seconds. I know because I've been counting since 4:47 AM and it is now, according to the phone pressed against my thigh under the sheets, 5:02.
 
-My body is half-hard. That part I expected. Morning biology, routine plumbing. But the quality of it sits wrong, like the signal is coming through a frequency I don't usually receive. There's warmth pooled low in my belly that doesn't match the erection. Diffuse. Spread wide instead of centered. Like my nervous system spent the night replaying sensations it doesn't have the hardware to reproduce and this is the closest translation it could manage.
+My body is half-hard. That part I expected. Morning biology, routine plumbing. But the quality of it sits wrong, like the signal is coming through a frequency I don't usually receive. There's warmth pooled low in my belly that doesn't match the erection, diffuse, spread wide instead of centered. Like my nervous system spent the night replaying sensations it doesn't have the hardware to reproduce and this is the closest translation it could manage.
 
 I lie still. Chipi is curled against my left knee, a warm fur comma. The October dark presses against the window. Somewhere below, a garbage truck beeps its way down the block.
 
 Yesterday I was inside a woman's body for two hours.
 
-The thought arrives like that. Clean. Declarative. No judgment attached. Just the fact sitting in the middle of my skull waiting for me to do something with it.
+The thought arrives like that, clean, declarative. No judgment attached. Just the fact sitting in the middle of my skull waiting for me to do something with it.
 
 I don't do anything with it. I get up.
 
@@ -26,21 +26,21 @@ I don't do anything with it. I get up.
 :: t0_day03_morning_apartment [home]
 <<scene "locations/apartment-morning" "The kitchen counter before dawn, dry toast, the cat by the butter dish">>
 
-The shower is too hot and then too cold and I stand under it adjusting the handle with the kind of obsessive precision that means I'm avoiding thinking about something. Water runs down my chest. Flat. The pectorals I've never really thought about before yesterday now feel like a statement. A topography I'm suddenly reading instead of just wearing.
+The shower is too hot and then too cold and I stand under it adjusting the handle with the kind of obsessive precision that means I'm avoiding thinking about something. Water runs down my chest, flat. The pectorals I've never really thought about before yesterday now feel like a statement. A topography I'm suddenly reading instead of just wearing.
 
-My hand goes to my sternum. Reflex. Checking for weight that isn't there. The phantom from Flor's body passed through here last night while I slept and left fingerprints in my nervous system.
+My hand goes to my sternum, reflex, checking for weight that isn't there. The phantom from Flor's body passed through here last night while I slept and left fingerprints in my nervous system.
 
 I pull my hand away. Turn off the water.
 
-Clothes. The grey t-shirt from yesterday is in the hamper. I pull out a black henley, the one with the slightly stretched collar that Lyla once said made me look like "a sad poet, but in a hot way." Dark jeans. Same boots. I look at myself in the bathroom mirror while I brush my teeth. Brown skin, dark hair curling at the temples because I still haven't gotten it cut, the permanent shadow under my eyes that's been there since the layoff. Same face.
+I need clothes. The grey t-shirt from yesterday is in the hamper. I pull out a black henley, the one with the slightly stretched collar that Lyla once said made me look like "a sad poet, but in a hot way." Dark jeans. Same boots. I look at myself in the bathroom mirror while I brush my teeth. Brown skin, dark hair curling at the temples because I still haven't gotten it cut, the permanent shadow under my eyes that's been there since the layoff. Same face.
 
 But I keep looking. Which is new. Usually the mirror is just a checkpoint, a place to confirm toothpaste isn't on my chin. Today I'm studying. The jaw, the brow ridge, the way the Adam's apple moves when I swallow. Masculine architecture. I never catalogued it before. Never had a reason to.
 
 Flor's face was rounder. Softer at the cheekbones. No Adam's apple. When I swallowed in her body, the throat just moved, smooth, without the knob of cartilage interrupting the line.
 
-I spit. Rinse. Stop looking.
+I spit, rinse. Stop looking.
 
-Kitchen. Coffee. The machine gurgles and Chipi appears on the counter like she materialized from the sound itself. She walks directly to the butter dish, which I left out last night because I am a man in decline, and pushes it toward the edge with one deliberate paw.
+Kitchen, coffee. The machine gurgles and Chipi appears on the counter like she materialized from the sound itself. She walks directly to the butter dish, which I left out last night because I am a man in decline, and pushes it toward the edge with one deliberate paw.
 
 <<say "Me">>Don't.<</say>>
 
@@ -54,7 +54,7 @@ The butter dish stops at the precipice. She sits behind it like a hostage negoti
 
 She purrs.
 
-Toast. The last two slices of the bread I bought at Lulu's on Monday. I eat standing at the counter because the table feels like a place where a person with a functioning life sits down, and I am a person who is twenty-five days from deportation eating toast at 5:30 AM before going to a facility where they will put his brain inside a woman's body for the second time.
+Toast, the last two slices of the bread I bought at Lulu's on Monday. I eat standing at the counter because the table feels like a place where a person with a functioning life sits down, and I am a person who is twenty-five days from deportation eating toast at 5:30 AM before going to a facility where they will put his brain inside a woman's body for the second time.
 
 The toast is dry. I forgot to buy butter. The butter Chipi pushed to the edge yesterday was the last of it, and I scraped what survived off the counter and into the trash because even I have limits. So it's dry toast and black coffee and the specific resignation of a Wednesday morning when you know the day is going to be harder than the last one and the last one was already the hardest of your life.
 
@@ -81,13 +81,13 @@ I press play. Her voice fills the kitchen, warm and slightly too loud because sh
 
 <<say "Mamá">>Manueeeel, buenos días mijo. Es miércoles, estoy saliendo para la iglesia. Tu tía Carmen dice que su sobrina la de Zapopan se acaba de mudar a Los Angeles, es bonita, trabaja en un banco. Le di tu número. No me grites. Te quiero. Come bien. Adiós.<</say>>
 
-She gave my number to someone's cousin. Bonita. Works at a bank. In Los Angeles, which is a different coast, but geography has never been an obstacle to my mother's matchmaking ambitions.
+She gave my number to someone's cousin, bonita, works at a bank. In Los Angeles, which is a different coast, but geography has never been an obstacle to my mother's matchmaking ambitions.
 
 I close my eyes.
 
 <<say "Me">>Mamá.<</say>>
 
-I type back a text because calling her before church is asking for a twenty-minute conversation and I have a train to catch:
+I type back a text because calling her before church is asking for a twenty-minute conversation and I have a train to catch.
 
 <<phone "Mamá">>
 <<txt "Me">>Buenos días mamá. No le des mi número a nadie por favor. Te quiero.<</txt>>
@@ -101,7 +101,7 @@ The phone buzzes again immediately. But it's not her.
 <<txt "Paco">>Day 3. Ethics day. Don't let anyone touch your borrowed tits hermano 🫡<</txt>>
 <</phone>>
 
-I almost choke on my coffee. Type back:
+I almost choke on my coffee. Type back.
 
 <<phone "Paco">>
 <<txt "Me">>You're disgusting.<</txt>>
@@ -116,7 +116,7 @@ I almost choke on my coffee. Type back:
 :: t0_day03_morning_depart [home]
 <<run SOY.Quests.completeSide('sq_005_vidal', 'read')>>
 
-I pocket the phone. Grab my jacket, the olive green one with the torn lining I keep meaning to fix. Keys. Badge. Out the door.
+I pocket the phone. Grab my jacket, the olive green one with the torn lining I keep meaning to fix, keys, badge. Out the door.
 
 Señora Vidal's door is closed but there's a new note taped to my doorframe. Yellow paper this time, folded once. I take it.
 
@@ -148,13 +148,13 @@ Today they're putting me in Katya. Auburn hair, pale skin, C-cup. More body than
 
 The bus lurches to a stop. More people get on. I close my eyes and for one disorienting second, when a woman brushes past my knee getting to her seat, I expect to feel the contact differently. Softer skin. More nerve endings. The sensation pathways Flor's body taught me in two hours.
 
-My knee feels exactly like my knee. Angular. Bony. Mine.
+My knee feels exactly like my knee, angular, bony, mine.
 
 I open my eyes. Grip the handrail. The metal is cold and my hand wraps around it with the full mechanical confidence of a male grip, the squeeze that comes from broad palms and thick fingers and forearms that were built for torque. Yesterday I held a tennis ball in Flor's hand and couldn't compress it the same way. The grip was different, more precise, less raw force, like the hand had been designed for a different set of tasks.
 
 The bus lurches. A man gets on at Seventh Street, big, construction boots, high-vis vest, coffee in one hand, phone in the other. He moves through the aisle and every body adjusts for him. The seated woman pulls her bag closer. The standing teenager shifts left. The man doesn't notice any of it. He takes up the space his body requires and the world makes room and no negotiation is involved.
 
-Georgia's voice in my head: //The male body doesn't apologize for existing.//
+Georgia's voice in my head. //The male body doesn't apologize for existing.//
 
 I watch him settle into a seat, legs spread, knees wide, coffee balanced on one thigh. Pure entitlement of space. Not malicious. Just default. The firmware of masculinity running its standard program.
 
@@ -173,7 +173,7 @@ My stop. I stand. The bus doors open. The cold hits.
 
 Ninth Street. The facility's entrance is the same unremarkable grey door it was Monday, the same it was yesterday. No sign. No logo. Just the address in small brass numbers and a card reader that blinks green when I hold up my badge.
 
-The lobby smells like recycled air and floor cleaner and something faintly chemical underneath, the ozone tang of transfer technology that never quite gets scrubbed out. Yuki is behind the reception counter. Today's pins: a tiny enamel sword and what appears to be a slice of pizza. Her ponytail is higher than yesterday, the silver streak catching the fluorescent light.
+The lobby smells like recycled air and floor cleaner and something faintly chemical underneath, the ozone tang of transfer technology that never quite gets scrubbed out. Yuki is behind the reception counter. Today's pins are a tiny enamel sword and what appears to be a slice of pizza. Her ponytail is higher than yesterday, the silver streak catching the fluorescent light.
 
 <<say "Yuki">>González. Module 2 starts at eight. Room 3, not Room 4. Different room. Don't go to Room 4.<</say>>
 <<say "Me">>What's in Room 4?<</say>>

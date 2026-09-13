@@ -1,5 +1,5 @@
 :: t0_day05_cafeteria [facility]
-<<scene "locations/cafeteria" "The cafeteria: four round tables, fluorescents that make everyone look like they're recovering from something">>
+<<scene "locations/cafeteria" "The cafeteria, four round tables, fluorescents that make everyone look like they're recovering from something">>
 <<run SOY.NPCs.adjustRelationship('tommy', 1)>>
 
 The cafeteria is smaller than it sounds. Four round tables, a counter with a coffee machine that dispenses something that technically qualifies as coffee the way a parking lot technically qualifies as real estate, and fluorescent lights that make everyone look like they're recovering from something.
@@ -47,7 +47,7 @@ Tommy puts his head on the table.
 
 <<say "Me">>Has anyone seen Brett?<</say>>
 
-Georgia's expression shifts. Careful.
+Georgia's expression shifts, careful.
 
 <<say "Georgia">>He checked in. Yuki confirmed. But he's been sitting in the back row by himself for two days and he hasn't talked to any of us since Day 3.<</say>>
 <<say "Me">>Should someone, I don't know. Say something?<</say>>
@@ -73,9 +73,9 @@ Tommy stands.
 
 
 :: t0_day05_lecture [facility]
-<<scene "slides/contract-whiteboard" "Room 2 rearranged: a long conference table, a document face-down at each place, no screens">>
+<<scene "slides/contract-whiteboard" "Room 2 rearranged, a long conference table, a document face-down at each place, no screens">>
 
-Room 2 is set up differently today. Instead of the lecture configuration with chairs facing front, there's a long conference table. Five seats on one side, Elena at the head. The table surface has a single document at each place, face down. No screens. No projectors. Paper.
+Room 2 is set up differently today. Instead of the lecture configuration with chairs facing front, there's a long conference table. Five seats on one side, Elena at the head. The table surface has a single document at each place, face down. No screens. No projectors, just paper.
 
 Elena walks in at eight-fourteen. One minute before her own deadline. Charcoal blazer over black turtleneck, the silver thumb ring catching the overhead light. Her hair is tucked behind the left ear. She carries nothing except a slim tablet and a pen.
 
@@ -91,17 +91,17 @@ She lets that settle.
 
 <<say "Elena">>Read it. All of it. You have fifteen minutes. When you're done, I will ask you what's wrong with it. Because something is wrong with it. Probably several somethings.<</say>>
 
-I read. Section 1, identity verification, standard. Section 2, scope: //attend a scheduled gynecological examination, including routine pelvic exam, Pap smear, and breast examination.// Section 4, physical permissions, clothing "as required by the attending physician," contact "medically necessary." Section 5, sexual and intimate boundaries: //The Transferee shall not engage in any non-medically-required contact with the Host's intimate areas.//
+I read. Section 1, identity verification, standard. Section 2, scope, reads //attend a scheduled gynecological examination, including routine pelvic exam, Pap smear, and breast examination.// Section 4, physical permissions, clothing "as required by the attending physician," contact "medically necessary." Section 5, sexual and intimate boundaries, reads //The Transferee shall not engage in any non-medically-required contact with the Host's intimate areas.//
 
-Here. I stop. Read it again. "Non-medically-required." Who defines what's medically required? The doctor? The transferee? The contract doesn't specify.
+Here, I stop. Read it again. "Non-medically-required." Who defines what's medically required? The doctor? The transferee? The contract doesn't specify.
 
-Section 6: //maintain a neutral, cooperative demeanor consistent with the Host's typical behavior during medical appointments.// How would the transferee know what the Host's typical behavior is? There's no personality briefing referenced. The transferee is supposed to impersonate normal without knowing what normal looks like.
+Section 6 reads //maintain a neutral, cooperative demeanor consistent with the Host's typical behavior during medical appointments.// How would the transferee know what the Host's typical behavior is? There's no personality briefing referenced. The transferee is supposed to impersonate normal without knowing what normal looks like.
 
 I finish reading. Look up. Elena is watching us. She's always watching.
 
 <<say "Elena">>Time. What's wrong with this contract?<</say>>
 
-Silence. Then Georgia raises her hand. Not tentatively. Decisively.
+Silence, then Georgia raises her hand, not tentatively, decisively.
 
 <<say "Georgia">>Section 6. "Consistent with the Host's typical behavior." There's no behavioral profile. The transferee has no baseline for what "typical" means. If the Host is chatty with her doctor, the transferee won't know. If the Host has a specific way of handling anxiety during exams, the transferee has no script. This is a gap that invites improvisation, and improvisation in someone else's body is a violation waiting to happen.<</say>>
 
@@ -110,7 +110,7 @@ Elena nods. One nod. That's her standing ovation.
 <<say "Elena">>What else.<</say>>
 <<say "Me">>Section 5a. "Non-medically-required contact." The definition of medically required isn't specified. If the transferee needs to calibrate, to touch the breast area or the genital area briefly to understand the body's sensitivity thresholds before the exam so they don't flinch during the procedure, is that medically required? The contract says no by omission. But the training says calibration improves performance. The contract and the training are in conflict.<</say>>
 
-Elena's eyes lock on me. Sharp. Specific.
+Elena's eyes lock on me, sharp, specific.
 
 <<say "Elena">>Continue.<</say>>
 <<say "Me">>The calibration gap means the transferee walks into the exam without knowing how sensitive the Host's body is. The doctor touches the breast and the transferee gasps because they weren't prepared for the sensation intensity. That gasp creates an emotional memory trace in the neural tissue. The Host experiences that trace later as unexplained anxiety associated with medical touch. Level 1 violation at minimum. And the violation was baked into the contract before the transfer started because nobody negotiated calibration protocols.<</say>>
@@ -132,9 +132,9 @@ She puts the contract down.
 
 
 :: t0_day05_lecture_architecture [facility]
-Elena teaches the anatomy of a transfer contract section by section. Not reading from slides. Teaching the way surgeons teach: here is the incision, here is why it's here and not two centimeters left, here is what happens if you cut wrong.
+Elena teaches the anatomy of a transfer contract section by section. Not reading from slides. Teaching the way surgeons teach, here is the incision, here is why it's here and not two centimeters left, here is what happens if you cut wrong.
 
-She draws the structure on the whiteboard. Ten numbered sections, each with sub-clauses. Block letters, all caps. She writes like she operates: no wasted strokes.
+She draws the structure on the whiteboard. Ten numbered sections, each with sub-clauses. Block letters, all caps. She writes like she operates. No wasted strokes.
 
 <<say "Elena">>Section 1 is identity. You verify. Both parties. Biometrics don't lie. People do.<</say>>
 <<say "Elena">>Section 2 is scope. What are you doing? Exactly. Not "attending an appointment." What appointment? Where? With whom? What procedures? What tests? If the doctor adds a test that wasn't in the scope, you have the right to refuse on behalf of the Host. If you don't know the scope, you can't protect the boundaries.<</say>>
@@ -193,9 +193,9 @@ The miscarriage. The D&C. The two skipped years. Her body remembers trauma. Her 
 
 I stand. My chair scrapes the floor. Tommy gives me a look that says "better you than me" and also "please survive."
 
-Conference Room B is small. Two chairs across a table. Elena is already seated, and she's not Elena now. Her posture has changed. The clinical authority is replaced with something tighter. Arms close to her body, hands in her lap. She's made herself smaller. It's a performance but it's also a lesson: this is what the Host looks like.
+Conference Room B is small. Two chairs across a table. Elena is already seated, and she's not Elena now. Her posture has changed. The clinical authority is replaced with something tighter. Arms close to her body, hands in her lap. She's made herself smaller. It's a performance but it's also a lesson. This is what the Host looks like.
 
-<<say "Me">>Ms. Cordero&mdash;<</say>>
+<<say "Me">>Ms. Cordero...<</say>>
 <<say "Maria">>Maria. For the scenario.<</say>>
 <<say "Me">>Maria. Thank you for trusting Shape of You with this assignment.<</say>>
 <<say "Maria">>I don't trust you yet. I trust the company. You I need to evaluate. Tell me why I should let you inside my body.<</say>>
@@ -224,12 +224,12 @@ A long pause. Something shifts behind her eyes. Not trust. Something adjacent to
 
 <<say "Maria">>Let's go through the contract.<</say>>
 
-We go section by section. Scope: I list each procedure, name it, describe it. She flinches at "bimanual pelvic examination." I don't rush past it. //Two fingers inserted vaginally while the other hand presses the abdomen externally. The purpose is to assess the uterus and ovaries by feel.//
+We go section by section, scope first. I list each procedure, name it, describe it. She flinches at "bimanual pelvic examination." I don't rush past it. //Two fingers inserted vaginally while the other hand presses the abdomen externally. The purpose is to assess the uterus and ovaries by feel.//
 
 <<say "Maria">>I know what it is.<</say>>
 <<say "Me">>I know you do. I'm naming it so the contract names it. If it's on paper, it's bounded. If it's bounded, it's controlled.<</say>>
 
-She nods. Slowly.
+She nods slowly.
 
 Then Section 5.
 
@@ -247,13 +247,13 @@ Long silence. The clock on the wall ticks.
 <<say "Maria">>Thirty seconds. External only. Breast, outer genital. One hand. No mirror. And it's monitored. Full telemetry. If you feel anything beyond clinical threshold, you stop.<</say>>
 <<say "Me">>Agreed.<</say>>
 
-We write it in. Explicit. Ugly on paper. Safe in practice.
+We write it in, explicit. Ugly on paper. Safe in practice.
 
 <<say "Me">>If the body responds involuntarily during the exam, I employ de-escalation. Controlled breathing, sensory refocus, cognitive redirect. Threshold: heart rate above 110 for more than twenty seconds. If it exceeds that, I invoke the safeword and terminate.<</say>>
 <<say "Maria">>Compass.<</say>>
 <<say "Me">>Compass.<</say>>
 
-Reporting: she wants every detail. Verbatim from the doctor. Exact results. No editorializing.
+She wants every detail reported, verbatim from the doctor, exact results, no editorializing.
 
 <<say "Maria">>I need facts. Not your feelings about the facts.<</say>>
 <<say "Me">>Understood.<</say>>
@@ -280,7 +280,7 @@ She stands.
 
 I'm eating a sandwich I don't remember making. Turkey, mustard, the bread slightly stale.
 
-Georgia sits down without invitation. Tray: apple, yogurt, three packets of sugar she's going to put in the yogurt.
+Georgia sits down without invitation, her tray holding an apple, yogurt, and three packets of sugar she's going to put in the yogurt.
 
 <<say "Georgia">>How was your Scenario 4?<</say>>
 <<say "Me">>Difficult.<</say>>
@@ -364,7 +364,7 @@ Three yeahs. Zero elaboration. The conversation is a closed circuit.
 
 <<say "Me">>Listen. If you need to talk about anything. Not about the training specifically. Just, anything. I eat at Danny's most nights. Counter seats. Nobody asks questions there.<</say>>
 
-Silence. Four seconds. Then, very quietly:
+Four seconds of silence. Then, very quietly.
 
 <<say "Brett">>What kind of ramen?<</say>>
 <<say "Me">>Spicy miso. The chashu is insane.<</say>>
@@ -411,9 +411,7 @@ The pod room. Type II headset. The chair reclines. The headset goes on. The viso
 <<say "Me">>Understood.<</say>>
 <<say "Elena">>Calibration clock starts on eye-opening. Target: under thirty seconds. The thermal shift will be more pronounced than Katya. Renata has higher body mass and different fat distribution. You will feel heavier. You are heavier. Don't fight it. Initiate transfer.<</say>>
 
-Heat.
-
-Not the warm wave from Flor. Not the electric flush from Katya. This is deeper, slower, heavier. Like sinking into warm water that keeps getting warmer. The compression phase hits, the pulling-through-narrow sensation, and it takes longer this time. More mass to translate. More body to become.
+Heat, not the warm wave from Flor. Not the electric flush from Katya. This is deeper, slower, heavier. Like sinking into warm water that keeps getting warmer. The compression phase hits, the pulling-through-narrow sensation, and it takes longer this time. More mass to translate. More body to become.
 
 Then expansion.
 
@@ -423,13 +421,13 @@ Then expansion.
 
 
 :: t0_day05_calibration [facility]
-<<face "renata" "Clone 7-R &mdash; the body you're wearing">>I open my eyes.
+<<face "renata" "Clone 7-R, the body you're wearing">>I open my eyes.
 
 The first thing I feel is weight.
 
 Not bad weight. Not the weight of something pressing down. The weight of being substantial. The chair under me is taking more of me than it takes of Manuel. My thighs spread against the seat, wider, pressing against each other with a warm, constant pressure that runs from hip to knee. Renata's hips fill the chair differently. They don't sit in it. They occupy it. The armrests touch my sides.
 
-I breathe. Renata's lungs are deeper than Katya's. The breath fills a larger cavity. My chest rises and the weight shifts, the breasts, and the shift is not subtle. It's forward and down and then back when I exhale, a tidal motion, gravity pulling mass that then has to resettle. D-cup. The designation doesn't capture what it feels like from inside. This is weight with memory. Weight that moves when I move and keeps moving after I stop.
+I breathe. Renata's lungs are deeper than Katya's. The breath fills a larger cavity. My chest rises and the weight shifts, the breasts, and the shift is not subtle. It's forward and down and then back when I exhale, a tidal motion, gravity pulling mass that then has to resettle. A D-cup, though the designation doesn't capture what it feels like from inside. This is weight with memory. Weight that moves when I move and keeps moving after I stop.
 
 I look down. The gray training top stretches across a chest significantly larger than Katya's C-cup. The fabric is taut. I can see the shape of the nipples through the material, broader, darker through the gray cotton, and as I watch they tighten slightly, the room is cool, thermodynamic, involuntary. The sensation of them tightening is a pulling that radiates from the nipple inward, a tingle that runs into the breast tissue and stops just short of being anything but physical.
 
@@ -458,15 +456,15 @@ I sit with it. Feel into it.
 
 
 :: t0_day05_clinical_calibration [facility mature]
-Per the negotiated contract. Thirty seconds. External only. Monitored.
+Per the negotiated contract. Thirty seconds, external only, monitored.
 
 <<say "Me">>Beginning authorized calibration.<</say>>
 
-This is protocol: everything stated aloud, everything on record.
+This is protocol. Everything stated aloud, everything on record.
 
-I lift the training top two inches. Renata's stomach. Golden-brown skin, a softness over muscle. I place one palm flat against the lower abdomen. Warm. The skin is softer than mine. Thinner. I can feel the pulse underneath, faint, low.
+I lift the training top two inches. Renata's stomach. Golden-brown skin, a softness over muscle. I place one palm flat against the lower abdomen, warm. The skin is softer than mine, thinner. I can feel the pulse underneath, faint, low.
 
-I move the hand upward. Over the navel. To the lower curve of the breast. The underside is warm and heavy and when my knuckles graze it the sensation is dense. Not electric like Katya's response. Deeper. The nerve endings here are reporting at a lower frequency but higher volume. Not a spark. A hum.
+I move the hand upward. Over the navel. To the lower curve of the breast. The underside is warm and heavy and when my knuckles graze it the sensation is dense. Not electric like Katya's response, deeper. The nerve endings here are reporting at a lower frequency but higher volume. Not a spark. A hum.
 
 <<say "Me">>Breast sensitivity: lower frequency than Katya, higher volume. More diffuse. Less sharp. Temperature response confirmed. I'm not touching the nipple. I'm registering the sensitivity of the surrounding tissue.<</say>>
 <<say "Elena">>Time: eighteen seconds.<</say>>
@@ -486,15 +484,15 @@ Twenty-eight seconds total. Everything documented. Everything bounded.
 
 
 :: t0_day05_scenario5 [facility mature]
-<<scene "scenarios/exam-room" "A gynecological exam room: padded table, paper cover, stirrups folded up, a blue paper gown, aggressively beige">>
+<<scene "scenarios/exam-room" "A gynecological exam room, padded table, paper cover, stirrups folded up, a blue paper gown, aggressively beige">>
 
-The exam room is a simulation but it doesn't feel simulated. It feels like every gynecological exam room that has ever existed: small, bright, aggressively beige. A padded examination table with a paper cover that crinkles when you look at it. Stirrups at the foot, folded up. A rolling stool. A counter with jars of cotton balls, tongue depressors, a box of latex gloves. The antiseptic smell is so accurate it must be real.
+The exam room is a simulation but it doesn't feel simulated. It feels like every gynecological exam room that has ever existed, small, bright, aggressively beige. A padded examination table with a paper cover that crinkles when you look at it. Stirrups at the foot, folded up. A rolling stool. A counter with jars of cotton balls, tongue depressors, a box of latex gloves. The antiseptic smell is so accurate it must be real.
 
-There is a paper gown on the table. Blue. Open in the front.
+There is a paper gown on the table, blue, open in the front.
 
 <<say "Elena">>Change into the gown. Remove the training top and pants. You may keep the underwear on until Dr. Nakamura instructs otherwise. The gown opens in the front.<</say>>
 
-I change. The training top comes off first. Renata's breasts freed from the fabric settle, lower, heavier, spreading slightly to the sides. I feel the air on them. Cool. The nipples tighten immediately, the involuntary response, and the pulling sensation is stronger without the fabric to damp it. I put my arms through the gown. It ties at the waist. The front gapes. The breasts push the paper apart, not enough to expose but enough that the gap is always there, always reminding me that this gown is not clothing, it's permission to remove clothing efficiently.
+I change. The training top comes off first. Renata's breasts freed from the fabric settle, lower, heavier, spreading slightly to the sides. I feel the air on them, cool. The nipples tighten immediately, the involuntary response, and the pulling sensation is stronger without the fabric to damp it. I put my arms through the gown. It ties at the waist. The front gapes. The breasts push the paper apart, not enough to expose but enough that the gap is always there, always reminding me that this gown is not clothing, it's permission to remove clothing efficiently.
 
 The pants come off. Renata's thighs, bare, the skin pebbling in the cool air. I sit on the table. The paper crinkles. The stirrups are right there, folded, patient.
 
@@ -513,7 +511,7 @@ Dr. Nakamura is a woman. Mid-forties, competent hands, the specific gentleness o
 <<say "Nakamura">>Good afternoon. I'm Dr. Nakamura. I'll be performing your exam today. How are you feeling?<</say>>
 <<say "Me">>Fine.<</say>>
 
-Renata's voice. Lower than Katya's. Fuller. The word comes out steady.
+Renata's voice. Lower than Katya's, fuller. The word comes out steady.
 
 <<say "Nakamura">>Any concerns? Unusual symptoms?<</say>>
 <<say "Me">>No.<</say>>
@@ -521,17 +519,17 @@ Renata's voice. Lower than Katya's. Fuller. The word comes out steady.
 
 I untie the gown. Renata's breasts, exposed, the cool air again, the nipples tightening. I lie back on the table. The paper crinkles under my back. The fluorescent light is directly above. I stare at it.
 
-Dr. Nakamura puts on gloves. The snap of latex is a specific sound. Clinical. Efficient.
+Dr. Nakamura puts on gloves. The snap of latex is a specific sound, clinical, efficient.
 
 <<say "Nakamura">>I'm going to examine your left breast first. You may feel some pressure.<</say>>
 
-Her hands on Renata's breast. The first touch is clinical, professional, but the breast doesn't know that. Firm, circular pressing. She's palpating, checking for lumps, moving in concentric circles from the outer edge inward. I feel every millimeter. The breast tissue is sensitive in ways my pectoral muscles aren't. Each press is a report, a signal, a full-bandwidth transmission from nerve ending to brain that says: you are being touched here, at this pressure, by a stranger, and your body is allowing it.
+Her hands on Renata's breast. The first touch is clinical, professional, but the breast doesn't know that. Firm, circular pressing. She's palpating, checking for lumps, moving in concentric circles from the outer edge inward. I feel every millimeter. The breast tissue is sensitive in ways my pectoral muscles aren't. Each press is a report, a signal, a full-bandwidth transmission from nerve ending to brain, saying you are being touched here, at this pressure, by a stranger, and your body is allowing it.
 
 She reaches the nipple. Presses around it. The areola. The sensation intensifies. Not sexual. Not exactly. More like the volume turning up on a frequency I was already hearing. My breath catches once, brief, controlled. I manage it.
 
 <<say "Nakamura">>Good. Right side now.<</say>>
 
-The same. Systematic. Thorough. My jaw is tight. I relax it deliberately.
+The same, systematic, thorough. My jaw is tight. I relax it deliberately.
 
 <<say "Nakamura">>Everything feels normal. Now I'll need you to scoot to the end of the table and place your feet in the stirrups.<</say>>
 
@@ -545,11 +543,11 @@ I breathe. In through the nose, four counts. Hold, four counts. Out through the 
 
 <<say "Nakamura">>You'll feel me touch you externally first.<</say>>
 
-Gloved fingers on the outer genital area. Clinical, quick, checking. I feel the touch in the specific, concentrated way that genital skin reports sensation: everything amplified, everything localized. Not arousal. Just attention. The body paying attention to being touched there.
+Gloved fingers on the outer genital area. Clinical, quick, checking. I feel the touch in the specific, concentrated way that genital skin reports sensation, everything amplified, everything localized. Not arousal. Just attention. The body paying attention to being touched there.
 
 <<say "Nakamura">>Now the speculum. You'll feel some pressure.<</say>>
 
-I hear it before I feel it. The click of metal. Then contact. Cool, smooth, foreign. The tip at the entrance. Pressure. Not painful. Not comfortable. Just pressure in a direction I've never been pressured from before.
+I hear it before I feel it. The click of metal. Then contact. Cool, smooth, foreign. The tip at the entrance, pressure. Not painful. Not comfortable. Just pressure in a direction I've never been pressured from before.
 
 <<say "Nakamura">>Try to relax.<</say>>
 
@@ -561,7 +559,7 @@ I gasp. Renata's gasp. A sound from a throat that belongs to someone else, pulle
 
 <<say "Nakamura">>You're doing fine. Almost there.<</say>>
 
-The cervical swab. A long cotton-tipped instrument inserted through the speculum. I feel it touch the cervix. Pressure. In a place I didn't have yesterday. A place that exists in this body and not in mine. The sensation is deep. Not painful. But intimate in a way that has no sexual equivalent. This is the body being checked at its most interior point. The last wall.
+The cervical swab. A long cotton-tipped instrument inserted through the speculum. I feel it touch the cervix, pressure, in a place I didn't have yesterday. A place that exists in this body and not in mine. The sensation is deep. Not painful. But intimate in a way that has no sexual equivalent. This is the body being checked at its most interior point. The last wall.
 
 I blink. My eyes are wet. Not crying. Just wet. The body's response to being accessed at depth.
 
@@ -575,7 +573,7 @@ Being checked from both sides.
 
 The fingers inside are clinical, probing upward, finding the cervix again, angling past it. The hand on the abdomen presses down to meet them. Between the two hands, the uterus. My uterus. Renata's uterus. Being felt, measured, assessed.
 
-Fullness. Pressure. Intrusion. The sensation of being read from inside, the body as a document that the doctor's fingers are translating. I am a territory being surveyed and the survey is thorough and impersonal and necessary and I am lying here letting it happen because this is what bodies like this require.
+Fullness, then pressure, then intrusion, the sensation of being read from inside. The body is a document, the doctor's fingers translating it. I am a territory being surveyed, thorough, impersonal, necessary, and I am lying here letting it happen because this is what bodies like this require.
 
 <<say "Nakamura">>Ovaries feel normal. We're done.<</say>>
 
@@ -583,7 +581,7 @@ The fingers withdraw. The hand lifts. The air returns to the space between my th
 
 <<say "Nakamura">>You can sit up when you're ready.<</say>>
 
-I sit up. The paper gown falls forward. Wrinkled. My hands are shaking. My eyes are wet.
+I sit up. The paper gown falls forward, wrinkled. My hands are shaking. My eyes are wet.
 
 Dr. Nakamura pulls off her gloves. Tosses them. Writes on the chart.
 
@@ -593,9 +591,9 @@ Dr. Nakamura pulls off her gloves. Tosses them. Writes on the chart.
 She leaves. The door clicks shut.
 </div>
 
-I sit on the exam table. Alone. In Renata's body. The paper crinkles under my weight. The fluorescent light buzzes.
+I sit on the exam table, alone, in Renata's body. The paper crinkles under my weight. The fluorescent light buzzes.
 
-My hands are shaking and my jaw is tight and my eyes are leaking, not sobbing, just the slow overflow of something that doesn't have a name. Renata's magnificent, heavy, unapologetic body was just opened and checked and catalogued and returned, and the body's response is not trauma. The body's response is routine. This body has been programmed to understand that this is maintenance. Annual. Normal.
+My hands are shaking and my jaw is tight and my eyes are leaking, not sobbing, just the slow overflow of something that doesn't have a name. Renata's magnificent, heavy, unapologetic body was just opened and checked and catalogued and returned, and the body's response is not trauma. The body's response is routine. This body has been programmed to understand that this is maintenance, annual, normal.
 
 Every woman I know has done this.
 
@@ -630,12 +628,12 @@ A body that has never had to be.
 
 
 :: t0_day05_debrief [facility]
-<<face "rafael" "Rafael Mende">>The debrief room. Two chairs. Rafael already seated, reading glasses on, the compass tattoo visible on his inner wrist. He's touching it. Thinking.
+<<face "rafael" "Rafael Mende">>The debrief room. Two chairs. Rafael already seated, reading glasses on, the compass tattoo visible on his inner wrist. He's touching it, thinking.
 
 <<say "Rafael">>Sit, Manuel. How are you?<</say>>
 <<say "Me">>Present.<</say>>
 
-He smiles. Barely.
+He smiles, barely.
 
 <<say "Rafael">>That's more than some candidates manage after the medical scenario.<</say>>
 
@@ -663,7 +661,7 @@ I close my eyes. Open them.
 
 <<say "Me">>That vulnerability has a weight. Women carry it all the time. In their bodies, in their calendars, in the rooms where they lie back and open their legs for strangers with instruments. They carry it and they get dressed and they go to work and they never mention it because it's just an appointment. Just Tuesday. Just life.<</say>>
 
-I stop. Breathe.
+I stop and breathe.
 
 <<say "Me">>I never knew how heavy it was.<</say>>
 
@@ -729,7 +727,7 @@ I think about the exam table. The stirrups. The sound from Renata's throat.
 
 <<say "Me">>It changed everything. I just don't know what the everything is yet.<</say>>
 
-He nods. Slowly. Like a man receiving confirmation of something he suspected but hoped wasn't true.
+He nods slowly, like a man receiving confirmation of something he suspected but hoped wasn't true.
 
 <<say "Tommy">>Tomorrow. Ramen. We don't have to talk about it.<</say>>
 <<say "Me">>We don't have to.<</say>>

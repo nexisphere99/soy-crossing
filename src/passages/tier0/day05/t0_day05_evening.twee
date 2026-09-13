@@ -7,11 +7,11 @@ I walk out of 814 Ninth Street into October.
 
 The air hits me like a correction. Cold, sharp, tasting like exhaust and wet concrete and the particular metallic bite of a city that's been raining while I was inside having a speculum inserted into a body that wasn't mine. The sky is the color of old aluminum. The sidewalk is dark with water. My boots make sounds on the pavement that feel too heavy, too loud, like my feet are disagreeing with the ground about how much space they should take.
 
-My body. My own body. Male. Angular. Heavy at the shoulders, narrow at the hips. I've been back in it for forty-two minutes since the de-transfer and it still feels like putting on a coat that's a size too small. Not wrong. Just specific in ways I keep being surprised by.
+My body. My own body, male, angular. Heavy at the shoulders, narrow at the hips. I've been back in it for forty-two minutes since the de-transfer and it still feels like putting on a coat that's a size too small. Not wrong. Just specific in ways I keep being surprised by.
 
 The phantom is already building. Renata's breasts. Not the visual. The weight. The way they pulled forward when I leaned over the exam table. The way they responded to the cold air of the clinic room with a tightening that wasn't sexual, just thermodynamic. But I felt it from inside. That heavy, alert sensitivity. Gone now. My chest is flat cotton and muscle and nothing else, and the nothing else is a presence, not an absence. The nothing has a shape.
 
-The speculum. I can still feel it. Not the metal. The stretch. The intrusion. The sensation of being opened from inside, mechanically, without malice but without tenderness either. Clinical. The doctor's hands knowing exactly where to go because this terrain was mapped before I arrived.
+The speculum. I can still feel it. Not the metal. The stretch. The intrusion. The sensation of being opened from inside, mechanically, without malice but without tenderness either, clinical. The doctor's hands knowing exactly where to go because this terrain was mapped before I arrived.
 
 I think about calling Paco. I don't. There are some things that don't compress into phone calls. The speculum is one of them.
 
@@ -33,7 +33,7 @@ My hands are still shaking when I answer.
 
 <<say "Diana">>Manuel.<</say>>
 
-Colombian precision wrapped in something warmer today. Not warm exactly. Encouraged. Diana doesn't do warm. She does accurate.
+Colombian precision wrapped in something warmer today. Not warm exactly, encouraged. Diana doesn't do warm. She does accurate.
 
 <<say "Me">>Diana.<</say>>
 <<say "Diana">>I have news. Are you sitting down?<</say>>
@@ -48,7 +48,7 @@ Paper shuffling. She's at her desk.
 <<say "Me">>So it could work.<</say>>
 <<say "Diana">>If you pass the assessment, the company's legal team initiates employment verification immediately. Patricia said the petition filing happens within five business days of contract signing. The receipt notice, which legally extends your status while the full petition processes, typically issues in two to three weeks.<</say>>
 
-Two to three weeks. The visa clock has twenty-three days on it. The math works. Barely. But it works.
+Two to three weeks. The visa clock has twenty-three days on it. The math works, barely. But it works.
 
 <<say "Me">>So it could work.<</say>>
 
@@ -99,7 +99,7 @@ I feed her. The premium stuff, the $2.50 can, because today feels like a day tha
 
 The apartment is dim. October light through the window, gray and thin. I turn on the lamp by the couch, the one with the shade that's slightly crooked because Chipi knocked it over in August and I never fixed it. The bulb gives everything a warm, amber glow that makes the apartment feel smaller but safer.
 
-I sit on the couch. Boots on. Jacket on. Just sitting. Processing.
+I sit on the couch. Boots on. Jacket on. Just sitting, processing.
 
 Renata's body. The weight of her. Not just the breasts, the D-cup gravity that I felt in my spine, but the whole of her. The hips that took up space. The thighs that touched. The way she sat and the chair adjusted to her, not the other way around. That body didn't apologize. That body didn't negotiate. It arrived and the room made room and that was that.
 
@@ -111,7 +111,7 @@ My mother. Lupita González, fifty-eight, rosary and gossip, who goes to a clini
 
 Lyla has done this. Lyla, who texts at two AM with memes and at two PM with job leads. She puts on a paper gown and puts her feet in stirrups and someone puts metal inside her and she gets dressed and goes back to work.
 
-I put my hand on my own stomach. Flat. Hard. No uterus underneath. No cervix. No architecture that receives. My body is designed to extend, not to open. I've never been checked from the inside. I've never had to be.
+I put my hand on my own stomach, flat, hard. No uterus underneath. No cervix. No architecture that receives. My body is designed to extend, not to open. I've never been checked from the inside. I've never had to be.
 
 The vulnerability of it. The institutional, routine, annual vulnerability. The way it's just Tuesday for them. Just an appointment between the dentist and the oil change.
 
@@ -180,7 +180,7 @@ I take the mints. She points the magnifying glass at me like a small sword.
 <<set $flags.prelyla_choice = 'direct'>>
 <<run SOY.Quests.completeSide('sq_009_adriana', 'orbit')>>
 
-I walk straight there. No detours. The wine bar is called Stave and I arrive five minutes early and Lyla, impossibly, is already at a corner table with a bottle open. I sit at the bar first. Order a glass of the tempranillo. Drink half of it standing before I go over. Fortification. She's going to have questions and a chart and I want the wine in me before the interrogation, not during.
+I walk straight there. No detours. The wine bar is called Stave and I arrive five minutes early and Lyla, impossibly, is already at a corner table with a bottle open. I sit at the bar first. Order a glass of the tempranillo. Drink half of it standing before I go over, fortification. She's going to have questions and a chart and I want the wine in me before the interrogation, not during.
 
 <<opt "t0_day05_lyla_bar" "Go join her">>
 
@@ -219,7 +219,7 @@ A risk. A question that has nothing to do with mezcal and everything to do with 
 
 I put the phone in my pocket. I'm at Stave. Lyla is visible through the window, wine poured, chart ready.
 
-I don't reply. The response that text deserves needs a bar stool and her dark eyes and a voice heard through bar noise rather than read on glass. Saturday.
+I don't reply. The response that text deserves needs a bar stool and her dark eyes and a voice heard through bar noise rather than read on glass, and that's a conversation for Saturday.
 
 <<opt "t0_day05_lyla_bar" "Inside">>
 
@@ -230,7 +230,7 @@ I don't reply. The response that text deserves needs a bar stool and her dark ey
 
 The wine bar door closes behind me and the October air is a slap after the indoor warmth. I zip the olive green jacket, shove my hands in the pockets, start walking.
 
-Three glasses of wine. Not drunk. Wine-warm. The specific temperature of a man who's spent three hours <<if $flags.lyla_knows>>finally telling his best friend the truth about his job while she recalibrated her entire understanding of what's possible<<else>>lying to his best friend about his job while she tried to figure out the truth with a laminated chart<</if>>.
+Three glasses of wine. Not drunk, wine-warm. The specific temperature of a man who's spent three hours <<if $flags.lyla_knows>>finally telling his best friend the truth about his job while she recalibrated her entire understanding of what's possible<<else>>lying to his best friend about his job while she tried to figure out the truth with a laminated chart<</if>>.
 
 The chart was real. She actually laminated it.
 
@@ -314,11 +314,11 @@ I lie in the dark and I don't plan to touch myself. I plan to sleep. I plan to c
 
 But the body doesn't listen to plans.
 
-The phantom is there. Renata's phantom, not Katya's. Different frequency entirely. Katya's echo was sharp, electric, the ghost of arousal aimed at you. Renata's echo is deeper. Heavier. Not about desire at all. About weight. About space. About the sensation of being inside a body that occupied the world without permission or apology.
+The phantom is there. Renata's phantom, not Katya's. Different frequency entirely. Katya's echo was sharp, electric, the ghost of arousal aimed at you. Renata's echo is deeper, heavier. Not about desire at all. About weight. About space. About the sensation of being inside a body that occupied the world without permission or apology.
 
-I feel my chest. Flat. My hand rests where Renata's breasts were. The D-cup. The weight that pulled forward when I leaned. Gone. My palm against my own pectoral, the muscle and bone underneath, the specific flatness of male anatomy.
+I feel my chest, flat. My hand rests where Renata's breasts were. The D-cup. The weight that pulled forward when I leaned is gone. My palm against my own pectoral, the muscle and bone underneath, the specific flatness of male anatomy.
 
-The speculum. That's what pulls me under. Not the cold of it. The moment after. Lying on the exam table in Renata's body with my legs apart and the fluorescent light buzzing and feeling, for the first time, what it means to be accessed. Not touched. Not entered the way sex enters. Accessed. Like a system. Like an archive. Someone opening you to verify the contents and you lying there and allowing it because this is what bodies like this are for, apparently. This is the maintenance. This is Tuesday.
+The speculum. That's what pulls me under. Not the cold of it. The moment after. Lying on the exam table in Renata's body with my legs apart and the fluorescent light buzzing and feeling, for the first time, what it means to be accessed. Not touched. Not entered the way sex enters, accessed. Like a system. Like an archive. Someone opening you to verify the contents and you lying there and allowing it because this is what bodies like this are for, apparently. This is the maintenance. This is Tuesday.
 
 <<if $settings.showExplicit>>
 <<opt "t0_day05_solo" "Don't fight it" "Explicit. Grief and arousal on the same wiring.">>
@@ -339,9 +339,7 @@ I'm not hard. Not yet. This isn't that kind of touching. This is the kind where 
 
 The tears come before the hardness does.
 
-I cry. Quietly. Face turned into the pillow. Not sobbing. Just the slow, heavy leak of something that's been building since I lay on that table and felt Renata's body opened by a stranger's instrument and the body's response wasn't fear or pain but resignation. The body knew this. The body had been programmed to know this. The stirrups, the gown, the cold. Routine. Annual. Nothing.
-
-Everything.
+I cry quietly, face turned into the pillow. Not sobbing. Just the slow, heavy leak of something that's been building since I lay on that table and felt Renata's body opened by a stranger's instrument and the body's response wasn't fear or pain but resignation. The body knew this. The body had been programmed to know this. The stirrups, the gown, the cold. Routine, annual. Nothing and everything at once.
 
 The arousal comes mixed with the crying, which doesn't make sense and makes perfect sense. My body responds to intensity. It doesn't distinguish between kinds. Grief and desire run on the same wiring and right now both circuits are firing and my hand finds its way under the waistband not because I'm horny but because I need to process something and the body only has so many channels.
 
@@ -351,7 +349,7 @@ The orgasm builds slowly. Not sharp like last night's. This one gathers. It coll
 
 I come with a sound I don't recognize. Low, long, pulled from somewhere below the ribs. Not a grunt, not a moan. Something closer to a sigh with weight behind it. The orgasm rolls through me in waves, not the sharp peak of male architecture but something borrowed, something that echoes a rhythm my body doesn't natively speak.
 
-Afterward. Ceiling. Dark. Chipi purring against my side. My hand on my chest. Flat. Wet eyes. Wine-dry mouth.
+Afterward, the ceiling. Dark, Chipi purring against my side. My hand flat on my chest. Wet eyes, wine-dry mouth.
 </div>
 
 <<say "Me">>Mamá has done this. Every year. She's never told me.<</say>>
@@ -366,11 +364,11 @@ I fall asleep with the phantom of Renata's weight on my chest and the taste of t
 :: t0_day05_solo_skip [night intimate]
 <<set $body.arousal = 0>>
 
-I turn my face into the pillow and breathe. Four counts in. Hold. Six counts out. The technique from Module 1, used now for something Module 1 didn't anticipate.
+I turn my face into the pillow and breathe. Four counts in, hold, six counts out. The technique from Module 1, used now for something Module 1 didn't anticipate.
 
-I don't reach for it. The warmth is there, mixed up with the grief in a way I don't have the energy to untangle tonight. If I chase it I'm not sure which one I'm feeding. So I let it sit. Both of them. Unspent.
+I don't reach for it. The warmth is there, mixed up with the grief in a way I don't have the energy to untangle tonight. If I chase it I'm not sure which one I'm feeding. So I let it sit, both of them, unspent.
 
-The tears come anyway. Quiet. Face in the pillow. Not sobbing, just the slow leak of something that's been building since I felt Renata's body opened by a stranger's instrument and the body's response wasn't fear. It was resignation. Routine. Annual. Nothing. Everything.
+The tears come anyway, quiet, face in the pillow. Not sobbing, just the slow leak of something that's been building since I felt Renata's body opened by a stranger's instrument and the body's response wasn't fear. It was resignation. Routine, annual. Nothing and everything at once.
 
 <<say "Me">>Mamá has done this. Every year. She's never told me.<</say>>
 
