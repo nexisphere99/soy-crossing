@@ -99,6 +99,24 @@
 	width: 100%;
 	transition: border-color .15s, background .15s;
 }
+.hud-support {
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid var(--line-2);
+	color: var(--amber-bright);
+	font-family: var(--sans);
+	font-size: 0.68rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: var(--s2) var(--s3);
+	border-radius: var(--r1);
+	width: 100%;
+	transition: border-color .15s, background .15s;
+}
+.hud-support:hover { border-color: var(--amber-deep); background: var(--bg-2); }
 .hud-obj button:hover { border-color: var(--amber-deep); background: var(--bg-2); }
 .hud-next {
 	margin-top: var(--s2);

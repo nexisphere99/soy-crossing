@@ -40,6 +40,8 @@
 				<div class="hud-next done"><<= SOY.Quests.completedMain().title>> - done</div>
 			<</if>>
 		</div>
+
+		<div class="hud-obj"><a class="hud-support" href="https://www.patreon.com/c/soytgcrossing" target="_blank" rel="noopener noreferrer">Support</a></div>
 	</div>
 
 <</if>>
