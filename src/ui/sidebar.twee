@@ -7,6 +7,7 @@
 		<<= setup.visaHTML($visaDays)>>
 		<div class="hud-row hud-loc">The González apartment</div>
 		<div class="hud-row">Chipi, unconcerned</div>
+		<div class="hud-obj"><a class="hud-support" href="https://www.patreon.com/c/soytgcrossing" target="_blank" rel="noopener noreferrer">Support</a></div>
 	</div>
 
 <<else>>
