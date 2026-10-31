@@ -20,7 +20,7 @@ If that isn't for you, close the tab now. No judgment.
 
 <<opt "backstory_layoff" "Read the backstory" "The layoff, the visa clock, the friend who points at a door. How Manuel ends up here.">>
 
-<<opt "t0_day01_wake" "Skip the backstory and go to Tier 0" "Day 1 at Shape of You Inc. Twenty-eight days on the clock. You can read the backstory later from Restart.">>
+<<opt "t0_day01_wake" "Skip the backstory and go to Tier 0" "Day 1 at SOY Inc. Twenty-eight days on the clock. You can read the backstory later from Restart.">>
 
 /* Later, jump points into Tier 1+ slot in here as more <<opt>> cards. */
 
@@ -283,7 +283,7 @@ His voice shifted.
 
 <<say "Paco">>I'm going to tell you about something and I need you to not dismiss it immediately.<</say>>
 <<say "Me">>Depends on what it is.<</say>>
-<<say "Paco">>There's a company. Shape of You Inc. My cousin's friend worked there for six months. Made more money than he'd made in two years writing code.<</say>>
+<<say "Paco">>There's a company. SOY Inc. My cousin's friend worked there for six months. Made more money than he'd made in two years writing code.<</say>>
 <<say "Me">>Doing what?<</say>>
 <<say "Paco">>That's where it gets interesting.<</say>>
 
@@ -305,7 +305,7 @@ He pointed his coffee cup at me.
 <<say "Me">>It sounds like a scam.<</say>>
 <<say "Paco">>My cousin's friend bought a car with what he made there. A Mazda 3 with heated seats.<</say>>
 
-He texted me the address. Shape of You Inc.
+He texted me the address. SOY Inc.
 
 <<say "Me">>I have twenty-eight days.<</say>>
 <<say "Paco">>Twenty-eight days and a spoon. I'm offering you a shovel.<</say>>
@@ -314,13 +314,13 @@ He texted me the address. Shape of You Inc.
 
 
 :: backstory_decision [backstory]
-I went home. Sat on the bed. Googled "Shape of You Inc." on my phone.
+I went home. Sat on the bed. Googled "SOY Inc." on my phone.
 
 The website was minimal. Stark white background. A logo that made my eyes do something uncomfortable,a face inside a face inside a face, nested, recursive. No mission statement. No team page. Just a single line,"Walk-in consultations available. 814 Ninth Street. Hours,9 AM to 5 PM weekdays."
 
 I tried calling. Automated system.
 
-<div class="thread"><div class="thread-head"><span>Shape of You Inc.</span></div><div class="thread-body"><div class="msg msg-in"><div class="line-body"><div class="bubble">Our offices are currently closed. Walk-in consultations are available during business hours.</div></div></div></div></div>
+<div class="thread"><div class="thread-head"><span>SOY Inc.</span></div><div class="thread-body"><div class="msg msg-in"><div class="line-body"><div class="bubble">Our offices are currently closed. Walk-in consultations are available during business hours.</div></div></div></div></div>
 
 I looked at the time. 4:17 PM. Too late to go today. Maybe Tomorrow.
 
@@ -340,7 +340,7 @@ Tomorrow I go to Ninth Street.
 :: backstory_end
 <div class="card"><h1 class="passage-title">The night before</h1><p class="sub">Twenty-eight days. In the morning, Manuel goes to Ninth Street.</p></div>
 
-I set the phone down. Lie back on the bed. Chipi jumps up and curls against my hip. Tomorrow I walk into Shape of You Inc. and sit in a room while someone explains how to put my brain into a body that isn't mine.
+I set the phone down. Lie back on the bed. Chipi jumps up and curls against my hip. Tomorrow I walk into SOY Inc. and sit in a room while someone explains how to put my brain into a body that isn't mine.
 
 Sleep comes eventually. It always does.
 

@@ -11,7 +11,7 @@ SOY.Locations = {
 			unlocked: true
 		},
 		facility: {
-			name: "Shape of You Inc.",
+			name: "SOY Inc.",
 			available: ['morning', 'afternoon'],
 			npcs: ['elena', 'rafael', 'sarkis', 'yuki', 'tommy', 'georgia'],
 			activities: ['course', 'job_prep', 'cafeteria'],

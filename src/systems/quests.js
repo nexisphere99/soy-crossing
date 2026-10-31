@@ -20,7 +20,7 @@ SOY.Quests = {
 			title: 'First Day',
 			status: 'active',
 			objectives: [
-				{ id: 'arrive',   text: 'Get to Shape of You Inc.',          where: '814 Ninth Street',  done: false },
+				{ id: 'arrive',   text: 'Get to SOY Inc.',          where: '814 Ninth Street',  done: false },
 				{ id: 'intake',   text: 'Clear intake with Yuki',            where: 'SoY lobby',         done: false },
 				{ id: 'lecture',  text: "Sit Elena's fundamentals lecture",  where: 'Room 4',            done: false },
 				{ id: 'baseline', text: "Complete Rafael's psych baseline",  where: "Rafael's office",   done: false },

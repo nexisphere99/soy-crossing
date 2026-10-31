@@ -3,7 +3,7 @@
 <<set $visaDays = 25>>
 <<set $calendar.weekday = 3>>
 <<run SOY.Locations.travel('apartment')>>
-<div class="card"><h1 class="passage-title">End of Version 0.0.1</h1><p class="sub">Two days at Shape of You Inc. Intake, the fundamentals lecture, and the first transfer into Flor.</p></div>
+<div class="card"><h1 class="passage-title">End of Version 0.0.1</h1><p class="sub">Two days at SOY Inc. Intake, the fundamentals lecture, and the first transfer into Flor.</p></div>
 
 Here's where Day 2 landed.
 
