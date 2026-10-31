@@ -1,4 +1,4 @@
-# Shape of You: Crossing
+# Crossing
 
 Twine / SugarCube 2.x open-world interactive fiction. Full design in
 [story_files/game_architecture.md](story_files/game_architecture.md).
